@@ -1,0 +1,4 @@
+-start(base)
+-base(base2,end,stop)
+-base2(end,stop)
+-end(stop)

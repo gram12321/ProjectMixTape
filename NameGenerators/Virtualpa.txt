@@ -1,0 +1,23 @@
+-start(base)
+The
+-base(base2,ext)
+ Smart
+ Clever
+ Do
+ Thinking
+ Personal
+ Secret
+ Lazy
+-base2(ext,stop)
+ Ass
+ Human
+ Asian
+ Western
+ Pretty
+ Handsome
+ Sexy
+-ext(stop)
+ Bot
+ Assistant
+ Maid
+ Machine

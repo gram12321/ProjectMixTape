@@ -1,0 +1,12 @@
+-start(base)
+-base(stop)
+Malware
+Spyware
+Spy
+ThisIsNotMalware
+Malaer
+Ads
+AnnoyingAds
+Viruz
+Adsware
+Aezd

@@ -1,0 +1,24 @@
+-start(base,pre)
+-pre(base)
+-base(base2)
+Comodo
+Internet
+Glasswire
+Personal
+Forefront
+Netfilter
+360
+Armor
+Outpost
+Zone
+-base2(stop)
+ Security
+ Barrier
+ Filter
+ Firewall
+ Threat
+ iptables
+ Pro
+ Plus
+ Alarm
+ Gate

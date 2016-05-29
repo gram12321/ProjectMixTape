@@ -1,0 +1,12 @@
+-start(base)
+-base(base2)
+Anti 
+Stop 
+No more 
+Night
+-base2(end,stop)
+Bot
+Spam
+-end(stop)
+Bot
+Crysis

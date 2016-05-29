@@ -1,0 +1,40 @@
+-start(pref, main)
+-pref(main)
+Simple 
+Basic 
+Advanced 
+Fancy 
+Generic 
+#
+-main(suff, end)
+Suite
+Semi-Suite
+Full-Suite
+Security
+Mate
+Grable
+Athom
+Charger
+Code
+Design
+Art
+Pen
+Delfi
+Weavs
+Expression
+Fitle
+Coding
+Night
+Daily
+Beans
+Network
+-suff(end)
+ Manager
+ Studio
+ Tool
+ Plugin
+ Pro
+ Ultimate
+ Extended
+ Enterprise
+ Contribution

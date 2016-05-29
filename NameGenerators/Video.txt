@@ -1,0 +1,24 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+-base(base2,base2,ext)
+Video
+Screen
+Playback
+MV
+Movie
+Scene
+-base2(ext,stop,stop)
+Edit
+Maker
+Play
+Pause
+Stop
+Take
+Tools
+-ext(stop)
+ Pro
+ Studio
+ Shop
+ Editor
+ Lite

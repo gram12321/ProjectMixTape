@@ -1,0 +1,22 @@
+-start(base)
+-base(base2, stop)
+Txt
+Text
+Word
+XTexter
+Letter
+Notepad
+StickyNote
+C
+Lapis
+Crimson
+Type
+Source
+-base2(stop)
+Editor
+Express
+Creator
+Programmer
+Xpress
+Text Editor
+Proccessor

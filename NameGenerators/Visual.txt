@@ -1,0 +1,61 @@
+-start(base,pre)
+-pre(base)
+-base(base2)
+Aonix
+GCC
+Irvine
+Rational
+SCORE
+MCP
+Blitz
+Chipmunk
+Cool
+Free
+Just
+Liberty
+Power
+Pure
+Quick
+Rapid
+Real
+True
+Visual
+Aztec
+Interactive
+Lab
+Neat
+Open
+Small
+Turbo
+Rose
+Turbo
+Code
+Digital
+Path
+Vector
+Mono
+Sharp
+Elastica
+is
+Net
+Common
+Mezzano
+XCL
+Amsterdam
+Prism
+-base2(stop)
+ Object
+ GNAT
+ Compiler
+ Apes
+Max
+ Kit
+64
+Warrior
+ Mars
+ Scale
+ Studio
+ Express
+ Develop
+ Genera
+ Mars

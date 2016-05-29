@@ -1,0 +1,15 @@
+-start(base)
+-base(base2)
+Pro
+Advanced
+Native
+Essential
+Ultra
+-base2(end,stop)
+ Package
+ Utilities
+ Compound
+-end(stop)
+ Plus
+ Prime
+ 2.0
