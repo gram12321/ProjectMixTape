@@ -1,0 +1,127 @@
+<PersonalityGraph>
+	<Personalities>
+		<Personality>
+			<Name>Knowledge driven</Name>
+			<WorkLearn>1</WorkLearn>
+			<Social>-0.5</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+				<Relation Name="Extrovert">-0.5</Relation>
+				<Relation Name="Introvert">1</Relation>
+				<Relation Name="Optimistic">0.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Business driven</Name>
+			<WorkLearn>-0.5</WorkLearn>
+			<Social>1</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+				<Relation Name="Flirt">-0.5</Relation>
+				<Relation Name="Generous">1</Relation>
+				<Relation Name="Pessimistic">0.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Lazy</Name>
+			<WorkLearn>-0.125</WorkLearn>
+			<Social>-0.5625</Social>
+			<LazyStress>-0.5</LazyStress>
+			<Relationships>
+				<Relation Name="Business driven">-0.5</Relation>
+				<Relation Name="Naive">1</Relation>
+				<Relation Name="Optimistic">0.75</Relation>
+				<Relation Name="Diligent">-0.5</Relation>
+				<Relation Name="Hyper">-1</Relation>
+				<Relation Name="Energetic">-1</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Diligent</Name>
+			<WorkLearn>0.5</WorkLearn>
+			<Social>-1</Social>
+			<LazyStress>0.5</LazyStress>
+			<Relationships>
+				<Relation Name="Lazy">-1</Relation>
+				<Relation Name="Generous">1</Relation>
+				<Relation Name="Knowledge driven">0.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Genious</Name>
+			<WorkLearn>2</WorkLearn>
+			<Social>0.75</Social>
+			<LazyStress>1</LazyStress>
+			<Relationships>
+				<Relation Name="Introvert">1</Relation>
+				<Relation Name="Knowledge driven">1</Relation>
+				<Relation Name="Business driven">-1</Relation>
+				<Relation Name="Extrovert">-1</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Hyper</Name>
+			<WorkLearn>1.75</WorkLearn>
+			<Social>1</Social>
+			<LazyStress>-0.95</LazyStress>
+			<Relationships>
+				<Relation Name="Extrovert">1</Relation>
+				<Relation Name="Introvert">-1</Relation>
+				<Relation Name="Lazy">-1</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Energetic</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>0</Social>
+			<LazyStress>1</LazyStress>
+			<Relationships>
+				<Relation Name = "Optimistic">1</Relation>
+				<Relation Name = "Lazy">-1</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>OCD</Name>
+			<WorkLearn>-1</WorkLearn>
+			<Social>0</Social>
+			<LazyStress>1</LazyStress>
+			<Relationships>
+				<Relation Name = "Energetic">1</Relation>
+				<Relation Name = "Optimistic">-1</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Lone wolf</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>-1</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Visionary</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>-1</Social>
+			<LazyStress>1</LazyStress>
+			<Relationships>
+				<Relation Name = "Naive">-1</Relation>
+				<Relation Name = "Stubborn">-1</Relation>
+				<Relation Name = "Goofy">1</Relation>
+			</Relationships>
+		</Personality>
+	</Personalities>
+	<Incompatibilities>
+		<Incompatible>
+			<Personality>Knowledge driven</Personality>
+			<Personality>Business driven</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Lazy</Personality>
+			<Personality>Diligent</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Genious</Personality>
+			<Personality>Business Driven</Personality>
+		</Incompatible>
+	</Incompatibilities>
+</PersonalityGraph>
