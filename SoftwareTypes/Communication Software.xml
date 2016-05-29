@@ -1,0 +1,106 @@
+<SoftwareType>
+  <Name>Communication Software</Name>
+    <Description>Communicate with each other on the internet!</Description>
+    <Random>0.2</Random>
+    <Popularity>0.15</Popularity>
+    <OSSpecific>TRUE</OSSpecific>
+    <OneClient>FALSE</OneClient>
+    <InHouse>FALSE</InHouse>
+    <Retention>0.4</Retention>
+    <Iterative>0.2</Iterative>
+    <Unlock>1981</Unlock>
+    <Category>Communication Software</Category>
+	<NameGenerator>Comm Soft</NameGenerator>
+  <Features>
+    <Feature Forced="True">
+      <Name>Messaging</Name>
+      <Description>Just the classic texting to each other.</Description>
+      <DevTime>1</DevTime>
+      <Innovation>0</Innovation>
+      <Usability>2</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.95</CodeArt>
+    </Feature>
+	<Feature From="Messaging">
+      <Name>Voice Chat</Name>
+      <Description>Now you can REALLY talk.</Description>
+      <DevTime>1</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>2</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.9</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Screenshare</Name>
+      <Description>Share your screen with others.</Description>
+      <DevTime>1</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>3</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.80</CodeArt>
+      <Unlock>1982</Unlock>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Webcam Support</Name>
+      <Description>Show your beautiful face to others.</Description>
+      <DevTime>2</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>3</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.70</CodeArt>
+      <Unlock>1982</Unlock>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Groups</Name>
+      <Description>Talk to more than 2 people at a time.</Description>
+      <DevTime>3</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>3</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.85</CodeArt>
+      <Unlock>1982</Unlock>
+    </Feature>
+    <Feature Vital="TRUE">
+       <Name>User Commands</Name>
+       <Description>Be able to mute, block and more.</Description>
+       <DevTime>2</DevTime>
+       <Innovation>3</Innovation>
+       <Usability>4</Usability>
+       <Stability>3</Stability>
+       <CodeArt>1</CodeArt>
+       <Unlock>1983</Unlock>
+    </Feature>
+    <Feature>
+      <Name>Profile Photo</Name>
+      <Description>Let people know what your face is.</Description>
+      <DevTime>1</DevTime>
+      <Innovation>5</Innovation>
+      <Usability>1</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.01</CodeArt>
+      <Unlock>1983</Unlock>
+	  <Dependency Software="2D Editor">Pixel manipulation</Dependency>
+    </Feature>
+    <Feature>
+      <Name>User Interface</Name>
+      <Description>Ooh, a nice menu.</Description>
+      <DevTime>2</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>4</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.50</CodeArt>
+      <Unlock>1983</Unlock>
+      <Dependency Software="Operating System">GUI</Dependency>
+    </Feature>
+    <Feature From="User Interface" Vital="TRUE">
+      <Name>Better User Interface</Name>
+      <Description>Ooh, a nicer menu.</Description>
+      <DevTime>3</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>5</Usability>
+      <Stability>0</Stability>
+      <CodeArt>0.40</CodeArt>
+      <Unlock>1984</Unlock>
+	</Feature>
+</Features>
+</SoftwareType>

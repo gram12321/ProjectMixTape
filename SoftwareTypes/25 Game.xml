@@ -1,0 +1,788 @@
+<SoftwareType Override="True">
+	<Name>Game</Name>
+	<Category>Games</Category>
+	<Description>Games are things you play. YOU WILL NOW COMMENCE ENJOYMENT</Description>
+	<Random>0.13</Random>
+	<Popularity>0.00015</Popularity>    
+    <Retention>0.7</Retention>
+    <Iterative>0.5</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Categories>
+			<Category Name="RPG">
+			<Description>Role Playing Game</Description>
+			<Popularity>0.71</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>GameRPG</NameGenerator>
+		</Category>
+		<Category Name="Adventure">
+			<Description></Description>
+			<Popularity>0.68</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>GameAdventure</NameGenerator>
+		</Category>
+		<Category Name="Simulation">
+			<Description>You're playing one!</Description>
+			<Popularity>0.5</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.6</Iterative>
+			<NameGenerator>GameSimulation</NameGenerator>
+		</Category>
+		<Category Name="Sports">
+			<Description></Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.2</Retention>
+			<TimeScale>0.75</TimeScale>
+			<Iterative>0.95</Iterative>
+			<NameGenerator>GameSport</NameGenerator>
+		</Category>
+		<Category Name="RTS">
+			<Description>Real Time Strategy</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.95</Iterative>
+			<Unlock>1990</Unlock>
+			<NameGenerator>GameRTS</NameGenerator>
+		</Category>
+		<Category Name="FPS">
+			<Description>First Person Shooter</Description>
+			<Popularity>0.85</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.95</Iterative>
+			<Unlock>1990</Unlock>
+			<NameGenerator>GameFPS</NameGenerator>
+		</Category>
+		<Category Name="Action Adventure">
+			<Description>Like an adventure but not actually</Description>
+			<Popularity>0.78</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.75</Iterative>
+			<Unlock>1995</Unlock>
+			<NameGenerator>GameAdventure</NameGenerator>
+		</Category>
+		<Category Name="TPS">
+			<Description>Third Person Shooter</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>0.4</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.9</Iterative>
+			<Unlock>1990</Unlock>
+			<NameGenerator>GameTPS</NameGenerator>
+		</Category>
+		<Category Name="Building">
+			<Description>City Building simulation</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.9</Iterative>
+			<Unlock>1989</Unlock>
+			<NameGenerator>GameBuilding</NameGenerator>
+		</Category>
+		<Category Name="MMO">
+			<Description>Massively Multiplayer Game</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.76</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.6</Iterative>
+			<Unlock>1993</Unlock>
+			<NameGenerator>GameBuilding</NameGenerator>
+		</Category>
+	</Categories>
+    <Features>
+        <Feature Forced="True">
+            <Name>Worldbuilding</Name>
+            <Description>Text is the core of any game, and this is that. Story, background, etc</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game Engine">Text core</Dependency>
+			<Dependency Software="Database">Databases</Dependency>
+		</Feature>
+		<Feature Vital="True">
+		    <Name>Simple help system</Name>
+            <Description>Basic tooltips</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game Engine">Text core</Dependency>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Database">Databases</Dependency>
+		</Feature>
+		<Feature From="Simple help system">
+			<Name>Complex help system</Name>
+            <Description>Tooltips, complicated tutorials, etc</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game Engine">Text core</Dependency>
+			<Dependency Software="Game">Simple help system</Dependency>
+			<Dependency Software="Database">User-Defined Functions</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Single Playscreen</Name>
+			<Category>2D</Category>
+			<Description>Yup. Literally just one screen. That's the entire game. If this is an adventure, of course, that one screen will be text. Otherwise, think Pong, or Asteroids</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>			
+			<Dependency Software="Game Engine">Single Playscreen</Dependency>
+		</Feature>
+		<Feature From="Single Playscreen" Vital="True">
+			<Name>2D rendering</Name>
+			<Category>2D</Category>
+			<Description>Everyone loves double D. Maybe even with colour.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>	
+			<Dependency Software="Game Engine">2D rendering</Dependency>
+			<Dependency Software="Game">Single Playscreen</Dependency>
+			<Dependency Software="GPU Driver">Rendering</Dependency>
+		</Feature>
+		<Feature From="2D rendering">
+			<Name>Wireframe 3D</Name>
+			<Category>3D</Category>
+			<Description>Triple your D, but early. There are colours.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Wireframe 3D</Dependency>
+			<Dependency Software="Game">2D rendering</Dependency>
+		</Feature>
+		<Feature From="Wireframe 3D" Vital="TRUE">
+			<Name>3D rendering</Name>
+			<Category>3D</Category>
+			<Description>Triple your D but now with other stuff filling the stuff so it's much more stuff than before. COLOURS EVERYWHERE</Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>						
+			<Dependency Software="Game Engine">3D rendering</Dependency>
+			<Dependency Software="GPU Driver">3D Support</Dependency>
+			<Dependency Software="Game">2D rendering</Dependency>
+		</Feature>
+		<Feature From="3D rendering" Vital="TRUE">
+			<Name>GAPI Integration</Name>
+			<Category>3D</Category>
+			<Description>Hook into the OS' 2D and 3D graphics API and leverage driver capabilities for a superior end-user experience. tl;dr more pretty</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>						
+			<Dependency Software="Operating System">Integral Graphics API</Dependency>
+			<Dependency Software="Game Engine">3D rendering</Dependency>
+			<Dependency Software="Game">3D rendering</Dependency>
+		</Feature>
+		<Feature From="GAPI Integration" Vital="TRUE">
+			<Name>AGAPI Integration</Name>
+			<Category>3D</Category>
+			<Description>Hook into the OS' 2D and 3D "advanced" graphics API and leverage driver capabilities for a superior end-user experience. tl;dr even more pretty</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>						
+			<Dependency Software="Operating System">Advanced Integral Graphics API</Dependency>
+			<Dependency Software="Game Engine">GAPI Integration</Dependency>
+			<Dependency Software="Game">GAPI Integration</Dependency>
+		</Feature>
+		<Feature From="AGAPI Integration" Vital="TRUE">
+			<Name>HAPI Integration</Name>
+			<Category>3D</Category>
+			<Description>Hook into the OS' 2D and 3D holographic API and leverage driver capabilities for a superior end-user experience. tl;dr holodecks</Description>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>						
+			<Dependency Software="Operating System">Integral Holographic API</Dependency>
+			<Dependency Software="Game Engine">AGAPI Integration</Dependency>
+			<Dependency Software="Game">AGAPI Integration</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Single-channel audio</Name>
+			<Description>Just Crackle.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>		
+			<Dependency Software="Game Engine">Single-channel audio</Dependency>	
+		</Feature>
+		<Feature From="Single-channel audio">
+			<Name>Dual-channel audio</Name>
+			<Description>No, not Crackle and Pop. Hopefully.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>	
+			<Dependency Software="Game Engine">Dual-channel audio</Dependency>
+			<Dependency Software="Game">Single-channel audio</Dependency>
+		</Feature>
+		<Feature From="Dual-channel audio" Vital="True">
+			<Name>8-bit audio</Name>
+			<Description>Eventually, simply awe.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>						
+			<Dependency Software="Game Engine">8-bit audio</Dependency>
+			<Dependency Software="Game">Dual-channel audio</Dependency>
+		</Feature>
+		<Feature From="8-bit audio" Vital="True">
+			<Name>HD audio</Name>
+			<Description>Many bits in your awww.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>						
+			<Dependency Software="Game Engine">HD audio</Dependency>
+			<Dependency Software="Game">8-bit audio</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Touch support</Name>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Touch</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Advanced input</Name>
+			<Category>System</Category>
+			<Description>Wheels, joysticks, etc.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Plug'n'Play</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Neurohaptics</Name>
+			<Category>Holography</Category>
+			<Description>A disco in your head! Hopefully not</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>2023</Unlock>
+			<Dependency Software="Operating System">Neurofeedback input system</Dependency>
+			<Dependency Software="Game">Advanced input</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Motion capture</Name>
+			<Category>3D</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game">3D rendering</Dependency>
+			<Dependency Software="3D Editor">Animation</Dependency>
+		</Feature>
+		<Feature>
+			<Name>2D art</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game">2D rendering</Dependency>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+		</Feature>
+		<Feature>
+			<Name>3D art</Name>
+			<Category>3D</Category>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game">3D rendering</Dependency>
+			<Dependency Software="3D Editor">Vertex editing</Dependency>
+		</Feature>
+		<Feature From="2D art">
+			<Name>2D art - engine-augmented</Name>
+			<Category>2D</Category>
+			<Description>Help the developer along with some prepackaged assets.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game Engine">2D assets</Dependency>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Dependency Software="Game">2D art</Dependency>
+		</Feature>
+		<Feature From="3D art">
+			<Name>3D art - engine-augmented</Name>
+			<Category>3D</Category>
+			<Description>Like 2D assets, but with an extra dimension.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game Engine">3D assets</Dependency>
+			<Dependency Software="3D Editor">Vertex editing</Dependency>
+			<Dependency Software="Game">3D art</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Simple Physics</Name>
+			<Description>What! Why apple go fally!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>		
+			<Dependency Software="Operating System">Multitasking</Dependency>
+		</Feature>
+			<Feature>
+			<Name>Advanced Physics</Name>
+			<Description>e=mc^2</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>						
+			<Unlock>2012</Unlock>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+		</Feature>
+			<Feature Forced="True">
+			<Name>Sequential Events</Name>
+			<Description>A. B. C. D. Not always as boring as it sounds here. Pacman was fun, right? And all those adventure games...</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.9</CodeArt>	
+			<Dependency Software="Game Engine">Sequential Events</Dependency>
+			<Dependency Software="Game">Worldbuilding</Dependency>	
+		</Feature>
+		<Feature From="Sequential Events" Vital="True">
+			<Name>Dynamic Events</Name>
+			<Description>Doors can open. Maybe things can get set on fire. Things can explode. Whatever. This feature is things that require user input and that are events.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.9</CodeArt>						
+			<Dependency Software="Game Engine">Event Scripting</Dependency>
+			<Dependency Software="Game">Worldbuilding</Dependency>	
+			<Dependency Software="Game">Sequential Events</Dependency>
+		</Feature>
+		<Feature From="Dynamic Events" Vital="True">
+			<Name>Dynamic Storytelling</Name>
+			<Description>Not only are the events dynamic, but they tell a story.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>		
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+			<Dependency Software="Game">Sequential Events</Dependency>
+			<Dependency Software="Game Engine">Branching Event Trees</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Pre-rendered cutscenes</Name>
+			<Description>Exposition through animation, but not rendered by the game engine</Description>
+			<DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="3D Editor">Animation</Dependency>
+			<Dependency Software="Game">Worldbuilding</Dependency>	
+		</Feature>
+		<Feature From="Pre-rendered cutscenes">
+			<Name>Simple in-engine cutscenes</Name>
+			<Description>Cutscenes rendered by the game engine, dynamically, based on user actions.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>	
+			<Dependency Software="3D Editor">Animation</Dependency>			
+			<Dependency Software="Game">Worldbuilding</Dependency>	
+			<Dependency Software="Game Engine">Event Scripting</Dependency>
+		</Feature>
+		<Feature From="Simple in-engine cutscenes">
+			<Name>Complex in-engine cutscenes</Name>
+			<Description>Cutscenes rendered by the game engine, dynamically, based on user actions.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.6</CodeArt>	
+			<Dependency Software="3D Editor">Animation</Dependency>
+			<Dependency Software="Game Engine">Branching Event Trees</Dependency>
+			<Dependency Software="Game">Simple in-engine cutscenes</Dependency>
+			<Dependency Software="Game">Dynamic Storytelling</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Chargen</Name>
+            <Description>You could be a pretty princess!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Database">Search</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Combat system</Name>
+            <Description>How am destroy?!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.6</CodeArt>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Inventory</Name>
+            <Description>It puts the things in the rucksack or it gets the hose again</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Database">Search</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Procedurally Scheduled AI Events</Name>
+            <Description>Like in a game unmentionable that is puddle-deep and Pacific-wide</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Database">User-Defined Functions</Dependency>
+			<Dependency Software="Game Engine">Branching Event Trees</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Puzzles</Name>
+            <Description>Ask a hint system</Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Database">Databases</Dependency>
+		</Feature>
+		<Feature>
+            <Name>Hint system</Name>
+            <Description>I'm not telling you</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Game">Puzzles</Dependency>
+		</Feature>
+		<Feature>
+            <Name>Simple SimEngine</Name>
+            <Description>Some sort of simple sim</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
+			<Dependency Software="Game Engine">Sequential Events</Dependency>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+		</Feature>
+		<Feature From="Simple SimEngine" Vital="TRUE">
+            <Name>Complex SimEngine</Name>
+            <Description>A simulation which is not trivial</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Simulation">1986</SoftwareCategory>
+			<Dependency Software="Game Engine">Event Scripting</Dependency>
+			<Dependency Software="Game">Simple SimEngine</Dependency>
+		</Feature>
+		<Feature From="Complex SimEngine" Vital="TRUE">
+            <Name>Very Complex SimEngine</Name>
+            <Description>One does not simply ask what a very complex simulation is; one must experience it for themselves</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Simulation">1996</SoftwareCategory>
+			<Dependency Software="Game Engine">Branching Event Trees</Dependency>
+			<Dependency Software="Game">Complex SimEngine</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Shallow Tactical Simulation</Name>
+			<Description>Depending on the sport, this enables the players/teams/whatever to act in ways that are at least semi-rational inside the rules of that sport</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<Dependency Software="Game Engine">Sequential Events</Dependency>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Deep Tactical Simulation</Name>
+			<Description>Striving for deeper, more realistic sporting simulation</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Sports">1996</SoftwareCategory>
+			<Dependency Software="Game Engine">Event Scripting</Dependency>
+			<Dependency Software="Game">Shallow Tactical Simulation</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Collision Engine</Name>
+			<Description>So all the sportspeople can run into each other</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Sports">2011</SoftwareCategory>
+			<Dependency Software="Game">Advanced Physics</Dependency>
+		</Feature>
+		<Feature>
+            <Name>Simple Tech Tree</Name>
+            <Description>The manual goes pshhh on the desk</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Database">Databases</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Complex Tech Tree</Name>
+            <Description>The manual goes WHOOMPF on the desk</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<SoftwareCategory Category="RTS">2000</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Database">Search</Dependency>
+		</Feature>
+		<Feature>
+            <Name>Individual Unit AI</Name>
+            <Description>AKA "pathfinding nightmares"</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="RTS">2000</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Projectiles</Name>
+            <Description>Pew pew pew</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.4</CodeArt>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="TPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Game Engine">2D rendering</Dependency>
+		</Feature>
+		<Feature>
+            <Name>Variable gravity</Name>
+            <Description>WHAT EVEN IS UP</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="FPS">1993</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Game Engine">Simple Physics</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Physics puzzles</Name>
+            <Description>Either also known as "confusing as hell" or "masterful", depending on execution</Description>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="FPS">2014</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2014</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">2013</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2012</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Game">Advanced Physics</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+            <Name>Flanking AI</Name>
+            <Description>Games: teaching children that it is always safest to stab in the back</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="TPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+			<Dependency Software="Game Engine">Event Scripting</Dependency>
+		</Feature>
+		<Feature>
+            <Name>Cover system</Name>
+            <Description>Hiding behind a thing so other things can't hit you with things</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="TPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+			<Dependency Software="Game">Flanking AI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Open world</Name>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<SoftwareCategory Category="RPG">1997</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">1997</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1997</SoftwareCategory>
+			<SoftwareCategory Category="TPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<Dependency Software="Game">Worldbuilding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Mod support</Name>
+			<Description>You can mod this feature out of the game if you want</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="RPG">1980</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">1980</SoftwareCategory>
+			<SoftwareCategory Category="Sports">1980</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1980</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1990</SoftwareCategory>
+			<SoftwareCategory Category="TPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">1995</SoftwareCategory>
+			<Dependency Software="Game Engine">Event Scripting</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Internet Multiplayer</Name>
+			<Category>Network</Category>
+			<Description>For a more global game feature.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="TPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>LAN Multiplayer</Name>
+			<Category>Network</Category>
+			<Description>For a more local game feature.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="TPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+		</Feature>
+    </Features>
+</SoftwareType>

@@ -1,0 +1,36 @@
+<SoftwareType>
+	<Name>Internet Connection</Name>
+	<Description>Use this to connect your Computer/Mobile Device to the internet</Description>
+	<Category>Network</Category>
+	<Random>0</Random>
+	<Popularity>1</Popularity>
+	<Retention>0.9</Retention>
+	<Iterative>0.48</Iterative>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>OS</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Wired Router</Name>
+			<Description>Connection to the internet has never been easier! Just plug in the cord and youre ready to go.</Description>
+			<DevTime>15</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>10</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Server>4</Server>
+		</Feature>
+		<Feature From="Wired Router">
+			<Name>Wireless Router</Name>
+			<Description>Now with this, you can take away that ugly router connected to your computer. (And the ugly dust shadow around it.)</Description>
+			<Unlock>1990</Unlock>
+			<DevTime>18</DevTime>
+			<Innovation>14</Innovation>
+			<Usability>12</Usability>
+			<Stability>8</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Server>5</Server>
+		</Feature>
+	</Features>
+</SoftwareType>

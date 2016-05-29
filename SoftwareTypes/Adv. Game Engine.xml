@@ -1,0 +1,97 @@
+<SoftwareType>
+	<Name>Adv. Game Engine</Name>
+	<Unlock>1990</Unlock>
+	<Description>An advanced version of the Game Engine with better features. Will support many different kinds of games. Cannot be used to make vanilla games</Description>
+	<Random>0.1</Random>
+	<Popularity>0.4</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Retention>0.8</Retention>
+	<Iterative>0.4</Iterative>
+	<Category>Gaming</Category>
+	<NameGenerator>enginegen</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+         <Name>2D Rendering</Name>
+         <Description>Nostalgia has never looked better.</Description>
+         <DevTime>3</DevTime>
+         <Category>2D</Category>
+         <Innovation>1</Innovation>
+         <Usability>2</Usability>
+         <Stability>3</Stability>
+         <CodeArt>0.5</CodeArt>
+		 <Dependency Software="Game Engine">2D rendering</Dependency>
+      </Feature>
+      <Feature From="2D Rendering">
+         <Name>3D Rendering</Name>
+         <Description>A new era of gaming!</Description>
+         <DevTime>4</DevTime>
+         <Category>3D</Category>
+         <Innovation>3</Innovation>
+         <Usability>5</Usability>
+         <Stability>3</Stability>
+         <CodeArt>0.5</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Controller Support</Name>
+         <Description>Plug in console controllers without a hitch!</Description>
+         <DevTime>3</DevTime>
+         <Category>System</Category>
+         <Innovation>2</Innovation>
+         <Usability>5</Usability>
+         <Stability>3</Stability>
+         <CodeArt>1</CodeArt>
+         <Dependency Software="Game Engine">Advanced Input</Dependency>
+      </Feature>
+      <Feature>
+         <Name>Physics Engine</Name>
+         <Description>Allows the engine to simulate physics effects in-game.</Description>
+         <DevTime>5</DevTime>
+         <Innovation>3</Innovation>
+         <Usability>4</Usability>
+         <Stability>1</Stability>
+         <CodeArt>1</CodeArt>
+         <Dependency Software="Video Card Driver">Physix</Dependency>
+      </Feature>
+      <Feature>
+         <Name>HD Audio Support</Name>
+         <Description>Its all about that bass!</Description>
+         <DevTime>3</DevTime>
+         <Category>Audio</Category>
+         <Innovation>1</Innovation>
+         <Usability>2</Usability>
+         <Stability>1</Stability>
+         <CodeArt>0.7</CodeArt>
+         <Dependency Software="Operating System">HD audio</Dependency>
+      </Feature>
+      <Feature>
+         <Name>Level Editer</Name>
+         <Description>Releases with a function level editer for fans to create new levels in their favorite games.</Description>
+         <DevTime>2</DevTime>
+         <Innovation>3</Innovation>
+         <Usability>1</Usability>
+         <Stability>1</Stability>
+         <CodeArt>0.5</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Developer Tools</Name>
+         <Description>Simplify development process by creating a virtual workspace that streamlines all the things.</Description>
+         <DevTime>4</DevTime>
+         <Innovation>2</Innovation>
+         <Usability>4</Usability>
+         <Stability>2</Stability>
+         <CodeArt>1</CodeArt>
+		 <Dependency Software="Programming Language">IDE</Dependency>
+      </Feature>
+      <Feature>
+         <Name>Multi-OS Exporting</Name>
+         <Description>With built-in capabilities to export games to multiple platforms, this engine replaces the need for employees! *Not literally*</Description>
+         <DevTime>3</DevTime>
+         <Innovation>3</Innovation>
+         <Usability>3</Usability>
+         <Stability>2</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+   </Features>
+</SoftwareType>

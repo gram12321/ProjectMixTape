@@ -1,0 +1,152 @@
+<SoftwareType>
+	<Name>Web Browser</Name>
+	<Category>Web</Category>
+	<Description>Without this how are you supposed to get onto all those great websites?!</Description>
+	<Unlock>1994</Unlock>
+	<Random>0</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.97</Retention>
+	<Iterative>0.46</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Server>1</Server>
+	<NameGenerator>webbrowser</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>Base</Name>
+			<Description>The base of your webbrowser</Description>
+			<DevTime>10</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.4</CodeArt>
+		</Feature>
+		<Feature From="Base">
+			<Name>Modern User Interface</Name>
+			<Description>It has to be more than a web console</Description>
+			<DevTime>2</DevTime>
+			<Unlock>1995</Unlock>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Settings</Name>
+			<Description>Gives users an opportunity to choose simple settings</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>6</Usability>
+			<Stability>7</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Advanced settings</Name>
+			<Description>Gives users a more advanced settings with more options</Description>
+			<DevTime>8</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>10</Usability>
+			<Stability>10</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Web Browser">Settings</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Extensions</Name>
+			<Description>Allowing your users to create extensions to your webbrowser</Description>
+			<DevTime>8</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>History</Name>
+			<Description>Letting your players to view their previous actions</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Incognito</Name>
+			<Description>Do i really need to explain? ;)</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Logo</Name>
+			<Description>Allows users to create an logo to their webbrowser</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependencies Software="2D Editor">Pixel manipulation</Dependencies>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Multiple tabs</Name>
+			<Description>Allows users to have multiple tabs open at once</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Web Content Player</Name>
+			<Unlock>2007</Unlock>
+			<Description>Allows for videos, streams and music to be played</Description>
+			<DevTime>6</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>6</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Category>Network</Category>
+		</Feature>
+		<Feature Research="Web Content Player">
+			<Name>4K Content Support</Name>
+			<Unlock>2014</Unlock>
+			<Description>4x the pixels, 4x the love</Description>
+			<DevTime>2</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>9</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Encryption</Name>
+			<Unlock>2010</Unlock>
+			<Description>Secure your online connection</Description>
+			<DevTime>4</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>9</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Security Software">Encryption</Dependency>
+			<Category>Security</Category>
+		</Feature>
+		<Feature From="Encryption">
+			<Name>AES Encryption</Name>
+			<Unlock>2015</Unlock>
+			<Description>Edward Snowden Approves!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>12</Usability>
+			<Stability>9</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Web Browser">Encryption</Dependency>
+			<Dependency Software="Security Software">AES Encryption</Dependency>
+			<Category>Security</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

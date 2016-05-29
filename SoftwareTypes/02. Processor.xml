@@ -1,0 +1,317 @@
+<SoftwareType>
+  <Name>Processor</Name>
+  <Category>Hardware</Category>
+  <Description>The brain of every Comptuer</Description>
+  <Categories>
+    <Category Name="Default">
+      <Description></Description>
+      <Unlock>0</Unlock>
+      <Popularity>1</Popularity>
+      <TimeScale>1.15</TimeScale>
+      <Retention>0.70</Retention>
+      <Iterative>0.90</Iterative>
+      <NameGenerator>names</NameGenerator>
+    </Category>
+  </Categories>
+  <Unlock>0</Unlock>
+  <Random>0.3</Random>
+  <Popularity>1</Popularity>
+  <OSSpecific>FALSE</OSSpecific>
+  <OneClient>FALSE</OneClient>
+  <InHouse>TRUE</InHouse>
+  <NameGenerator>names</NameGenerator>
+  <Features>
+    <Feature Forced="TRUE">
+      <Name>Math Unit</Name>
+      <Category>Physical</Category>
+      <Description>The Main Brain. Does things like finding "X" from "X=42^(1-4+9)"...</Description>
+      <Unlock>0</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>1</Stability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature Research="Math Unit">
+      <Name>Divider</Name>
+      <Category>System</Category>
+      <Description>Division without the thinking</Description>
+      <Unlock>1980</Unlock>
+      <DevTime>12</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>2</Usability>
+      <Stability>0</Stability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature Research="Math Unit" Vital="TRUE">
+      <Name>APU</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Unlock>1990</Unlock>
+      <DevTime>24</DevTime>
+      <Innovation>8</Innovation>
+      <Usability>8</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.4</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Parallel Math</Name>
+      <Category>System</Category>
+      <Description>What if you could do two things at once?</Description>
+      <Unlock>1990</Unlock>
+      <DevTime>9</DevTime>
+      <Innovation>6</Innovation>
+      <Usability>4</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <Dependency Software="Processor">Math Unit</Dependency>
+    </Feature>
+    <Feature Forced="TRUE">
+      <Name>Control Unit</Name>
+      <Category>Physical</Category>
+      <Description></Description>
+      <Unlock>0</Unlock>
+      <DevTime>3</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>1</Stability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature From="Control Unit" Vital="TRUE">
+      <Name>Dual Core</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Unlock>2006</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>6</Innovation>
+      <Usability>6</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+    </Feature>
+    <Feature From="Dual Core" Vital="TRUE">
+      <Name>Quad Core</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Unlock>2007</Unlock>
+      <DevTime>9</DevTime>
+      <Innovation>10</Innovation>
+      <Usability>10</Usability>
+      <Stability>5</Stability>
+      <CodeArt>0.3</CodeArt>
+    </Feature>
+    <Feature From="Quad Core" Vital="TRUE">
+      <Name>Octo Core</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Unlock>2011</Unlock>
+      <DevTime>15</DevTime>
+      <Innovation>12</Innovation>
+      <Usability>15</Usability>
+      <Stability>9</Stability>
+      <CodeArt>0.3</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Heat Spreaders</Name>
+      <Category>Physical</Category>
+      <Description>If you dont know why are these important, search "CPU cooking" on youtube</Description>
+      <Unlock>1980</Unlock>
+      <DevTime>3</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>3</Stability>
+      <CodeArt>0.8</CodeArt>
+    </Feature>
+    <Feature From="Heat Spreaders" Vital="TRUE">
+      <Name>Heat Pipes</Name>
+      <Category>Physical</Category>
+      <Description></Description>
+      <Unlock>1985</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>2</Usability>
+      <Stability>6</Stability>
+      <CodeArt>0.4</CodeArt>
+    </Feature>
+    <Feature From="Heat Pipes" Forced="FALSE">
+      <Name>Heat Fins</Name>
+      <Category>Physical</Category>
+      <Description></Description>
+      <Unlock>1995</Unlock>
+      <DevTime>9</DevTime>
+      <Innovation>6</Innovation>
+      <Usability>2</Usability>
+      <Stability>8</Stability>
+      <CodeArt>0.1</CodeArt>
+    </Feature>
+    <Feature Forced="FALSE" Vital="TRUE">
+      <Name>Thermal Paste</Name>
+      <Category>Physical</Category>
+      <Description>Help to transfer heat from CPU to other stuff</Description>
+      <Unlock>1970</Unlock>
+      <DevTime>2</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.8</CodeArt>
+    </Feature>
+    <Feature From="Thermal Paste" Vital="TRUE">
+      <Name>Substrate</Name>
+      <Category>Physical</Category>
+      <Description></Description>
+      <Unlock>1980</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>1</Usability>
+      <Stability>6</Stability>
+      <CodeArt>0.2</CodeArt>
+    </Feature>
+    <Feature From="Substrate" Vital="TRUE">
+      <Name>Arctic Paste</Name>
+      <Category>Physical</Category>
+      <Description></Description>
+      <Unlock>1990</Unlock>
+      <DevTime>9</DevTime>
+      <Innovation>8</Innovation>
+      <Usability>2</Usability>
+      <Stability>8</Stability>
+      <CodeArt>0.6</CodeArt>
+    </Feature>
+    <Feature Forced="TRUE">
+      <Name>Logic Unit</Name>
+      <Category>System</Category>
+      <Description>The Other Main Brain. Does things like comparing two numbers</Description>
+      <Unlock>0</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>1</Stability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>Predicter</Name>
+      <Category>System</Category>
+      <Description>Can be used to improve logic</Description>
+      <Unlock>1983</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>2</Usability>
+      <Stability>1</Stability>
+      <CodeArt>1</CodeArt>
+      <Dependency Software="Processor">Logic Unit</Dependency>
+    </Feature>
+    <Feature>
+      <Name>Fetcher</Name>
+      <Category>System</Category>
+      <Description>Orders instructions better</Description>
+      <Unlock>1985</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>3</Usability>
+      <Stability>1</Stability>
+      <CodeArt>1</CodeArt>
+      <Dependency Software="Processor">Predicter</Dependency>
+    </Feature>
+    <Feature Forced="TRUE">
+      <Name>Registers</Name>
+      <Category>Physical</Category>
+      <Description>Short Storage</Description>
+      <Unlock>0</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>1</Stability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Cache</Name>
+      <Category>Physical</Category>
+      <Description>As processor clock speeds continue to increase, the memory access time has been lagging behind.  Caches were added to allow the processor to make less round trips to the memory.</Description>
+      <Unlock>1985</Unlock>
+      <DevTime>9</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>6</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <Dependency Software="Processor">Registers</Dependency>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>2nd Level</Name>
+      <Category>Physical</Category>
+      <Description>A second level of cache that uses a Most Frequently Used list to keep note of things that important, where the first level is changed to a First In First Out register.</Description>
+      <Unlock>1990</Unlock>
+      <DevTime>15</DevTime>
+      <Innovation>10</Innovation>
+      <Usability>10</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.7</CodeArt>
+      <Dependency Software="Processor">Cache</Dependency>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>3rd Level</Name>
+      <Category>Physical</Category>
+      <Description>A third level of cache simply maintanis a lookup table between the 2nd Level of cache, and the physical address space.  This decreases access time and round trip time..</Description>
+      <Unlock>1995</Unlock>
+      <DevTime>15</DevTime>
+      <Innovation>10</Innovation>
+      <Usability>10</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.7</CodeArt>
+      <Dependency Software="Processor">2nd Level</Dependency>
+    </Feature>
+    <Feature Research="3rd Level" Vital="TRUE">
+      <Name>On-Chip Memory</Name>
+      <Category>Physical</Category>
+      <Description>Integrates the 3rd level cache directly onto the chip, reducing the access time dramatically,</Description>
+      <Unlock>2000</Unlock>
+      <DevTime>24</DevTime>
+      <Innovation>15</Innovation>
+      <Usability>20</Usability>
+      <Stability>8</Stability>
+      <CodeArt>0.7</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>Power Efficiency</Name>
+      <Category>Physical</Category>
+      <Description>Use less power! Save the planet!</Description>
+      <Unlock>1995</Unlock>
+      <DevTime>9</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>2</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.6</CodeArt>
+    </Feature>
+    <Feature From="Power Efficiency">
+      <Name>25%</Name>
+      <Category>Physical</Category>
+      <Description>One giant leap in... making things smaller?  Using smaller and smaller components has net a considerable power and efficiency increase.</Description>
+      <Unlock>1998</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>3</Usability>
+      <Stability>3</Stability>
+      <CodeArt>0.4</CodeArt>
+    </Feature>
+    <Feature Research="Power Efficiency">
+      <Name>35%</Name>
+      <Category>Physical</Category>
+      <Description>Yes, it really did take you four years to figure out how to save even ten percent more power on the chips themselves, you didn't want to sacrifice performance.</Description>
+      <Unlock>2002</Unlock>
+      <DevTime>9</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>5</Usability>
+      <Stability>5</Stability>
+      <CodeArt>0.4</CodeArt>
+    </Feature>
+    <Feature Research="Power Efficiency">
+      <Name>42%</Name>
+      <Category>Physical</Category>
+      <Description>A crazy scientist named "Bob" in the depths of your Research and Development dept. thinks he's solved the universe itself... or at least 7% more power savings.</Description>
+      <Unlock>2007</Unlock>
+      <DevTime>6</DevTime>
+      <Innovation>5</Innovation>
+      <Usability>8</Usability>
+      <Stability>8</Stability>
+      <CodeArt>0.1</CodeArt>
+    </Feature>
+  </Features>
+</SoftwareType>

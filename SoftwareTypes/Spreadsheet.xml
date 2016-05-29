@@ -1,0 +1,91 @@
+<SoftwareType>
+	<Name>Spreadsheet Tool</Name>
+	<Description>Tool for defining spreadsheets</Description>
+	<Category>Office</Category>
+	<Unlock>1985</Unlock>
+	<Random>0</Random>
+	<Popularity>0.6</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<NameGenerator>SpreadsheetGenerator</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Structure</Name>
+			<Description>Basic table format functionality.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+		</Feature>
+		<Feature From="Structure">
+			<Name>Multi dimensional tables</Name>
+			<Description>Allows the creation for tables with depth</Description>
+			<DevTime>14</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Makros</Name>
+			<Description>Allows more work automation</Description>
+			<Unlock>1990</Unlock>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Two dimension table viewer</Name>
+			<Description>Provides a view for simple tables</Description>
+			<Category>2D</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature From="Two dimension table viewer" Vital="TRUE">
+			<Name>Cube table viewer</Name>
+			<Description>Viewer for multi dimensional tables</Description>
+			<Category>3D</Category>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">3D rendering</Dependency>
+			<Dependency Software="Spreadsheet Tool">Multi dimensional tables</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Tabs</Name>
+			<Description>Opens several files in several tabs</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Spreadsheet Tool">Two dimension table viewer</Dependency>
+			<Dependency Software="Operating System">Multitasking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Extension points</Name>
+			<Description>Others may want to include features, too</Description>
+			<Category>System</Category>
+			<Unlock>1990</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>0</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

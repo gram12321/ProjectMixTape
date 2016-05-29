@@ -1,0 +1,157 @@
+<SoftwareType>
+	<Name>Business Application</Name>
+	<Description>A usual application for everyday tasks</Description>
+	<Category>Business App</Category>
+	<Unlock>1985</Unlock>
+	<Random>0.5</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<NameGenerator>application</NameGenerator>
+	<Categories>
+			<Category Name="Inventory Control System">
+			<Description>Help businesses keep track of their stock</Description>
+			<Popularity>0.145</Popularity>
+			<Retention>0.33</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>ics</NameGenerator>
+		</Category>
+		<Category Name="General Ledger">
+			<Description>Simple account tracking</Description>
+			<Popularity>0.142</Popularity>
+			<Retention>0.29</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>generalledger</NameGenerator>
+		</Category>
+	</Categories>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Basic Helpers</Name>
+			<Description>Some usual features every company needs</Description>
+			<Unlock>1985</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Dependency Software="Programming Language">Syntax</Dependency>
+		</Feature>
+		<Feature>
+			<Name>User Interface</Name>
+			<Description>Enhances the application with simple views</Description>
+			<Category>2D</Category>
+			<Unlock>1985</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Framework">Basic UI Utils</Dependency>
+		</Feature>
+		<Feature From="User Interface">
+			<Name>Shiny Interface</Name>
+			<Description>Enhances the application with nice views</Description>
+			<Category>3D</Category>
+			<Unlock>1990</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Framework">Advanced UI Utils</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Web-based</Name>
+			<Description>The software is used through websites</Description>
+			<Category>Network</Category>
+			<Unlock>1985</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.4</Server>
+			<Dependency Software="Framework">Network Utils</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Security Access</Name>
+			<Description>Protects the software from compromisation</Description>
+			<Category>System</Category>
+			<Unlock>1985</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Framework">Security Essentials</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Modular development</Name>
+			<Description>Enhances the stability of this software</Description>
+			<Unlock>1995</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Framework">Modular System Utils</Dependency>
+		</Feature>
+		<Feature>
+			<Name>DI</Name>
+			<Description>Take advantage of the dependency injection framework</Description>
+			<Unlock>2000</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Framework">Dependency Injection</Dependency>
+		</Feature>
+		<Feature>
+			<Name>SO</Name>
+			<Description>Take advantage of the self optimisation framework</Description>
+			<Unlock>2020</Unlock>
+			<DevTime>7</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Framework">Self Optimization</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Inventory</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Inventory Control System">0</SoftwareCategory>
+			<Dependency Software="Database">Databases</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Ledger</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="General Ledger">0</SoftwareCategory>
+			<Dependency Software="Database">Databases</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Analytics</Name>
+			<Description>Statistics, charts, whatnot</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1976</Unlock>
+		</Feature>
+	</Features>
+</SoftwareType>

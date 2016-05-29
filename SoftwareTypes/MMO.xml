@@ -1,0 +1,82 @@
+<SoftwareType>
+	<Name>MMO</Name>
+	<Unlock>2000</Unlock>
+	<Description>Massively Multiplayer Online Game, do I need to say more?</Description>
+	<Random>0.4</Random>
+	<Popularity>4</Popularity>
+	<Retention>0.7</Retention>
+	<Iterative>0.47</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Category>System</Category>
+	<NameGenerator>MMO</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>Tutorial</Name>
+			<Description>The full on in game tutorial... its very helpful!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Server>3</Server>
+		</Feature>
+		<Feature Forced="True">
+			<Name>InGame Audio Chat</Name>
+			<Description>For times when you are bored, and you need someone to talk to, use the InGame Audio Chat, where you can speak and converse with other members of the game.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>7</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>25</Server>
+		</Feature>
+		<Feature From="InGame Audio Chat">
+			<Name>InGame Text Chat</Name>
+			<Description>For times when your are bored, and you need someone to text, use the InGame Audio Chat, where you can text and converse with other member of the game.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>7</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>25</Server>
+			<Dependency Software="Operating System">Text input system</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Lobby</Name>
+			<Description>For the InGame chats, you get to be in different servers, also called lobbys'.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>8</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>35</Server>
+			<Dependency Software="MMO">InGame Audio Chat</Dependency>
+			<Dependency Software="MMO">InGame Text Chat</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>VIP</Name>
+			<Description>Get VIP for the MMO, so you can get more credits, and more stuff!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>5</Server>
+			<Dependency Software="MMO">Tutorial</Dependency>
+		</Feature>	
+		<Feature>
+			<Name>DLC's</Name>
+			<Description>All new DLC's where you can unlock new places!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>2</Server>
+			<Dependency Software="MMO">VIP</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

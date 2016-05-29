@@ -1,0 +1,257 @@
+<SoftwareType>
+	<Name>Virtual Personal Assistant</Name>
+	<Category>Social</Category>
+	<Description>Your trustable virtual assistant that maybe smarter than you</Description>
+	<Unlock>2000</Unlock>
+	<Random>0.5</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.5</Retention>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Iterative>1</Iterative>
+	<Dependency Software="Operating system">Networking</Dependency>
+	<NameGenerator>Virtualpa</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Base server setup</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0005</Server>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Simple coding</Name>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Complex coding</Name>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<Unlock>2003</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Virtual Personal Assistant">Simple coding</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Simple UI</Name>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Advanced UI</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Dependency Software="Virtual Personal Assistant">Simple UI</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Customized UI</Name>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>2005</Unlock>
+			<Dependency Software="Virtual Personal Assistant">Advanced UI</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Text recognition</Name>
+			<Description>Your VPA can understand what you type</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0001</Server>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Voice recognition</Name>
+			<Description>Your VPA can listen what you say</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Unlock>2005</Unlock>
+			<Server>0.0001</Server>
+			<Dependency Software="Virtual Personal Assistant">Text recognition</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Administration duties</Name>
+			<Description>Your VPA can create event,set alarm when you tell him..her?</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2005</Unlock>
+			<Dependency Software="Virtual Personal Assistant">Voice recognition</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Music recognition</Name>
+			<Description>Your VPA can guess the songs.. almost 99% correctly</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0001</Server>
+			<Unlock>2008</Unlock>
+			<Dependency Software="Virtual Personal Assistant">Voice recognition</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Apps action integrated</Name>
+			<Description>basically you just need to tell VPA to do anything like take photo or launch some apps... </Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Virtual Personal Assistant">Voice recognition</Dependency>
+		</Feature>
+		<Feature Research="Administration duties">
+			<Name>YSIW</Name>
+			<Description>You Say, I Write function that they will create any documents based on your needs</Description>
+			<DevTime>5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2012</Unlock>
+		</Feature>
+		<Feature>
+			<Name>History storing</Name>
+			<Description>see whatever you have ask VPA to do</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Text feedback</Name>
+			<Description>Your VPA answer you by text</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0005</Server>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Voice feedback</Name>
+			<Description>Your VPA answer you by voice</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2005</Unlock>
+			<Server>0.0005</Server>
+			<Dependency Software="Virtual Personal Assistant">Text feedback</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Voice changes</Name>
+			<Description>Now your VPA can change voice... any person's voice you like</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<Unlock>2006</Unlock>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Virtual Personal Assistant">Voice feedback</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Calls and messaging</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Multi-languages support</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Information gathering</Name>
+			<Description>whatever you want to know, VPA can search for you from the internet. just don't ask stupid questions</Description>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Server>0.0003</Server>
+		</Feature>
+		<Feature>
+			<Name>Location access</Name>
+			<Description> VPA can search info like restaurant or traffic report based on your location</Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0001</Server>
+			<Dependency Software="Virtual Personal Assistant">Information gathering</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Weather report</Name>
+			<Description>If you are not 100% sure the rain outside is really rain, you can ask VPA</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Server>0.0001</Server>
+			<Dependency Software="Virtual Personal Assistant">Location access</Dependency>
+		</Feature>
+		<Feature Research="Voice recognition">
+			<Name>Virtual learning programs</Name>
+			<Description>Upgrade your life with VLP to learn new skills easily</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<Unlock>2015</Unlock>
+			<CodeArt>0.4</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Behaviour Studies</Name>
+			<Description>VPA secretly study the behaviour and answer accordingly</Description>
+			<DevTime>8</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<Unlock>2012</Unlock>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Virtual Personal Assistant">Voice feedback</Dependency>
+			<Dependency Software="Virtual Personal Assistant">Voice recognition</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

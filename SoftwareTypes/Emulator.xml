@@ -1,0 +1,65 @@
+<SoftwareType>
+	<Name>Emulator</Name>
+	<Unlock>2008</Unlock>
+	<Description>A piece of software that emulates, or replicates, the processes of old operating systems allowing users to replay their favoriate nostolgic games.</Description>
+	<Random>0.5</Random>
+	<Popularity>0.8</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<Retention>0.4</Retention>
+	<Iterative>0.1</Iterative>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Classic Gaming</Category>
+	<NameGenerator>emulatorgen</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Basic Hardware Emulation</Name>
+			<Description>The first thing to tackle is how the software pretends to have hardware that replicates old systems.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Graphical Emulation</Name>
+			<Description>By replicating old graphical techniques, the emulator can process and display old games.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+         <Name>Current Hardware Compatability</Name>
+         <Description>Replicating is easy. Getting it to work on current hardware configuations is hard, but creates a stable environment.</Description>
+         <DevTime>4</DevTime>
+         <Innovation>1</Innovation>
+         <Usability>2</Usability>
+         <Stability>3</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Open Source Classic Games</Name>
+         <Description>User's appreciate older games being made availible to tinker with and play.</Description>
+         <Unlock>2010</Unlock>
+         <DevTime>2</DevTime>
+         <Innovation>0</Innovation>
+         <Usability>2</Usability>
+         <Stability>0</Stability>
+         <CodeArt>1</CodeArt>
+         <Server>0.0008</Server>
+      </Feature>
+      <Feature>
+         <Name>Mobile Phone Version</Name>
+         <Description>Port the emulator to mobile phones so people can enjoy classic games on the go.</Description>
+         <Unlock>2012</Unlock>
+         <DevTime>5</DevTime>
+         <Innovation>3</Innovation>
+         <Usability>3</Usability>
+         <Stability>2</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+   </Features>
+</SoftwareType>

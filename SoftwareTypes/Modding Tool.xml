@@ -1,0 +1,93 @@
+<SoftwareType>
+	<Name>Modding Tool</Name>
+	<Description>Mod programs, games, and more!</Description>
+	<Random>0.2</Random>
+	<Popularity>0.3</Popularity>
+	<Retention>0.5</Retention>
+	<Iterative>0.4</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Unlock>1990</Unlock>
+	<Category>Modding Tool</Category>
+	<NameGenerator>MTool</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>Game Modding</Name>
+			<Description>Mod games!</Description>
+			<Innovation>1.5</Innovation>
+			<Stability>0</Stability>
+			<Usability>1</Usability>
+			<CodeArt>0.5</CodeArt>
+			<DevTime>1</DevTime>
+			<Unlock>1990</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Sound Modding</Name>
+			<Description>Bing, Boing, Bang, SOUNDS!</Description>
+			<Innovation>1</Innovation>
+			<Stability>0</Stability>
+			<Usability>2.5</Usability>
+			<CodeArt>0</CodeArt>
+			<DevTime>1</DevTime>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Modding Tool">Game Modding</Dependency>
+			<Dependency Software="Music Library">Free Music</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Map Editing</Name>
+			<Description>Remove this barrier, add that building..</Description>
+			<Innovation>0</Innovation>
+			<Stability>1</Stability>
+			<Usability>1</Usability>
+			<CodeArt>0</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Modding Tool">Game Modding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Custom Maps</Name>
+			<Description>CREATE maps, how does that sound?</Description>
+			<Innovation>1</Innovation>
+			<Stability>0</Stability>
+			<Usability>1.5</Usability>
+			<CodeArt>0</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1991</Unlock>
+			<Dependency Software="Modding Tool">Game Modding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Custom Weapons</Name>
+			<Description>CREATE WEAPONS, even BETTER!</Description>
+			<Innovation>1</Innovation>
+			<Stability>0</Stability>
+			<Usability>1</Usability>
+			<CodeArt>0</CodeArt>
+			<DevTime>1</DevTime>
+			<Unlock>1991</Unlock>
+			<Dependency Software="Modding Tool">Game Modding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Custom Gamemodes</Name>
+			<Description>Zombies??</Description>
+			<Innovation>1.5</Innovation>
+			<Stability>0.5</Stability>
+			<Usability>2</Usability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>1992</Unlock>
+			<Dependency Software="Modding Tool">Game Modding</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Custom Menus</Name>
+			<Description>Options, Play, Exit</Description>
+			<Innovation>1.5</Innovation>
+			<Stability>1</Stability>
+			<Usability>2</Usability>
+			<CodeArt>0.5</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1993</Unlock>
+			<Dependency Software="Modding Tool">Game Modding</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

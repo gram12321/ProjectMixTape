@@ -1,0 +1,81 @@
+<SoftwareType>
+	<Name>Media Player</Name>
+	<Category>Multimedia</Category>
+	<Description>Create a media player for PC users to use</Description>
+	<Popularity>0.55</Popularity>
+	<Retention>0.6</Retention>
+	<TimeScale>1</TimeScale>
+	<Iterative>0.75</Iterative>	
+	<Random>0.13</Random>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Unlock>1994</Unlock>
+	<Category>OS</Category>
+	<NameGenerator>mediaplayer</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>Core</Name>
+			<Description>Rendering, decoding, GUI, washing dishes, etc</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Dependency Software="Database">Databases</Dependency>
+		</Feature>
+	<Feature Vital="TRUE">
+			<Name>Media Library</Name>
+			<Description>Not the fun kind of library with a frequent orangutan visitor, but still highly useful</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Dependency Software="Media Player">Core</Dependency>
+			<Dependency Software="Database">Search</Dependency>
+		</Feature>
+	<Feature VITAL="TRUE">
+			<Name>Network Streaming</Name>
+			<Description>Watch a video on your computer in your living room from your laptop! Watch probably totally maybe legal streams of live sports events on the internet! Also other things! Woo!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1995</Unlock>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<Dependency Software="Media Player">Core</Dependency>
+		</Feature>	
+	<Feature>
+			<Name>Video Postprocessing</Name>
+			<Description>This enables enhancements made by the software using algorithms. Whether this is actually of any value to the end user in most scenarios is debatable, but it sounds very impressive on paper...</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1996</Unlock>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<Dependency Software="Media Player">Core</Dependency>
+		</Feature>
+	<Feature Vital="TRUE">
+			<Name>Video Upscaling</Name>
+			<Description>Either like putting lipstick on a pig or like putting yoga pants on Shakira</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Simultaneous Multithreading</Dependency>
+			<Dependency Software="Office Software">Text Editor</Dependency>
+			<Dependency Software="Media Player">Core</Dependency>
+			<Dependency Software="Media Player">Video Postprocessing</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

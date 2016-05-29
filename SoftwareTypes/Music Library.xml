@@ -1,0 +1,95 @@
+<SoftwareType>
+	<Name>Music Library</Name>
+	<Description>Download, Buy, and Play music!</Description>
+	<Random>0.2</Random>
+	<Popularity>0.4</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Retention>0.5</Retention>
+	<Iterative>0.4</Iterative>
+	<Category>Music Library</Category>
+	<NameGenerator>MLibrary</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>Free Music</Name>
+			<Description>Download music for free.</Description>
+			<Innovation>0</Innovation>
+			<Stability>1</Stability>
+			<Usability>1.5</Usability>
+			<CodeArt>0.1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>0</Unlock>
+		</Feature>
+		<Feature From="Free Music" Vital="True">
+			<Name>Paid Music</Name>
+			<Description>BUY music  to listen to them!</Description>
+			<Innovation>0.5</Innovation>
+			<Stability>1</Stability>
+			<Usability>2</Usability>
+			<CodeArt>0</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1981</Unlock>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Music Preview</Name>
+			<Description>Listen to a bit of the music, to be sure if you like it.</Description>
+			<Innovation>1.5</Innovation>
+			<Stability>0</Stability>
+			<Usability>2.5</Usability>
+			<Stability>0.5</Stability>
+			<CodeArt>0</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>1981</Unlock>
+		</Feature>
+		<Feature From="Paid Music" Vital="True">
+			<Name>Popular Music</Name>
+			<Description>Woots, everyone knows about this music!</Description>
+			<Innovation>2.5</Innovation>
+			<Stability>1</Stability>
+			<Usability>1.9</Usability>
+			<CodeArt>0</CodeArt>
+			<DevTime>3</DevTime>
+		</Feature>
+		<Feature>
+			<Name>Albums</Name>
+			<Description>The possibilities of buying more than one song at a time!</Description>
+			<Innovation>1</Innovation>
+			<Stability>0</Stability>
+			<Usability>1</Usability>
+			<CodeArt>1</CodeArt>
+			<DevTime>1</DevTime>
+			<Unlock>1982</Unlock>
+		</Feature>
+		<Feature>
+			<Name>User Interface</Name>
+			<Description>Fancy menu's!</Description>
+			<Innovation>0</Innovation>
+			<Stability>0</Stability>
+			<Usability>2</Usability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>1982</Unlock>
+			<DevTime>1</DevTime>
+		</Feature>
+		<Feature From="User Interface">
+			<Name>Better User Interface</Name>
+			<Description>Even better!</Description>
+			<Innovation>0.5</Innovation>
+			<Stability>0</Stability>
+			<Usability>2.5</Usability>
+			<CodeArt>0.4</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1983</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Gift-cards</Name>
+			<Description>Buy some fancy codes for your friends so they can waste more money.</Description>
+			<Innovation>1</Innovation>
+			<Stability>0</Stability>
+			<Usability>0</Usability>
+			<CodeArt>0.9</CodeArt>
+			<DevTime>1</DevTime>
+			<Unlock>1984</Unlock>
+		</Feature>
+	</Features>
+</SoftwareType>

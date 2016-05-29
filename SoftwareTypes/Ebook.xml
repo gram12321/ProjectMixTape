@@ -1,0 +1,100 @@
+<SoftwareType>
+	<Name>E-book</Name>
+	<Category>Reading</Category>
+	<Description>Program that allows you to read your books eletronicly</Description>
+	<Random>0.7</Random>
+	<Popularity>0.5</Popularity>
+	<Retention>0.7</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OSLimit>Phone</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Iterative>1</Iterative>
+	<Unlock>1980</Unlock>
+	<NameGenerator>Book</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Contents library</Name>
+			<Description>Places where you store your saved books</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<Unlock>1980</Unlock>
+			<CodeArt>0.6</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Folders</Name>
+			<Description>create folders to sort out your favourite books</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="E-book">Contents library</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Low screen pixels</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>High screen pixels</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Unlock>1990</Unlock>
+			<Dependency Software="E-book">Low screen pixels</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Auto light mode</Name>
+			<Description>New light technology to suite the comfortness of your eyes </Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1990</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Touch mode</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Touch</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Text to speech</Name>
+			<Description>make it easier to find your book by speech</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Audio Tool">Recording</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Font size adjustment</Name>
+			<Description>make it easier to read according to the font size you want</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

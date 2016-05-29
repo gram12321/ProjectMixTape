@@ -1,0 +1,156 @@
+<SoftwareType>
+	<Name>Framework</Name>
+	<Description>Provides implementations for developers in a predefined way</Description>
+	<Category>Computing</Category>
+	<Unlock>1975</Unlock>
+	<Random>0.35</Random>
+	<Popularity>0.65</Popularity>
+	<Retention>0.7</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>framework</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Basic Patterns</Name>
+			<Description>Some always-needed implementations for usual tasks</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Basic UI Utils</Name>
+			<Description>Implementation for simple user interfaces</Description>
+			<Category>2D</Category>
+			<Unlock>1975</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Advanced UI Utils</Name>
+			<Description>Implementation for shiny user interfaces</Description>
+			<Category>3D</Category>
+			<Unlock>1980</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Operating System">3D rendering</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Network Utils</Name>
+			<Description>Implementation for networking tasks</Description>
+			<Category>Networking</Category>
+			<Unlock>1985</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Basic Audio Utils</Name>
+			<Description>Implementation for audio development</Description>
+			<Category>Audio</Category>
+			<Unlock>1985</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">8-bit audio</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Security Essentials</Name>
+			<Description>Provides ways to make software safer and stable</Description>
+			<Category>System</Category>
+			<Unlock>1985</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Advanced Audio Utils</Name>
+			<Description>Implementation for HD audio support</Description>
+			<Category>Audio</Category>
+			<Unlock>1990</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">HD audio</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Modular System Utils</Name>
+			<Description>Helps developers to build modular software</Description>
+			<Category>Engineering</Category>
+			<Unlock>1995</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Programming Language">Functions</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Dependency Injection</Name>
+			<Description>Let developers decouple dependencies in their software</Description>
+			<Category>Engineering</Category>
+			<Unlock>2000</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Programming Language">Code Reflection</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Self Optimization</Name>
+			<Description>Enables automatic optimization for software development</Description>
+			<Category>Engineering</Category>
+			<Unlock>2020</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">64-bit</Dependency>
+			<Dependency Software="Programming Language">Code Reflection</Dependency>
+			<Dependency Software="Programming Language">Visual Programming</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Native support</Name>
+			<Description>Some OS related helpers</Description>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Remote procedures</Name>
+			<Description>Network based functions</Description>
+			<Unlock>1995</Unlock>
+			<Category>Networking</Category>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

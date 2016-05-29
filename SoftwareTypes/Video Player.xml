@@ -1,0 +1,121 @@
+<SoftwareType>
+	<Name>Video Player</Name>
+	<Category>Video Player</Category>
+	<Description>The DVD is nonsense without it.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>0.1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>1989</Unlock>
+	<NameGenerator>playergen</NameGenerator>
+	<Features>
+		<Feature>
+			<Name>Basic Player</Name>
+			<Category>System</Category>
+			<Description>Plays videos in 140px-360px quality.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>32
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Audio Tool">Audio playback</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		<Feature From="Basic Player">
+			<Name>High Quality Player</Name>
+			<Category>System</Category>
+			<Description>Plays videos with up to 720px quality.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>2007</Unlock>
+		</Feature>
+		<Feature From="High Quality Player">
+			<Name>Ultra High Quality Player</Name>
+			<Category>System</Category>
+			<Description>Plays videos in full HD.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.4</CodeArt>
+			<Unlock>2010</Unlock>
+		</Feature>
+		<Feature Research="Ultra High Quality Player">
+			<Name>4K Video Player</Name>
+			<Category>System</Category>
+			<Description>Plays videos with up to 4K quality.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>2012</Unlock>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Visual</Name>
+			<Category>2D</Category>
+			<Description>Letting your players simply view the video</Description>
+			<DevTime>4</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.6</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Pause</Name>
+			<Category>2D</Category>
+			<Description>Adding a pause button for your video player</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Skip</Name>
+			<Category>2D</Category>
+			<Description>Allowing your users to skip through the video/film</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Fast forward/backwards</Name>
+			<Category>2D</Category>
+			<Description>Allowing your players to fast forward or backwards</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Playlist</Name>
+			<Category>System</Category>
+			<Description>Allowing your users to have a playlist of movies and videos</Description>
+			<DevTime>2</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Multiple video formats</Name>
+			<Category>System</Category>
+			<Description>Allowing your players to view movies or videos with multiple different video formats</Description>
+			<DevTime>3</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

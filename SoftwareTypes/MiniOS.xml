@@ -1,0 +1,62 @@
+<SoftwareType>
+	<Name>MiniOS</Name>
+	<Category>System</Category>
+	<Description>A MiniOS System is a minified version of a Operating System. It has less features, but takes less time to make and is great for small companies.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.67</Retention>
+	<Iterative>0.63</Iterative>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>Minios</NameGenerator>
+	<Features>
+        <Feature Forced="TRUE">
+            <Name>System Terminal</Name>
+            <Description>The default interface for a MiniOS. If gui is installed, SYSTERMINAL can be used as an application.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+		<Feature Forced="TRUE">
+			<Name>Base</Name>
+			<Description>Base assembly of a MiniOS</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature>
+            <Name>Advanced Compression</Name>
+            <Description>Makes OS extremely small. Great for usability, since its a lot faster to download!</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>2</Usability>
+            <Stability>1.3</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+		<Feature>
+			<Name>Simple De/Compressor Tool</Name>
+            <Description>Simple tool to make .zip files and extract them. Nothing advanced. (Can be used with SYSTERMINAL)</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Stability>5</Stability>
+            <Usability>1</Usability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature>
+			<Name>Live Decompression</Name>
+            <Description></Description>
+            <DevTime>2</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>1.3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="MiniOS">Advanced Compression</Dependency>
+            <Dependency Software="MiniOS">Simple De/Compressor Tool</Dependency>
+        </Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,70 @@
+<SoftwareType>
+	<Name>Music player</Name>
+	<Description>Create a music player for PC users to use</Description>
+	<Random>0.1</Random>
+	<Popularity>1</Popularity>
+	<Retention>0.73</Retention>
+	<Iterative>0.64</Iterative>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Unlock>2000</Unlock>
+	<Category>OS</Category>
+	<NameGenerator>musicplayer</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>Base</Name>
+			<Description>They open their music, they listen.. nothing more.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	<Feature Forced="TRUE">
+			<Name>Play</Name>
+			<Description>Play button.. useless without the pause button, right?</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	<Feature Forced="TRUE">
+			<Name>Pause</Name>
+			<Description>Pause the music so you wont lose anything!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	<Feature Vital="True">
+			<Name>Shuffle</Name>
+			<Description>Randomly chooses a song from the playlist</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	<Feature Vital="True">
+			<Name>Playlist</Name>
+			<Description>Allows your users to view the playlist in the actual music player!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	<Feature Vital="True">
+			<Name>Next/Back</Name>
+			<Description>Allows your users to skip to next song or go back to the last song</Description>
+			<DevTime>1</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.6</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

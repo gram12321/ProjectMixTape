@@ -1,0 +1,77 @@
+<SoftwareType>
+	<Name>Automatic Control System</Name>
+	<Description>An independent system for controlling robots</Description>
+	<Category>Robotics</Category>
+	<Unlock>2015</Unlock>
+	<Random>0.3</Random>
+	<Popularity>0.9</Popularity>
+	<Retention>0.9</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>EngineGenerator</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Basic control</Name>
+			<Description>Controls robot's main routine</Description>
+			<DevTime>16</DevTime>
+			<Category>Robotics</Category>
+			<Innovation>6</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.03</Server>
+			<Dependency Software="Artificial Intelligence">Logic Algorithm</Dependency>
+		</Feature>
+		<Feature From="Basic control">
+			<Name>Advanced control</Name>
+			<Description>Additional routine control</Description>
+			<Category>Robotics</Category>
+			<Unlock>2020</Unlock>
+			<DevTime>26</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>2</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.06</Server>
+			<Dependency Software="Artificial Intelligence">Self learning</Dependency>
+		</Feature>
+		<Feature From="Advanced control">
+			<Name>Supervising control</Name>
+			<Description>Allows control of big robot networks</Description>
+			<Category>Robotics</Category>
+			<Unlock>2025</Unlock>
+			<DevTime>36</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.09</Server>
+			<Dependency Software="Artificial Intelligence">Distributed intelligence</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Decision handler</Name>
+			<Description>Makes decisions automatically</Description>
+			<Category>System</Category>
+			<DevTime>10</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Artificial Intelligence">Self learning</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Supervisor</Name>
+			<Description>Makes the ACS completely independent</Description>
+			<Category>Robotics</Category>
+			<DevTime>10</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.03</Server>
+			<Dependency Software="Artificial Intelligence">Distributed intelligence</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

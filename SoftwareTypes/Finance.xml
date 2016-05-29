@@ -1,0 +1,174 @@
+<SoftwareType>
+<Name>Finance</Name>
+	<Category>Business</Category>
+	<Description>A Finance software is mostly used for businesses to manage their finances</Description>
+	<Random>0.3</Random>
+	<Unlock>1974</Unlock>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Categories>
+		<Category Name="Accounting">
+			<Description>To record financial transactions and analysis it</Description>
+			<Popularity>0.9</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>Accounting</NameGenerator>
+		</Category>
+	</Categories>
+		<Features>
+		<Feature Forced="TRUE">
+			<Name>File management</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Forced="TRUE" Vital="True">
+			<Name>Financial Report</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Budgeting</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Billing and Invoice</Name>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.75</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Account Receivable and Payable</Name>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Payroll</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<Unlock>1978</Unlock>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Inventory</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<Unlock>1980</Unlock>
+			<CodeArt>0.9</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Themes</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Simple UI</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Advanced UI</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<Unlock>1985</Unlock>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Finance">Simple UI</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Bank integration</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<Unlock>1985</Unlock>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Payments Security</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1985</Unlock>
+			<Dependency Software="Finance">Bank integration</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Multi-currency</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<Unlock>1985</Unlock>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Online Backup</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<Unlock>1992</Unlock>
+			<CodeArt>1</CodeArt>
+			<Server>0.0005</Server>
+		</Feature>
+		<Feature>
+			<Name>Online syncronization</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<Unlock>1993</Unlock>
+			<CodeArt>1</CodeArt>
+			<Server>0.0005</Server>
+		</Feature>
+	</Features>
+</SoftwareType>

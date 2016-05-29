@@ -1,0 +1,179 @@
+<SoftwareType>
+	<Name>Gaming Platform</Name>
+	<Description>Like Steam</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.87</Retention>
+	<Iterative>0.79</Iterative>
+	<Unlock>2000</Unlock>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Game Platform</Category>
+	<NameGenerator>Game platform</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>System</Name>
+			<Description>The bare minimum of the software</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>4</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>GUI</Name>
+			<Description>More user friendly</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>5</Stability>
+			<CodeArt>4</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Database</Name>
+			<Description>Allows easier access for the user</Description>
+			<Server>0.005</Server>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2000</Unlock>
+			<Dependency Software="Database">Search</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Achievements</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>4</Usability>
+			<Stability>6</Stability>
+			<CodeArt>3</CodeArt>
+			<Dependency Software="Gaming Platform">Database</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Streaming</Name>
+			<Description>Allows people to watch other people play games</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<CodeArt>1</CodeArt>
+			<unlock>2010</unlock>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Online Play</Name>
+			<Description>Allows Online games to be played</Description>
+			<DevTime>8</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>10</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature From="Online Play" Vital="True">
+			<Name>Offline Play</Name>
+			<Description>Allow people to play anywhere</Description>
+			<DevTime>12</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>5</Stability>
+			<Usability>8</Usability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Game Library</Name>
+			<Description>Allow people to find all their games in one place</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Community</Name>
+			<Description>Groups of gamers will finally combine!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Stability>12</Stability>
+			<Usability>7</Usability>
+			<CodeArt>0</CodeArt>
+			<Unlock>2010</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Market</Name>
+			<Description>Allows people to buy games</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Stability>5</Stability>
+			<Usability>4</Usability>
+			<CodeArt>0</CodeArt>
+			<Server>0.005</Server>
+			<Unlock>2010</Unlock>
+			<Dependency Software="Database">Databases</Dependency>
+			<Dependency Software="Gaming Platform">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Modding Area</Name>
+			<Unlock>2010</Unlock>
+			<Description>A place where gamers meet modders</Description>
+			<DevTime>6</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>9</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.99</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>News Area</Name>
+			<Unlock>2010</Unlock>
+			<Description>A place where developers can show off</Description>
+			<DevTime>6</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>9</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.99</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Cloud</Name>
+			<Server>0.025</Server>
+			<Unlock>2010</Unlock>
+			<Description>Upload everything</Description>
+			<DevTime>8</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>9</Usability>
+			<Stability>9</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>Network</Category>
+			<Dependency Software="Cloud Software">HDD Servers</Dependency>
+			<Dependency Software="Gaming Platform">Online Play</Dependency>
+			<Dependency Software="Gaming Platform">Database</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Friends</Name>
+			<Description>Allows users to add friends</Description>
+			<DevTime>9</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>10</Usability>
+			<Stability>10</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Network">Friends</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Chat</Name>
+			<Description>Allows users to chat with friends</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>10</Usability>
+			<Stability>10</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Network">Messages</Dependency>
+			<Dependency Software="Gaming Platform">Friends</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

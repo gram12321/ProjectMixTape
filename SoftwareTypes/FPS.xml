@@ -1,0 +1,123 @@
+<SoftwareType>
+	<Name>First-Person Shooter</Name>
+	<Unlock>1995</Unlock>
+	<Description>These games are well rounded.</Description>
+	<Random>0.8</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<Retention>0.6</Retention>
+	<Iterative>0.8</Iterative>
+	<InHouse>FALSE</InHouse>
+	<Category>Gaming</Category>
+	<NameGenerator>fpsgen</NameGenerator>
+	<Features>
+      <Feature Forced="TRUE">
+			<Name>Fluid Controls</Name>
+			<Description>FPS games should have fluid and responsive controls.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+      </Feature>
+		<Feature>
+			<Name>Console Controller Support</Name>
+			<Description>Play with console controllers.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Adv. Game Engine">Controller Support</Dependency>
+		</Feature>
+		<Feature>
+			<Name>3D Game</Name>
+			<Description>Make that game look goooooood!</Description>
+			<DevTime>4</DevTime>
+			<Category>3D</Category>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+            <Dependency Software="Adv. Game Engine">3D Rendering</Dependency>
+		</Feature>
+		<Feature From="3D Game">
+			<Name>2D Game</Name>
+			<Description>2D games are still in vogue so go for it!</Description>
+			<DevTime>3</DevTime>
+			<Category>2D</Category>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.3</CodeArt>
+            <Dependency Software="Adv. Game Engine">2D Rendering</Dependency>
+		</Feature>
+		<Feature>
+         <Name>Patch Distribution</Name>
+         <Description>A quick and painless way to distribute patches to users. Requires server.</Description>
+         <DevTime>4</DevTime>
+         <Innovation>1</Innovation>
+         <Usability>2</Usability>
+         <Stability>3</Stability>
+         <CodeArt>1</CodeArt>
+         <Server>0.0009</Server>
+         <Dependency Software="Operating System">Networking</Dependency>
+      </Feature>
+	<Feature Research="Fluid Controls">
+			<Name>Historical Setting</Name>
+			<Description>Let the player live out a historically accurate war through the eyes of a common soldier.</Description>
+			<Unlock>1970</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Achievements</Name>
+			<Description>Everybody loves achievements.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Regenerating Health</Name>
+			<Description>Make your game stupidly easy by letting health recharge.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Tactical Shooter</Name>
+			<Description>Specialize the game to be a tactical shooter.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature From="Tactical Shooter">
+			<Name>Realistic Shooter</Name>
+			<Description>Specialize the game to have a heavy focus on realism.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature From="Realistic Shooter">
+			<Name>RPG Shooter</Name>
+			<Description>Specialize the game to cross genre borders and be a hybrid rpg-shooter.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+   </Features>
+</SoftwareType>

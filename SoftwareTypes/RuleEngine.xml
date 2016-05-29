@@ -1,0 +1,57 @@
+<SoftwareType>
+	<Name>Rule Engine</Name>
+	<Description>Executes user defined rules</Description>
+	<Category>Technology</Category>
+	<Unlock>1995</Unlock>
+	<Random>0.4</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>0.5</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>EngineGenerator</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Knowledge base</Name>
+			<Description>Manages rules for execution</Description>
+			<DevTime>12</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Embedded editor</Name>
+			<Description>Deliver a small rule editor with your engine</Description>
+			<DevTime>6</DevTime>
+			<Category>2D</Category>
+			<Innovation>3</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Clustered knowledge</Name>
+			<Description>Extends the engine to a distributed system</Description>
+			<DevTime>6</DevTime>
+			<Category>Network</Category>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Fast processing</Name>
+			<Description>Makes the engine a lot faster</Description>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Simultaneous Multithreading</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

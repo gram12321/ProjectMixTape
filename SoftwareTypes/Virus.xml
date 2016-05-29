@@ -1,0 +1,65 @@
+<SoftwareType>
+	<Name>Virus</Name>
+	<Description>Infect those kids that think they can get software for free.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.4</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Retention>0.5</Retention>
+	<Iterative>0.3</Iterative>
+	<Unlock>2002</Unlock>
+	<Category>Virus</Category>
+	<NameGenerator>Virus</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Adware</Name>
+			<Description>Annoying ads, and you get the profit!</Description>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>1</DevTime>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Spyware</Name>
+			<Description>Now you know their identity, their passwords, and more!</Description>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>2003</Unlock>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Website infection</Name>
+			<Description>Infect websites by visiting them, so other people will get invected too.</Description>
+			<Innovation>1.5</Innovation>
+			<Usability>2.1</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>2003</Unlock>
+		</Feature>
+		<Feature From="Website infection" Vital="True">
+			<Name>E-Mail infection</Name>
+			<Description>Infect other people by sending them E-Mails.</Description>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>2004</Unlock>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Antivirus Bypass</Name>
+			<Description>Now these antivirusses wont find your virus anymore.</Description>
+			<Innovation>1.5</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4</DevTime>
+			<Unlock>2003</Unlock>
+		</Feature>
+	</Features>
+</SoftwareType>

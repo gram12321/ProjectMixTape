@@ -1,0 +1,202 @@
+<SoftwareType>
+	<Name>Social Network</Name>
+	<Description>Connect people from around the world</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Unlock>2005</Unlock>
+	<OSSpecific>TRUE</OSSpecific>
+	<OSLimit>Phone</OSLimit>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Server>0.005</Server>
+	<Category>Social network</Category>
+	<Categories>
+		<Category Name="Messenger">
+			<Description>Sending texts over the internet</Description>
+			<Popularity>0.5</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>Web Browser</NameGenerator>
+		</Category>
+		<Category Name="Media sharing">
+			<Description>Like Facebook</Description>
+			<Popularity>0.5</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>Web Browser</NameGenerator>
+		</Category>
+	</Categories>
+	<NameGenerator>Social network</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>Messages</Name>
+			<Description>Just simple texts</Description>
+			<DevTime>2</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Picture sharing</Name>
+			<Description>Any picture can be shared now!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Group chats</Name>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>10</Usability>
+			<Stability>5</Stability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Emojis</Name>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Profile picture</Name>
+			<Description>Lets people see a bit about you</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>3</Stability>
+			<Usability>4</Usability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Video sharing</Name>
+			<Description>Send videos to anyone anytime</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Network">Picture sharing</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Audio sharing</Name>
+			<Description>just mp3 files</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Stability>12</Stability>
+			<Usability>7</Usability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Social Network">Picture sharing</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Video chat</Name>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Stability>6</Stability>
+			<Usability>7</Usability>
+			<SoftwareCategory Category="Messenger">0</SoftwareCategory>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Social Network">Group chats</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Posts</Name>
+			<Description>Just a post with words</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Media sharing">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Picture Posts</Name>
+			<Description>Any picture can be shared now!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Media sharing">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Comments</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Media sharing">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Like button</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Media sharing">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Network">Comments</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Video posts</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Media sharing">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Network">Picture Posts</Dependency>
+		</Feature>
+		<Feature>
+			<Name>MP3 posts</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Media sharing">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Network">Picture Posts</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Friends</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<SoftwareCategory Category="Media sharing">0</SoftwareCategory>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

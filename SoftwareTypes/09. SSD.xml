@@ -1,0 +1,46 @@
+<SoftwareType>
+	<Name>SSD</Name>
+	<Description>A new kind of storage!</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.84</Retention>
+	<Iterative>0.65</Iterative>
+	<Unlock>2005</Unlock>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Storage</Category>
+	<NameGenerator>SSD_NameGen</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>25GB SSD</Name>
+			<Description>A LOT FASTER</Description>
+			<DevTime>6</DevTime>
+			<Unlock>2005</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="25GB SSD">
+			<Name>100GB SSD</Name>
+			<Description>The speeeeeed</Description>
+			<DevTime>7</DevTime>
+			<Unlock>2008</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="100GB SSD">
+			<Name>258GB SSD</Name>
+			<Description>Miliseconds it takes to load</Description>
+			<DevTime>9</DevTime>
+			<Unlock>2010</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

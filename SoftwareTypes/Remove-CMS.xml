@@ -1,0 +1,4 @@
+<SoftwareType Override="True">
+	<Name>CMS</Name>
+    <Delete>True</Delete>
+</SoftwareType>

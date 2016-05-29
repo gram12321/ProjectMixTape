@@ -1,0 +1,64 @@
+<SoftwareType>
+	<Name>DRM Software</Name>
+	<Unlock>2005</Unlock>
+	<Description>Digital rights management software that reduces piracy by making your software unusable.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.4</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<Retention>0.8</Retention>
+	<Iterative>0.2</Iterative>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Digital Rights</Category>
+	<NameGenerator>digitalrightsgen</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Serial Codes</Name>
+			<Description>Force users to prove they purchesed the product by using a unique one-time use serial code.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>EULA</Name>
+			<Description>By creating a 100 page document explaining exactly how users may use the software they just purchesed, one might disuade people from hacking or modifying the software for personal gain...thats the idea anyways.</Description>
+			<Unlock>2007</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+         <Name>Multiple Downloads</Name>
+         <Description>Finally allow the user to download products multiple times as they were able to before DRM.</Description>
+         <DevTime>3</DevTime>
+         <Innovation>1</Innovation>
+         <Usability>2</Usability>
+         <Stability>0</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Digital Library</Name>
+         <Description>Permanantly assosiate a game with a user's account so they can never lose, or resell, a product.</Description>
+         <Unlock>2010</Unlock>
+         <DevTime>3</DevTime>
+         <Innovation>1</Innovation>
+         <Usability>1</Usability>
+         <Stability>0</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Trojan Horse</Name>
+         <Description>Embed a virus in products that only activates if a user pirates your software. Its legal, we checked.</Description>
+         <DevTime>4</DevTime>
+         <Unlock>2010</Unlock>
+         <Innovation>1</Innovation>
+         <Usability>0</Usability>
+         <Stability>0</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+   </Features>
+</SoftwareType>

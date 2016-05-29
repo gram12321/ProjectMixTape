@@ -1,0 +1,65 @@
+!<SoftwareType>
+	<Name>Video Recorder</Name>
+	<Description>Record whatever you do, from gaming to painting, to animations, whatever.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.5</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Retention>0.7</Retention>
+	<Iterative>0.4</Iterative>
+	<Unlock>2000</Unlock>
+	<Category>Video Recorder</Category>
+	<NameGenerator>Video Recorder</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>Basic Recording</Name>
+			<Description>Just the standard recording, nothing much.</Description>
+			<Innovation>0.5</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>0.75</CodeArt>
+			<DevTime>1</DevTime>
+		</Feature>
+		<Feature Vital="True" From="Basic Recording">
+			<Name>Improved Recording</Name>
+			<Description>Nothing new, except its faster.</Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.75</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>2001</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Button Shortcuts</Name>
+			<Description>F9 to Record</Description>
+			<Innovation>1.5</Innovation>
+			<Usability>2</Usability>
+			<Stability>0.5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>1</DevTime>
+			<Unlock>2001</Unlock>
+		</Feature>
+		<Feature From="Button Shortcuts">
+			<Name>Keybinding</Name>
+			<Description>Press ESC to change your Recording button shortcut.</Description>
+			<Innovation>1.9</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>2002</Unlock>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Game Optimization</Name>
+			<Description>Now you can play games even more smoothy!</Description>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<DevTime>4</DevTime>
+			<CodeArt>0.3</CodeArt>
+			<Unlock>2003</Unlock>
+		</Feature>
+	</Features>
+</SoftwareType>

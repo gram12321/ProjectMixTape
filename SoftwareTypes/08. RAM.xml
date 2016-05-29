@@ -1,0 +1,156 @@
+<SoftwareType>
+	<Name>RAM</Name>
+	<Description>How fast your PC runs</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.9</Retention>
+	<Iterative>0.87</Iterative>
+	<Unlock>1980</Unlock>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Memory</Category>
+	<NameGenerator>RAM_NameGen</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>2MB RAM</Name>
+			<Description>Steady</Description>
+			<DevTime>6</DevTime>
+			<Unlock>1980</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="2MB RAM">
+			<Name>8MB RAM</Name>
+			<Description>Speeding Up</Description>
+			<DevTime>7</DevTime>
+			<Unlock>1983</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="8MB RAM">
+			<Name>16MB RAM</Name>
+			<Description>Faster Speeds</Description>
+			<DevTime>7</DevTime>
+			<Unlock>1985</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="16MB RAM">
+			<Name>32MB RAM</Name>
+			<Description>Blazing</Description>
+			<DevTime>7</DevTime>
+			<Unlock>1987</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="32MB RAM">
+			<Name>256MB RAM</Name>
+			<Description>Blazing</Description>
+			<DevTime>7</DevTime>
+			<Unlock>1994</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="256MB RAM">
+			<Name>512MB RAM</Name>
+			<Description>Blazing</Description>
+			<DevTime>7</DevTime>
+			<Unlock>2000</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="512MB RAM">
+			<Name>1GB RAM</Name>
+			<Description>Blazing</Description>
+			<DevTime>7</DevTime>
+			<Unlock>2004</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="1GB RAM">
+			<Name>6GB RAM</Name>
+			<Description>Blazing</Description>
+			<DevTime>7</DevTime>
+			<Unlock>2008</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="6GB RAM">
+			<Name>12GB RAM</Name>
+			<Description>Blazing</Description>
+			<DevTime>7</DevTime>
+			<Unlock>2014</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>RAM Cooling</Name>
+			<Description>Less heat</Description>
+			<DevTime>6</DevTime>
+			<Unlock>1990</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="RAM Cooling">
+			<Name>Double RAM Cooling</Name>
+			<Description>Less heat than before</Description>
+			<DevTime>7</DevTime>
+			<Unlock>1995</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="Double RAM Cooling">
+			<Name>Quad Cooling</Name>
+			<Description>Blazing</Description>
+			<DevTime>7</DevTime>
+			<Unlock>2008</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>RAM Overclocking</Name>
+			<Description>Speed em up</Description>
+			<DevTime>6</DevTime>
+			<Unlock>2006</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+		<Feature From="RAM Overclocking">
+			<Name>RAM Superclocking</Name>
+			<Description>Speed em up</Description>
+			<DevTime>6</DevTime>
+			<Unlock>2010</Unlock>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>3</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

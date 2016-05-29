@@ -1,0 +1,105 @@
+<SoftwareType>
+	<Name>Game maker</Name>
+	<Description>A program that allows the unexperienced to create games</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.65</Retention>
+	<Iterative>0.52</Iterative>
+	<Unlock>2005</Unlock>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>False</InHouse>
+	<Category>Game makers</Category>
+	<NameGenerator>Game maker</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>2D games</Name>
+			<Description>Making 2D games all the way!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Audio Tool">Audio playback</Dependency>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+		</Feature>
+		<Feature>
+			<Name>3D games</Name>
+			<Description>Lets add a new dimension!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Unlock>2005</Unlock>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="3D Editor">Vertex editing</Dependency>
+			<Dependency Software="Operating System">3D rendering</Dependency>
+			<Dependency Software="Game maker">2D games</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Multiplayer</Name>
+			<Description>Now people can make multiplayer games</Description>
+			<DevTime>5</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>10</Usability>
+			<Stability>10</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.005</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>physics</Name>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<Unlock>2007</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">64-bit</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Music</Name>
+			<Description>Just no dubstep, please!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>3</Stability>
+			<Usability>4</Usability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Audio Tool">Music editor</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Market</Name>
+			<Description>Online place were people sell their creation</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<Unlock>2010</Unlock>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Open world</Name>
+			<Description>Allow users to create massive worlds</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<Unlock>2005</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">64-bit</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Online multiplayer</Name>
+			<Description>Now people can make multiplayer games but play with people all around the world</Description>
+			<DevTime>5</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>10</Usability>
+			<Stability>10</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2010</Unlock>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Game maker">Multiplayer</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,38 @@
+<SoftwareType>
+	<Name>Network Driver</Name>
+	<Description>A driver for the network card</Description>
+	<Category>Technology</Category>
+	<Unlock>1985</Unlock>
+	<Random>0</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.9</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>DriverGenerator</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>IP</Name>
+			<Description>Handles base communication</Description>
+			<Category>Network</Category>
+			<Unlock>1985</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Protocols</Name>
+			<Description>Extended communication functionality</Description>
+			<Category>Network</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

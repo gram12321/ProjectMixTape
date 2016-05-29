@@ -1,0 +1,95 @@
+<SoftwareType>
+	<Name>Artificial Intelligence</Name>
+	<Description>Brains for computers</Description>
+	<Category>Robotics</Category>
+	<Unlock>2000</Unlock>
+	<Random>0.2</Random>
+	<Popularity>0.2</Popularity>
+	<Retention>0.4</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>EngineGenerator</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Logic Algorithm</Name>
+			<Description>Simulates intelligent behavior</Description>
+			<Category>Robotics</Category>
+			<DevTime>12</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Programming Language">Advanced Syntax</Dependency>
+		</Feature>
+		<Feature From="Logic Algorithm">
+			<Name>Self learning</Name>
+			<Unlock>2005</Unlock>
+			<Description>This is the most important thing for true intelligence</Description>
+			<Category>Robotics</Category>
+			<DevTime>24</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Rule Engine">Fast processing</Dependency>
+		</Feature>
+		<Feature From="Self learning">
+			<Name>Distributed intelligence</Name>
+			<Description>Enables a much more complex behavior</Description>
+			<Unlock>2010</Unlock>
+			<Category>Robotics</Category>
+			<DevTime>36</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Rule Engine">Clustered knowledge</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Statistical Analysis</Name>
+			<Category>System</Category>
+			<Description>Analyse all the numbers</Description>
+			<CodeArt>1</CodeArt>
+			<DevTime>0.3</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>12</Usability>
+			<Stability>9</Stability>
+			<Dependency Software="Artificial Intelligence">Logic Algorithm</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Statistical Prediction</Name>
+			<Category>System</Category>
+			<Description>It knows numbers before you do</Description>
+			<CodeArt>1</CodeArt>
+			<DevTime>0.9</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>12</Usability>
+			<Stability>9</Stability>
+			<Dependency Software="Artificial Intelligence">Self learning</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Image Recognition</Name>
+			<Category>System</Category>
+			<Description>It understands images</Description>
+			<CodeArt>1</CodeArt>
+			<DevTime>0.6</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<Dependency Software="Artificial Intelligence">Self learning</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Facial Recognition</Name>
+			<Category>System</Category>
+			<Description>It understands faces</Description>
+			<CodeArt>1</CodeArt>
+			<DevTime>0.6</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>12</Usability>
+			<Stability>6</Stability>
+			<Dependency Software="Artificial Intelligence">Distributed intelligence</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

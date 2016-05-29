@@ -1,0 +1,96 @@
+<SoftwareType>
+	<Name>Music Service</Name>
+	<Description>Like Deezer</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.78</Retention>
+	<Iterative>0.67</Iterative>
+	<Unlock>2005</Unlock>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>2005</Unlock>
+	<Server>0.005</Server>
+	<Category>Music Service</Category>
+	<NameGenerator>Music Service</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>Music libary</Name>
+			<Description>The absolute minimum for a music service</Description>
+			<DevTime>2</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Audio Tool">Audio playback</Dependency>
+		</Feature>
+		<Feature>
+			<Name>playlists</Name>
+			<Description>Allow your user to make lists of songs</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>queue</Name>
+			<Description>Songs not good enough for a playlist buuut you still wonna listen to them</Description>
+			<DevTime>5</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>10</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Music Service">playlists</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Album covers</Name>
+			<Description>For people who have photographic memory</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<CodeArt>1</CodeArt>
+			<Category></Category>
+		</Feature>
+		<Feature>
+			<Name>Public playlists</Name>
+			<Description>Have the option to allow people to see a playlist</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>3</Stability>
+			<Usability>4</Usability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Music Service">playlists</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Download song and albums</Name>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Music Videos</Name>
+			<Description>Watch and listen</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Stability>12</Stability>
+			<Usability>7</Usability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>HD audio streaming</Name>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Stability>6</Stability>
+			<Usability>7</Usability>
+			<Unlock>2010</Unlock>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Operating System">HD audio</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

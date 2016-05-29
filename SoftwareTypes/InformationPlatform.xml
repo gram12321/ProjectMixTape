@@ -1,0 +1,46 @@
+<SoftwareType>
+	<Name>Information Platform</Name>
+	<Category>Internet</Category>
+	<Description></Description>
+	<Unlock>2000</Unlock>
+	<Random>0.2</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.7</Retention>
+	<Iterative>1</Iterative>
+	<NameGenerator>FrameworkGenerator</NameGenerator>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Information services</Name>
+			<Description>Provides information through internet</Description>
+			<DevTime>16</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>5</Server>
+		</Feature>
+		<Feature>
+			<Name>Querying</Name>
+			<Description>Makes it a lot easier to find information</Description>
+			<DevTime>8</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>6</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Search agents</Name>
+			<Category>Network</Category>
+			<Description>Automatic information growth</Description>
+			<DevTime>8</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.5</Server>
+		</Feature>
+	</Features>
+</SoftwareType>

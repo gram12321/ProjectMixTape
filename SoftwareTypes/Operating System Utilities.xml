@@ -1,0 +1,110 @@
+<SoftwareType>
+	<Name>OS Utilities</Name>
+	<Unlock>2005</Unlock>
+	<Description>A standard set of utilities that users can purchese for their operating system. Includes things like native printer support, IM platform, and PDF reader.</Description>
+	<Random>0.1</Random>
+	<Popularity>0.7</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<Retention>0.4</Retention>
+	<Iterative>0.6</Iterative>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Software Development</Category>
+	<NameGenerator>utilitiesgen</NameGenerator>
+	<Features>
+		<Feature>
+			<Name>Printer Support</Name>
+			<Description>By utilizing a server, your company can create a repository of printer drivers with companion software so users can quickly install and operate their printer.</Description>
+			<Unlocks>2010</Unlocks>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0006</Server>
+            <Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>PDF Reader</Name>
+			<Description>A basic PDF viewer.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+         <Name>Device Manager</Name>
+         <Description>Analyzes current hardware and reports to the user.</Description>
+         <DevTime>4</DevTime>
+         <Innovation>0</Innovation>
+         <Usability>2</Usability>
+         <Stability>3</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Instant Messenger</Name>
+         <Description>A simple way to communicate with others through the internet.</Description>
+         <DevTime>3</DevTime>
+         <Innovation>1</Innovation>
+         <Usability>2</Usability>
+         <Stability>2</Stability>
+         <CodeArt>1</CodeArt>
+         <Server>0.0009</Server>
+         <Dependency Software="Operating System">Networking</Dependency>
+      </Feature>
+      <Feature>
+         <Name>File System</Name>
+         <Description>A file directory for the user to both view and edit system/personal files.</Description>
+         <DevTime>5</DevTime>
+         <Innovation>1</Innovation>
+         <Usability>2</Usability>
+         <Stability>2</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Compression Manager</Name>
+         <Description>Open, edit, and create compressed files in various formats.</Description>
+         <Unlocks>2008</Unlocks>
+         <DevTime>3</DevTime>
+         <Innovation>2</Innovation>
+         <Usability>1</Usability>
+         <Stability>1</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Remote Desktop Connector</Name>
+         <Description>Allows user to access and operate a computer elsewhere through local or internet connection.</Description>
+         <Unlocks>2012</Unlocks>
+         <DevTime>6</DevTime>
+         <Innovation>4</Innovation>
+         <Usability>3</Usability>
+         <Stability>1</Stability>
+         <CodeArt>1</CodeArt>
+         <Dependency Software="Operating System">Networking</Dependency>
+      </Feature>
+      <Feature>
+         <Name>System Defrag and Cleanup</Name>
+         <Description>A set of programs that defragment and clean the system storage to increase speed.</Description>
+         <Unlocks>2009</Unlocks>
+         <DevTime>5</DevTime>
+         <Innovation>3</Innovation>
+         <Usability>3</Usability>
+         <Stability>1</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Media Player</Name>
+         <Description>Plays media like audio and video files. Native support for operating system file extensions is a must.</Description>
+         <Unlocks>2007</Unlocks>
+         <DevTime>5</DevTime>
+         <Innovation>4</Innovation>
+         <Usability>3</Usability>
+         <Stability>2</Stability>
+         <CodeArt>1</CodeArt>
+         <Dependency Software="Operating System">GUI</Dependency>
+         <Dependency Software="Operating System">HD audio</Dependency>
+      </Feature>
+   </Features>
+</SoftwareType>

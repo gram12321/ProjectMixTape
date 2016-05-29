@@ -1,0 +1,108 @@
+<SoftwareType>
+	<Name>Internet Client App</Name>
+	<Category>Networking</Category>
+	<Description>Applications for end-users to use on the internet to do stuff and things</Description>
+	<Random>0.1</Random> 
+    <Retention>0.8</Retention>
+    <Iterative>1</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Unlock>1985</Unlock>
+    <Categories>
+        <Category Name="SSH">
+            <Description>For all your secure remote access needs</Description>
+            <Popularity>0.2</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>1</Iterative>
+            <TimeScale>1</TimeScale>
+            <NameGenerator>ssh</NameGenerator>
+        </Category>
+		<Category Name="File Transfer Client">
+            <Description>For all your remote file access and storage needs, or probably some</Description>
+            <Popularity>0.4</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>1</Iterative>
+            <TimeScale>1</TimeScale>
+            <NameGenerator>filetransfer</NameGenerator>
+        </Category>
+    </Categories>
+    <Features>
+        <Feature Forced="True">
+            <Name>CLI</Name>
+            <Description>Such very much typing</Description>
+            <DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="SSH">0</SoftwareCategory>
+			<SoftwareCategory Category="File Transfer Client">0</SoftwareCategory>
+            <Dependency Software="Operating System">Terminal</Dependency>
+        </Feature>
+		<Feature From="CLI">
+            <Name>GUI</Name>
+            <Category>2D</Category>
+            <Description>So many click</Description>
+            <DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability> 
+			<CodeArt>0.6</CodeArt>
+			<SoftwareCategory Category="SSH">0</SoftwareCategory>
+			<SoftwareCategory Category="File Transfer Client">0</SoftwareCategory>
+            <Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="Internet Client App">CLI</Dependency>
+        </Feature>
+		<Feature Forced="True">
+            <Name>Shell Interface</Name>
+            <Category>Network</Category>
+            <Description>The interface between the user and the remote operating system</Description>
+            <DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="SSH">0</SoftwareCategory>
+            <Dependency Software="Operating System">Terminal</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+        </Feature>
+		<Feature Forced="True">
+            <Name>Encryption</Name>
+            <Description>Making things more secure since... well, to be honest we're not sure when, the info is encrypted and the government stole the key</Description>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="SSH">1980</SoftwareCategory>
+			<Dependency Software="Database">User-Defined Functions</Dependency>
+        </Feature>
+		<Feature Forced="True">
+            <Name>FTP</Name>
+            <Category>Network</Category>
+            <Description>Enabling file transfers insecurely</Description>
+            <DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="File Transfer Client">0</SoftwareCategory>
+            <Dependency Software="Operating System">Networking</Dependency>
+        </Feature>
+		<Feature From="FTP">
+            <Name>SCP</Name>
+            <Category>Network</Category>
+            <Description>Yay more secure file transfers</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="File Transfer Client">0</SoftwareCategory>
+            <Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Internet Client App">FTP</Dependency>
+        </Feature>
+    </Features>
+</SoftwareType>

@@ -1,0 +1,81 @@
+<SoftwareType>
+	<Name>Server Storage</Name>
+	<Description>Storage on the Cloud</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.93</Retention>
+	<Iterative>0.34</Iterative>
+	<Unlock>2010</Unlock>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Cloud Storage</Category>
+	<NameGenerator>Server Storage</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>512 MB</Name>
+			<Description>512 MB of storage</Description>
+			<DevTime>2</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.005</Server>
+		</Feature>
+		<Feature>
+			<Name>16 GB</Name>
+			<Description>16 GB of storage</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<Unlock>2005</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Server Storage">512 MB</Dependency>
+		</Feature>
+		<Feature>
+			<Name>32 GB</Name>
+			<Description>32 GB of storage</Description>
+			<DevTime>5</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>10</Usability>
+			<Unlock>2007</Unlock>
+			<Stability>10</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Server Storage">16 GB</Dependency>
+		</Feature>
+		<Feature>
+			<Name>1 TB</Name>
+			<Description>1 TB of storage</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Usability>8</Usability>
+			<Unlock>2010</Unlock>
+			<CodeArt>1</CodeArt>
+			<Server>0.005</Server>
+			<Dependency Software="Server Storage">32 GB</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Virus checker</Name>
+			<Description>All files </Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>3</Stability>
+			<Usability>4</Usability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Antivirus">Background scan</Dependency>
+			<Dependency Software="Antivirus">File scan</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Encrypted storage</Name>
+			<Description>Ultimate file protection</Description>
+			<DevTime>6</DevTime>
+			<Innovation>7</Innovation>
+			<Stability>7</Stability>
+			<Unlock>2004</Unlock>
+			<Usability>8</Usability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

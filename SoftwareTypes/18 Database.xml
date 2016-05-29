@@ -1,0 +1,104 @@
+<SoftwareType>
+	<Name>Database</Name>
+	<Category>Databases</Category>
+	<Description>All your data are base for us</Description>
+	<Random>0.35</Random>
+	<Popularity>0.1</Popularity>    
+    <Retention>0.75</Retention>
+    <Iterative>1</Iterative>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>database</NameGenerator>
+    <Features>
+        <Feature Forced="True">
+            <Name>CLI</Name>
+            <Description>Everything via command-line. Laborious "fun".</Description>
+            <DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>            
+			<CodeArt>1</CodeArt>
+        </Feature>
+		<Feature From="CLI">
+            <Name>GUI</Name>
+            <Category>2D</Category>
+            <Description>Everything not on the command line, which really is a relief with databases</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>            
+			<CodeArt>0.6</CodeArt>
+			<Unlock>1975</Unlock>
+			<Dependency Software="Database">CLI</Dependency>
+        </Feature>
+		<Feature Forced="True">
+            <Name>Databases</Name>
+            <Description>Vital to literally everything that matters</Description>
+            <DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>            
+			<CodeArt>1</CodeArt>
+        </Feature>
+		<Feature Forced="True">
+            <Name>Search</Name>
+            <Description>For finding specific types of things and stuff</Description>
+            <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>            
+			<CodeArt>1</CodeArt>
+        </Feature>
+		<Feature Vital="True">
+            <Name>Statistics</Name>
+            <Description>You cannot understand data without analysing data</Description>
+            <DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>            
+			<CodeArt>1</CodeArt>
+			<Unlock>1975</Unlock>
+        </Feature>
+		<Feature>
+            <Name>Event Notification</Name>
+            <Description>You need to know when numbers change? This tells you numbers have changed</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>            
+			<CodeArt>1</CodeArt>
+        </Feature>
+		<Feature Vital="True">
+            <Name>Table Compression</Name>
+            <Description>For when you like some numbers very small</Description>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>            
+			<CodeArt>1</CodeArt>
+			<Unlock>1986</Unlock>
+        </Feature>
+		<Feature>
+            <Name>User-Defined Functions</Name>
+            <Description>For making numbers into other numbers in ways that the developer didn't foresee</Description>
+            <DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>           
+			<CodeArt>1</CodeArt>
+			<Unlock>1976</Unlock>
+        </Feature>
+		<Feature>
+			<Name>Advanced Searches</Name>
+			<Description>Finds pictures and can do face recognition</Description>
+			<DevTime>6</DevTime>
+			<Innovation>9</Innovation>
+			<Stability>3</Stability>
+			<Usability>3</Usability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2005</Unlock>
+			<Dependency Software="Database">Search</Dependency>
+		</Feature>
+    </Features>
+</SoftwareType>

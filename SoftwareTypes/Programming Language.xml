@@ -1,0 +1,105 @@
+<SoftwareType>
+	<Name>Programming Language</Name>
+	<Description>A legible way to communicate to a machine</Description>
+	<Category>Computing</Category>
+	<Unlock>1975</Unlock>
+	<Random>0.25</Random>
+	<Retention>0.9</Retention>
+	<Iterative>0.1</Iterative>
+	<Popularity>0.25</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>language</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Syntax</Name>
+			<Description>A language must be readable to understand</Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Functions</Name>
+			<Description>Construct for using code without repeating</Description>
+			<Unlock>1985</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Object Orientation</Name>
+			<Description>Objects keep complex tasks simple</Description>
+			<Category>System</Category>
+			<Unlock>1990</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Programming Language">Functions</Dependency>
+		</Feature>
+		<Feature From="Syntax">
+			<Name>Advanced Syntax</Name>
+			<Description>Helps to maintain software development</Description>
+			<Category>Engineering</Category>
+			<Unlock>1990</Unlock>
+			<DevTime>10</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Code Reflection</Name>
+			<Description>Makes your language self describing and more dynamic</Description>
+			<Category>Engineering</Category>
+			<Unlock>1995</Unlock>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Programming Language">Object Orientation</Dependency>
+		</Feature>
+		<Feature>
+			<Name>IDE</Name>
+			<Description>A virtual workspace to streamline programming process.</Description>
+			<Unlock>2000</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.3</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Generics</Name>
+			<Description>Generic objects make complex things even simpler</Description>
+			<Category>System</Category>
+			<Unlock>1995</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Programming Language">Object Orientation</Dependency>
+		</Feature>
+		<Feature From="Advanced Syntax">
+			<Name>Visual Programming</Name>
+			<Description>Describe code using diagrams instead of signs</Description>
+			<Category>3D</Category>
+			<Unlock>2020</Unlock>
+			<DevTime>14</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Programming Language">Functions</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,90 @@
+<SoftwareType>
+	<Name>Robot</Name>
+	<Category>Robotics</Category>
+	<Description>Cool robots that can be programmed to do pretty much anything.</Description>
+	<Random>0.5</Random>
+	<Unlock>2000</Unlock>
+	<Categories>
+		<Category Name="CleanerBot">
+			<Description>Equipped with a mop and a bucket of water.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.5</Iterative>
+			<NameGenerator>ClBot</NameGenerator>
+		</Category>
+		<Category Name="DancerBot">
+			<Description>It's boogie time!</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>0.6</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.3</Iterative>
+			<NameGenerator>DaBot</NameGenerator>
+		</Category>
+		<Category Name="FighterBot">
+			<Description>Mini robots for bot battles.</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.6</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.5</Iterative>
+			<NameGenerator>FiBot</NameGenerator>
+		</Category>
+		<Category Name="PetBot">
+			<Description>Adorable little robot pets.</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.4</Iterative>
+			<NameGenerator>PeBot</NameGenerator>
+		</Category>
+		<Category Name="Drone">
+			<Description>For flying around by remote control. Only for outdoors.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.6</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.5</Iterative>
+			<NameGenerator>Drone</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Basic Robotics</Name>
+			<Description></Description>
+			<Category>Robotics</Category>
+			<DevTime>12</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2000</Unlock>
+			<Server>0.001</Server>
+		</Feature>
+		<Feature From="Basic Robotics">
+			<Name>Standard Robotics</Name>
+			<Description></Description>
+			<Category>Robotics</Category>
+			<DevTime>24</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2005</Unlock>
+			<Server>0.002</Server>
+		</Feature>
+		<Feature From="Standard Robotics">
+			<Name>Advanced Robotics</Name>
+			<Description></Description>
+			<Category>Robotics</Category>
+			<DevTime>36</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2010</Unlock>
+ 			<Server>0.003</Server>
+		</Feature>
+	</Features>
+</SoftwareType>

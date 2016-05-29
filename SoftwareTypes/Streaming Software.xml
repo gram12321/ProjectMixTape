@@ -1,0 +1,129 @@
+<SoftwareType>
+	<Name>Streaming Software</Name>
+	<Description>LIVE on LiveTV!</Description>
+	<Random>0.3</Random>
+	<Popularity>0.2</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Retention>0.29</Retention>
+	<Iterative>0.4</Iterative>
+	<Unlock>1990</Unlock>
+	<Category>Streaming Software</Category>
+	<NameGenerator>streamingsoftware</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>Basic Streaming</Name>
+			<Description>Basic stuff</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1990</Unlock>
+		</Feature>
+		<Feature Forced="True">
+			<Name>Horrible Quality</Name>
+			<Description>144p, ew</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0</CodeArt>
+			<Unlock>1990</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Donate-in-Stream</Name>
+			<Description>DONATION: 10$ To Griffindor!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1991</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Text-in-Stream</Name>
+			<Description>Blah blah blah</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Unlock>1991</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Music-in-Stream</Name>
+			<Description>Please don't stop the music!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Unlock>1992</Unlock>
+		</Feature>
+		<Feature From="Horrible Quality" Vital="True">
+			<Name>Moderate Quality</Name>
+			<Description>480p</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0</CodeArt>
+			<Unlock>1992</Unlock>
+		</Feature>
+		<Feature From="Basic Streaming" Vital="True">
+			<Name>Advanced Streaming</Name>
+			<Description>Yay, everything's better!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>1993</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Stream Overlay</Name>
+			<Description>Song playing: ** -- Salty Stream -- Latest Donation: **</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>1993</Unlock>
+			<Dependency Software="Streaming Software">Text-in-Stream</Dependency>
+			<Dependency Software="Streaming Software">Music-in-Stream</Dependency>
+			<Dependency Software="Streaming Software">Donate-in-Stream</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Pictures</Name>
+			<Description>Letting users add pictures</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.9</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Scenes</Name>
+			<Description>Allows users to switch scenes with different objects on</Description>
+			<DevTime>3</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Category>Audio</Category>
+		</Feature>
+		<Feature>
+			<Name>Sound recorder</Name>
+			<Description>Record any sound on your computer</Description>
+			<DevTime>2</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Audio Tool">Audio playback</Dependency>
+			<Category>Audio</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

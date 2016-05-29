@@ -1,0 +1,273 @@
+<SoftwareType>
+	<Name>Console</Name>
+	<Unlock>1990</Unlock>
+	<Description>Consoles are a great way to make some money off the ones less fortunate to own a PC.</Description>
+	<Random>0.4</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.7</Retention>
+	<Iterative>0.6</Iterative>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Console</Category>
+	<NameGenerator>consolegen</NameGenerator>
+	<Features>
+			<Feature Forced="TRUE">
+				<Name>GUI</Name>
+				<Description>Make it easy for users to use the console.</Description>
+				<Category>2D</Category>
+				<DevTime>6</DevTime>
+				<Innovation>2</Innovation>
+				<Usability>1</Usability>
+				<Stability>2</Stability>
+				<CodeArt>0.3</CodeArt>
+			</Feature>
+			<Feature From="GUI">
+				<Name>3D GUI</Name>
+				<Description>More Complex GUI that looks stunning and more futuristic.</Description>
+				<Unlock>2005</Unlock>
+				<Category>3D</Category>
+				<DevTime>6</DevTime>
+				<Innovation>3</Innovation>
+				<Usability>2</Usability>
+				<Stability>3</Stability>
+				<CodeArt>0.3</CodeArt>
+				<Dependency Software="Console">Improved GPU</Dependency>
+			</Feature>
+			<Feature From="3D GUI">
+				<Name>2K GUI</Name>
+				<Description>2K GUI for that crisp look.</Description>
+				<Unlock>2015</Unlock>
+				<Category>2K</Category>
+				<DevTime>6</DevTime>
+				<Innovation>5</Innovation>
+				<Usability>3</Usability>
+				<Stability>4</Stability>
+				<CodeArt>0.3</CodeArt>
+				<Dependency Software="Console">SLI Multi GPUs</Dependency>
+				<Dependency Software="Console">Multi CPUs</Dependency>
+			</Feature>
+			<Feature From="2K GUI">
+				<Name>4K GUI</Name>
+				<Description>4K GUI for all your graphical requirments.</Description>
+				<Unlock>2020</Unlock>
+				<Category>4K</Category>
+				<DevTime>7</DevTime>
+				<Innovation>6</Innovation>
+				<Usability>5</Usability>
+				<Stability>5</Stability>
+				<CodeArt>0.3</CodeArt>
+				<Dependency Software="Console">SLI Multi GPUs</Dependency>
+				<Dependency Software="Console">Multi CPUs</Dependency>
+			</Feature>						
+			<Feature Forced="TRUE">
+				<Name>CPU</Name>
+				<Description>Add a CPU to the console to make it work.</Description>
+				<Category>Hardware</Category>
+				<DevTime>5</DevTime>
+				<Innovation>3</Innovation>
+				<Usability>1</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="CPU Driver">Calculation</Dependency>
+			</Feature>
+			<Feature From="CPU">
+				<Name>Multi Thread CPU</Name>
+				<Description>Add a Multi Thread CPU to your console for powerful processing power.</Description>
+				<Unlock>2000</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>6</DevTime>
+				<Innovation>4</Innovation>
+				<Usability>3</Usability>
+				<Stability>3</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="CPU Driver">Parallel</Dependency>
+			</Feature>
+			<Feature From="Multi Thread CPU">
+				<Name>Multi CPUs</Name>
+				<Description>Make your console the fastest it can be with multiple CPU's in one console.</Description>
+				<Unlock>2015</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>8</DevTime>
+				<Innovation>5</Innovation>
+				<Usability>4</Usability>
+				<Stability>4</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="CPU Driver">64-bit support</Dependency>
+			</Feature>
+			<Feature Vital="TRUE">
+				<Name>Memory Card</Name>
+				<Description>Allow users to save their games with ease.</Description>
+				<Category>Hardware</Category>
+				<DevTime>6</DevTime>
+				<Innovation>4</Innovation>
+				<Usability>3</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+			</Feature>
+			<Feature From="Memory Card">
+				<Name>Hard Disk Drive</Name>
+				<Description>Include a place to store your saves on.</Description>
+				<Unlock>2000</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>6</DevTime>
+				<Innovation>3</Innovation>
+				<Usability>3</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Storage">Platters</Dependency>
+			</Feature>
+			<Feature From="Hard Disk Drive">
+				<Name>Solid State Drive</Name>
+				<Description>Faster than the Hard Drive and 100 times better than the Memory cards.</Description>
+				<Unlock>2010</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>6</DevTime>
+				<Innovation>5</Innovation>
+				<Usability>3</Usability>
+				<Stability>3</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Storage">SATA 6G</Dependency>
+			</Feature>
+			<Feature From="Solid State Drive">
+				<Name>Singularity Drive</Name>
+				<Description>Singularity Drive is the biggest storage available to consoles.</Description>
+				<Unlock>2020</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>8</DevTime>
+				<Innovation>6</Innovation>
+				<Usability>5</Usability>
+				<Stability>3</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Storage">PMR</Dependency>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>GPU</Name>
+				<Description>Add a Graphical Processing Unit to your console to make rendering easier.</Description>
+				<Category>Hardware</Category>
+				<DevTime>5</DevTime>
+				<Innovation>3</Innovation>
+				<Usability>3</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="GPU Driver">Controlling</Dependency>
+			</Feature>
+			<Feature From="GPU">
+				<Name>Improved GPU</Name>
+				<Description>Quicker Rendering times means less load times, why not add the Improved GPU.</Description>
+				<Unlock>2005</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>6</DevTime>
+				<Innovation>4</Innovation>
+				<Usability>3</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="GPU Driver">Rendering</Dependency>
+			</Feature>
+			<Feature From="Improved GPU">
+				<Name>SLI Multi GPUs</Name>
+				<Description>Turn your console to a powerhouse with advanced rendering techniques and more calculations per second.</Description>
+				<Unlock>2015</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>7</DevTime>
+				<Innovation>2</Innovation>
+				<Usability>3</Usability>
+				<Stability>3</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="GPU Driver">3D Support</Dependency>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>Fan Cooling</Name>
+				<Description>all that hardware can get hot, why not cool it?</Description>
+				<Category>Hardware</Category>
+				<DevTime>5</DevTime>
+				<Innovation>2</Innovation>
+				<Usability>1</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Motherboard">Fan Control</Dependency>
+			</Feature>
+			<Feature From="Fan Cooling">
+				<Name>Water Cooling</Name>
+				<Description>Cool everything with water. It is a good idea to mix water and electronics trust me, I'm an expert.</Description>
+				<Unlock>2010</Unlock>
+				<Category>Hardware</Category>
+				<DevTime>5</DevTime>
+				<Innovation>3</Innovation>
+				<Usability>1</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Motherboard">Water Cooling</Dependency>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>Case</Name>
+				<Description>Why not house all of this hardware in a simplistic case that also looks good.</Description>
+				<Category>Hardware</Category>
+				<DevTime>4</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>3</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Case">Front Panel</Dependency>
+				<Dependency Software="Case">Side Panels</Dependency>
+				<Dependency Software="Case">Rear Panel</Dependency>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>Controllers</Name>
+				<Description>Allow users to use controllers to use the system.</Description>
+				<Category>Hardware</Category>
+				<DevTime>6</DevTime>
+				<Innovation>3</Innovation>
+				<Usability>3</Usability>
+				<Stability>2</Stability>
+				<CodeArt>1</CodeArt>
+			</Feature>
+			<Feature Vital="TRUE">
+				<Name>Internet Connection</Name>
+				<Description>Let your console connect to the internet.</Description>
+				<Unlock>2005</Unlock>
+				<Category>Network</Category>
+				<DevTime>5</DevTime>
+				<Innovation>3</Innovation>
+				<Usability>2</Usability>
+				<Stability>3</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Internet Connection">Wireless Router</Dependency>
+			</Feature>
+			<Feature Vital="TRUE">
+				<Name>Automatic Updates</Name>
+				<Description>Update your console to keep it working without any bugs.</Description>
+				<Unlock>2005</Unlock>
+				<Category>Network</Category>
+				<DevTime>6</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>6</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Console">Internet Connection</Dependency>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>Audio Playback</Name>
+				<Description>Allow your system to play audio.</Description>
+				<Category>Audio</Category>
+				<DevTime>6</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>3</Usability>
+				<Stability>2</Stability>
+				<CodeArt>0.7</CodeArt>
+				<Dependency Software="Audio Card Driver">8-bit support</Dependency>
+			</Feature>
+			<Feature From="Audio Playback">
+				<Name>HD Audio Playback</Name>
+				<Description>HD Audio Playback will make gaming even better.</Description>
+				<Unlock>2010</Unlock>
+				<Category>Audio</Category>
+				<DevTime>7</DevTime>
+				<Innovation>2</Innovation>
+				<Usability>4</Usability>
+				<Stability>3</Stability>
+				<CodeArt>0.7</CodeArt>
+				<Dependency Software="Audio Card Driver">HD support</Dependency>
+			</Feature>
+	</Features>
+<SoftwareType>

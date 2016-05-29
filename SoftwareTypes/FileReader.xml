@@ -1,0 +1,47 @@
+<SoftwareType>
+	<Name>File Reader</Name>
+	<Category>Coding</Category>
+	<Description>Open any file with this handy software.</Description>
+	<Random>0.6</Random>
+	<Popularity>0.78</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>0.53</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>FileReader</NameGenerator>
+	<Features>
+		<Feature Forced="True">
+			<Name>Reader Support</Name>
+			<Description>You need to have this in order to have a decent File Reader, it is the support, so do not doubt its abilities.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">Text input system</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Editor</Name>
+			<Description>Now can you not only look at your files, you can edit them!</Description>
+			<Category>Files</Category>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="File Reader">Reader Support</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Downloader</Name>
+			<Description>Now you can download all of your changes!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>15</Server>
+			<Dependency Software="File Reader">Reader Support</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

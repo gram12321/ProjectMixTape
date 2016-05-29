@@ -1,0 +1,146 @@
+<SoftwareType>
+	<Name>Home User Application</Name>
+	<Category>Home Computing</Category>
+	<Description>Small applications that do useful things for the home user</Description>
+	<Random>0.1</Random> 
+    <Retention>0.8</Retention>
+    <Iterative>1</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+    <Categories>
+        <Category Name="File Archiver">
+            <Description>For all your secure remote access needs</Description>
+			<Unlock>1980</Unlock>
+            <Popularity>0.3</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>1</Iterative>
+            <TimeScale>1</TimeScale>
+            <NameGenerator>archiver</NameGenerator>
+			<Dependency Software="Database">Databases</Dependency>
+        </Category>
+		<Category Name="File Commander">
+            <Description>For all your file sorting needs</Description>
+			<Unlock>1980</Unlock>
+            <Popularity>0.4</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>1</Iterative>
+            <TimeScale>1</TimeScale>
+            <NameGenerator>filecommander</NameGenerator>
+        </Category>
+		<Category Name="Task Manager">
+            <Description>For killing processes in a fashion fractionally superior to whatever your OS lets you do</Description>
+			<Unlock>1995</Unlock>
+            <Popularity>0.3</Popularity>
+			<Retention>0.9</Retention>
+			<Iterative>1</Iterative>
+            <TimeScale>0.5</TimeScale>
+            <NameGenerator>taskmanager</NameGenerator>
+        </Category>
+    </Categories>
+    <Features>
+        <Feature Forced="True">
+            <Name>CLI</Name>
+            <Description>Such very much typing</Description>
+            <DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+        </Feature>
+		<Feature From="CLI">
+            <Name>GUI</Name>
+            <Category>2D</Category>
+            <Description>So many click</Description>
+            <DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability> 
+			<CodeArt>0.6</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="Home User Application">CLI</Dependency>
+        </Feature>
+		<Feature Forced="True">
+            <Name>File Management</Name>
+            <Description>For managing files</Description>
+            <DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="File Archiver">0</SoftwareCategory>
+			<SoftwareCategory Category="File Commander">0</SoftwareCategory>
+			<Dependency Software="Database">Statistics</Dependency>
+        </Feature>
+		<Feature Forced="True">
+            <Name>Compression</Name>
+            <Description>For files, the opposite of obesity</Description>
+            <DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="File Archiver">0</SoftwareCategory>
+			<Dependency Software="Database">Statistics</Dependency>
+        </Feature>
+		<Feature Forced="True">
+            <Name>Task Management</Name>
+            <Description>Without this, a Task Manager has pretty much the same utility as a steak knife to a lion</Description>
+            <DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Task Manager">0</SoftwareCategory>
+            <Dependency Software="Database">Statistics</Dependency>
+        </Feature>
+		<Feature>
+			<Name>Process Management</Name>
+            <Description>Without this, a Task Manager has pretty much the same utility as a steak knife to a lion</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Task Manager">2005</SoftwareCategory>
+            <Dependency Software="Home User Application">Task Management</Dependency>
+        </Feature>
+		<Feature>
+			<Name>Network Management</Name>
+            <Description>Without this, a Task Manager has pretty much the same utility as a steak knife to a lion</Description>
+            <DevTime>3</DevTime>
+			<Category>Network</Category>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Task Manager">2007</SoftwareCategory>
+            <Dependency Software="Home User Application">Task Management</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+        </Feature>
+		<Feature>
+			<Name>Disk Management</Name>
+            <Description>Without this, a Task Manager has pretty much the same utility as a steak knife to a lion</Description>
+            <DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Task Manager">2003</SoftwareCategory>
+            <Dependency Software="Home User Application">Task Management</Dependency>
+        </Feature>
+		<Feature>
+			<Name>Clean Your Files!</Name>
+            <Description>Both utterly useless and utterly useful. It depends who you ask, doesn't it?</Description>
+            <DevTime>9</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Task Manager">2010</SoftwareCategory>
+            <Dependency Software="Home User Application">Task Management</Dependency>
+        </Feature>
+    </Features>
+</SoftwareType>

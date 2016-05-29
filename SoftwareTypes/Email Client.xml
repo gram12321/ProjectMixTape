@@ -1,0 +1,154 @@
+<SoftwareType>
+	<Name>Email Client</Name>
+	<Description>Message people everywhere!</Description>
+	<Random>0.1</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.67</Retention>
+	<Iterative>0.47</Iterative>
+	<Unlock>1990</Unlock>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Server>0.005</Server>
+	<Category>Email Services</Category>
+	<NameGenerator>Email Service</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>Inbox</Name>
+			<Description>The absolute minimum for an email service</Description>
+			<DevTime>2</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Settings</Name>
+			<Description>Allow your user to personalize their email client</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Virus checker</Name>
+			<Description>A safety measure</Description>
+			<DevTime>2</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>4</Usability>
+			<Stability>8</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1995</Unlock>
+			<Dependency Software="Antivirus">Mail scan</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Attachments</Name>
+			<Description>To allow people to send cat pictures to each other</Description>
+			<DevTime>2</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>4</Usability>
+			<Stability>8</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2000</Unlock>
+			<Dependency Software="2D Editor">Image compression</Dependency>
+		</Feature>
+		<Feature Research="Virus checker" Vital="TRUE">
+			<Name>Spam Filter</Name>
+			<Description>No more scams, advertisements and just annoying emails</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1995</Unlock>
+		</Feature>
+		<Feature From="Inbox">
+			<Name>Multiple Inboxs</Name>
+			<Description>Sorts your inbox into different categories</Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>8</Usability>
+			<Stability>9</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1995</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Drafts</Name>
+			<Description>Saves emails before you send them</Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>8</Usability>
+			<Stability>9</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1995</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Preview</Name>
+			<Description>Allow the user to see a preview of the attachment</Description>
+			<DevTime>4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>8</Usability>
+			<Stability>9</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1995</Unlock>
+			<Dependency Software="Email Client">Attachments</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Encryption</Name>
+			<Description>For really confidential stuff</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Forced="True">
+			<Name>Simple user interface</Name>
+			<Description>Provides a basic view to work with</Description>
+			<Category>2D</Category>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature From="Simple user interface">
+			<Name>Nice user interface</Name>
+			<Description>Provides fancy views to work with</Description>
+			<Category>3D</Category>
+			<DevTime>8</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Email Client">Settings</Dependency>
+		</Feature>
+		<Feature>
+			<Name>AutoCorrect</Name>
+			<Unlock>2010</Unlock>
+			<Description>It knows your errors</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Spellcheck</Dependency>
+		</Feature>
+		<Feature From="Encryption">
+			<Name>AES Encryption</Name>
+			<Unlock>2015</Unlock>
+			<Description>Edward Snowden Approves!</Description>
+			<DevTime>9</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>12</Usability>
+			<Stability>9</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Email Client">Encryption</Dependency>
+			<Dependency Software="Security Software">AES Encryption</Dependency>
+			<Category>Security</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

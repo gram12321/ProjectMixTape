@@ -1,0 +1,69 @@
+<SoftwareType>
+	<Name>Video Card Driver</Name>
+	<Unlock>1985</Unlock>
+	<Description>Provides a mediator between the Operating System and the computer's video card.</Description>
+	<Random>0.3</Random>
+	<Popularity>0.3</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<Retention>0.9</Retention>
+	<Iterative>0.2</Iterative>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Computing</Category>
+	<NameGenerator>videodrivergen</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Hardware Interaction</Name>
+			<Description>Enables basic interaction between OS and Driver.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Multi-Card Support</Name>
+			<Description>Support for multiple cards per system.</Description>
+			<Unlock>1990</Unlock>
+			<DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+         <Name>Physix</Name>
+         <Description>Enables fancy 3D physics effects in games.</Description>
+         <Unlock>2005</Unlock>
+         <DevTime>2</DevTime>
+         <Innovation>5</Innovation>
+         <Usability>1</Usability>
+         <Stability>1</Stability>
+         <CodeArt>.5</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Optimization</Name>
+         <Description>Allows video driver to automatically optimize itself for specific games in user's library.</Description>
+         <Unlock>2005</Unlock>
+         <Category>System</Category>
+         <DevTime>2</DevTime>
+         <Innovation>3</Innovation>
+         <Usability>3</Usability>
+         <Stability>2</Stability>
+         <CodeArt>1</CodeArt>
+      </Feature>
+      <Feature>
+         <Name>Companion Software</Name>
+         <Description>Allows user to auto-update and optimize drivers through a GUI. Requires server.</Description>
+         <DevTime>3</DevTime>
+         <Unlock>2010</Unlock>
+         <Innovation>2</Innovation>
+         <Usability>2</Usability>
+         <Stability>2</Stability>
+         <CodeArt>0.3</CodeArt>
+         <Server>0.0009</Server>
+         <Dependency Software="Operating System">GUI</Dependency>
+         <Dependency Software="Video Card Driver">Optimization</Dependency>
+      </Feature>
+   </Features>
+</SoftwareType>

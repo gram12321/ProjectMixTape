@@ -1,0 +1,97 @@
+<SoftwareType>
+	<Name>Stream addon</Name>
+	<Description>Letting your streamers get cool features onto their streams!</Description>
+	<Unlock>2007</Unlock>
+	<Random>0.3</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.94</Retention>
+	<Iterative>0.33</Iterative>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Web</Category>
+	<NameGenerator>streamaddon</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>Base</Name>
+			<Description>The base of where people can go see their opportunities</Description>
+			<DevTime>2</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Spam protection</Name>
+			<Description>Protects your chat from any spam</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Commands</Name>
+			<Description>Letting users to add different commands showing a cool description</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Giveaway</Name>
+			<Description>Letting streamers create a giveaway and people can join with a command</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Song request</Name>
+			<Description>Allowing users to request a song using a command!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Follower alert</Name>
+			<Description>This will notify your streamer that he got a new follower</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Donator alert</Name>
+			<Description>This will notify your streamer about donations</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Stream labels</Name>
+			<Description>Using text file this allows users to show who maybe is the latest donator or follower and maybe even add a top donators list</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Chat</Name>
+			<Description>Letting your viewers to see a chat on the screen so they can stay fullscreened and follow the chat!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

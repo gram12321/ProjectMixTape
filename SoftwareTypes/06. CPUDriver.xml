@@ -1,0 +1,46 @@
+<SoftwareType>
+	<Name>CPU Driver</Name>
+	<Description>A driver for the processor</Description>
+	<Category>CPU Driver</Category>
+	<Random>0</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.9</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>DriverGenerator</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Calculation</Name>
+			<Description>The base routines of the driver</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Parallel</Name>
+			<Description>Handles parallel work</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>64-bit support</Name>
+			<Description>More bits to work for</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">64-bit</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

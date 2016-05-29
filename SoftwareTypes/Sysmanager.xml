@@ -1,0 +1,59 @@
+<SoftwareType>
+	<Name>System Management Tool</Name>
+	<Description>Aids administration work</Description>
+	<Category>Tools</Category>
+	<Unlock>1985</Unlock>
+	<Random>0.5</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>0.5</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<NameGenerator>ToolNameGenerator</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Monitoring</Name>
+			<Category>Network</Category>
+			<Description>System overwatch</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Charts</Name>
+			<Description>Visualize the system's state</Description>
+			<Category>2D</Category>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Automatic analysis</Name>
+			<Description>Detects problems and notifies them</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Multitasking</Dependency>
+		</Feature>
+		<Feature>
+			<Name>File logging</Name>
+			<Description>Users can read events from the past</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

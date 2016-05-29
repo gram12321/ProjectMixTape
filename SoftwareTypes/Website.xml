@@ -1,0 +1,747 @@
+<SoftwareType>
+	<Name>Website</Name>
+	<Category>Web</Category>
+	<Description>A great place to place your products, that's for sure!</Description>
+	<Random>0</Random>
+	<Popularity>0.8</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Unlock>1991</Unlock>
+	<Categories>
+		<Category Name="Default">
+			<Description>A simple website for any need!</Description>
+			<Unlock>1991</Unlock>
+			<Popularity>0.5</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>website</NameGenerator>
+		</Category>
+		<Category Name="Forums">
+			<Description>A great feature for your website!</Description>
+			<Unlock>1991</Unlock>
+			<Popularity>0.5</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<Category>Web</Category>
+			<NameGenerator>forums</NameGenerator>
+		</Category>
+		<Category Name="Streaming Site">
+			<Description>Create a site which people can do livestreams and watch livestreams!</Description>
+			<Unlock>2007</Unlock>
+			<Popularity>0.5</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<Category>Web</Category>
+			<NameGenerator>streamingsite</NameGenerator>
+		</Category>
+		<Category Name="Search Engine">
+			<Description>Create a search engine making people able to search on different webbrowsers!</Description>
+			<Unlock>1991</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>webbrowser</NameGenerator>
+		</Category>
+		<Category Name="Social Media">
+			<Description>Create a social media website!</Description>
+			<Unlock>2005</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>socialmedia</NameGenerator>
+		</Category>
+		<Category Name="Online Games">
+			<Description>Create a website where people can play free online games!</Description>
+			<Unlock>2000</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>gamesite</NameGenerator>
+		</Category>
+		<Category Name="News">
+			<Description>Create a website to display news!</Description>
+			<Unlock>2000</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>gamesite</NameGenerator>
+		</Category>
+	</Categories>
+	<Server>5</Server>
+	<NameGenerator>website</NameGenerator>
+	<Features>
+	<!-- MAIN START -->
+	<Feature Forced="TRUE">
+		<Name>Coding</Name>
+		<Description>You need this to start coding your website!</Description>
+		<DevTime>4</DevTime>
+		<Innovation>4</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+	</Feature>
+	<Feature>
+		<Name>HTML</Name>
+		<Description>The base of your website, no color or style</Description>
+		<DevTime>2</DevTime>
+		<Innovation>4</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependency Software="Website">Coding</Dependency>
+	</Feature>
+	<Feature>
+		<Name>CSS</Name>
+		<Description>Gives it a little more stylish feature</Description>
+		<DevTime>2</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>0.5</CodeArt>
+		<Dependency Software="Website">Coding</Dependency>
+	</Feature>
+	<Feature>
+		<Name>PHP</Name>
+		<Description>More advanced coding</Description>
+		<DevTime>1</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependency Software="Website">Coding</Dependency>
+	</Feature>
+	<Feature>
+		<Name>ASP</Name>
+		<Description>More advanced coding</Description>
+		<DevTime>1</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependency Software="Website">Coding</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Javascript</Name>
+		<Description>Make different cool stuff!</Description>
+		<DevTime>1</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependency Software="Website">Coding</Dependency>
+	</Feature>
+	<!-- MAIN END -->
+	<!-- LIVESTREAM START -->
+	<Feature Forced="TRUE">
+		<Name>Simple player</Name>
+		<Description>This is just the base of the player for your website</Description>
+		<DevTime>4</DevTime>
+		<Innovation>4</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>0.9</CodeArt>
+		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Channels</Name>
+		<Description>Let people create their very own channel on your website</Description>
+		<DevTime>2</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Follower</Name>
+		<Description>Letting users follow the streamer</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Title</Name>
+		<Description>Allows users to give their stream a title</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Description</Name>
+		<Description>Allows users to give their stream a description</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Genre</Name>
+		<Description>Allowing your users to add genres to their stream</Description>
+		<DevTime>2</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Chat</Name>
+		<Description>Gives the viewers the ability to chat on the stream</Description>
+		<DevTime>3</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<!-- LIVESTREAM END -->
+	<!-- FORUMS START -->
+	<Feature>
+		<Name>Topics</Name>
+		<Description>Allow users to create topics</Description>
+		<DevTime>1</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Categories</Name>
+		<Description>Allow users to create categories.</Description>
+		<DevTime>1</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<SoftwareCategory Category="News">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Logo</Name>
+		<Description>Allows users to create an logo to their forums</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0</CodeArt>
+		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Boards</Name>
+		<Description>Allows users to create different boards making a more organised forum</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0</CodeArt>
+		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Child Boards</Name>
+		<Description>Allows users to create boards inide a board - Boardception</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0</CodeArt>
+		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Private Messages</Name>
+		<Description>Allows users to message eachother</Description>
+		<DevTime>2</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0</CodeArt>
+		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Captcha Code</Name>
+		<Description>Prevents a lot of spammers</Description>
+		<DevTime>2</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0</CodeArt>
+		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<!-- FORUMS END -->
+	<!-- SEARCH ENGINE START -->
+	<Feature>
+		<Name>Base</Name>
+		<Description>The base of your Search engine</Description>
+		<DevTime>8</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>5</Stability>
+		<CodeArt>0.4</CodeArt>
+		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Settings</Name>
+		<Description>Gives users an opportunity to choose simple settings</Description>
+		<DevTime>4</DevTime>
+		<Innovation>3</Innovation>
+		<Usability>6</Usability>
+		<Stability>7</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>I'm feeling lucky!</Name>
+		<Description>How lucky are you?</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>5</Usability>
+		<Stability>10</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Images</Name>
+		<Description>Any picture on the internet! Even explicit! OMG!</Description>
+		<DevTime>4</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>8</Usability>
+		<Stability>9</Stability>
+		<CodeArt>0.6</CodeArt>
+		<Unlock>2001</Unlock>
+		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Maps</Name>
+		<Description>If they are lost, they can just use your map!"</Description>
+		<DevTime>7</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>10</Usability>
+		<Stability>7</Stability>
+		<CodeArt>1</CodeArt>
+		<Unlock>2005</Unlock>
+		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Translate</Name>
+		<Description>Need to translate something into another language? This is just what you need!</Description>
+		<DevTime>12</DevTime>
+		<Innovation>10</Innovation>
+		<Usability>10</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<Unlock>2006</Unlock>
+		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+	</Feature>
+	<!-- SEARCH ENGINE END -->
+	<!-- SOCIAL MEDIA -->
+	<Feature Forced="TRUE">
+		<Name>Layout</Name>
+		<Description>Layout of your website</Description>
+		<DevTime>1</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>6</Usability>
+		<Stability>7</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Friends</Name>
+		<Description>Allows users to add friends!</Description>
+		<DevTime>1</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Private Chat</Name>
+		<Description>Chat with your friends!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Friends</Dependency>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Group Chat</Name>
+		<Description>Chat with a bunch of people at the same time!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Friends</Dependency>
+		<Dependency Software="Website">Private Chat</Dependency>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Group Call</Name>
+		<Description>Call in a group!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Friends</Dependency>
+		<Dependency Software="Website">Group Chat</Dependency>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Profile</Name>
+		<Description>Have your own personal profile!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Profile Picture</Name>
+		<Description>Add profile picture to your profile!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Profile</Dependency>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Profile Details</Name>
+		<Description>Add profile picture to your profile!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Profile</Dependency>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+	</Feature>
+	<Feature Forced="TRUE">
+		<Name>Name</Name>
+		<Description>Addition to profile details</Description>
+		<DevTime>0.5</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Profile Details</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Birthday</Name>
+		<Description>Addition to profile details</Description>
+		<DevTime>0.5</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Profile Details</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Age</Name>
+		<Description>Addition to profile details</Description>
+		<DevTime>0.5</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Profile Details</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Profile Status</Name>
+		<Description>This will let people share photos, videos or just write some text to share with friends!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">Profile</Dependency>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Likes</Name>
+		<Description>This let's users like stuff!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Comments</Name>
+		<Description>Comment stuff!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Albums</Name>
+		<Description>Keep your pictures or videos categorized!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>6</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Advertisements</Name>
+		<Description>Allow advertisements to be added on your site!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>8</Innovation>
+		<Usability>8</Usability>
+		<Stability>8</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Notifications</Name>
+		<Description>This will give people notifications!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<SoftwareCategory Category="News">2001</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Video Upload</Name>
+		<Description>Allows people to upload videos!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<Feature>
+		<Name>Fan Pages</Name>
+		<Description>Allows people to create fanpages and get famous!</Description>
+		<DevTime>2</DevTime>
+		<Innovation>7</Innovation>
+		<Usability>5</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">PHP</Dependency>
+		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Javascript</Dependency>
+	</Feature>
+	<!-- SOCIAL MEDIA END -->
+	<!-- GAME SITE START -->
+	<Feature Forced="TRUE">
+			<Name>2D Games</Name>
+			<Category>2D</Category>
+			<Description>Allows people to play 2D games!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Online Games">0</SoftwareCategory>
+		</Feature>
+		<Feature From="2D Games">
+			<Name>3D Games</Name>
+			<Description>Meh, 3D internet games are OK</Description>
+			<DevTime>6</DevTime>
+			<Category>3D</Category>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>3D</Category>
+			<SoftwareCategory Category="Online Games">2005</SoftwareCategory>
+			<Dependency Software="3D Editor">Vertex editing</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Game Categories</Name>
+			<Description>Make the games look more presentable by putting them in categories</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Online Games">0</SoftwareCategory>
+		</Feature>
+			<Feature>
+			<Name>Search Bar</Name>
+			<Description>To make finding games easier</Description>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Stability>4</Stability>
+			<Usability>4</Usability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Online Games">2005</SoftwareCategory>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Accounts</Name>
+			<Description>Allow users to sign up to earn achivements, save their progress, and much more</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Stability>4</Stability>
+			<Usability>4</Usability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Online Games">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Avatars</Name>
+			<Description>Real people make unreal things!</Description>
+			<DevTime>7</DevTime>
+			<Innovation>4</Innovation>
+			<Stability>3</Stability>
+			<Usability>5</Usability>
+			<CodeArt>1</CodeArt>
+			<Category>Network</Category>
+			<SoftwareCategory Category="Online Games">2010</SoftwareCategory>
+			<Dependency Software="Website">Accounts</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Public Uploads</Name>
+			<Description>Allows the public to upload their games (as long as they're in the guide lines!)</Description>
+			<DevTime>7</DevTime>
+			<Innovation>5</Innovation>
+			<Stability>3</Stability>
+			<Usability>4</Usability>
+			<CodeArt>0.6</CodeArt>
+			<Category>Network</Category>
+			<SoftwareCategory Category="Online Games">2010</SoftwareCategory>
+			<Dependency Software="Website">Accounts</Dependency>
+		</Feature>
+		<!-- GAME SITE END -->
+		<!-- NEWS SITE START -->
+		<Feature Vital="True">
+			<Name>News Videos</Name>
+			<Description>Videos about the news!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.92</CodeArt>
+			<SoftwareCategory Category="News">1998</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Comment Section</Name>
+			<Description>Let people argue about topics!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.98</CodeArt>
+			<SoftwareCategory Category="News">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Recommendations</Name>
+			<Description>Automatically recommends topics you may be interested in!</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.9</CodeArt>
+			<SoftwareCategory Category="News">2000</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>
