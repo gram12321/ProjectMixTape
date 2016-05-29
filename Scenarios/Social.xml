@@ -1,0 +1,12 @@
+﻿<Scenario>
+	<Name>Social Boom</Name>
+	<Money>
+		<Amount>20000</Amount>
+	</Money>
+	<Years>
+		<Year>2000</Year>
+	</Years>
+	<Goals></Goals>
+	<Events></Events>
+    <Simulation>TRUE</Simulation>
+</Scenario>

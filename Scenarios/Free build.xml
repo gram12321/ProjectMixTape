@@ -1,0 +1,17 @@
+<Scenario>
+	<Name>Free build</Name>
+	<Money>
+		<Amount>10000000</Amount>
+	</Money>
+	<Goals>
+	</Goals>
+	<Years>
+		<Year>1980</Year>
+		<Year>1985</Year>
+                <Year>2020</Year>
+		<Year>2050</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

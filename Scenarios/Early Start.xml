@@ -1,0 +1,27 @@
+<Scenario>
+	<Name>Early Start</Name>
+	<Money>
+		<Amount>2000</Amount>
+		<Amount>7000</Amount>
+		<Amount>15000</Amount>
+		<Amount>30000</Amount>
+		<Amount>100000</Amount>
+	</Money>
+	<Goals>
+	</Goals>
+	<Years>
+		<Year>1970</Year>
+		<Year>1971</Year>
+		<Year>1972</Year>
+		<Year>1973</Year>
+		<Year>1974</Year>
+		<Year>1975</Year>
+		<Year>1976</Year>
+		<Year>1977</Year>
+		<Year>1978</Year>
+		<Year>1979</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

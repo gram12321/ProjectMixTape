@@ -1,0 +1,29 @@
+<Scenario>
+
+	<Name>Present Day</Name>
+	<Money>
+		<Amount>1000000</Amount>
+		<Amount>10000000</Amount>
+		<Amount>100000000</Amount>
+	</Money>
+
+	<Goals>
+		<Goal>Money 1000000000,Date 1-2020</Goal>
+	</Goals>
+
+	<Years>
+		<Year>2010</Year>
+		<Year>2015</Year>
+		<Year>2020</Year>
+		<Year>2025</Year>
+		<Year>2030</Year>
+	</Years>
+
+	<Events>
+	</Events>
+
+	<Simulation>TRUE</Simulation>
+
+	<ForceEnvironment>1</ForceEnvironment>
+
+</Scenario>

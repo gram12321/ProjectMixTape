@@ -1,0 +1,18 @@
+<Scenario>
+	<Name>Hard mode</Name>
+	<Money>
+		<Amount>5000</Amount>
+		<Amount>10000</Amount>
+		<Amount>20000</Amount>
+	</Money>
+	<Goals>
+		<Goal>Money 15000000,Date 1-2013</Goal>
+	</Goals>
+	<Years>
+		<Year>2000</Year>
+		<Year>2005</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

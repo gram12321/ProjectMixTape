@@ -1,0 +1,18 @@
+<Scenario>
+	<Name>Extreme mode</Name>
+	<Money>
+		<Amount>825</Amount>
+		<Amount>850</Amount>
+		<Amount>900</Amount>
+	</Money>
+	<Goals>
+		<Goal>Money 20000000,Date 12-2020</Goal>
+	</Goals>
+	<Years>
+		<Year>2010</Year>
+		<Year>2015</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

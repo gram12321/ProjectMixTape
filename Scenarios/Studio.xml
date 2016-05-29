@@ -1,0 +1,33 @@
+<Scenario>
+
+	<Name>Studio</Name>
+
+	<Money>
+		<Amount>50000</Amount>
+		<Amount>100000</Amount>
+		<Amount>250000</Amount>
+		<Amount>500000</Amount>
+		<Amount>1000000</Amount>
+		<Amount>10000000</Amount>
+	</Money>
+
+	<Goals>
+		<Goal>Money 500000000,Date 12-2020</Goal>
+	</Goals>
+
+	<Years>
+		<Year>1995</Year>
+		<Year>2000</Year>
+		<Year>2005</Year>
+		<Year>2010</Year>
+		<Year>2015</Year>
+	</Years>
+
+	<Events>
+	</Events>
+
+	<Simulation>TRUE</Simulation>
+
+	<ForceEnvironment>1</ForceEnvironment>
+	
+</Scenario>

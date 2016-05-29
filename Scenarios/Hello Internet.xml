@@ -1,0 +1,17 @@
+<Scenario>
+	<Name>Hello Internet</Name>
+	<Money>
+		<Amount>2000</Amount>
+		<Amount>7000</Amount>
+		<Amount>15000</Amount>
+		<Amount>25000</Amount>
+	</Money>
+	<Goals>
+	</Goals>
+	<Years>
+		<Year>1991</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

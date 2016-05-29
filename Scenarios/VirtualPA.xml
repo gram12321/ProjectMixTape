@@ -1,0 +1,14 @@
+﻿<Scenario>
+	<Name>VPA Rising</Name>
+	<Money>
+		<Amount>50000</Amount>
+	</Money>
+	<Years>
+		<Year>2000</Year>
+		<Year>2005</Year>
+		<Year>2008</Year>
+	</Years>
+	<Goals></Goals>
+	<Events></Events>
+    <Simulation>TRUE</Simulation>
+</Scenario>

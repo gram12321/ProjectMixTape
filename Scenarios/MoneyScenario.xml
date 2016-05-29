@@ -1,0 +1,27 @@
+<Scenario>
+	<Name>Extra Money</Name>
+	<Money>
+		<Amount>50000</Amount>
+		<Amount>2000000000</Amount>
+	</Money>
+	<Goals>
+	</Goals>
+	<Years>
+		<Year>1950</Year>
+		<Year>1970</Year>
+		<Year>1975</Year>
+		<Year>1980</Year>
+		<Year>1985</Year>
+		<Year>1990</Year>
+		<Year>1995</Year>
+		<Year>2000</Year>
+		<Year>2005</Year>
+		<Year>2010</Year>
+		<Year>2015</Year>
+		<Year>2020</Year>
+		<Year>2025</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

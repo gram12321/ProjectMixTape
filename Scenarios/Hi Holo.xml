@@ -1,0 +1,16 @@
+<Scenario>
+	<Name>Hi Holo</Name>
+	<Money>
+		<Amount>1500</Amount>
+		<Amount>50000</Amount>
+		<Amount>100000</Amount>
+	</Money>
+	<Goals>
+	</Goals>
+	<Years>
+		<Year>2020</Year>
+	</Years>
+	<Events>
+	</Events>
+	<Simulation>TRUE</Simulation>
+</Scenario>

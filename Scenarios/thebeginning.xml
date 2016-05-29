@@ -1,0 +1,16 @@
+﻿<Scenario>
+	<Name>The Beginning</Name>
+	<Money>
+		<Amount>10000</Amount>
+		<Amount>20000</Amount>
+		<Amount>30000</Amount>
+	</Money>
+	<Years>
+		<Year>1970</Year>
+		<Year>1972</Year>
+		<Year>1975</Year>
+	</Years>
+	<Goals></Goals>
+	<Events></Events>
+    <Simulation>TRUE</Simulation>
+</Scenario>
