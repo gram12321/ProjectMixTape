@@ -1,0 +1,32 @@
+-start(base,pre)
+-pre(base)
+-base(base2)
+GNU
+Olly
+Soft
+strace
+Visual
+Dux
+Turbo
+val
+Dbg
+Code
+Dragonfly
+Dynamic
+Fusion
+Interactive
+Open
+Total
+Val
+Complete
+Game
+-base2(stop)
+  Hacker
+ Tool
+Hack
+grind
+View
+time
+ Architecture
+Hacking
+Hck

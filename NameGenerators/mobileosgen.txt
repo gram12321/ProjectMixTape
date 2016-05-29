@@ -1,0 +1,18 @@
+-start(base)
+-base(base2, stop)
+Droid
+Peach
+Pear
+Banana
+Clone
+Grape
+Watermelon
+Melon
+Cocoa
+String
+Cat
+Dog
+-base2(stop)
+OS
+O.S
+Operating System

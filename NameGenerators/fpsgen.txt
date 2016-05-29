@@ -1,0 +1,30 @@
+-start(base)
+-base(base2)
+Call of 
+Critical 
+Dark 
+Rainbow 
+Seige 
+Squad 
+Seal Team 
+Special 
+Commander 
+Battle 
+-base2(end,stop)
+Tactics
+Duty
+Honor
+Halo
+6
+Ops
+Fury
+-end(end2)
+: 
+; 
+-end2(stop)
+Off the Record
+Killing Time
+Debrief
+Hardline
+Take the Fight
+Bring the Pain

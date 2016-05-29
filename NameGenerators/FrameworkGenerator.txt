@@ -1,0 +1,24 @@
+-start(base, secondary, third)
+-base(secondary, third)
+Flat
+Common
+Cure
+Gentle
+Unfair
+Easy
+-secondary(third, end)
+ Lima
+ Commons
+ Pairing
+ Codework
+ Codes
+ Cryl
+ Usage
+-third(end)
+ Standard
+ Pro
+ Extended
+ Ultimate
+ Framework
+ Goods
+ Property

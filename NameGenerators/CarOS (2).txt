@@ -1,0 +1,27 @@
+-start(pre,base,base,base,base)
+-pre(base,base,ext)
+The 
+-base(base2,ext,stop)
+Door
+Frame
+Tiger
+Lion
+Sloth
+Pen
+Next
+Opti
+Bot
+Int
+-base2(ext,stop)
+Side
+Flash
+View
+Slim
+Stop
+Face
+ Thing
+ Shade
+ Blinds
+-ext(stop)
+Car OS
+Car X

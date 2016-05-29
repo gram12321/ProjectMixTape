@@ -1,0 +1,16 @@
+-start(base)
+-base(stop)
+AwesomeMail
+EpicMail
+GreatMail
+SuperMail
+iPostit
+GetMail
+WeSendMail
+WeSendEmail
+MailBox
+PostBox
+EmailBox
+ReturnToSender
+Mailit
+-end(stop)

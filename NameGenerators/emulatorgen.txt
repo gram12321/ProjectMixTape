@@ -1,0 +1,17 @@
+-start(base)
+-base(base2)
+Super
+Hyper
+Updated
+-base2(end,stop)
+ Game
+ Sonic
+ Cobra
+ Lite
+Nostalgic
+-end(stop)
+ Boy
+ Friend
+ Player
+ Experience
+ Jumper

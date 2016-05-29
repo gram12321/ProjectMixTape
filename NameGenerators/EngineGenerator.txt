@@ -1,0 +1,27 @@
+-start(pref, main)
+-pref(main)
+Simple 
+Basic 
+Advanced 
+Fancy 
+Generic 
+#
+-main(suff, end)
+Alpha
+Bravo
+Charlie
+Delta
+Epsilon
+Foxtrot
+Whiskey
+Lima
+Xen
+Ygsil
+Voxl
+Boxl
+-suff(end)
+ Engine
+ Pro
+ Extended
+ Ultimate
+ 

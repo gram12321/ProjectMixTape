@@ -1,0 +1,11 @@
+-start(base)
+-base(base2)
+DMS 
+-base2(end,stop)
+Duelux
+Open
+Close
+Galaxy
+Explorer
+Look
+-end(stop)

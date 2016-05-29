@@ -1,0 +1,17 @@
+-start(pre,base,base,base,base)
+-pre(base)
+The 
+-base(base2,ext,stop)
+Easy
+Super
+Cheap
+Nice
+E
+ABC
+Hand
+-base2(ext,stop)
+Reading
+ Keep
+Fast
+-ext(stop)
+ EBook

@@ -1,0 +1,30 @@
+-start(base)
+-base(base2)
+Note
+Text
+Code
+Jet
+Style
+Jot
+Letter
+ABC
+Type
+Write
+-base2(end,stop)
+
+Bank
+Soup
+Pad
+Base
+Plot
+Bank ++
+Soup ++
+Pad ++
+Base ++
+Plot ++
+Bank +
+Soup +
+Pad +
+Base +
+Plot +
+-end(stop)

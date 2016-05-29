@@ -1,0 +1,17 @@
+-start(snd,end,stop)
+Bamin
+Vault
+Coders
+Artists
+Declarative
+-snd(end,stop)
+Studio
+Standard
+Creative
+Enterprise
+Pro
+Ultimate
+-end(stop)
+Edition
+Framework
+Suite

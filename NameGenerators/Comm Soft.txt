@@ -1,0 +1,9 @@
+-start(base)
+-base(stop)
+Skepy
+AllySpeak
+Comm Pro
+Whatzapp 
+Massengor
+Chatting Pro
+

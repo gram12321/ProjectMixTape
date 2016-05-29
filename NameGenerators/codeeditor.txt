@@ -1,0 +1,22 @@
+-start(base)
+-base(stop)
+CodeEdit
+CodeEditor Ultimate
+CodeChanger Pro
+DevelopIT
+CodeMaster
+CodeMeister
+CodeWriter Pro
+ScriptEdit
+ScriptChanger
+ScriptMaster
+ScriptMeister
+ScriptWriter
+iScript
+iCode
+CodeON
+ScriptON
+CodingIT
+AwesomeCode
+EpicCode
+-end(stop)

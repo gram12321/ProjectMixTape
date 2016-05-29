@@ -1,0 +1,11 @@
+-start(base,base2)
+-base(base2,stop)
+Overclock
+Hardy
+HardMare
+Ware
+-base2(stop)
+Fast
+Pro
+Super
+Speedy

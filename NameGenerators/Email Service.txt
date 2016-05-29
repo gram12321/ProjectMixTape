@@ -1,0 +1,13 @@
+-start(base)
+-base(base2)
+Email 
+Mail 
+Send 
+-base2(end,stop)
+Duelux
+Open
+Close
+Galaxy
+Explorer
+Look
+-end(stop)

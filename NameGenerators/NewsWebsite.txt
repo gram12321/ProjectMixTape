@@ -1,0 +1,37 @@
+-start(base,pre)
+-pre(base)
+-base(base2)
+Social
+42
+About
+Nobii
+Small
+Bebo
+Black
+Bolt
+Buzz
+The
+Cafe
+Care
+Caring
+Cloob
+Cluster
+Couch
+Ello
+e
+Face
+Fet
+Film
+-base2(stop)
+ Online
+ Things
+World
+Planet
+net
+Mom
+Flunk
+Surfing
+book
+life
+Affinity
+now

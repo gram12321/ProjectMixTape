@@ -1,0 +1,22 @@
+-start(base)
+-base(base2)
+Silly
+Gamble
+Jungle
+Cosy
+Molly
+Cosby
+Slick
+Bing
+Galaxy
+Solar
+-base2(end,stop)
+ Tank
+ Searcher
+ Engine
+ Monster
+ Searches
+ Search
+ System
+ Look
+-end(stop)

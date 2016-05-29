@@ -1,0 +1,19 @@
+-start(base)
+-base(base2, stop)
+Girly
+Hunter
+Jewel
+Shapes
+Gun
+Call of Job
+Hitman
+Matcher
+Candy
+-base2(stop)
+Shooter
+Dress Up
+Dresser
+Match
+Smash
+Blower
+Mobile

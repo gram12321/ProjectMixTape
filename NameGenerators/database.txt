@@ -1,0 +1,10 @@
+-start(base)
+-base(base2,stop)
+data
+know
+simple
+easy
+square
+-base2(end,stop)
+base
+-end(stop)

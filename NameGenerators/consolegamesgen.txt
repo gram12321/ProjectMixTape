@@ -1,0 +1,27 @@
+-start(base)
+-base(base2, stop)
+Call of Job
+Metal Spear
+Sniper
+Sport
+Cat
+Dog
+Business
+Game
+Enterprise
+Guns
+-base2(stop)
+The Game
+1
+2
+3
+4
+5
+6
+7
+8
+Elite
+Ghost
+Simulator
+Life
+Tycoon

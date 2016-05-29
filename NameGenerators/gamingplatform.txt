@@ -1,0 +1,15 @@
+-start(base)
+-base(stop)
+StartGame
+iGame
+iPlay
+WePlay
+uGame
+WeGame
+GameON
+WeGamers
+PlayHub
+Game United
+GameHub
+GameCore
+-end(stop)

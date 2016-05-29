@@ -1,0 +1,74 @@
+-start(base)
+-base(smallsecond,largesecond,ext)
+Wing
+Chalmers
+Fox
+Eco
+Macro
+Giga
+Loop
+Work
+Meta
+Mecha
+Fury
+Loud
+Endura
+Mind
+Brain
+Ware
+Alpha
+Beta
+Theta
+Shadow
+Spurious
+Tremendous
+Enchanted
+Wonderful
+Kittycat
+Meowful
+Time
+Age
+Eye
+Man
+Woman
+Gender
+Wander
+Bull
+-smallsecond(ext,largesecond,stop)
+tree
+floor
+sweep
+flare
+trend
+swell
+swap
+blare
+library
+core
+buzz
+dog
+cat
+fish
+Active
+pro
+swing
+stack
+Art
+soft
+
+-largesecond(ext,stop)
+ Software
+ Digital
+ Interactive
+ Industrial
+-ext(stop)
+ Inc.
+ Corp.
+ Ltd.
+ LLC
+ Studios
+ Studio
+ Industries
+ Productions
+ Dynamics
+ Operations

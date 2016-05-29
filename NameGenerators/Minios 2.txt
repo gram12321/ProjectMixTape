@@ -1,0 +1,75 @@
+-start(base,pre)
+-pre(base)
+-base(base2)
+MiniOS
+VirtualVision
+Sharpening
+DaveOS
+SML
+Cerial
+SMSKing
+asdf
+movie
+kid
+karate kid
+Faggot
+Julus
+Vertigo
+AEROHACK
+The Mini
+-base2(stop)
+ One
+ Centurion
+ Urion
+ Union
+ Kellogs
+ V1
+ V1.1
+ V1.6
+ V2.01
+ V2.3
+ V2.8
+ V2.8HF
+ V3.001HF
+ V5.3.1902B
+ V5.82.7372XBA
+ V9.381.XFV
+: Edition X
+ X
+ Networking
+ Pagefile Edition
+ Standard Edition
+ Enterprise
+ Enterprise X
+ Standard Plus
+ Home Premium
+ Home Standard
+ Galaxy B
+ Galaxy E3
+ Supernova
+ Starnova X
+ Cyrix Edition
+ MAX
+ Jilion Z
+ Titan
+ Titan X
+ Titan Z
+ Titan Z1
+ Titan Z1 810
+ Titan X9 350i
+ BLACK EDITION (x86)
+ BLACK EDITION (x64)
+ WHITE EDITION (x86)
+ WHITE EDITION (x64)
+ 98
+ 7
+ 8
+ 8.1
+ 10
+ 10.1
+ 95
+ XP
+ Millenium
+ ME
+ Express
+ Specialism

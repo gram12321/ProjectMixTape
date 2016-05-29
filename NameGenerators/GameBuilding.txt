@@ -1,0 +1,36 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+-base(baseSimple2,baseLong2)
+Happy
+Sim
+Sad
+Rich
+Poor
+Warrior
+Fun
+North
+South
+East
+West
+Manga
+Police
+Super
+-baseSimple2(stop,baseLong2,baseLong3)
+City
+Town
+Village
+District
+Area
+Empire
+Kingdom
+-baseLong2(baseLong3,stop)
+ Simulator
+ Manager
+ Tycoon
+-baseLong3(stop)
+ in Heaven
+ in Space
+ Ultra
+ 2015
+ Lite

@@ -1,0 +1,28 @@
+-start(base, secondary, third)
+-base(secondary, third)
+X
+Hardwork
+Softwork
+Processing
+Calc
+Open
+Trim
+Yc
+G
+Som
+Xnom
+-secondary(third, end)
+ Unit
+ Worker
+ Dap
+ Tech
+ Gem
+ Gold
+ Silver
+ Platin
+-third(end)
+ Standard
+ Gamer
+ Pro
+ Extended
+ Ultimate

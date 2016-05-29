@@ -1,0 +1,22 @@
+-start(base)
+-base(base2)
+Space
+Big
+Sloppy
+Lazy
+Rolly
+Gamo
+Retro
+Joystick
+Buttonmash
+
+-base2(end,stop)
+ Games
+ Inc
+ Corp
+ Land
+ World
+ Gaming
+Vation
+Portal
+-end(stop)

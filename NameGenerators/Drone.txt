@@ -1,0 +1,20 @@
+-start(base)
+-base(letter,number,stop)
+Robo
+The Nomad
+King
+Queen
+Sam
+Blue
+The Husban
+Whirlwind
+-letter(number,stop)
+X
+Z
+E
+A
+O
+-number(stop)
+10
+100
+1000
