@@ -1,0 +1,10 @@
+<CompanyType>
+   <Specialization>Console</Specialization>
+   <PerYear>0.4</PerYear>
+   <Min>0</Min>
+   <Max>4</Max>
+   <Types>
+      <Type Software="Console Engine">0.3</Type>
+      <Type Software="Console Game">0.4</Type>
+   </Types>
+</CompanyType>

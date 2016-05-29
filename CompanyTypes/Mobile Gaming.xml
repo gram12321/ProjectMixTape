@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Mobile Gaming</Specialization>
+	<PerYear>1</PerYear>
+	<Min>1</Min>
+	<Max>10</Max>
+	<Types>
+		<Type Software="Mobile Game">1</Type>
+	</Types>
+</CompanyType>

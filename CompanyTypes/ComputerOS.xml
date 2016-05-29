@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Computer Operating System Specialists</Specialization>
+	<Force>Operating System,Computer</Force>
+	<PerYear>0.1</PerYear>
+	<Min>0</Min>
+	<Max>1</Max>
+	<Types>
+		<Type Software="Operating System" Category="Computer">1</Type>
+	</Types>
+</CompanyType>

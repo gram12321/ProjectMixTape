@@ -1,0 +1,11 @@
+<CompanyType>
+   <Specialization>Utilities</Specialization>
+   <PerYear>3</PerYear>
+   <Min>0</Min>
+   <Max>3</Max>
+   <Types>
+      <Type Software="Text Editor">0.4</Type>
+	  <Type Software="Video Editor">0.4</Type>
+      <Type Software="Security Software">0.4</Type>
+   </Types>
+</CompanyType>

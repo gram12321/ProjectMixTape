@@ -1,0 +1,12 @@
+<CompanyType>
+	<Specialization>Web</Specialization>
+	<PerYear>1</PerYear>
+	<Min>1</Min>
+	<Max>10</Max>
+	<Types>
+		<Type Software="Website">1</Type>
+		<Type Software="Webbrowser">1</Type>
+		<Type Software="Streaming software">1</Type>
+		<Type Software="Stream addon">1</Type>
+	</Types>
+</CompanyType>

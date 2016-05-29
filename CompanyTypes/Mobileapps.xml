@@ -1,0 +1,10 @@
+<CompanyType>
+   <Specialization>Mobile Apps</Specialization>
+   <PerYear>5</PerYear>
+   <Min>0</Min>
+   <Max>4</Max>
+   <Types>
+      <Type Software="Mobile App">0.5</Type>
+      <Type Software="Mobile Game">0.5</Type>
+   </Types>
+</CompanyType>

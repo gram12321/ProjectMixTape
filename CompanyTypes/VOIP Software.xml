@@ -1,0 +1,15 @@
+<CompanyType>
+
+	<Specialization>VOIP Software</Specialization>
+
+	<PerYear>0.2</PerYear>
+
+	<Min>2</Min>
+	<Max>5</Max>
+
+	<Types>
+		<Type Software="VOIP Software">1</Type>
+		<Type Software="Email Client">1</Type>
+	</Types>
+	
+</CompanyType>

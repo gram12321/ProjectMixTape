@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Productivity Software</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>3</Min>
+	<Max>10</Max>
+	<Types>
+		<Type Software="Email Client">1</Type>
+		<Type Software="Office Software">1</Type>
+	</Types>
+</CompanyType>

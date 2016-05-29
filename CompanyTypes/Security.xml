@@ -1,0 +1,9 @@
+<CompanyType>
+   <Specialization>Security Software</Specialization>
+   <PerYear>0.3</PerYear>
+   <Min>1</Min>
+   <Max>4</Max>
+   <Types>
+      <Type Software="Security Software">1</Type>
+   </Types>
+</CompanyType>

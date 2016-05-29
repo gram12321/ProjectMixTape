@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Coders</Specialization>
+	<PerYear>0.3</PerYear>
+	<Min>0</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Programming Language">0.2</Type>
+		<Type Software="Framework">0.8</Type>
+	</Types>
+</CompanyType>

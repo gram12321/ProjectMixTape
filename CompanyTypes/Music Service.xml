@@ -1,0 +1,11 @@
+<CompanyType>
+	<Specialization>Services</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="Music Service">1</Type>
+		<Type Software="Audio Tool">1</Type>
+		<Type Software="Antivirus">1</Type>
+	</Types>
+</CompanyType>

@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Virtual Personal Assistant</Specialization>
+	<PerYear>0.3</PerYear>
+	<Min>2</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Virtual Personal Assistant">1</Type>
+	</Types>
+</CompanyType>

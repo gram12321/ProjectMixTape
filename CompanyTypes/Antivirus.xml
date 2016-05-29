@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>AntiVirus</Specialization>
+	<PerYear>1</PerYear>
+	<Min>1</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="AntiMalware">1</Type>
+	</Types>
+</CompanyType>

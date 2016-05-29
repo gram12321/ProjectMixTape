@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Accounting Software</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>3</Min>
+	<Max>6</Max>
+	<Types>
+		<Type Software="Finance" Category="Accounting">1</Type>
+	</Types>
+</CompanyType>

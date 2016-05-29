@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Players</Specialization>
+	<PerYear>0.8</PerYear>
+	<Min>1</Min>
+	<Max>10</Max>
+	<Types>
+		<Type Software="Music player">1</Type>
+		<Type Software="Video Player">1</Type>
+	</Types>
+</CompanyType>

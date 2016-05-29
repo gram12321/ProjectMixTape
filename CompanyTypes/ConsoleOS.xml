@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Console Operating System Specialists</Specialization>
+	<PerYear>0.1</PerYear>
+	<Min>0</Min>
+	<Max>1</Max>
+	<Types>
+		<Type Software="Operating System" Category="Console">1</Type>
+	</Types>
+</CompanyType>

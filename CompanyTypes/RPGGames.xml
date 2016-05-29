@@ -1,0 +1,10 @@
+<CompanyType>
+   <Specialization>RPG Games</Specialization>
+   <PerYear>0.3</PerYear>
+   <Min>0</Min>
+   <Max>4</Max>
+   <Types>
+      <Type Software="Adv. Game Engine">1</Type>
+      <Type Software="Role-Playing Game">1</Type>
+   </Types>
+</CompanyType>

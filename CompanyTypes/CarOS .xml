@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Car Operating Systems</Specialization>a
+	<PerYear>0.2</PerYear>
+	<Min>3</Min>
+	<Max>5</Max>
+	<Types>
+		<Type Software="Operating System" Category="Car">1</Type>
+	</Types>
+</CompanyType>

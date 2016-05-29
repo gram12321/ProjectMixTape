@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>E-book</Specialization>
+	<PerYear>0.8</PerYear>
+	<Min>2</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="E-book">1</Type>
+	</Types>
+</CompanyType>

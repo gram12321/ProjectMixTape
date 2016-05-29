@@ -1,0 +1,12 @@
+<CompanyType>
+	<Specialization>Office Tools</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>8</Max>
+	<Types>
+		<Type Software="Text Editor">1</Type>
+		<Type Software="Spreadsheet Tool">1</Type>
+		<Type Software="System Management Tool">1</Type>
+		<Type Software="Email Client">1</Type>
+	</Types>
+</CompanyType>
