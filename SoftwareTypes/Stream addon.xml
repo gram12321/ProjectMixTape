@@ -14,6 +14,7 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>Base</Name>
+			<Category>Network</Category>
 			<Description>The base of where people can go see their opportunities</Description>
 			<DevTime>2</DevTime>
 			<Innovation>6</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature>
 			<Name>Spam protection</Name>
+			<Category>System</Category>
 			<Description>Protects your chat from any spam</Description>
 			<DevTime>1</DevTime>
 			<Innovation>5</Innovation>
@@ -32,6 +34,7 @@
 		</Feature>
 		<Feature>
 			<Name>Commands</Name>
+			<Category>System</Category>
 			<Description>Letting users to add different commands showing a cool description</Description>
 			<DevTime>1</DevTime>
 			<Innovation>5</Innovation>
@@ -41,6 +44,7 @@
 		</Feature>
 		<Feature>
 			<Name>Giveaway</Name>
+			<Category>Network</Category>
 			<Description>Letting streamers create a giveaway and people can join with a command</Description>
 			<DevTime>1</DevTime>
 			<Innovation>5</Innovation>
@@ -50,6 +54,7 @@
 		</Feature>
 		<Feature>
 			<Name>Song request</Name>
+			<Category>Network</Category>
 			<Description>Allowing users to request a song using a command!</Description>
 			<DevTime>1</DevTime>
 			<Innovation>5</Innovation>
@@ -59,6 +64,7 @@
 		</Feature>
 		<Feature>
 			<Name>Follower alert</Name>
+			<Category>System</Category>
 			<Description>This will notify your streamer that he got a new follower</Description>
 			<DevTime>1</DevTime>
 			<Innovation>5</Innovation>
@@ -68,6 +74,7 @@
 		</Feature>
 		<Feature>
 			<Name>Donator alert</Name>
+			<Category>System</Category>
 			<Description>This will notify your streamer about donations</Description>
 			<DevTime>1</DevTime>
 			<Innovation>5</Innovation>
@@ -77,6 +84,7 @@
 		</Feature>
 		<Feature>
 			<Name>Stream labels</Name>
+			<Category>System</Category>
 			<Description>Using text file this allows users to show who maybe is the latest donator or follower and maybe even add a top donators list</Description>
 			<DevTime>1</DevTime>
 			<Innovation>5</Innovation>
@@ -86,6 +94,7 @@
 		</Feature>
 		<Feature>
 			<Name>Chat</Name>
+			<Category>Network</Category>
 			<Description>Letting your viewers to see a chat on the screen so they can stay fullscreened and follow the chat!</Description>
 			<DevTime>2</DevTime>
 			<Innovation>5</Innovation>

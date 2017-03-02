@@ -1,37 +1,35 @@
 <SoftwareType>
 	<Name>Software Remover</Name>
-	<Description>Removes all of the uneeded software, very helpful.</Description>
+	<Description>Removes all of the uneeded software; very helpful.</Description>
 	<Random>0.2</Random>
-	<Popularity>1</Popularity>
+	<Popularity>0.7</Popularity>
 	<Retention>0.87</Retention>
 	<Iterative>0.45</Iterative>
 	<OSSpecific>True</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
-	<Category>System</Category>
+	<Category>Removers</Category>
 	<NameGenerator>SoftwareRemover</NameGenerator>
 	<Features>
 		<Feature Forced="True">
 			<Name>System Enter</Name>
 			<Description>First the remover has to enter your system files to remove the baddies right?</Description>
-			<Category>Files</Category>
+			<Category>System</Category>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
-			<Server>12</Server>
 		</Feature>
-		<Feature Forced="True">
-			<Name>SpeedBoost</Name>
-			<Description>Ups the speed of the removal tool</Description>
+		<Feature>
+			<Name>Speed Boost</Name>
+			<Description>Ups the speed of the removal tool by suspending some software</Description>
 			<Category>System</Category>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>4</Server>
 			<Dependency Software="Software Remover">System Enter</Dependency>
 		</Feature>
 		<Feature>
@@ -43,7 +41,17 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>10</Server>
+			<Dependency Software="Software Remover">System Enter</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Admin Approval</Name>
+			<Description>Allows the software to enter areas even you can't</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Software Remover">System Enter</Dependency>
 		</Feature>
 	</Features>

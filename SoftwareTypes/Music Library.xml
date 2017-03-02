@@ -13,6 +13,7 @@
 	<Features>
 		<Feature Forced="True">
 			<Name>Free Music</Name>
+			<Category>System</Category>
 			<Description>Download music for free.</Description>
 			<Innovation>0</Innovation>
 			<Stability>1</Stability>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature From="Free Music" Vital="True">
 			<Name>Paid Music</Name>
+			<Category>System</Category>
 			<Description>BUY music  to listen to them!</Description>
 			<Innovation>0.5</Innovation>
 			<Stability>1</Stability>
@@ -33,6 +35,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Music Preview</Name>
+			<Category>Audio</Category>
 			<Description>Listen to a bit of the music, to be sure if you like it.</Description>
 			<Innovation>1.5</Innovation>
 			<Stability>0</Stability>
@@ -44,6 +47,7 @@
 		</Feature>
 		<Feature From="Paid Music" Vital="True">
 			<Name>Popular Music</Name>
+			<Category>System</Category>
 			<Description>Woots, everyone knows about this music!</Description>
 			<Innovation>2.5</Innovation>
 			<Stability>1</Stability>
@@ -53,6 +57,7 @@
 		</Feature>
 		<Feature>
 			<Name>Albums</Name>
+			<Category>System</Category>
 			<Description>The possibilities of buying more than one song at a time!</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>
@@ -63,6 +68,7 @@
 		</Feature>
 		<Feature>
 			<Name>User Interface</Name>
+			<Category>2D</Category>
 			<Description>Fancy menu's!</Description>
 			<Innovation>0</Innovation>
 			<Stability>0</Stability>
@@ -73,16 +79,18 @@
 		</Feature>
 		<Feature From="User Interface">
 			<Name>Better User Interface</Name>
+			<Category>3D</Category>
 			<Description>Even better!</Description>
 			<Innovation>0.5</Innovation>
 			<Stability>0</Stability>
 			<Usability>2.5</Usability>
 			<CodeArt>0.4</CodeArt>
 			<DevTime>2</DevTime>
-			<Unlock>1983</Unlock>
+			<Unlock>1987</Unlock>
 		</Feature>
 		<Feature>
 			<Name>Gift-cards</Name>
+			<Category>System</Category>
 			<Description>Buy some fancy codes for your friends so they can waste more money.</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>

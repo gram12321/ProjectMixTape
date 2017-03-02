@@ -51,9 +51,9 @@
 	<InHouse>FALSE</InHouse>
 	<Features>
 		<Feature Forced="TRUE">
-			<Name>Basic Robotics</Name>
+			<Name>Basic Physical</Name>
 			<Description></Description>
-			<Category>Robotics</Category>
+			<Category>Physical</Category>
 			<DevTime>12</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>2</Usability>
@@ -62,10 +62,10 @@
 			<Unlock>2000</Unlock>
 			<Server>0.001</Server>
 		</Feature>
-		<Feature From="Basic Robotics">
-			<Name>Standard Robotics</Name>
+		<Feature From="Basic Physical">
+			<Name>Standard Physical</Name>
 			<Description></Description>
-			<Category>Robotics</Category>
+			<Category>Physical</Category>
 			<DevTime>24</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>4</Usability>
@@ -74,10 +74,10 @@
 			<Unlock>2005</Unlock>
 			<Server>0.002</Server>
 		</Feature>
-		<Feature From="Standard Robotics">
-			<Name>Advanced Robotics</Name>
+		<Feature From="Standard Physical">
+			<Name>Advanced Physical</Name>
 			<Description></Description>
-			<Category>Robotics</Category>
+			<Category>Physical</Category>
 			<DevTime>36</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>6</Usability>

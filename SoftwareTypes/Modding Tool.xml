@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="True">
 			<Name>Game Modding</Name>
+			<Category>System</Category>
 			<Description>Mod games!</Description>
 			<Innovation>1.5</Innovation>
 			<Stability>0</Stability>
@@ -21,9 +22,11 @@
 			<CodeArt>0.5</CodeArt>
 			<DevTime>1</DevTime>
 			<Unlock>1990</Unlock>
+			<Dependency Software="Game">Mod support</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Sound Modding</Name>
+			<Category>Audio</Category>
 			<Description>Bing, Boing, Bang, SOUNDS!</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>
@@ -36,6 +39,7 @@
 		</Feature>
 		<Feature>
 			<Name>Map Editing</Name>
+			<Category>3D</Category>
 			<Description>Remove this barrier, add that building..</Description>
 			<Innovation>0</Innovation>
 			<Stability>1</Stability>
@@ -47,6 +51,7 @@
 		</Feature>
 		<Feature>
 			<Name>Custom Maps</Name>
+			<Category>3D</Category>
 			<Description>CREATE maps, how does that sound?</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>
@@ -58,6 +63,7 @@
 		</Feature>
 		<Feature>
 			<Name>Custom Weapons</Name>
+			<Category>3D</Category>
 			<Description>CREATE WEAPONS, even BETTER!</Description>
 			<Innovation>1</Innovation>
 			<Stability>0</Stability>
@@ -69,6 +75,7 @@
 		</Feature>
 		<Feature>
 			<Name>Custom Gamemodes</Name>
+			<Category>System</Category>
 			<Description>Zombies??</Description>
 			<Innovation>1.5</Innovation>
 			<Stability>0.5</Stability>
@@ -80,6 +87,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Custom Menus</Name>
+			<Category>2D</Category>
 			<Description>Options, Play, Exit</Description>
 			<Innovation>1.5</Innovation>
 			<Stability>1</Stability>

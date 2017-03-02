@@ -16,6 +16,7 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>Music libary</Name>
+			<Category>System</Category>
 			<Description>The absolute minimum for a music service</Description>
 			<DevTime>2</DevTime>
 			<Innovation>7</Innovation>
@@ -25,7 +26,8 @@
 			<Dependency Software="Audio Tool">Audio playback</Dependency>
 		</Feature>
 		<Feature>
-			<Name>playlists</Name>
+			<Name>Playlists</Name>
+			<Category>System</Category>
 			<Description>Allow your user to make lists of songs</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -34,17 +36,19 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
-			<Name>queue</Name>
+			<Name>Queue</Name>
+			<Category>System</Category>
 			<Description>Songs not good enough for a playlist buuut you still wonna listen to them</Description>
 			<DevTime>5</DevTime>
 			<Innovation>7</Innovation>
 			<Usability>10</Usability>
 			<Stability>5</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Music Service">playlists</Dependency>
+			<Dependency Software="Music Service">Playlists</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Album covers</Name>
+			<Category>2D</Category>
 			<Description>For people who have photographic memory</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -55,16 +59,18 @@
 		</Feature>
 		<Feature>
 			<Name>Public playlists</Name>
+			<Category>System</Category>
 			<Description>Have the option to allow people to see a playlist</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
 			<Stability>3</Stability>
 			<Usability>4</Usability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Music Service">playlists</Dependency>
+			<Dependency Software="Music Service">Playlists</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Download song and albums</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -74,6 +80,7 @@
 		</Feature>
 		<Feature>
 			<Name>Music Videos</Name>
+			<Category>Network</Category>
 			<Description>Watch and listen</Description>
 			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
@@ -83,6 +90,8 @@
 		</Feature>
 		<Feature>
 			<Name>HD audio streaming</Name>
+			<Category>Network</Category>
+			<ArtCategory>Audio</ArtCategory>
 			<Description></Description>
 			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>

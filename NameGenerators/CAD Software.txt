@@ -1,0 +1,37 @@
+-start(base)
+-base(base2,base2,ext)
+Graphics
+Solid
+Easy
+GFX
+Poly
+Virtual
+Render
+Visual
+Model
+Shell
+Mesh
+Invent
+-base2(stop,stop,ext)
+Arts
+Work
+Works
+Maker
+Edit
+Sculpt
+Frame
+Fusion
+Auto
+ Frames
+ 2D
+ 3D
+ Expert
+ Viz
+ Studio
+ Workshop
+-ext(stop)
+ Pro
+ Suite
+ Studio
+ Premium
+ Engineer

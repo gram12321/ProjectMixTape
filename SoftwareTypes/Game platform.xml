@@ -14,6 +14,7 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>System</Name>
+			<Category>System</Category>
 			<Description>The bare minimum of the software</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature>
 			<Name>GUI</Name>
+			<Category>2D</Category>
 			<Description>More user friendly</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
@@ -34,6 +36,7 @@
 		</Feature>
 		<Feature>
 			<Name>Database</Name>
+			<Category>System</Category>
 			<Description>Allows easier access for the user</Description>
 			<Server>0.005</Server>
 			<DevTime>2</DevTime>
@@ -43,9 +46,11 @@
 			<CodeArt>1</CodeArt>
 			<Unlock>2000</Unlock>
 			<Dependency Software="Database">Search</Dependency>
+			<Dependency Software="Database">Databases</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Achievements</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>7</Innovation>
@@ -56,6 +61,7 @@
 		</Feature>
 		<Feature>
 			<Name>Streaming</Name>
+			<Category>Network</Category>
 			<Description>Allows people to watch other people play games</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -68,6 +74,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Online Play</Name>
+			<Category>Network</Category>
 			<Description>Allows Online games to be played</Description>
 			<DevTime>8</DevTime>
 			<Innovation>6</Innovation>
@@ -78,6 +85,7 @@
 		</Feature>
 		<Feature From="Online Play" Vital="True">
 			<Name>Offline Play</Name>
+			<Category>System</Category>
 			<Description>Allow people to play anywhere</Description>
 			<DevTime>12</DevTime>
 			<Innovation>7</Innovation>
@@ -87,6 +95,7 @@
 		</Feature>
 		<Feature>
 			<Name>Game Library</Name>
+			<Category>System</Category>
 			<Description>Allow people to find all their games in one place</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -96,6 +105,7 @@
 		</Feature>
 		<Feature>
 			<Name>Community</Name>
+			<Category>Network</Category>
 			<Description>Groups of gamers will finally combine!</Description>
 			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>
@@ -106,19 +116,21 @@
 		</Feature>
 		<Feature>
 			<Name>Market</Name>
+			<Category>Network</Category>
 			<Description>Allows people to buy games</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
 			<Stability>5</Stability>
 			<Usability>4</Usability>
 			<CodeArt>0</CodeArt>
-			<Server>0.005</Server>
+			<Server>0.0053</Server>
 			<Unlock>2010</Unlock>
 			<Dependency Software="Database">Databases</Dependency>
 			<Dependency Software="Gaming Platform">GUI</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Modding Area</Name>
+			<Category>Network</Category>
 			<Unlock>2010</Unlock>
 			<Description>A place where gamers meet modders</Description>
 			<DevTime>6</DevTime>
@@ -131,6 +143,7 @@
 		</Feature>
 		<Feature>
 			<Name>News Area</Name>
+			<Category>Network</Category>
 			<Unlock>2010</Unlock>
 			<Description>A place where developers can show off</Description>
 			<DevTime>6</DevTime>
@@ -156,6 +169,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Friends</Name>
+			<Category>Network</Category>
 			<Description>Allows users to add friends</Description>
 			<DevTime>9</DevTime>
 			<Innovation>7</Innovation>
@@ -166,6 +180,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Chat</Name>
+			<Category>Network</Category>
 			<Description>Allows users to chat with friends</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>

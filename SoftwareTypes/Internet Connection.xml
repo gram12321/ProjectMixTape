@@ -13,16 +13,18 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Wired Router</Name>
+			<Category>Network</Category>
 			<Description>Connection to the internet has never been easier! Just plug in the cord and youre ready to go.</Description>
 			<DevTime>15</DevTime>
 			<Innovation>8</Innovation>
 			<Usability>10</Usability>
 			<Stability>5</Stability>
 			<CodeArt>0.8</CodeArt>
-			<Server>4</Server>
+			<Server>0.003</Server>
 		</Feature>
 		<Feature From="Wired Router">
 			<Name>Wireless Router</Name>
+			<Category>Network</Category>
 			<Description>Now with this, you can take away that ugly router connected to your computer. (And the ugly dust shadow around it.)</Description>
 			<Unlock>1990</Unlock>
 			<DevTime>18</DevTime>
@@ -30,7 +32,7 @@
 			<Usability>12</Usability>
 			<Stability>8</Stability>
 			<CodeArt>0.8</CodeArt>
-			<Server>5</Server>
+			<Server>0.004</Server>
 		</Feature>
 	</Features>
 </SoftwareType>

@@ -30,6 +30,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>File Management</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -51,6 +52,7 @@
 		</Feature>
 		<Feature Vital="True">
             <Name>Local Backup</Name>
+			<Category>System</Category>
             <Description>Because without failover, there is only panic</Description>
             <DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -87,6 +89,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Statistics System</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -100,6 +103,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>User Hierarchy</Name>
+			<Category>System</Category>
 			<Description>Now bosses everywhere can prove they're in charge because Comp Yootor, Great God of the Office, has said it is so</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -110,6 +114,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Work Delegation</Name>
+			<Category>System</Category>
 			<Description>Probably quieter than running around the office screaming tasks at people, and cheaper on health insurance too</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -121,6 +126,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Manual Synchronization</Name>
+			<Category>System</Category>
 			<Description>Or send floppy disk around once in a while</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -131,18 +137,20 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Network Synchronization</Name>
+			<Category>System</Category>
 			<Description>Packets go pew pew pew</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.001</Server>
+			<Server>0.0015</Server>
 			<SoftwareCategory Category="Project Management Software">0</SoftwareCategory>
 			<Dependency Software="Operating System">Networking</Dependency>
 		</Feature>
 		<Feature Forced="True">
             <Name>Employee Management System</Name>
+			<Category>System</Category>
             <Description>The umbrella system upon which various HR modules depend</Description>
             <DevTime>6</DevTime>
 			<Innovation>0</Innovation>
@@ -155,6 +163,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Recruitment Management Module</Name>
+			<Category>System</Category>
             <Description>Allowing clients to manage the recruitment process</Description>
             <DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -166,6 +175,7 @@
         </Feature>
 		<Feature Vital="True">
             <Name>Training Management Module</Name>
+			<Category>System</Category>
             <Description>Allowing clients to manage the training process</Description>
             <DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -177,7 +187,8 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Wage Management Module</Name>
-            <Description></Description>
+			<Category>System</Category>
+            <Description>Allowing clients to manage the money stuffs to give people</Description>
             <DevTime>4</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>2</Usability>
@@ -188,6 +199,7 @@
         </Feature>
 		<Feature>
             <Name>Employee Feedback Module</Name>
+			<Category>System</Category>
             <Description>Allowing clients to manage wages, wage scales, and the like</Description>
             <DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -199,6 +211,7 @@
         </Feature>		    
 		<Feature Forced="True">
             <Name>Project Management System</Name>
+			<Category>System</Category>
             <Description>The umbrella system upon which various HR modules depend</Description>
             <DevTime>4</DevTime>
 			<Innovation>0</Innovation>
@@ -211,6 +224,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Resource Tracking Module</Name>
+			<Category>System</Category>
             <Description>Allowing clients to track resources deployed/available to/for any given project in the system</Description>
             <DevTime>4</DevTime>
 			<Innovation>0</Innovation>
@@ -222,6 +236,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Team Assignment Module</Name>
+			<Category>System</Category>
             <Description>Allowing clients to manage team assignments</Description>
             <DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -234,6 +249,7 @@
         </Feature>
 		<Feature>
             <Name>Team Chat</Name>
+			<Category>Network</Category>
             <Description>For teams and team members to communicate</Description>
             <DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -246,6 +262,7 @@
         </Feature>
 		<Feature Vital="True">
             <Name>Ticket System</Name>
+			<Category>Network</Category>
             <Description>A system to mark up issues, that when hooked into other systems enables rapid and efficient organisation of attempted resolutions of said issues, as well as tracking of progress</Description>
             <DevTime>4</DevTime>
 			<Innovation>1</Innovation>

@@ -24,7 +24,7 @@
 			</Feature>
 			<Feature From="GUI">
 				<Name>3D GUI</Name>
-				<Description>More Complex GUI that looks stunning and more futuristic.</Description>
+				<Description>More complex GUI that looks stunning and more futuristic.</Description>
 				<Unlock>2005</Unlock>
 				<Category>3D</Category>
 				<DevTime>6</DevTime>
@@ -38,7 +38,7 @@
 				<Name>2K GUI</Name>
 				<Description>2K GUI for that crisp look.</Description>
 				<Unlock>2015</Unlock>
-				<Category>2K</Category>
+				<Category>3D</Category>
 				<DevTime>6</DevTime>
 				<Innovation>5</Innovation>
 				<Usability>3</Usability>
@@ -49,9 +49,9 @@
 			</Feature>
 			<Feature From="2K GUI">
 				<Name>4K GUI</Name>
-				<Description>4K GUI for all your graphical requirments.</Description>
+				<Description>4K GUI for all your graphical requirements.</Description>
 				<Unlock>2020</Unlock>
-				<Category>4K</Category>
+				<Category>3D</Category>
 				<DevTime>7</DevTime>
 				<Innovation>6</Innovation>
 				<Usability>5</Usability>
@@ -63,7 +63,7 @@
 			<Feature Forced="TRUE">
 				<Name>CPU</Name>
 				<Description>Add a CPU to the console to make it work.</Description>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>5</DevTime>
 				<Innovation>3</Innovation>
 				<Usability>1</Usability>
@@ -75,7 +75,7 @@
 				<Name>Multi Thread CPU</Name>
 				<Description>Add a Multi Thread CPU to your console for powerful processing power.</Description>
 				<Unlock>2000</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>6</DevTime>
 				<Innovation>4</Innovation>
 				<Usability>3</Usability>
@@ -87,7 +87,7 @@
 				<Name>Multi CPUs</Name>
 				<Description>Make your console the fastest it can be with multiple CPU's in one console.</Description>
 				<Unlock>2015</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>8</DevTime>
 				<Innovation>5</Innovation>
 				<Usability>4</Usability>
@@ -98,7 +98,7 @@
 			<Feature Vital="TRUE">
 				<Name>Memory Card</Name>
 				<Description>Allow users to save their games with ease.</Description>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>6</DevTime>
 				<Innovation>4</Innovation>
 				<Usability>3</Usability>
@@ -109,7 +109,7 @@
 				<Name>Hard Disk Drive</Name>
 				<Description>Include a place to store your saves on.</Description>
 				<Unlock>2000</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>6</DevTime>
 				<Innovation>3</Innovation>
 				<Usability>3</Usability>
@@ -121,7 +121,7 @@
 				<Name>Solid State Drive</Name>
 				<Description>Faster than the Hard Drive and 100 times better than the Memory cards.</Description>
 				<Unlock>2010</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>6</DevTime>
 				<Innovation>5</Innovation>
 				<Usability>3</Usability>
@@ -133,7 +133,7 @@
 				<Name>Singularity Drive</Name>
 				<Description>Singularity Drive is the biggest storage available to consoles.</Description>
 				<Unlock>2020</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>8</DevTime>
 				<Innovation>6</Innovation>
 				<Usability>5</Usability>
@@ -144,7 +144,7 @@
 			<Feature Forced="TRUE">
 				<Name>GPU</Name>
 				<Description>Add a Graphical Processing Unit to your console to make rendering easier.</Description>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>5</DevTime>
 				<Innovation>3</Innovation>
 				<Usability>3</Usability>
@@ -156,7 +156,7 @@
 				<Name>Improved GPU</Name>
 				<Description>Quicker Rendering times means less load times, why not add the Improved GPU.</Description>
 				<Unlock>2005</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>6</DevTime>
 				<Innovation>4</Innovation>
 				<Usability>3</Usability>
@@ -168,7 +168,7 @@
 				<Name>SLI Multi GPUs</Name>
 				<Description>Turn your console to a powerhouse with advanced rendering techniques and more calculations per second.</Description>
 				<Unlock>2015</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>7</DevTime>
 				<Innovation>2</Innovation>
 				<Usability>3</Usability>
@@ -178,8 +178,8 @@
 			</Feature>
 			<Feature Forced="TRUE">
 				<Name>Fan Cooling</Name>
-				<Description>all that hardware can get hot, why not cool it?</Description>
-				<Category>Hardware</Category>
+				<Description>All that hardware can get hot, why not cool it?</Description>
+				<Category>Physical</Category>
 				<DevTime>5</DevTime>
 				<Innovation>2</Innovation>
 				<Usability>1</Usability>
@@ -191,7 +191,7 @@
 				<Name>Water Cooling</Name>
 				<Description>Cool everything with water. It is a good idea to mix water and electronics trust me, I'm an expert.</Description>
 				<Unlock>2010</Unlock>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>5</DevTime>
 				<Innovation>3</Innovation>
 				<Usability>1</Usability>
@@ -202,7 +202,7 @@
 			<Feature Forced="TRUE">
 				<Name>Case</Name>
 				<Description>Why not house all of this hardware in a simplistic case that also looks good.</Description>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>4</DevTime>
 				<Innovation>1</Innovation>
 				<Usability>3</Usability>
@@ -215,7 +215,7 @@
 			<Feature Forced="TRUE">
 				<Name>Controllers</Name>
 				<Description>Allow users to use controllers to use the system.</Description>
-				<Category>Hardware</Category>
+				<Category>Physical</Category>
 				<DevTime>6</DevTime>
 				<Innovation>3</Innovation>
 				<Usability>3</Usability>
@@ -255,7 +255,7 @@
 				<Usability>3</Usability>
 				<Stability>2</Stability>
 				<CodeArt>0.7</CodeArt>
-				<Dependency Software="Audio Card Driver">8-bit support</Dependency>
+				<Dependency Software="Audio Driver">8-bit support</Dependency>
 			</Feature>
 			<Feature From="Audio Playback">
 				<Name>HD Audio Playback</Name>
@@ -267,7 +267,7 @@
 				<Usability>4</Usability>
 				<Stability>3</Stability>
 				<CodeArt>0.7</CodeArt>
-				<Dependency Software="Audio Card Driver">HD support</Dependency>
+				<Dependency Software="Audio Driver">HD support</Dependency>
 			</Feature>
 	</Features>
 <SoftwareType>

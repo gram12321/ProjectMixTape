@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="True">
             <Name>CLI</Name>
+			<Category>System</Category>
             <Description>Everything via command-line. Laborious "fun".</Description>
             <DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -35,6 +36,7 @@
         </Feature>
 		<Feature Forced="TRUE">
 			<Name>Audio playback</Name>
+			<Category>Audio</Category>
 			<Description></Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -117,6 +119,7 @@
 		</Feature>
 		<Feature Vital="TRUE" Research="Audio playback">
 			<Name>Audio compression</Name>
+			<Category>System</Category>
 			<Unlock>1988</Unlock>
 			<Description></Description>
 			<DevTime>4</DevTime>

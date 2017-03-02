@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Basic Patterns</Name>
+			<Category>System</Category>
 			<Description>Some always-needed implementations for usual tasks</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -48,7 +49,7 @@
 		<Feature>
 			<Name>Network Utils</Name>
 			<Description>Implementation for networking tasks</Description>
-			<Category>Networking</Category>
+			<Category>Network</Category>
 			<Unlock>1985</Unlock>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -95,7 +96,7 @@
 		<Feature>
 			<Name>Modular System Utils</Name>
 			<Description>Helps developers to build modular software</Description>
-			<Category>Engineering</Category>
+			<Category>Algorithm</Category>
 			<Unlock>1995</Unlock>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -107,7 +108,7 @@
 		<Feature>
 			<Name>Dependency Injection</Name>
 			<Description>Let developers decouple dependencies in their software</Description>
-			<Category>Engineering</Category>
+			<Category>System</Category>
 			<Unlock>2000</Unlock>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -119,13 +120,14 @@
 		<Feature>
 			<Name>Self Optimization</Name>
 			<Description>Enables automatic optimization for software development</Description>
-			<Category>Engineering</Category>
+			<Category>Algorithm</Category>
 			<Unlock>2020</Unlock>
 			<DevTime>6</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>2</Stability>
 			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Artificial Intelligence">Self learning</Dependency>
 			<Dependency Software="Operating System">64-bit</Dependency>
 			<Dependency Software="Programming Language">Code Reflection</Dependency>
 			<Dependency Software="Programming Language">Visual Programming</Dependency>
@@ -144,7 +146,7 @@
 			<Name>Remote procedures</Name>
 			<Description>Network based functions</Description>
 			<Unlock>1995</Unlock>
-			<Category>Networking</Category>
+			<Category>Network</Category>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>

@@ -30,6 +30,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Basic Helpers</Name>
+			<Category>System</Category>
 			<Description>Some usual features every company needs</Description>
 			<Unlock>1985</Unlock>
 			<DevTime>6</DevTime>
@@ -73,7 +74,7 @@
 			<Usability>4</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.4</Server>
+			<Server>0.04</Server>
 			<Dependency Software="Framework">Network Utils</Dependency>
 		</Feature>
 		<Feature>
@@ -90,6 +91,7 @@
 		</Feature>
 		<Feature>
 			<Name>Modular development</Name>
+			<Category>System</Category>
 			<Description>Enhances the stability of this software</Description>
 			<Unlock>1995</Unlock>
 			<DevTime>3</DevTime>
@@ -101,6 +103,7 @@
 		</Feature>
 		<Feature>
 			<Name>DI</Name>
+			<Category>System</Category>
 			<Description>Take advantage of the dependency injection framework</Description>
 			<Unlock>2000</Unlock>
 			<DevTime>4</DevTime>
@@ -112,6 +115,7 @@
 		</Feature>
 		<Feature>
 			<Name>SO</Name>
+			<Category>System</Category>
 			<Description>Take advantage of the self optimisation framework</Description>
 			<Unlock>2020</Unlock>
 			<DevTime>7</DevTime>
@@ -123,6 +127,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Inventory</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -134,6 +139,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Ledger</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -145,6 +151,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Analytics</Name>
+			<Category>System</Category>
 			<Description>Statistics, charts, whatnot</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>

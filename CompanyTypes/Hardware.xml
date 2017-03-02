@@ -4,11 +4,10 @@
    <Min>2</Min>
    <Max>9</Max>
    <Types>
-		<Type Software="Audio Card Driver">1</Type>
+		<Type Software="Audio Driver">1</Type>
 		<Type Software="Video Card Driver">1</Type>
 		<Type Software="Storage">1</Type>
 		<Type Software="SSD">1</Type>
-		<Type Software="Video Cards">1</Type>
 		<Type Software="Motherboard">1</Type>
 		<Type Software="RAM">1</Type>
 		<Type Software="CPU Driver">1</Type>

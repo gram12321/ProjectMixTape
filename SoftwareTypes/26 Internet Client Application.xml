@@ -31,6 +31,7 @@
     <Features>
         <Feature Forced="True">
             <Name>CLI</Name>
+			<Category>System</Category>
             <Description>Such very much typing</Description>
             <DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -70,6 +71,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Encryption</Name>
+			<Category>System</Category>
             <Description>Making things more secure since... well, to be honest we're not sure when, the info is encrypted and the government stole the key</Description>
             <DevTime>4</DevTime>
 			<Innovation>1</Innovation>

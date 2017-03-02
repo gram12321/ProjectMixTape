@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>Virtual Personal Assistant</Name>
 	<Category>Social</Category>
-	<Description>Your trustable virtual assistant that maybe smarter than you</Description>
+	<Description>Your trustable virtual assistant that may be smarter than you</Description>
 	<Unlock>2000</Unlock>
 	<Random>0.5</Random>
 	<Popularity>0.8</Popularity>
@@ -15,6 +15,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Base server setup</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -25,6 +26,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Simple coding</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -34,6 +36,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Complex coding</Name>
+			<Category>System</Category>v
 			<Description></Description>
 			<DevTime>2</DevTime>
 			<Innovation>4</Innovation>
@@ -45,6 +48,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Simple UI</Name>
+			<Category>2D</Category>
 			<Description></Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -54,6 +58,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Advanced UI</Name>
+			<Category>3D</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>4</Innovation>
@@ -65,6 +70,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Customized UI</Name>
+			<Category>2D</Category>
+			<ArtCategory>3D</ArtCategory>
 			<Description></Description>
 			<DevTime>6</DevTime>
 			<Innovation>5</Innovation>
@@ -76,6 +83,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Text recognition</Name>
+			<Category>System</Category>
 			<Description>Your VPA can understand what you type</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -86,7 +94,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Voice recognition</Name>
-			<Description>Your VPA can listen what you say</Description>
+			<Category>Audio</Category>
+			<Description>Your VPA can listen to what you say</Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>3</Usability>
@@ -98,7 +107,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Administration duties</Name>
-			<Description>Your VPA can create event,set alarm when you tell him..her?</Description>
+			<Category>System</Category>
+			<Description>Your VPA can create events and set alarms when you tell it to</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
@@ -109,6 +119,7 @@
 		</Feature>
 		<Feature>
 			<Name>Music recognition</Name>
+			<Category>Audio</Category>
 			<Description>Your VPA can guess the songs.. almost 99% correctly</Description>
 			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
@@ -121,7 +132,8 @@
 		</Feature>
 		<Feature>
 			<Name>Apps action integrated</Name>
-			<Description>basically you just need to tell VPA to do anything like take photo or launch some apps... </Description>
+			<Category>System</Category>
+			<Description>Now you can tell your VPA to do anything, like take photos or launch apps!</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
@@ -131,7 +143,8 @@
 		</Feature>
 		<Feature Research="Administration duties">
 			<Name>YSIW</Name>
-			<Description>You Say, I Write function that they will create any documents based on your needs</Description>
+			<Category>System</Category>
+			<Description>You Say, I Write. Your VPA will create a document on anything</Description>
 			<DevTime>5</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>3</Usability>
@@ -141,7 +154,8 @@
 		</Feature>
 		<Feature>
 			<Name>History storing</Name>
-			<Description>see whatever you have ask VPA to do</Description>
+			<Category>System</Category>
+			<Description>See whatever you have asked VPA to do</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
@@ -150,7 +164,8 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Text feedback</Name>
-			<Description>Your VPA answer you by text</Description>
+			<Category>System</Category>
+			<Description>Your VPA will answer you by text</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
@@ -160,7 +175,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Voice feedback</Name>
-			<Description>Your VPA answer you by voice</Description>
+			<Category>Audio</Category>
+			<Description>Your VPA will answer you by voice</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
@@ -172,7 +188,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Voice changes</Name>
-			<Description>Now your VPA can change voice... any person's voice you like</Description>
+			<Category>Audio</Category>
+			<Description>Now your VPA can change its voice... to any person's voice you like</Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>2</Usability>
@@ -183,6 +200,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Calls and messaging</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -191,7 +209,8 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>Multi-languages support</Name>
+			<Name>Multi-language support</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -201,7 +220,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Information gathering</Name>
-			<Description>whatever you want to know, VPA can search for you from the internet. just don't ask stupid questions</Description>
+			<Category>Network</Category>
+			<Description>Whatever you want to know, VPA can search it from the internet. Just don't ask stupid questions</Description>
 			<DevTime>5</DevTime>
 			<Innovation>5</Innovation>
 			<Usability>3</Usability>
@@ -211,7 +231,8 @@
 		</Feature>
 		<Feature>
 			<Name>Location access</Name>
-			<Description> VPA can search info like restaurant or traffic report based on your location</Description>
+			<Category>Network</Category>
+			<Description>VPA can search info like about restaurants or traffic reports based on your location</Description>
 			<DevTime>4</DevTime>
 			<Innovation>5</Innovation>
 			<Usability>3</Usability>
@@ -222,6 +243,7 @@
 		</Feature>
 		<Feature>
 			<Name>Weather report</Name>
+			<Category>Network</Category>
 			<Description>If you are not 100% sure the rain outside is really rain, you can ask VPA</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -233,7 +255,8 @@
 		</Feature>
 		<Feature Research="Voice recognition">
 			<Name>Virtual learning programs</Name>
-			<Description>Upgrade your life with VLP to learn new skills easily</Description>
+			<Category>System</Category>
+			<Description>Upgrade your life with VLP to make VPA learn new skills easily</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
 			<Usability>5</Usability>
@@ -243,7 +266,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Behaviour Studies</Name>
-			<Description>VPA secretly study the behaviour and answer accordingly</Description>
+			<Category>System</Category>
+			<Description>VPA secretly studies the behaviour and answers accordingly</Description>
 			<DevTime>8</DevTime>
 			<Innovation>8</Innovation>
 			<Usability>6</Usability>

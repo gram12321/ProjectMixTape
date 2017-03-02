@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Media library</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Video playback</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -32,6 +34,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Video rendering</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -41,6 +44,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Full screen playback</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<Unlock>1990</Unlock>
 			<DevTime>4</DevTime>
@@ -76,6 +80,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Timeline display</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<Unlock>1980</Unlock>
 			<DevTime>3</DevTime>
@@ -98,6 +103,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Video tracks</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>8</DevTime>
 			<Innovation>4</Innovation>
@@ -107,6 +113,7 @@
 		</Feature>
 		<Feature>
 			<Name>Storyboard mode</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<Unlock>1985</Unlock>
 			<DevTime>3</DevTime>

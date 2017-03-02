@@ -14,6 +14,7 @@
 	<Features>
 	        <Feature Forced="True">
             <Name>CLI</Name>
+			<Category>System</Category>
             <Description>Everything via command-line. Laborious "fun".</Description>
             <DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -22,16 +23,6 @@
 			<CodeArt>1</CodeArt>
         </Feature>
 		<Feature From="CLI">
-            <Name>Integral GUI</Name>
-            <Description>An integral GUI, just for this software. Additional devtime versus building on what an OS provides</Description>
-            <DevTime>3</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>2</Usability>
-			<Stability>1</Stability>            
-			<CodeArt>1</CodeArt>
-			<Dependency Software="2D Editor">CLI</Dependency>
-        </Feature>
-		<Feature From="Integral GUI">
             <Name>GUI</Name>
             <Category>2D</Category>
             <Description>Everything not on the command line, which really is a relief with databases</Description>
@@ -43,8 +34,21 @@
 			<Unlock>1975</Unlock>
 			<Dependency Software="2D Editor">CLI</Dependency>
         </Feature>
+		<Feature From="GUI">
+            <Name>Integral GUI</Name>
+			<Category>2D</Category>
+            <Description>An integral GUI, just for this software. Additional devtime versus building on what an OS provides</Description>
+            <DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>            
+			<CodeArt>1</CodeArt>
+			<Unlock>1980</Unlock>
+			<Dependency Software="2D Editor">CLI</Dependency>
+        </Feature>
 		<Feature Forced="TRUE">
 			<Name>Image rendering</Name>
+			<Category>2D</Category>
 			<Description>Actually display an image on the screen</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -93,6 +97,7 @@
 		</Feature>
 		<Feature Research="Image effects">
 			<Name>Cinematic filter</Name>
+			<Category>2D</Category>
 			<Unlock>1993</Unlock>
 			<Description>Instant professionalism</Description>
 			<DevTime>1</DevTime>
@@ -103,6 +108,7 @@
 		</Feature>
 		<Feature Vital="TRUE" Research="Pixel manipulation">
 			<Name>Image compression</Name>
+			<Category>System</Category>
 			<Unlock>1990</Unlock>
 			<Description></Description>
 			<DevTime>3</DevTime>
@@ -128,6 +134,7 @@
 		</Feature>
 		<Feature Research="Video editing">
 			<Name>Video codec</Name>
+			<Category>System</Category>
 			<Unlock>1994</Unlock>
 			<Description></Description>
 			<DevTime>3</DevTime>

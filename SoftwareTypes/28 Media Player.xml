@@ -16,6 +16,7 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>Core</Name>
+			<Category>System</Category>
 			<Description>Rendering, decoding, GUI, washing dishes, etc</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -28,6 +29,7 @@
 		</Feature>
 	<Feature Vital="TRUE">
 			<Name>Media Library</Name>
+			<Category>System</Category>
 			<Description>Not the fun kind of library with a frequent orangutan visitor, but still highly useful</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -41,6 +43,7 @@
 		</Feature>
 	<Feature VITAL="TRUE">
 			<Name>Network Streaming</Name>
+			<Category>System</Category>
 			<Description>Watch a video on your computer in your living room from your laptop! Watch probably totally maybe legal streams of live sports events on the internet! Also other things! Woo!</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -53,6 +56,7 @@
 		</Feature>	
 	<Feature>
 			<Name>Video Postprocessing</Name>
+			<Category>Algorithm</Category>
 			<Description>This enables enhancements made by the software using algorithms. Whether this is actually of any value to the end user in most scenarios is debatable, but it sounds very impressive on paper...</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -66,6 +70,7 @@
 		</Feature>
 	<Feature Vital="TRUE">
 			<Name>Video Upscaling</Name>
+			<Category>System</Category>
 			<Description>Either like putting lipstick on a pig or like putting yoga pants on Shakira</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>

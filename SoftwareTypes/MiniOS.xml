@@ -13,6 +13,7 @@
 	<Features>
         <Feature Forced="TRUE">
             <Name>System Terminal</Name>
+			<Category>System</Category>
             <Description>The default interface for a MiniOS. If gui is installed, SYSTERMINAL can be used as an application.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0.5</Innovation>
@@ -22,6 +23,7 @@
         </Feature>
 		<Feature Forced="TRUE">
 			<Name>Base</Name>
+			<Category>System</Category>
 			<Description>Base assembly of a MiniOS</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -31,6 +33,7 @@
 		</Feature>
         <Feature>
             <Name>Advanced Compression</Name>
+			<Category>System</Category>
             <Description>Makes OS extremely small. Great for usability, since its a lot faster to download!</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
@@ -40,15 +43,18 @@
         </Feature>
 		<Feature>
 			<Name>Simple De/Compressor Tool</Name>
+			<Category>System</Category>
             <Description>Simple tool to make .zip files and extract them. Nothing advanced. (Can be used with SYSTERMINAL)</Description>
             <DevTime>1</DevTime>
             <Innovation>1</Innovation>
             <Stability>5</Stability>
             <Usability>1</Usability>
             <CodeArt>1</CodeArt>
+			<Dependency Software="File Compression">10% Compression</Dependency>
         </Feature>
         <Feature>
 			<Name>Live Decompression</Name>
+			<Category>System</Category>
             <Description></Description>
             <DevTime>2</DevTime>
             <Innovation>3</Innovation>

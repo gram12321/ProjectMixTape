@@ -13,17 +13,9 @@
 	<Category>Tools</Category>
 	<NameGenerator>vpn_names</NameGenerator>
 	<Features>
-		<Feature Forced="TRUE">
-			<Name>GUI</Name>
-			<Description>Graphical User Interface.</Description>
-			<DevTime>2</DevTime>
-			<Innovation>0.6</Innovation>
-			<Usability>1</Usability>
-			<Stability>0.3</Stability>
-			<CodeArt>0.2</CodeArt>
-		</Feature>
 		<Feature>
 			<Name>Networking</Name>
+			<Category>Network</Category>
 			<Description>Without it, nothing does it's job!</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -35,8 +27,9 @@
 			<Dependency Software="Operating System">Block Multithreading</Dependency>
 			<Dependency Software="Operating System">Multitasking</Dependency>
 		</Feature>
-		<Feature>
+		<Feature Forced="True">
 			<Name>Basics</Name>
+			<Category>System</Category>
 			<Description>These are the basics of a VPN Software.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -49,6 +42,7 @@
 		</Feature>
 		<Feature From="Basics">
 			<Name>Extended Basics</Name>
+			<Category>System</Category>
 			<Description>These are the extended basics of a VPN Software.</Description>
 			<DevTime>5</DevTime>
 			<Innovation>4</Innovation>
@@ -62,6 +56,7 @@
 		</Feature>
 		<Feature From="Extended Basics">
 			<Name>Graphical User Interface</Name>
+			<Category>System</Category>
 			<Description>That'll help many confused users</Description>
 			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>

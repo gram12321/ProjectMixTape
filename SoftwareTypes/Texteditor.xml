@@ -29,6 +29,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Basic processing</Name>
+			<Category>System</Category>
 			<Description>Features like open, edit, save and close.</Description>
 			<DevTime>10</DevTime>
 			<Innovation>2</Innovation>
@@ -39,6 +40,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Basic Text Editing</Name>
+			<Category>System</Category>
 			<Description>Basic Text writing and editing, ready to save your files, no emojis or other Symbols.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -48,6 +50,7 @@
 		</Feature>
 		<Feature From="Basic Text Editing">
 			<Name>Extended Text Editing</Name>
+			<Category>System</Category>
 			<Description>You can now put emojis and symbols in your text</Description>
 			<DevTime>3</DevTime>
 			<Unlock>1991</Unlock>
@@ -83,6 +86,7 @@
 		</Feature>
 		<Feature>
 			<Name>Tabs</Name>
+			<Category>System</Category>
 			<Description>Opens several files in several tabs</Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
@@ -119,7 +123,7 @@
 		<Feature Vital="TRUE">
 			<Name>Syntax Highlighting</Name>
 			<Unlock>2009</Unlock>
-			<Description>Reading HTML is no longer rocket science</Description>
+			<Description>Reading code is no longer rocket science</Description>
 			<DevTime>4</DevTime>
 			<Innovation>12</Innovation>
 			<Usability>12</Usability>
@@ -194,7 +198,7 @@
 			<Dependency Software="Operating System">Simultaneous Multithreading</Dependency>
 			<Dependency Software="Operating System">64-bit</Dependency>
 			<Dependency Software="2D Editor">Image rendering</Dependency>
-			<Category>Any</Category>
+			<Category>System</Category>
 		</Feature>
 			<Feature>
 				<Name>Auto Saving</Name>
@@ -277,7 +281,7 @@
 				<CodeArt>1</CodeArt>
 			</Feature>	
 			<Feature>
-				<Name>Html Editing</Name>
+				<Name>Webpage Editing</Name>
 				<Description>Allow users to create a web page using your editor.</Description>
 				<Category>Network</Category>
 				<DevTime>1</DevTime>
@@ -289,6 +293,7 @@
 			</Feature>
 			<Feature>
 				<Name>Source Code Editing</Name>
+				<Category>System</Category>
 				<Description>Allow users to edit source code and develop programs in your editor.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>3</Innovation>

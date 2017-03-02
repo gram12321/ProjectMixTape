@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>2MB RAM</Name>
+			<Category>Physical</Category>
 			<Description>Steady</Description>
 			<DevTime>6</DevTime>
 			<Unlock>1980</Unlock>
@@ -24,6 +25,7 @@
 		</Feature>
 		<Feature From="2MB RAM">
 			<Name>8MB RAM</Name>
+			<Category>Physical</Category>
 			<Description>Speeding Up</Description>
 			<DevTime>7</DevTime>
 			<Unlock>1983</Unlock>
@@ -34,6 +36,7 @@
 		</Feature>
 		<Feature From="8MB RAM">
 			<Name>16MB RAM</Name>
+			<Category>Physical</Category>
 			<Description>Faster Speeds</Description>
 			<DevTime>7</DevTime>
 			<Unlock>1985</Unlock>
@@ -44,6 +47,7 @@
 		</Feature>
 		<Feature From="16MB RAM">
 			<Name>32MB RAM</Name>
+			<Category>Physical</Category>
 			<Description>Blazing</Description>
 			<DevTime>7</DevTime>
 			<Unlock>1987</Unlock>
@@ -54,7 +58,8 @@
 		</Feature>
 		<Feature From="32MB RAM">
 			<Name>256MB RAM</Name>
-			<Description>Blazing</Description>
+			<Category>Physical</Category>
+			<Description>Super fast</Description>
 			<DevTime>7</DevTime>
 			<Unlock>1994</Unlock>
 			<Innovation>7</Innovation>
@@ -64,7 +69,8 @@
 		</Feature>
 		<Feature From="256MB RAM">
 			<Name>512MB RAM</Name>
-			<Description>Blazing</Description>
+			<Category>Physical</Category>
+			<Description>Super duper fast</Description>
 			<DevTime>7</DevTime>
 			<Unlock>2000</Unlock>
 			<Innovation>7</Innovation>
@@ -74,7 +80,8 @@
 		</Feature>
 		<Feature From="512MB RAM">
 			<Name>1GB RAM</Name>
-			<Description>Blazing</Description>
+			<Category>Physical</Category>
+			<Description>Theoretically lightspeed</Description>
 			<DevTime>7</DevTime>
 			<Unlock>2004</Unlock>
 			<Innovation>7</Innovation>
@@ -84,7 +91,8 @@
 		</Feature>
 		<Feature From="1GB RAM">
 			<Name>6GB RAM</Name>
-			<Description>Blazing</Description>
+			<Category>Physical</Category>
+			<Description>Unfortunately not lightspeed, figured that out. Faster than ever though!</Description>
 			<DevTime>7</DevTime>
 			<Unlock>2008</Unlock>
 			<Innovation>7</Innovation>
@@ -94,7 +102,8 @@
 		</Feature>
 		<Feature From="6GB RAM">
 			<Name>12GB RAM</Name>
-			<Description>Blazing</Description>
+			<Category>Physical</Category>
+			<Description>Blazin' 'n grazin'</Description>
 			<DevTime>7</DevTime>
 			<Unlock>2014</Unlock>
 			<Innovation>7</Innovation>
@@ -104,6 +113,7 @@
 		</Feature>
 		<Feature>
 			<Name>RAM Cooling</Name>
+			<Category>Physical</Category>
 			<Description>Less heat</Description>
 			<DevTime>6</DevTime>
 			<Unlock>1990</Unlock>
@@ -114,6 +124,7 @@
 		</Feature>
 		<Feature From="RAM Cooling">
 			<Name>Double RAM Cooling</Name>
+			<Category>Physical</Category>
 			<Description>Less heat than before</Description>
 			<DevTime>7</DevTime>
 			<Unlock>1995</Unlock>
@@ -124,7 +135,8 @@
 		</Feature>
 		<Feature From="Double RAM Cooling">
 			<Name>Quad Cooling</Name>
-			<Description>Blazing</Description>
+			<Category>Physical</Category>
+			<Description>Freezin' cold</Description>
 			<DevTime>7</DevTime>
 			<Unlock>2008</Unlock>
 			<Innovation>7</Innovation>
@@ -134,6 +146,7 @@
 		</Feature>
 		<Feature>
 			<Name>RAM Overclocking</Name>
+			<Category>System</Category>
 			<Description>Speed em up</Description>
 			<DevTime>6</DevTime>
 			<Unlock>2006</Unlock>
@@ -144,7 +157,8 @@
 		</Feature>
 		<Feature From="RAM Overclocking">
 			<Name>RAM Superclocking</Name>
-			<Description>Speed em up</Description>
+			<Category>System</Category>
+			<Description>Sped it up more</Description>
 			<DevTime>6</DevTime>
 			<Unlock>2010</Unlock>
 			<Innovation>7</Innovation>

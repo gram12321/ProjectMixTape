@@ -42,6 +42,7 @@
     <Features>
         <Feature Forced="True">
             <Name>CLI</Name>
+			<Category>System</Category>
             <Description>Such very much typing</Description>
             <DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -64,6 +65,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>File Management</Name>
+			<Category>System</Category>
             <Description>For managing files</Description>
             <DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -76,6 +78,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Compression</Name>
+			<Category>System</Category>
             <Description>For files, the opposite of obesity</Description>
             <DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -87,6 +90,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Task Management</Name>
+			<Category>System</Category>
             <Description>Without this, a Task Manager has pretty much the same utility as a steak knife to a lion</Description>
             <DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -98,6 +102,7 @@
         </Feature>
 		<Feature>
 			<Name>Process Management</Name>
+			<Category>System</Category>
             <Description>Without this, a Task Manager has pretty much the same utility as a steak knife to a lion</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -122,6 +127,7 @@
         </Feature>
 		<Feature>
 			<Name>Disk Management</Name>
+			<Category>System</Category>
             <Description>Without this, a Task Manager has pretty much the same utility as a steak knife to a lion</Description>
             <DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -133,6 +139,7 @@
         </Feature>
 		<Feature>
 			<Name>Clean Your Files!</Name>
+			<Category>System</Category>
             <Description>Both utterly useless and utterly useful. It depends who you ask, doesn't it?</Description>
             <DevTime>9</DevTime>
 			<Innovation>0</Innovation>

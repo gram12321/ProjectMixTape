@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Hardware Interaction</Name>
+			<Category>System</Category>
 			<Description>Enables basic interaction between OS and Driver.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature>
 			<Name>Multi-Card Support</Name>
+			<Category>System</Category>
 			<Description>Support for multiple cards per system.</Description>
 			<Unlock>1990</Unlock>
 			<DevTime>1</DevTime>
@@ -33,6 +35,7 @@
 		</Feature>
 		<Feature>
          <Name>Physix</Name>
+		 <Category>3D</Category>
          <Description>Enables fancy 3D physics effects in games.</Description>
          <Unlock>2005</Unlock>
          <DevTime>2</DevTime>
@@ -54,6 +57,7 @@
       </Feature>
       <Feature>
          <Name>Companion Software</Name>
+		 <Category>Network</Category>
          <Description>Allows user to auto-update and optimize drivers through a GUI. Requires server.</Description>
          <DevTime>3</DevTime>
          <Unlock>2010</Unlock>

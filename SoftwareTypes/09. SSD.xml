@@ -14,7 +14,8 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>25GB SSD</Name>
-			<Description>A LOT FASTER</Description>
+			<Category>System</Category>
+			<Description>A LOT FASTER THAN HDD</Description>
 			<DevTime>6</DevTime>
 			<Unlock>2005</Unlock>
 			<Innovation>7</Innovation>
@@ -24,6 +25,7 @@
 		</Feature>
 		<Feature From="25GB SSD">
 			<Name>100GB SSD</Name>
+			<Category>System</Category>
 			<Description>The speeeeeed</Description>
 			<DevTime>7</DevTime>
 			<Unlock>2008</Unlock>
@@ -34,7 +36,8 @@
 		</Feature>
 		<Feature From="100GB SSD">
 			<Name>258GB SSD</Name>
-			<Description>Miliseconds it takes to load</Description>
+			<Category>System</Category>
+			<Description>It takes milliseconds to load</Description>
 			<DevTime>9</DevTime>
 			<Unlock>2010</Unlock>
 			<Innovation>7</Innovation>

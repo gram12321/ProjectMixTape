@@ -15,6 +15,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>File management</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -34,9 +35,9 @@
 			<CodeArt>0.5</CodeArt>
 		</Feature>
 		<Feature Vital="True">
-			<Name>WYSIWYG</Name>
+			<Name>WYSIPWYG</Name>
 			<Category>2D</Category>
-			<Description>What You See Is probably What You Get</Description>
+			<Description>What You See Is Probably What You Get</Description>
 			<DevTime>6</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>4</Usability>
@@ -46,6 +47,7 @@
 		</Feature>
 		<Feature>
 			<Name>Community</Name>
+			<Category>Network</Category>
 			<Description>The internet needs more comment sections</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -55,6 +57,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Widgets</Name>
+			<Category>System</Category>
 			<Description>Also known as social media buttons</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -72,7 +75,7 @@
 			<Stability>2</Stability>
 			<CodeArt>0</CodeArt>
 			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
-			<Dependency Software="WebCMS">WYSIWYG</Dependency>
+			<Dependency Software="WebCMS">WYSIPWYG</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>

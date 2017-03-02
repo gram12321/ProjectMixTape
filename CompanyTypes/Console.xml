@@ -4,7 +4,6 @@
    <Min>0</Min>
    <Max>4</Max>
    <Types>
-      <Type Software="Console Engine">0.3</Type>
-      <Type Software="Console Game">0.4</Type>
+      <Type Software="Console">0.3</Type>
    </Types>
 </CompanyType>

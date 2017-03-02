@@ -16,6 +16,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Contents library</Name>
+			<Category>System</Category>
 			<Description>Places where you store your saved books</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -26,7 +27,8 @@
 		</Feature>
 		<Feature>
 			<Name>Folders</Name>
-			<Description>create folders to sort out your favourite books</Description>
+			<Category>System</Category>
+			<Description>Create folders to sort out your favourite books</Description>
 			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
@@ -36,7 +38,8 @@
 			<Dependency Software="E-book">Contents library</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>Low screen pixels</Name>
+			<Name>Low resolution screen pixels</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -46,7 +49,8 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>High screen pixels</Name>
+			<Name>High resolution screen pixels</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>6</Innovation>
@@ -54,10 +58,11 @@
 			<Stability>3</Stability>
 			<CodeArt>0.8</CodeArt>
 			<Unlock>1990</Unlock>
-			<Dependency Software="E-book">Low screen pixels</Dependency>
+			<Dependency Software="E-book">Low resolution screen pixels</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Auto light mode</Name>
+			<Category>System</Category>
 			<Description>New light technology to suite the comfortness of your eyes </Description>
 			<DevTime>4</DevTime>
 			<Innovation>5</Innovation>
@@ -68,6 +73,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Touch mode</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>5</Innovation>
@@ -78,7 +84,8 @@
 		</Feature>
 		<Feature>
 			<Name>Text to speech</Name>
-			<Description>make it easier to find your book by speech</Description>
+			<Category>System</Category>
+			<Description>Make it easier to find your book by speech</Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>2</Usability>
@@ -89,7 +96,8 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Font size adjustment</Name>
-			<Description>make it easier to read according to the font size you want</Description>
+			<Category>System</Category>
+			<Description>Make it easier to read according to the font size you want</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>

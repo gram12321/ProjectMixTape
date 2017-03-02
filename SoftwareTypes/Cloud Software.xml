@@ -15,6 +15,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>HDD Servers</Name>
+			<Category>Network</Category>
 			<Description>Standard storage, not so fast.</Description>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
@@ -26,6 +27,7 @@
 		</Feature>
 		<Feature From="HDD Servers" Vital="TRUE">
 			<Name>SSD Servers</Name>
+			<Category>Network</Category>
 			<Description>Blazing fast!</Description>
 			<Innovation>1</Innovation>
 			<Usability>1.5</Usability>
@@ -74,7 +76,9 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>512MB Storage</Name>
+			<Category>Network</Category>
 			<Description>Have half of a GB worth of storage.</Description>
+			<Server>0.015</Server>
 			<Innovation>0.5</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -83,7 +87,9 @@
 		</Feature>
 		<Feature From="512MB Storage">
 			<Name>1GB Storage</Name>
+			<Category>Network</Category>
 			<Description> 1024 MB worth of storage, its better than nothing.</Description>
+			<Server>0.036</Server>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -93,8 +99,8 @@
 		</Feature>
 		<Feature From="1GB Storage">
 			<Name>5GB Storage</Name>
-			<Unlock>2003</Unlock>
 			<Category>Network</Category>
+			<Unlock>2003</Unlock>
 			<Description>5GB of storage on the house!</Description>
 			<Server>0.05</Server>
 			<DevTime>2</DevTime>
@@ -105,7 +111,9 @@
 		</Feature>
 		<Feature From="5GB Storage">
 			<Name>16GB Storage</Name>
+			<Category>Network</Category>
 			<Description> You must have a lot of files to store, don't you?</Description>
+			<Server>0.067</Server>
 			<Innovation>1.5</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -115,7 +123,7 @@
 		</Feature>
 		<Feature From="16GB Storage">
 			<Name>25GB Storage</Name>
-			<Category>System</Category>
+			<Category>Network</Category>
 			<Description>25GB of storage on the house!</Description>
 			<Server>0.075</Server>
 			<CodeArt>1</CodeArt>
@@ -127,7 +135,9 @@
 		</Feature>
 		<Feature From="25GB Storage">
 			<Name>32GB Storage</Name>
+			<Category>Network</Category>
 			<Description> I bet you won't fill up this much of storage.</Description>
+			<Server>0.089</Server>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -137,7 +147,7 @@
 		</Feature>
 		<Feature From="32GB Storage">
 			<Name>100GB Storage</Name>
-			<Category>System</Category>
+			<Category>Network</Category>
 			<Description>100GB of storage on the house!</Description>
 			<Server>0.1</Server>
 			<CodeArt>1</CodeArt>
@@ -149,7 +159,9 @@
 		</Feature>
 		<Feature From="100GB Storage">
 			<Name>1TB Storage</Name>
+			<Category>Network</Category>
 			<Description> Do I even want to know what you with this much of storage?</Description>
+			<Server>0.25</Server>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1.5</Stability>
@@ -160,7 +172,7 @@
 		<Feature>
 			<Name>Sharing</Name>
 			<Unlock>2013</Unlock>
-			<Category>System</Category>
+			<Category>Network</Category>
 			<Description>Link your friends to your files</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>3</DevTime>
@@ -184,7 +196,7 @@
 		<Feature>
 			<Name>Encryption</Name>
 			<Unlock>2010</Unlock>
-			<Category>Security</Category>
+			<Category>System</Category>
 			<Description>Secure your connection to the cloud</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>2</DevTime>
@@ -196,7 +208,7 @@
 		<Feature From="Encryption">
 			<Name>AES Encryption</Name>
 			<Unlock>2015</Unlock>
-			<Category>Security</Category>
+			<Category>System</Category>
 			<Description>Edward Snowden Approves!</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>4</DevTime>
@@ -209,7 +221,7 @@
 		<Feature>
 			<Name>DDOS Protection</Name>
 			<Unlock>2012</Unlock>
-			<Category>Security</Category>
+			<Category>System</Category>
 			<Description>Defend your cloud against the storm</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>4</DevTime>

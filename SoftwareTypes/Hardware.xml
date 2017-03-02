@@ -1,0 +1,363 @@
+<SoftwareType>
+	<Name>Hardware</Name>
+	<Description>Hardware such as mice, keyboards, headsets</Description>
+		<Categories>
+		<Category Name="Audio">
+			<Description>Headsets and speakers etc</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Mice">
+			<Description>Just a mouse</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Keyboard">
+			<Description>Just a keyboard</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<NameGenerator>PeripheralsGen</NameGenerator>
+	<Random>0.1</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Hardware</Category>
+	<Features>
+			<Feature Forced="TRUE">
+				<Name>Speaker</Name>
+				<Description>Just a basic speaker.</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>Stereo</Name>
+				<Description>Sound from 2 sides.</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature>
+				<Name>Surround</Name>
+				<Description>You can hear from all sides.</Description>
+				<Category>Physical</Category>
+				<Research>2005</Research>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<Dependency Software="Hardware">Stereo</Dependency>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>-12db Bass</Name>
+				<Description>Horrible bass.</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0</Usability>
+				<Stability>0</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature From="-12db Bass">
+				<Name>-6db Bass</Name>
+				<Description>A little bit better.</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature From="-6db Bass">
+				<Name>0db Bass</Name>
+				<Description>Still no bass...</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature From="0db Bass">
+				<Name>6db Bass</Name>
+				<Description>It's doable, but not great</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature Research="6db Bass">
+				<Name>12db Bass</Name>
+				<Description>Great bass</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">2000</SoftwareCategory>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>-12db Treble</Name>
+				<Description>Horrible treble.</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0</Usability>
+				<Stability>0</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature From="-12db Treble">
+				<Name>-6db Treble</Name>
+				<Description>A little bit better.</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature From="-6db Treble">
+				<Name>0db Treble</Name>
+				<Description>Still no Treble...</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature From="0db Treble">
+				<Name>6db Treble</Name>
+				<Description>It's doable, but not great</Description>
+				<Category>Physical</Category>
+				<Research>1990</Research>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature From="6db Treble">
+				<Name>12db Treble</Name>
+				<Description>Great Treble</Description>
+				<Category>Physical</Category>
+				<Research>2000</Research>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>Buttons</Name>
+				<Description>Simple right/left buttons</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature>
+				<Name>Ball sensor</Name>
+				<Description>A ball in the mouse to track movement</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature From="Ball sensor">
+				<Name>Trackball</Name>
+				<Description>Move your cursor through your thumb</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature From="Trackball">
+				<Name>Optical</Name>
+				<Description>Includes mini CCD camera to track movement</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature>
+				<Name>Wireless</Name>
+				<Description>Just not an annoying wire</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature FROM="LED">
+				<Name>Laser</Name>
+				<Description>Not that annoying red light as sensor</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1.5</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Hardware">Optical</Dependency>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature>
+				<Name>LED</Name>
+				<Description>Red LED as sensor</Description>
+				<Category>Physical</Category>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Hardware">Optical</Dependency>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature>
+				<Name>Weights</Name>
+				<Description>Some weights to make your mouse heavier or lighter</Description>
+				<Category>Physical</Category>
+				<DevTime>0.2</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Mice">1</SoftwareCategory>
+			</Feature>
+			<Feature Forced="TRUE">
+				<Name>Basic switches</Name>
+				<Description>Bad, basic switches</Description>
+				<Category>Physical</Category>
+				<DevTime>2</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+			<Feature From="Basic switches">
+				<Name>Laptop switches</Name>
+				<Description>Small switches for laptops.</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+			<Feature From="Laptop switches">
+				<Name>Blue mechanical switches</Name>
+				<Description>Tactile feeling</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+			<Feature From="Blue mechanical switches">
+				<Name>Red mechanical switches</Name>
+				<Description>Linear Feeling</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+			<Feature From="Red mechanical switches">
+				<Name>Brown mechanical switches</Name>
+				<Description>Soft tactile feeling</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+			<Feature From="Brown mechanical switches">
+				<Name>Black mechanical switches</Name>
+				<Description>Linear Feeling</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+			<Feature>
+				<Name>Extra Small</Name>
+				<Description>Smaller than a normal laptop switch</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>1</CodeArt>
+				<Unlock>2000</Unlock>
+				<Dependency Software="Hardware">Laptop switches</Dependency>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+			<Feature Research="Basic switches">
+				<Name>Custom font on keys</Name>
+				<Description>Customers can place their favourite font on the keys</Description>
+				<Category>Physical</Category>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1.5</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">2000</SoftwareCategory>
+			</Feature>
+		</Features>
+	</SoftwareType>

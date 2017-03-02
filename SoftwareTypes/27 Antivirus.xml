@@ -27,6 +27,7 @@
 		</Feature>
 	<Feature Forced="TRUE">
 			<Name>File scan</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -64,6 +65,7 @@
 		</Feature>
 		<Feature>
 			<Name>Mail scan</Name>
+			<Category>System</Category>
 			<Description>There's always room for enlargement</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -89,6 +91,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Packet scanning</Name>
+			<Category>System</Category>
 			<Description>Because networks are obviously far too fast and need to be slowed down for security</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>

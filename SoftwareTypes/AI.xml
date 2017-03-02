@@ -15,7 +15,7 @@
 		<Feature Forced="TRUE">
 			<Name>Logic Algorithm</Name>
 			<Description>Simulates intelligent behavior</Description>
-			<Category>Robotics</Category>
+			<Category>Algorithm</Category>
 			<DevTime>12</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>3</Usability>
@@ -27,7 +27,7 @@
 			<Name>Self learning</Name>
 			<Unlock>2005</Unlock>
 			<Description>This is the most important thing for true intelligence</Description>
-			<Category>Robotics</Category>
+			<Category>Algorithm</Category>
 			<DevTime>24</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>4</Usability>
@@ -39,7 +39,7 @@
 			<Name>Distributed intelligence</Name>
 			<Description>Enables a much more complex behavior</Description>
 			<Unlock>2010</Unlock>
-			<Category>Robotics</Category>
+			<Category>Algorithm</Category>
 			<DevTime>36</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>5</Usability>
@@ -71,7 +71,7 @@
 		</Feature>
 		<Feature>
 			<Name>Image Recognition</Name>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
 			<Description>It understands images</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.6</DevTime>
@@ -82,7 +82,7 @@
 		</Feature>
 		<Feature>
 			<Name>Facial Recognition</Name>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
 			<Description>It understands faces</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.6</DevTime>

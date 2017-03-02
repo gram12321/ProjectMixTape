@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>Emulator</Name>
 	<Unlock>2008</Unlock>
-	<Description>A piece of software that emulates, or replicates, the processes of old operating systems allowing users to replay their favoriate nostolgic games.</Description>
+	<Description>A piece of software that emulates, or replicates, the processes of old operating systems allowing users to replay their favorite nostalgic games.</Description>
 	<Random>0.5</Random>
 	<Popularity>0.8</Popularity>
 	<OSSpecific>TRUE</OSSpecific>
@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Basic Hardware Emulation</Name>
+			<Category>System</Category>
 			<Description>The first thing to tackle is how the software pretends to have hardware that replicates old systems.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature>
 			<Name>Graphical Emulation</Name>
+			<Category>2D</Category>
 			<Description>By replicating old graphical techniques, the emulator can process and display old games.</Description>
 			<Category>System</Category>
 			<DevTime>3</DevTime>
@@ -30,9 +32,11 @@
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">GUI</Dependency>
 		</Feature>
 		<Feature>
          <Name>Current Hardware Compatability</Name>
+		 <Category>System</Category>
          <Description>Replicating is easy. Getting it to work on current hardware configuations is hard, but creates a stable environment.</Description>
          <DevTime>4</DevTime>
          <Innovation>1</Innovation>
@@ -42,6 +46,7 @@
       </Feature>
       <Feature>
          <Name>Open Source Classic Games</Name>
+		 <Category>System</Category>
          <Description>User's appreciate older games being made availible to tinker with and play.</Description>
          <Unlock>2010</Unlock>
          <DevTime>2</DevTime>
@@ -53,6 +58,7 @@
       </Feature>
       <Feature>
          <Name>Mobile Phone Version</Name>
+		 <Category>System</Category>
          <Description>Port the emulator to mobile phones so people can enjoy classic games on the go.</Description>
          <Unlock>2012</Unlock>
          <DevTime>5</DevTime>
@@ -60,6 +66,7 @@
          <Usability>3</Usability>
          <Stability>2</Stability>
          <CodeArt>1</CodeArt>
+		 <Dependency Software="Operating System">3G</Dependency>
       </Feature>
    </Features>
 </SoftwareType>

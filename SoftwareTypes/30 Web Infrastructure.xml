@@ -1,6 +1,6 @@
 <SoftwareType>
 <Name>Web Server</Name>
-	<Category>Web</Category>
+	<Category>Web Server</Category>
 	<Description>Critical if you want websites, really</Description>
 	<Unlock>1991</Unlock>
 	<OSSpecific>True</OSSpecific>
@@ -8,6 +8,7 @@
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<Random>0.13</Random>
+	<Server>0.005</Server>
 	<Categories>
 			<Category Name="Lightweight Webserver">
 			<Description>For all your low-end needs</Description>
@@ -43,6 +44,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Tutorials and Documentation</Name>
+			<Category>System</Category>
 			<Description>People need to know how to use the bloody thing</Description>
 			<DevTime>5</DevTime>
 			<Innovation>0</Innovation>
@@ -54,6 +56,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Database Integration</Name>
+			<Category>System</Category>
 			<Description>Put that thing from a thing 200 miles away from this thing into this thing and make it do those things on that screen 9,000 miles away and then act like it ain't no thang</Description>
 			<DevTime>6</DevTime>
 			<Innovation>2</Innovation>
@@ -67,6 +70,7 @@
 		</Feature>
 		<Feature>
 			<Name>Custom Modules</Name>
+			<Category>System</Category>
 			<Description>Modules! Everyone loves those</Description>
 			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>
@@ -79,6 +83,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>64-bit Enhancements</Name>
+			<Category>System</Category>
 			<Description>Also known as fasterness</Description>
 			<DevTime>5</DevTime>
 			<Innovation>3</Innovation>

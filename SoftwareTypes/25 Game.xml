@@ -100,6 +100,7 @@
     <Features>
         <Feature Forced="True">
             <Name>Worldbuilding</Name>
+			<Category>System</Category>
             <Description>Text is the core of any game, and this is that. Story, background, etc</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -111,6 +112,7 @@
 		</Feature>
 		<Feature Vital="True">
 		    <Name>Simple help system</Name>
+			<Category>System</Category>
             <Description>Basic tooltips</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -123,6 +125,7 @@
 		</Feature>
 		<Feature From="Simple help system">
 			<Name>Complex help system</Name>
+			<Category>System</Category>
             <Description>Tooltips, complicated tutorials, etc</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -223,6 +226,7 @@
 		</Feature>
 		<Feature>
 			<Name>Single-channel audio</Name>
+			<Category>Audio</Category>
 			<Description>Just Crackle.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -233,6 +237,7 @@
 		</Feature>
 		<Feature From="Single-channel audio">
 			<Name>Dual-channel audio</Name>
+			<Category>Audio</Category>
 			<Description>No, not Crackle and Pop. Hopefully.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -244,6 +249,7 @@
 		</Feature>
 		<Feature From="Dual-channel audio" Vital="True">
 			<Name>8-bit audio</Name>
+			<Category>Audio</Category>
 			<Description>Eventually, simply awe.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -255,6 +261,7 @@
 		</Feature>
 		<Feature From="8-bit audio" Vital="True">
 			<Name>HD audio</Name>
+			<Category>Audio</Category>
 			<Description>Many bits in your awww.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -266,6 +273,7 @@
 		</Feature>
 		<Feature>
 			<Name>Touch support</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -362,6 +370,7 @@
 		</Feature>
 		<Feature>
 			<Name>Simple Physics</Name>
+			<Category>System</Category>
 			<Description>What! Why apple go fally!</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -372,6 +381,7 @@
 		</Feature>
 			<Feature>
 			<Name>Advanced Physics</Name>
+			<Category>System</Category>
 			<Description>e=mc^2</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -383,6 +393,7 @@
 		</Feature>
 			<Feature Forced="True">
 			<Name>Sequential Events</Name>
+			<Category>System</Category>
 			<Description>A. B. C. D. Not always as boring as it sounds here. Pacman was fun, right? And all those adventure games...</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -394,6 +405,7 @@
 		</Feature>
 		<Feature From="Sequential Events" Vital="True">
 			<Name>Dynamic Events</Name>
+			<Category>System</Category>
 			<Description>Doors can open. Maybe things can get set on fire. Things can explode. Whatever. This feature is things that require user input and that are events.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -406,6 +418,7 @@
 		</Feature>
 		<Feature From="Dynamic Events" Vital="True">
 			<Name>Dynamic Storytelling</Name>
+			<Category>System</Category>
 			<Description>Not only are the events dynamic, but they tell a story.</Description>
 			<DevTime>5</DevTime>
 			<Innovation>1</Innovation>
@@ -418,6 +431,7 @@
 		</Feature>
 		<Feature>
 			<Name>Pre-rendered cutscenes</Name>
+			<Category>System</Category>
 			<Description>Exposition through animation, but not rendered by the game engine</Description>
 			<DevTime>5</DevTime>
 			<Innovation>1</Innovation>
@@ -429,6 +443,7 @@
 		</Feature>
 		<Feature From="Pre-rendered cutscenes">
 			<Name>Simple in-engine cutscenes</Name>
+			<Category>2D</Category>
 			<Description>Cutscenes rendered by the game engine, dynamically, based on user actions.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -441,6 +456,7 @@
 		</Feature>
 		<Feature From="Simple in-engine cutscenes">
 			<Name>Complex in-engine cutscenes</Name>
+			<Category>3D</Category>
 			<Description>Cutscenes rendered by the game engine, dynamically, based on user actions.</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -454,6 +470,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Chargen</Name>
+			<Category>System</Category>
             <Description>You could be a pretty princess!</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -467,6 +484,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Combat system</Name>
+			<Category>System</Category>
             <Description>How am destroy?!</Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -479,6 +497,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Inventory</Name>
+			<Category>System</Category>
             <Description>It puts the things in the rucksack or it gets the hose again</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -492,6 +511,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Procedurally Scheduled AI Events</Name>
+			<Category>System</Category>
             <Description>Like in a game unmentionable that is puddle-deep and Pacific-wide</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -504,6 +524,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Puzzles</Name>
+			<Category>System</Category>
             <Description>Ask a hint system</Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -519,6 +540,7 @@
 		</Feature>
 		<Feature>
             <Name>Hint system</Name>
+			<Category>System</Category>
             <Description>I'm not telling you</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -531,6 +553,7 @@
 		</Feature>
 		<Feature>
             <Name>Simple SimEngine</Name>
+			<Category>System</Category>
             <Description>Some sort of simple sim</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -543,6 +566,7 @@
 		</Feature>
 		<Feature From="Simple SimEngine" Vital="TRUE">
             <Name>Complex SimEngine</Name>
+			<Category>System</Category>
             <Description>A simulation which is not trivial</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -555,6 +579,7 @@
 		</Feature>
 		<Feature From="Complex SimEngine" Vital="TRUE">
             <Name>Very Complex SimEngine</Name>
+			<Category>System</Category>
             <Description>One does not simply ask what a very complex simulation is; one must experience it for themselves</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -567,6 +592,7 @@
 		</Feature>
 		<Feature>
 			<Name>Shallow Tactical Simulation</Name>
+			<Category>System</Category>
 			<Description>Depending on the sport, this enables the players/teams/whatever to act in ways that are at least semi-rational inside the rules of that sport</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -579,6 +605,7 @@
 		</Feature>
 		<Feature>
 			<Name>Deep Tactical Simulation</Name>
+			<Category>System</Category>
 			<Description>Striving for deeper, more realistic sporting simulation</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -591,6 +618,7 @@
 		</Feature>
 		<Feature>
 			<Name>Collision Engine</Name>
+			<Category>System</Category>
 			<Description>So all the sportspeople can run into each other</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -602,6 +630,7 @@
 		</Feature>
 		<Feature>
             <Name>Simple Tech Tree</Name>
+			<Category>System</Category>
             <Description>The manual goes pshhh on the desk</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -614,6 +643,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Complex Tech Tree</Name>
+			<Category>System</Category>
             <Description>The manual goes WHOOMPF on the desk</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -626,6 +656,7 @@
 		</Feature>
 		<Feature>
             <Name>Individual Unit AI</Name>
+			<Category>System</Category>
             <Description>AKA "pathfinding nightmares"</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -637,6 +668,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Projectiles</Name>
+			<Category>System</Category>
             <Description>Pew pew pew</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -654,6 +686,7 @@
 		</Feature>
 		<Feature>
             <Name>Variable gravity</Name>
+			<Category>System</Category>
             <Description>WHAT EVEN IS UP</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -666,6 +699,7 @@
 		</Feature>
 		<Feature>
 			<Name>Physics puzzles</Name>
+			<Category>System</Category>
             <Description>Either also known as "confusing as hell" or "masterful", depending on execution</Description>
 			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>
@@ -681,6 +715,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
             <Name>Flanking AI</Name>
+			<Category>System</Category>
             <Description>Games: teaching children that it is always safest to stab in the back</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -697,6 +732,7 @@
 		</Feature>
 		<Feature>
             <Name>Cover system</Name>
+			<Category>System</Category>
             <Description>Hiding behind a thing so other things can't hit you with things</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -712,6 +748,7 @@
 		</Feature>
 		<Feature>
 			<Name>Open world</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>6</DevTime>
 			<Innovation>4</Innovation>
@@ -728,6 +765,7 @@
 		</Feature>
 		<Feature>
 			<Name>Mod support</Name>
+			<Category>System</Category>
 			<Description>You can mod this feature out of the game if you want</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>

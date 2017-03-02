@@ -14,16 +14,18 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>512 MB</Name>
+			<Category>Network</Category>
 			<Description>512 MB of storage</Description>
 			<DevTime>2</DevTime>
 			<Innovation>7</Innovation>
 			<Usability>5</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.005</Server>
+			<Server>0.0005</Server>
 		</Feature>
 		<Feature>
 			<Name>16 GB</Name>
+			<Category>Network</Category>
 			<Description>16 GB of storage</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -31,10 +33,12 @@
 			<Stability>4</Stability>
 			<Unlock>2005</Unlock>
 			<CodeArt>1</CodeArt>
+			<Server>0.001</Server>
 			<Dependency Software="Server Storage">512 MB</Dependency>
 		</Feature>
 		<Feature>
 			<Name>32 GB</Name>
+			<Category>Network</Category>
 			<Description>32 GB of storage</Description>
 			<DevTime>5</DevTime>
 			<Innovation>10</Innovation>
@@ -42,10 +46,12 @@
 			<Unlock>2007</Unlock>
 			<Stability>10</Stability>
 			<CodeArt>1</CodeArt>
+			<Server>0.0015</Server>
 			<Dependency Software="Server Storage">16 GB</Dependency>
 		</Feature>
 		<Feature>
 			<Name>1 TB</Name>
+			<Category>Network</Category>
 			<Description>1 TB of storage</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -53,12 +59,13 @@
 			<Usability>8</Usability>
 			<Unlock>2010</Unlock>
 			<CodeArt>1</CodeArt>
-			<Server>0.005</Server>
+			<Server>0.002</Server>
 			<Dependency Software="Server Storage">32 GB</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Virus checker</Name>
-			<Description>All files </Description>
+			<Category>System</Category>
+			<Description>All files are now safe. Maybe</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
 			<Stability>3</Stability>
@@ -69,6 +76,7 @@
 		</Feature>
 		<Feature>
 			<Name>Encrypted storage</Name>
+			<Category>Algorithm</Category>
 			<Description>Ultimate file protection</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>

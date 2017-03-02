@@ -33,6 +33,7 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>Messages</Name>
+			<Category>Network</Category>
 			<Description>Just simple texts</Description>
 			<DevTime>2</DevTime>
 			<Innovation>7</Innovation>
@@ -44,6 +45,7 @@
 		</Feature>
 		<Feature>
 			<Name>Picture sharing</Name>
+			<Category>Network</Category>
 			<Description>Any picture can be shared now!</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -55,6 +57,7 @@
 		</Feature>
 		<Feature>
 			<Name>Group chats</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>7</Innovation>
@@ -66,6 +69,7 @@
 		</Feature>
 		<Feature>
 			<Name>Emojis</Name>
+			<Category>2D</Category>
 			<Description></Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -78,6 +82,7 @@
 		</Feature>
 		<Feature>
 			<Name>Profile picture</Name>
+			<Category>Network</Category>
 			<Description>Lets people see a bit about you</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -89,6 +94,7 @@
 		</Feature>
 		<Feature>
 			<Name>Video sharing</Name>
+			<Category>Network</Category>
 			<Description>Send videos to anyone anytime</Description>
 			<DevTime>6</DevTime>
 			<Innovation>7</Innovation>
@@ -100,6 +106,7 @@
 		</Feature>
 		<Feature>
 			<Name>Audio sharing</Name>
+			<Category>Network</Category>
 			<Description>just mp3 files</Description>
 			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
@@ -111,6 +118,7 @@
 		</Feature>
 		<Feature>
 			<Name>Video chat</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
@@ -125,6 +133,7 @@
 		</Feature>
 		<Feature>
 			<Name>Posts</Name>
+			<Category>Network</Category>
 			<Description>Just a post with words</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -136,6 +145,7 @@
 		</Feature>
 		<Feature>
 			<Name>Picture Posts</Name>
+			<Category>Network</Category>
 			<Description>Any picture can be shared now!</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -147,6 +157,7 @@
 		</Feature>
 		<Feature>
 			<Name>Comments</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -157,6 +168,7 @@
 		</Feature>
 		<Feature>
 			<Name>Like button</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -168,6 +180,7 @@
 		</Feature>
 		<Feature>
 			<Name>Video posts</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -179,6 +192,7 @@
 		</Feature>
 		<Feature>
 			<Name>MP3 posts</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -190,6 +204,7 @@
 		</Feature>
 		<Feature>
 			<Name>Friends</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
