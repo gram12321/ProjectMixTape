@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Serial Codes</Name>
+			<Category>System</Category>
 			<Description>Force users to prove they purchesed the product by using a unique one-time use serial code.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature>
 			<Name>EULA</Name>
+			<Category>System</Category>
 			<Description>By creating a 100 page document explaining exactly how users may use the software they just purchesed, one might disuade people from hacking or modifying the software for personal gain...thats the idea anyways.</Description>
 			<Unlock>2007</Unlock>
 			<DevTime>2</DevTime>
@@ -33,6 +35,7 @@
 		</Feature>
 		<Feature>
          <Name>Multiple Downloads</Name>
+		 <Category>Network</Category>
          <Description>Finally allow the user to download products multiple times as they were able to before DRM.</Description>
          <DevTime>3</DevTime>
          <Innovation>1</Innovation>
@@ -42,7 +45,8 @@
       </Feature>
       <Feature>
          <Name>Digital Library</Name>
-         <Description>Permanantly assosiate a game with a user's account so they can never lose, or resell, a product.</Description>
+		 <Category>System</Category>
+         <Description>Permanantly associate a game with a user's account so they can never lose, or resell, a product.</Description>
          <Unlock>2010</Unlock>
          <DevTime>3</DevTime>
          <Innovation>1</Innovation>
@@ -52,6 +56,7 @@
       </Feature>
       <Feature>
          <Name>Trojan Horse</Name>
+		 <Category>System</Category>
          <Description>Embed a virus in products that only activates if a user pirates your software. Its legal, we checked.</Description>
          <DevTime>4</DevTime>
          <Unlock>2010</Unlock>

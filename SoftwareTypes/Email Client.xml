@@ -16,6 +16,7 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>Inbox</Name>
+			<Category>Network</Category>
 			<Description>The absolute minimum for an email service</Description>
 			<DevTime>2</DevTime>
 			<Innovation>7</Innovation>
@@ -25,6 +26,7 @@
 		</Feature>
 		<Feature>
 			<Name>Settings</Name>
+			<Category>System</Category>
 			<Description>Allow your user to personalize their email client</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -34,6 +36,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Virus checker</Name>
+			<Category>System</Category>
 			<Description>A safety measure</Description>
 			<DevTime>2</DevTime>
 			<Innovation>10</Innovation>
@@ -45,6 +48,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Attachments</Name>
+			<Category>Network</Category>
 			<Description>To allow people to send cat pictures to each other</Description>
 			<DevTime>2</DevTime>
 			<Innovation>10</Innovation>
@@ -56,6 +60,7 @@
 		</Feature>
 		<Feature Research="Virus checker" Vital="TRUE">
 			<Name>Spam Filter</Name>
+			<Category>System</Category>
 			<Description>No more scams, advertisements and just annoying emails</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -66,6 +71,7 @@
 		</Feature>
 		<Feature From="Inbox">
 			<Name>Multiple Inboxs</Name>
+			<Category>System</Category>
 			<Description>Sorts your inbox into different categories</Description>
 			<DevTime>4</DevTime>
 			<Innovation>5</Innovation>
@@ -76,6 +82,7 @@
 		</Feature>
 		<Feature>
 			<Name>Drafts</Name>
+			<Category>System</Category>
 			<Description>Saves emails before you send them</Description>
 			<DevTime>4</DevTime>
 			<Innovation>5</Innovation>
@@ -86,6 +93,7 @@
 		</Feature>
 		<Feature>
 			<Name>Preview</Name>
+			<Category>System</Category>
 			<Description>Allow the user to see a preview of the attachment</Description>
 			<DevTime>4</DevTime>
 			<Innovation>5</Innovation>
@@ -97,6 +105,7 @@
 		</Feature>
 		<Feature>
 			<Name>Encryption</Name>
+			<Category>System</Category>
 			<Description>For really confidential stuff</Description>
 			<DevTime>4</DevTime>
 			<Innovation>7</Innovation>
@@ -106,6 +115,7 @@
 		</Feature>
 		<Feature Forced="True">
 			<Name>Simple user interface</Name>
+			<Category>2D</Category>
 			<Description>Provides a basic view to work with</Description>
 			<Category>2D</Category>
 			<DevTime>4</DevTime>
@@ -117,6 +127,7 @@
 		</Feature>
 		<Feature From="Simple user interface">
 			<Name>Nice user interface</Name>
+			<Category>3D</Category>
 			<Description>Provides fancy views to work with</Description>
 			<Category>3D</Category>
 			<DevTime>8</DevTime>
@@ -128,6 +139,7 @@
 		</Feature>
 		<Feature>
 			<Name>AutoCorrect</Name>
+			<Category>System</Category>
 			<Unlock>2010</Unlock>
 			<Description>It knows your errors</Description>
 			<DevTime>3</DevTime>
@@ -139,6 +151,7 @@
 		</Feature>
 		<Feature From="Encryption">
 			<Name>AES Encryption</Name>
+			<Category>System</Category>
 			<Unlock>2015</Unlock>
 			<Description>Edward Snowden Approves!</Description>
 			<DevTime>9</DevTime>

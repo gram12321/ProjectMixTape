@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Calculator Software</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Calculator Software">1</Type>
+		<Type Software="Operating System">1</Type>
+	</Types>
+</CompanyType>

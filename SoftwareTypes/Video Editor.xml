@@ -15,7 +15,7 @@
 			<Feature Forced="TRUE">
 				<Name>User Interface</Name>
 				<Description>Make your Video Editor user friendly.</Description>
-				<Category>3D</Category>
+				<Category>2D</Category>
 				<DevTime>2</DevTime>
 				<Innovation>2</Innovation>
 				<Usability>1</Usability>
@@ -24,6 +24,7 @@
 			</Feature>
 			<Feature From="User Interface" Vital="TRUE">
 				<Name>Better User Interface</Name>
+				<Category>3D</Category>
 				<Description>An even more fancy menu.</Description>
 				<DevTime>3</DevTime>
 				<Innovation>3</Innovation>
@@ -34,6 +35,7 @@
 			</Feature>
 			<Feature>
 				<Name>Special Effects</Name>
+				<Category>2D</Category>
 				<Description>Allow users to add special effects to their videos</Description>
 				<DevTime>2</DevTime>
 				<Innovation>3</Innovation>
@@ -43,6 +45,7 @@
 			</Feature>
 			<Feature Forced="TRUE">
 				<Name>Basic Rendering</Name>
+				<Category>System</Category>
 				<Description>Standard rendering, not bad, not good.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>0</Innovation>
@@ -52,6 +55,7 @@
 			</Feature>
 			<Feature From="Basic Rendering" Vital="TRUE">
 				<Name>Enhanced Rendering</Name>
+				<Category>System</Category>
 				<Description>Better and faster rendering, takes less space.</Description>
 				<DevTime>3</DevTime>
 				<Innovation>3</Innovation>
@@ -71,8 +75,9 @@
 				<CodeArt>1</CodeArt>
 			</Feature>	
 			<Feature Vital="TRUE">
-				<Name>Transistions</Name>
-				<Description>Allow transistions to be added to videos.</Description>
+				<Name>Transitions</Name>
+				<Category>2D</Category>
+				<Description>Allow transitions to be added to videos.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>2</Innovation>
 				<Usability>3</Usability>
@@ -101,6 +106,7 @@
 			</Feature>
 			<Feature Forced="TRUE">
 				<Name>Standard Quality</Name>
+				<Category>System</Category>
 				<Description>144p, 240p, 480p, whatever.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>0</Innovation>

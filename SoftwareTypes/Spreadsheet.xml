@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Structure</Name>
+			<Category>System</Category>
 			<Description>Basic table format functionality.</Description>
 			<DevTime>10</DevTime>
 			<Innovation>4</Innovation>
@@ -24,6 +25,7 @@
 		</Feature>
 		<Feature From="Structure">
 			<Name>Multi dimensional tables</Name>
+			<Category>Algorithm</Category>
 			<Description>Allows the creation for tables with depth</Description>
 			<DevTime>14</DevTime>
 			<Innovation>5</Innovation>
@@ -67,6 +69,7 @@
 		</Feature>
 		<Feature>
 			<Name>Tabs</Name>
+			<Category>System</Category>
 			<Description>Opens several files in several tabs</Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>

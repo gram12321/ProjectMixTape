@@ -1,6 +1,4 @@
--start(base,pre)
--pre(base)
--base(base2)
+-start(base2)
 Social
 42
 About
@@ -22,7 +20,7 @@ e
 Face
 Fet
 Film
--base2(stop)
+-base2(end)
  Online
  Things
 World
@@ -35,3 +33,4 @@ book
 life
 Affinity
 now
+-end(stop)

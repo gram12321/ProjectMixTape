@@ -29,7 +29,7 @@
 			<NameGenerator>forums</NameGenerator>
 		</Category>
 		<Category Name="Streaming Site">
-			<Description>Create a site which people can do livestreams and watch livestreams!</Description>
+			<Description>Create a site which people can do livestreams, watch livestreams, and stream!</Description>
 			<Unlock>2007</Unlock>
 			<Popularity>0.5</Popularity>
 			<Retention>0.5</Retention>
@@ -72,24 +72,27 @@
 			<Retention>0.5</Retention>
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.75</Iterative>
-			<NameGenerator>gamesite</NameGenerator>
+			<NameGenerator>NewsWebsite</NameGenerator>
 		</Category>
 	</Categories>
-	<Server>5</Server>
+	<Server>0.005</Server>
 	<NameGenerator>website</NameGenerator>
 	<Features>
 	<!-- MAIN START -->
 	<Feature Forced="TRUE">
 		<Name>Coding</Name>
+		<Category>Algorithm</Category>
 		<Description>You need this to start coding your website!</Description>
 		<DevTime>4</DevTime>
 		<Innovation>4</Innovation>
 		<Usability>5</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
+		<Dependency Software="Programming Language">Syntax</Dependency>
 	</Feature>
 	<Feature>
-		<Name>HTML</Name>
+		<Name>Base and Layout</Name>
+		<Category>System</Category>
 		<Description>The base of your website, no color or style</Description>
 		<DevTime>2</DevTime>
 		<Innovation>4</Innovation>
@@ -99,7 +102,8 @@
 		<Dependency Software="Website">Coding</Dependency>
 	</Feature>
 	<Feature>
-		<Name>CSS</Name>
+		<Name>Design Tools</Name>
+		<Category>Algorithm</Category>
 		<Description>Gives it a little more stylish feature</Description>
 		<DevTime>2</DevTime>
 		<Innovation>2</Innovation>
@@ -107,9 +111,11 @@
 		<Stability>4</Stability>
 		<CodeArt>0.5</CodeArt>
 		<Dependency Software="Website">Coding</Dependency>
+		<Dependency Software="Programming Language">Advanced Syntax</Dependency>
 	</Feature>
 	<Feature>
-		<Name>PHP</Name>
+		<Name>Better Coding</Name>
+		<Category>Algorithm</Category>
 		<Description>More advanced coding</Description>
 		<DevTime>1</DevTime>
 		<Innovation>2</Innovation>
@@ -117,19 +123,24 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<Dependency Software="Website">Coding</Dependency>
+		<Dependency Software="Programming Language">Generics</Dependency>
 	</Feature>
 	<Feature>
-		<Name>ASP</Name>
-		<Description>More advanced coding</Description>
+		<Name>Server Side Scripting</Name>
+		<Category>Network</Category>
+		<Description>Scripting involving servers</Description>
 		<DevTime>1</DevTime>
 		<Innovation>2</Innovation>
 		<Usability>5</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
+		<Server>0.00004</Server>
 		<Dependency Software="Website">Coding</Dependency>
+		<Dependency Software="Programming Language">IDE</Dependency>
 	</Feature>
 	<Feature>
-		<Name>Javascript</Name>
+		<Name>Interactivity</Name>
+		<Category>Algorithm</Category>
 		<Description>Make different cool stuff!</Description>
 		<DevTime>1</DevTime>
 		<Innovation>2</Innovation>
@@ -137,11 +148,13 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<Dependency Software="Website">Coding</Dependency>
+		<Dependency Software="Programming Language">Functions</Dependency>
 	</Feature>
 	<!-- MAIN END -->
 	<!-- LIVESTREAM START -->
 	<Feature Forced="TRUE">
 		<Name>Simple player</Name>
+		<Category>System</Category>
 		<Description>This is just the base of the player for your website</Description>
 		<DevTime>4</DevTime>
 		<Innovation>4</Innovation>
@@ -149,10 +162,11 @@
 		<Stability>4</Stability>
 		<CodeArt>0.9</CodeArt>
 		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Channels</Name>
+		<Category>System</Category>
 		<Description>Let people create their very own channel on your website</Description>
 		<DevTime>2</DevTime>
 		<Innovation>5</Innovation>
@@ -160,10 +174,11 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Follower</Name>
+		<Category>System</Category>
 		<Description>Letting users follow the streamer</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
@@ -171,10 +186,11 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Title</Name>
+		<Category>System</Category>
 		<Description>Allows users to give their stream a title</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
@@ -182,10 +198,11 @@
 		<Stability>5</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Description</Name>
+		<Category>System</Category>
 		<Description>Allows users to give their stream a description</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
@@ -193,10 +210,11 @@
 		<Stability>5</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Genre</Name>
+		<Category>System</Category>
 		<Description>Allowing your users to add genres to their stream</Description>
 		<DevTime>2</DevTime>
 		<Innovation>5</Innovation>
@@ -204,10 +222,11 @@
 		<Stability>5</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Chat</Name>
+		<Category>Network</Category>
 		<Description>Gives the viewers the ability to chat on the stream</Description>
 		<DevTime>3</DevTime>
 		<Innovation>5</Innovation>
@@ -215,12 +234,13 @@
 		<Stability>5</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Streaming Site">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<!-- LIVESTREAM END -->
 	<!-- FORUMS START -->
 	<Feature>
 		<Name>Topics</Name>
+		<Category>System</Category>
 		<Description>Allow users to create topics</Description>
 		<DevTime>1</DevTime>
 		<Innovation>2</Innovation>
@@ -228,10 +248,11 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Forums">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Categories</Name>
+		<Category>System</Category>
 		<Description>Allow users to create categories.</Description>
 		<DevTime>1</DevTime>
 		<Innovation>2</Innovation>
@@ -240,10 +261,11 @@
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Forums">0</SoftwareCategory>
 		<SoftwareCategory Category="News">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Logo</Name>
+		<Category>2D</Category>
 		<Description>Allows users to create an logo to their forums</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
@@ -251,10 +273,11 @@
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
 		<SoftwareCategory Category="Forums">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Boards</Name>
+		<Category>System</Category>
 		<Description>Allows users to create different boards making a more organised forum</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
@@ -262,21 +285,23 @@
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
 		<SoftwareCategory Category="Forums">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Child Boards</Name>
-		<Description>Allows users to create boards inide a board - Boardception</Description>
+		<Category>System</Category>
+		<Description>Allows users to create boards inside a board - Boardception</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
 		<Usability>5</Usability>
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
 		<SoftwareCategory Category="Forums">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Private Messages</Name>
+		<Category>Network</Category>
 		<Description>Allows users to message eachother</Description>
 		<DevTime>2</DevTime>
 		<Innovation>5</Innovation>
@@ -284,10 +309,11 @@
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
 		<SoftwareCategory Category="Forums">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Captcha Code</Name>
+		<Category>System</Category>
 		<Description>Prevents a lot of spammers</Description>
 		<DevTime>2</DevTime>
 		<Innovation>5</Innovation>
@@ -295,12 +321,13 @@
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
 		<SoftwareCategory Category="Forums">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<!-- FORUMS END -->
 	<!-- SEARCH ENGINE START -->
 	<Feature>
 		<Name>Base</Name>
+		<Category>Network</Category>
 		<Description>The base of your Search engine</Description>
 		<DevTime>8</DevTime>
 		<Innovation>7</Innovation>
@@ -308,10 +335,11 @@
 		<Stability>5</Stability>
 		<CodeArt>0.4</CodeArt>
 		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Settings</Name>
+		<Category>System</Category>
 		<Description>Gives users an opportunity to choose simple settings</Description>
 		<DevTime>4</DevTime>
 		<Innovation>3</Innovation>
@@ -319,10 +347,11 @@
 		<Stability>7</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>I'm feeling lucky!</Name>
+		<Category>System</Category>
 		<Description>How lucky are you?</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
@@ -330,48 +359,61 @@
 		<Stability>10</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Images</Name>
+		<Category>Network</Category>
 		<Description>Any picture on the internet! Even explicit! OMG!</Description>
 		<DevTime>4</DevTime>
 		<Innovation>8</Innovation>
 		<Usability>8</Usability>
 		<Stability>9</Stability>
 		<CodeArt>0.6</CodeArt>
-		<Unlock>2001</Unlock>
-		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<SoftwareCategory Category="Search Engine">2001</SoftwareCategory>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Maps</Name>
+		<Category>Network</Category>
 		<Description>If they are lost, they can just use your map!"</Description>
 		<DevTime>7</DevTime>
 		<Innovation>5</Innovation>
 		<Usability>10</Usability>
 		<Stability>7</Stability>
 		<CodeArt>1</CodeArt>
-		<Unlock>2005</Unlock>
-		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<SoftwareCategory Category="Search Engine">2005</SoftwareCategory>
+		<Dependency Software="Website">Base and Layout</Dependency>
+	</Feature>
+	<Feature Research="Base">
+		<Name>Quantum Search</Name>
+		<Category>Network</Category>
+		<Description>Makes searching (almost) instant</Description>
+		<DevTime>3</DevTime>
+		<Innovation>4</Innovation>
+		<Usability>4</Usability>
+		<Stability>4</Stability>
+		<CodeArt>4</CodeArt>
+		<SoftwareCategory Category="Search Engine">2020</SoftwareCategory>
+		<Dependency Software="Server Hosting">Quantum</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Translate</Name>
+		<Category>System</Category>
 		<Description>Need to translate something into another language? This is just what you need!</Description>
 		<DevTime>12</DevTime>
 		<Innovation>10</Innovation>
 		<Usability>10</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
-		<Unlock>2006</Unlock>
-		<SoftwareCategory Category="Search Engine">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
+		<SoftwareCategory Category="Search Engine">2006</SoftwareCategory>
+		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<!-- SEARCH ENGINE END -->
 	<!-- SOCIAL MEDIA -->
 	<Feature Forced="TRUE">
 		<Name>Layout</Name>
+		<Category>System</Category>
 		<Description>Layout of your website</Description>
 		<DevTime>1</DevTime>
 		<Innovation>5</Innovation>
@@ -379,11 +421,12 @@
 		<Stability>7</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Friends</Name>
+		<Category>Network</Category>
 		<Description>Allows users to add friends!</Description>
 		<DevTime>1</DevTime>
 		<Innovation>8</Innovation>
@@ -391,13 +434,14 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Private Chat</Name>
+		<Category>Network</Category>
 		<Description>Chat with your friends!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -406,12 +450,13 @@
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<Dependency Software="Website">Friends</Dependency>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Group Chat</Name>
+		<Category>Network</Category>
 		<Description>Chat with a bunch of people at the same time!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -421,13 +466,14 @@
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<Dependency Software="Website">Friends</Dependency>
 		<Dependency Software="Website">Private Chat</Dependency>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Group Call</Name>
+		<Category>Network</Category>
 		<Description>Call in a group!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -437,13 +483,14 @@
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<Dependency Software="Website">Friends</Dependency>
 		<Dependency Software="Website">Group Chat</Dependency>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Profile</Name>
+		<Category>System</Category>
 		<Description>Have your own personal profile!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -451,12 +498,13 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Profile Picture</Name>
+		<Category>2D</Category>
 		<Description>Add profile picture to your profile!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -465,13 +513,14 @@
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<Dependency Software="Website">Profile</Dependency>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Profile Details</Name>
-		<Description>Add profile picture to your profile!</Description>
+		<Category>System</Category>
+		<Description>Add details to your profile!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
 		<Usability>6</Usability>
@@ -479,12 +528,13 @@
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<Dependency Software="Website">Profile</Dependency>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
 	</Feature>
 	<Feature Forced="TRUE">
 		<Name>Name</Name>
+		<Category>System</Category>
 		<Description>Addition to profile details</Description>
 		<DevTime>0.5</DevTime>
 		<Innovation>8</Innovation>
@@ -496,6 +546,7 @@
 	</Feature>
 	<Feature>
 		<Name>Birthday</Name>
+		<Category>System</Category>
 		<Description>Addition to profile details</Description>
 		<DevTime>0.5</DevTime>
 		<Innovation>8</Innovation>
@@ -507,6 +558,7 @@
 	</Feature>
 	<Feature>
 		<Name>Age</Name>
+		<Category>System</Category>
 		<Description>Addition to profile details</Description>
 		<DevTime>0.5</DevTime>
 		<Innovation>8</Innovation>
@@ -518,6 +570,7 @@
 	</Feature>
 	<Feature>
 		<Name>Profile Status</Name>
+		<Category>System</Category>
 		<Description>This will let people share photos, videos or just write some text to share with friends!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -526,13 +579,14 @@
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<Dependency Software="Website">Profile</Dependency>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Likes</Name>
+		<Category>Network</Category>
 		<Description>This let's users like stuff!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -540,13 +594,14 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Comments</Name>
+		<Category>Network</Category>
 		<Description>Comment stuff!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -554,13 +609,14 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Albums</Name>
+		<Category>System</Category>
 		<Description>Keep your pictures or videos categorized!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -568,13 +624,14 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Advertisements</Name>
+		<Category>Network</Category>
 		<Description>Allow advertisements to be added on your site!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>8</Innovation>
@@ -582,13 +639,14 @@
 		<Stability>8</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Notifications</Name>
+		<Category>Network</Category>
 		<Description>This will give people notifications!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>7</Innovation>
@@ -597,13 +655,14 @@
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<SoftwareCategory Category="News">2001</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Video Upload</Name>
+		<Category>Network</Category>
 		<Description>Allows people to upload videos!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>7</Innovation>
@@ -611,13 +670,14 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Fan Pages</Name>
+		<Category>System</Category>
 		<Description>Allows people to create fanpages and get famous!</Description>
 		<DevTime>2</DevTime>
 		<Innovation>7</Innovation>
@@ -625,10 +685,10 @@
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
 		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">HTML</Dependency>
-		<Dependency Software="Website">PHP</Dependency>
-		<Dependency Software="Website">CSS</Dependency>
-		<Dependency Software="Website">Javascript</Dependency>
+		<Dependency Software="Website">Base and Layout</Dependency>
+		<Dependency Software="Website">Better Coding</Dependency>
+		<Dependency Software="Website">Design Tools</Dependency>
+		<Dependency Software="Website">Interactivity</Dependency>
 	</Feature>
 	<!-- SOCIAL MEDIA END -->
 	<!-- GAME SITE START -->
@@ -652,12 +712,12 @@
 			<Usability>3</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<Category>3D</Category>
 			<SoftwareCategory Category="Online Games">2005</SoftwareCategory>
 			<Dependency Software="3D Editor">Vertex editing</Dependency>
 		</Feature>
 		<Feature Vital="True">
 			<Name>Game Categories</Name>
+			<Category>System</Category>
 			<Description>Make the games look more presentable by putting them in categories</Description>
 			<DevTime>5</DevTime>
 			<Innovation>3</Innovation>
@@ -668,6 +728,7 @@
 		</Feature>
 			<Feature>
 			<Name>Search Bar</Name>
+			<Category>Network</Category>
 			<Description>To make finding games easier</Description>
 			<DevTime>6</DevTime>
 			<Innovation>3</Innovation>
@@ -675,10 +736,10 @@
 			<Usability>4</Usability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Online Games">2005</SoftwareCategory>
-			<Category>System</Category>
 		</Feature>
 		<Feature>
 			<Name>Accounts</Name>
+			<Category>Network</Category>
 			<Description>Allow users to sign up to earn achivements, save their progress, and much more</Description>
 			<DevTime>6</DevTime>
 			<Innovation>4</Innovation>
@@ -715,6 +776,7 @@
 		<!-- NEWS SITE START -->
 		<Feature Vital="True">
 			<Name>News Videos</Name>
+			<Category>Network</Category>
 			<Description>Videos about the news!</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -725,6 +787,7 @@
 		</Feature>
 		<Feature>
 			<Name>Comment Section</Name>
+			<Category>Network</Category>
 			<Description>Let people argue about topics!</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -735,6 +798,7 @@
 		</Feature>
 		<Feature>
 			<Name>Recommendations</Name>
+			<Category>System</Category>
 			<Description>Automatically recommends topics you may be interested in!</Description>
 			<DevTime>5</DevTime>
 			<Innovation>2</Innovation>

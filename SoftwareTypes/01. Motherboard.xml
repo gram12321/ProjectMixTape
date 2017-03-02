@@ -230,7 +230,7 @@
       <Usability>2</Usability>
       <Stability>2</Stability>
       <CodeArt>1</CodeArt>
-      <Server>0.0006</Server>
+      <Server>0.00006</Server>
     </Feature>
     <Feature From="14k Modem" Vital="TRUE">
       <Name>56k Modem</Name>
@@ -242,7 +242,7 @@
       <Usability>4</Usability>
       <Stability>4</Stability>
       <CodeArt>1</CodeArt>
-      <Server>0.003</Server>
+      <Server>0.0003</Server>
     </Feature>
     <Feature From="56k Modem">
       <Name>Broadband</Name>
@@ -254,7 +254,7 @@
       <Usability>8</Usability>
       <Stability>4</Stability>
       <CodeArt>1</CodeArt>
-      <Server>0.012</Server>
+      <Server>0.0012</Server>
     </Feature>
     <Feature Vital="FALSE">
       <Name>Dual NIC</Name>
@@ -266,7 +266,7 @@
       <Usability>8</Usability>
       <Stability>16</Stability>
       <CodeArt>1</CodeArt>
-      <Server>0.01</Server>
+      <Server>0.001</Server>
       <Dependency Software="Motherboard">Broadband</Dependency>
     </Feature>
     <Feature From="Broadband" Vital="TRUE">
@@ -279,7 +279,7 @@
       <Usability>16</Usability>
       <Stability>8</Stability>
       <CodeArt>1</CodeArt>
-      <Server>0.024</Server>
+      <Server>0.0024</Server>
     </Feature>
     <Feature From="Cable" Vital="TRUE">
       <Name>Fiber</Name>
@@ -291,7 +291,7 @@
       <Usability>32</Usability>
       <Stability>16</Stability>
       <CodeArt>1</CodeArt>
-      <Server>0.05</Server>
+      <Server>0.005</Server>
     </Feature>
     <Feature Forced="TRUE">
       <Name>RAM Slots</Name>

@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="True">
 			<Name>Basic Streaming</Name>
+			<Category>System</Category>
 			<Description>Basic stuff</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -24,6 +25,7 @@
 		</Feature>
 		<Feature Forced="True">
 			<Name>Horrible Quality</Name>
+			<Category>2D</Category>
 			<Description>144p, ew</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -34,6 +36,7 @@
 		</Feature>
 		<Feature>
 			<Name>Donate-in-Stream</Name>
+			<Category>System</Category>
 			<Description>DONATION: 10$ To Griffindor!</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -44,6 +47,7 @@
 		</Feature>
 		<Feature>
 			<Name>Text-in-Stream</Name>
+			<Category>System</Category>
 			<Description>Blah blah blah</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -54,6 +58,7 @@
 		</Feature>
 		<Feature>
 			<Name>Music-in-Stream</Name>
+			<Category>Audio</Category>
 			<Description>Please don't stop the music!</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -64,16 +69,35 @@
 		</Feature>
 		<Feature From="Horrible Quality" Vital="True">
 			<Name>Moderate Quality</Name>
+			<Category>2D</Category>
 			<Description>480p</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>0</CodeArt>
-			<Unlock>1992</Unlock>
+			<Unlock>1994</Unlock>
+		</Feature>
+		<Feature From="Moderate Quality">
+			<Name>Ultra Quality</Name>
+			<Category>2D</Category>
+			<Description>Now with 4K!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3.8</Usability>
+			<Stability>2</Stability>
+			<CodeArt>4</CodeArt>
+			<Unlock>2000</Unlock>
+			<Server>0.001</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Video Player">4K Video Player</Dependency>
+			<Dependency Software="Audio Tool">Audio playback</Dependency>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
 		</Feature>
 		<Feature From="Basic Streaming" Vital="True">
 			<Name>Advanced Streaming</Name>
+			<Category>System</Category>
 			<Description>Yay, everything's better!</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -84,6 +108,7 @@
 		</Feature>
 		<Feature>
 			<Name>Stream Overlay</Name>
+			<Category>System</Category>
 			<Description>Song playing: ** -- Salty Stream -- Latest Donation: **</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -97,6 +122,7 @@
 		</Feature>
 		<Feature>
 			<Name>Pictures</Name>
+			<Category>2D</Category>
 			<Description>Letting users add pictures</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
@@ -106,13 +132,13 @@
 		</Feature>
 		<Feature>
 			<Name>Scenes</Name>
+			<Category>System</Category>
 			<Description>Allows users to switch scenes with different objects on</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
 			<Usability>5</Usability>
 			<Stability>5</Stability>
 			<CodeArt>0.7</CodeArt>
-			<Category>Audio</Category>
 		</Feature>
 		<Feature>
 			<Name>Sound recorder</Name>

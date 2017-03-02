@@ -13,6 +13,7 @@
     <Features>
         <Feature Forced="True">
             <Name>CLI</Name>
+			<Category>System</Category>
             <Description>Everything via command-line. Laborious "fun".</Description>
             <DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -34,6 +35,7 @@
         </Feature>
 		<Feature Forced="True">
             <Name>Databases</Name>
+			<Category>System</Category>
             <Description>Vital to literally everything that matters</Description>
             <DevTime>4</DevTime>
 			<Innovation>0</Innovation>
@@ -41,8 +43,9 @@
 			<Stability>3</Stability>            
 			<CodeArt>1</CodeArt>
         </Feature>
-		<Feature Forced="True">
+		<Feature Vital="True">
             <Name>Search</Name>
+			<Category>System</Category>
             <Description>For finding specific types of things and stuff</Description>
             <DevTime>6</DevTime>
 			<Innovation>1</Innovation>
@@ -52,6 +55,7 @@
         </Feature>
 		<Feature Vital="True">
             <Name>Statistics</Name>
+			<Category>System</Category>
             <Description>You cannot understand data without analysing data</Description>
             <DevTime>4</DevTime>
 			<Innovation>0</Innovation>
@@ -62,6 +66,7 @@
         </Feature>
 		<Feature>
             <Name>Event Notification</Name>
+			<Category>System</Category>
             <Description>You need to know when numbers change? This tells you numbers have changed</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -71,6 +76,7 @@
         </Feature>
 		<Feature Vital="True">
             <Name>Table Compression</Name>
+			<Category>System</Category>
             <Description>For when you like some numbers very small</Description>
             <DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -81,6 +87,7 @@
         </Feature>
 		<Feature>
             <Name>User-Defined Functions</Name>
+			<Category>System</Category>
             <Description>For making numbers into other numbers in ways that the developer didn't foresee</Description>
             <DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -91,6 +98,7 @@
         </Feature>
 		<Feature>
 			<Name>Advanced Searches</Name>
+			<Category>System</Category>
 			<Description>Finds pictures and can do face recognition</Description>
 			<DevTime>6</DevTime>
 			<Innovation>9</Innovation>

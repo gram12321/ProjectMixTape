@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Adware</Name>
+			<Category>Network</Category>
 			<Description>Annoying ads, and you get the profit!</Description>
 			<Innovation>0</Innovation>
 			<Usability>2</Usability>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Spyware</Name>
+			<Category>Network</Category>
 			<Description>Now you know their identity, their passwords, and more!</Description>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
@@ -33,6 +35,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Website infection</Name>
+			<Category>Network</Category>
 			<Description>Infect websites by visiting them, so other people will get invected too.</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>2.1</Usability>
@@ -43,6 +46,7 @@
 		</Feature>
 		<Feature From="Website infection" Vital="True">
 			<Name>E-Mail infection</Name>
+			<Category>Network</Category>
 			<Description>Infect other people by sending them E-Mails.</Description>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
@@ -53,6 +57,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Antivirus Bypass</Name>
+			<Category>System</Category>
 			<Description>Now these antivirusses wont find your virus anymore.</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>1.5</Usability>

@@ -1,0 +1,21 @@
+-start(base)
+-base(stop)
+File Zip
+Calculator ++
+xCalc
+Calculator Advanced
+OpenCalculate
+CalcMate
+CalculatorPro
+XLCalculator
+Calculator X5
+Calculator i4
+OneCalculator
+Calc i8
+Calc X9
+Calc Plus
+Calc +
+Calculator Plus
+Calculator.net
+PC Calculator
+-end(stop)

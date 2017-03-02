@@ -1,10 +1,15 @@
 <Scenario>
 	<Name>Extra years</Name>
 	<Money>
+		<Amount>4500</Amount>
 		<Amount>5000</Amount>
+		<Amount>9000</Amount>
 		<Amount>10000</Amount>
+		<Amount>18000</Amount>
 		<Amount>20000</Amount>
+		<Amount>45000</Amount>
 		<Amount>50000</Amount>
+		<Amount>450000</Amount>
 		<Amount>500000</Amount>
 	</Money>
 	<Goals>
@@ -140,10 +145,7 @@
 		<Year>2097</Year>
 		<Year>2098</Year>
 		<Year>2099</Year>
-		<Year>2100</Year>
-		
-		
-		
+		<Year>2100</Year>	
 	</Years>
 	<Events>
 	</Events>

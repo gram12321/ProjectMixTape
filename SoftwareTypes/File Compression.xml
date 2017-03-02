@@ -1,0 +1,256 @@
+<SoftwareType>
+	<Name>File Compression</Name>
+	<Description>Throw physical storage out of the window</Description>
+	<Unlock>1970</Unlock>
+	<Random>0.075</Random>
+	<Popularity>0.32</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>File Compression</Category>
+	<NameGenerator>filecompression</NameGenerator>
+	<Categories>
+		<Category Name="Computer">
+			<Description>For the table</Description>
+			<Popularity>0.32</Popularity>
+			<Retention>0.75</Retention>
+			<TimeScale>.75</TimeScale>
+			<Iterative>0.2</Iterative>
+		</Category>
+		<Category Name="Phone">
+			<Description>For the Pocket</Description>
+			<Popularity>0.18</Popularity>
+			<Retention>0.35</Retention>
+			<TimeScale>0.55</TimeScale>
+			<Iterative>0.13</Iterative>
+		</Category>
+	</Categories>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>10% Compression</Name>
+			<Description>File compressibility is now 10%. Estimated development time is 4 months.</Description>
+			<Unlock>1970</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="10% Compression">
+			<Name>20% Compression</Name>
+			<Description>File compressibility is now 20%. Estimated development time is 6 months.</Description>
+			<Unlock>1985</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>2.25</Innovation>
+			<Usability>2</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="20% Compression">
+			<Name>40% Compression</Name>
+			<Description>File compressibility is now 40%. Estimated development time is 12 months.</Description>
+			<Unlock>1995</Unlock>
+			<DevTime>12</DevTime>
+			<Innovation>4.5</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="40% Compression">
+			<Name>60% Compression</Name>
+			<Description>File compressibility is now 60%. Estimated development time is 16 months.</Description>
+			<Unlock>2005</Unlock>
+			<DevTime>16</DevTime>
+			<Innovation>5.75</Innovation>
+			<Usability>6</Usability>
+			<Stability>3.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="60% Compression">
+			<Name>80% Compression</Name>
+			<Description>File compressibility is now 80%. Estimated development time is 18 months.</Description>
+			<Unlock>2020</Unlock>
+			<DevTime>18</DevTime>
+			<Innovation>5.80</Innovation>
+			<Usability>5.5</Usability>
+			<Stability>4.25</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="80% Compression">
+			<Name>98% Compression</Name>
+			<Description>An extremely high compressibility factor. Estimated development time is 24 months.</Description>
+			<Unlock>2030</Unlock>
+			<DevTime>24</DevTime>
+			<Innovation>6.0</Innovation>
+			<Usability>9.5</Usability>
+			<Stability>6.0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Common File Formats</Name>
+			<Description>An essential feature for compression software. Estimated development time is 3 months.</Description>
+			<Unlock>1970</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>2</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature From="Common File Formats">
+			<Name>Extensive File Formats</Name>
+			<Description>Provides users with extensive file compression options. Estimated development time is 9 months.</Description>
+			<Unlock>1990</Unlock>
+			<DevTime>9</DevTime>
+			<Innovation>5.5</Innovation>
+			<Usability>7.5</Usability>
+			<Stability>2.2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>GUI</Name>
+			<Description>A basic graphical user interface will make use of the software easier. Estimated development time is 1 month.</Description>
+			<Unlock>1970</Unlock>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>6.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.15</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>Drag and Drop</Name>
+			<Description>A great feature that provides additional features that most users will enjoy. Estimated development time is 2 months.</Description>
+			<Unlock>1995</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>2.0</Innovation>
+			<Usability>7.2</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>.75</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="File Compression">GUI</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature From="GUI">
+			<Name>Advanced GUI</Name>
+			<Description>An advanced interface that provides extensive knowledge and additional options. Estimated development time is 3 months.</Description>
+			<Unlock>2000</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>3.5</Innovation>
+			<Usability>10.0</Usability>
+			<Stability>2.5</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Dependency Software="Operating System">Multitasking</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>Password Protection</Name>
+			<Description>Password protect files. Some customers will find this feature important when deciding to purchase compression software. Estimated development time is 1 months.</Description>
+			<Unlock>1995</Unlock>
+			<DevTime>1</DevTime>
+			<Innovation>3.6</Innovation>
+			<Usability>6.0</Usability>
+			<Stability>1.0</Stability>
+			<CodeArt>0.90</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Multiple Archives</Name>
+			<Description>Provides multiple archives which is almost a necessity. Estimated development time is 4 months.</Description>
+			<Unlock>1995</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>3.5</Innovation>
+			<Usability>5.0</Usability>
+			<Stability>2.0</Stability>
+			<CodeArt>0.85</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Self Extraction</Name>
+			<Description>The program has the ability to self extract files on its own. Estimated development time is 2 months.</Description>
+			<Unlock>1995</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>3.0</Innovation>
+			<Usability>3.5</Usability>
+			<Stability>2.0</Stability>
+			<CodeArt>0.95</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature Research="Common File Formats">
+			<Name>File Repairing</Name>
+			<Description>Repair damaged or corrupted files. For some customers this is an important feature. Estimated development time is 6 months.</Description>
+			<Unlock>2000</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>5.9</Innovation>
+			<Usability>6.5</Usability>
+			<Stability>6.2</Stability>
+			<CodeArt>1.0</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Basic Encryption</Name>
+			<Description>Basic encryption will provide additional security. Estimated development time is 4 months.</Description>
+			<Unlock>1990</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>2.2</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>2.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="Basic Encryption">
+			<Name>Medium Encryption</Name>
+			<Description>Medium encryption will provide additional security. Estimated development time is 6 months.</Description>
+			<Unlock>2005</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>3.2</Innovation>
+			<Usability>2.0</Usability>
+			<Stability>2.7</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="Medium Encryption">
+			<Name>Advanced Encryption</Name>
+			<Description>Advanced encryption will provide the maximum level of security. Estimated development time is 4 months.</Description>
+			<Unlock>2020</Unlock>
+			<DevTime>12</DevTime>
+			<Innovation>3.8</Innovation>
+			<Usability>2.7</Usability>
+			<Stability>3.2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

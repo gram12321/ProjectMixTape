@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Syntax</Name>
+			<Category>System</Category>
 			<Description>A language must be readable to understand</Description>
 			<DevTime>6</DevTime>
 			<Innovation>1</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature>
 			<Name>Functions</Name>
+			<Category>System</Category>
 			<Description>Construct for using code without repeating</Description>
 			<Unlock>1985</Unlock>
 			<DevTime>4</DevTime>
@@ -46,7 +48,7 @@
 		<Feature From="Syntax">
 			<Name>Advanced Syntax</Name>
 			<Description>Helps to maintain software development</Description>
-			<Category>Engineering</Category>
+			<Category>System</Category>
 			<Unlock>1990</Unlock>
 			<DevTime>10</DevTime>
 			<Innovation>3</Innovation>
@@ -57,7 +59,7 @@
 		<Feature>
 			<Name>Code Reflection</Name>
 			<Description>Makes your language self describing and more dynamic</Description>
-			<Category>Engineering</Category>
+			<Category>System</Category>
 			<Unlock>1995</Unlock>
 			<DevTime>5</DevTime>
 			<Innovation>2</Innovation>
@@ -68,6 +70,7 @@
 		</Feature>
 		<Feature>
 			<Name>IDE</Name>
+			<Category>System</Category>
 			<Description>A virtual workspace to streamline programming process.</Description>
 			<Unlock>2000</Unlock>
 			<DevTime>4</DevTime>

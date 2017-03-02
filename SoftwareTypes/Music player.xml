@@ -14,6 +14,7 @@
 	<Features>
 	<Feature Forced="TRUE">
 			<Name>Base</Name>
+			<Category>System</Category>
 			<Description>They open their music, they listen.. nothing more.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>6</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 	<Feature Forced="TRUE">
 			<Name>Play</Name>
+			<Category>System</Category>
 			<Description>Play button.. useless without the pause button, right?</Description>
 			<DevTime>1</DevTime>
 			<Innovation>6</Innovation>
@@ -32,6 +34,7 @@
 		</Feature>
 	<Feature Forced="TRUE">
 			<Name>Pause</Name>
+			<Category>System</Category>
 			<Description>Pause the music so you wont lose anything!</Description>
 			<DevTime>1</DevTime>
 			<Innovation>6</Innovation>
@@ -41,6 +44,7 @@
 		</Feature>
 	<Feature Vital="True">
 			<Name>Shuffle</Name>
+			<Category>System</Category>
 			<Description>Randomly chooses a song from the playlist</Description>
 			<DevTime>1</DevTime>
 			<Innovation>6</Innovation>
@@ -50,6 +54,7 @@
 		</Feature>
 	<Feature Vital="True">
 			<Name>Playlist</Name>
+			<Category>System</Category>
 			<Description>Allows your users to view the playlist in the actual music player!</Description>
 			<DevTime>1</DevTime>
 			<Innovation>6</Innovation>
@@ -59,6 +64,7 @@
 		</Feature>
 	<Feature Vital="True">
 			<Name>Next/Back</Name>
+			<Category>System</Category>
 			<Description>Allows your users to skip to next song or go back to the last song</Description>
 			<DevTime>1</DevTime>
 			<Innovation>6</Innovation>

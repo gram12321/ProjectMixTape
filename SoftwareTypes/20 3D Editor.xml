@@ -15,6 +15,7 @@
 	<Features>
 		    <Feature Forced="True">
             <Name>CLI</Name>
+			<Category>System</Category>
             <Description>Everything via command-line. Laborious "fun".</Description>
             <DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -36,6 +37,7 @@
         </Feature>
 		<Feature Forced="TRUE">
 			<Name>Vertex editing</Name>
+			<Category>3D</Category>
 			<Description>Move points in space around on the screen</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -100,6 +102,7 @@
 		</Feature>
 		<Feature>
 			<Name>Physics</Name>
+			<Category>3D</Category>
 			<Unlock>1994</Unlock>
 			<Description>Make the points interact</Description>
 			<DevTime>4</DevTime>
@@ -172,7 +175,7 @@
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.01</Server>
+			<Server>0.009</Server>
 			<Dependency Software="Operating System">Integral Graphics API</Dependency>
 			<Dependency Software="3D Editor">Rendering</Dependency>
 			<Dependency Software="Office Software">Text Editor</Dependency>

@@ -1,0 +1,176 @@
+<SoftwareType>
+	<Name>Calculator Software</Name><!-- made by kenneth. copying of code is not allowed. -->
+	<Description>A calculator that might calculate</Description>
+	<Unlock>1970</Unlock>
+	<Random>0.7</Random>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Category>System</Category>
+	<Categories>
+		<Category Name="Calculator">
+			<Description></Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.3</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.3</Iterative>
+			<NameGenerator>Calculator Software</NameGenerator>
+		</Category>
+	</Categories>
+	<NameGenerator>Calculator Software</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Simple Calculator</Name>
+			<Description>Will calculate 1+1 in a really ugly UI</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>UI 1990</Name>
+			<Unlock>1990</Unlock>
+			<Description>A slightly improved UI results in a more userfriendly and stable experience</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature From="UI 1990">
+			<Name>UI 2000</Name>
+			<Unlock>2000</Unlock>
+			<Description>Improves the UI further</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.4</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature From="UI 2000" Vital="TRUE">
+			<Name>UI 2010</Name>
+			<Unlock>2010</Unlock>
+			<Description>Modern. Clean. Userfriendly</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.3</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>History</Name>
+			<Unlock>2007</Unlock>
+			<Description>Calculator will save all previous calculations for increased usability</Description>
+			<DevTime>2</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Binary mode</Name>
+			<Unlock>1970</Unlock>
+			<!-- made by kenneth. copying of code is not allowed. -->
+			<Description>0000010100111001</Description>
+			<DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Hexadecimal mode</Name>
+			<Unlock>1975</Unlock>
+			<Description>539</Description>
+			<DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+			<Dependency Software="Calculator Software">Binary mode</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Octal mode</Name>
+			<Unlock>1980</Unlock>
+			<Description>2471</Description>
+			<DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+			<Dependency Software="Calculator Software">Hexadecimal mode</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Scientific Mode</Name>
+			<Unlock>1988</Unlock>
+			<Description>Sin Cos Tan</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Category>System</Category>
+			<Dependency Software="Calculator Software">Simple Calculator</Dependency>
+		</Feature>
+		<Feature>
+			<Name>RPN Mode</Name>
+			<Description>Reverse Polish Notation. Getting pretty frickin advanced now</Description>
+			<Unlock>1998</Unlock>
+			<Description>Sin Cos Tan</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Category>System</Category>
+			<Dependency Software="Calculator Software">Scientific Mode</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Converter Pack One</Name>
+			<Unlock>2007</Unlock>
+			<Description>Volume, length, weight and time converting</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Converter Pack Two</Name>
+			<Unlock>2014</Unlock>
+			<Description>Currency, energy, data, temperature and velocity converting</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+			<Dependency Software="Calculator Software">Converter Pack One</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Increased precision</Name>
+			<Unlock>2015</Unlock>
+			<Description>Increases stability noteworthy, development time as well...</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>7</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -16,38 +16,38 @@
 			<Name>Basic control</Name>
 			<Description>Controls robot's main routine</Description>
 			<DevTime>16</DevTime>
-			<Category>Robotics</Category>
+			<Category>Algorithm</Category>
 			<Innovation>6</Innovation>
 			<Usability>2</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.03</Server>
+			<Server>0.0003</Server>
 			<Dependency Software="Artificial Intelligence">Logic Algorithm</Dependency>
 		</Feature>
 		<Feature From="Basic control">
 			<Name>Advanced control</Name>
 			<Description>Additional routine control</Description>
-			<Category>Robotics</Category>
+			<Category>Algorithm</Category>
 			<Unlock>2020</Unlock>
 			<DevTime>26</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>2</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.06</Server>
+			<Server>0.0007</Server>
 			<Dependency Software="Artificial Intelligence">Self learning</Dependency>
 		</Feature>
 		<Feature From="Advanced control">
 			<Name>Supervising control</Name>
 			<Description>Allows control of big robot networks</Description>
-			<Category>Robotics</Category>
+			<Category>Algorithm</Category>
 			<Unlock>2025</Unlock>
 			<DevTime>36</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>4</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.09</Server>
+			<Server>0.002</Server>
 			<Dependency Software="Artificial Intelligence">Distributed intelligence</Dependency>
 		</Feature>
 		<Feature>
@@ -64,13 +64,13 @@
 		<Feature>
 			<Name>Supervisor</Name>
 			<Description>Makes the ACS completely independent</Description>
-			<Category>Robotics</Category>
+			<Category>Algorithm</Category>
 			<DevTime>10</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>4</Usability>
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.03</Server>
+			<Server>0.005</Server>
 			<Dependency Software="Artificial Intelligence">Distributed intelligence</Dependency>
 		</Feature>
 	</Features>

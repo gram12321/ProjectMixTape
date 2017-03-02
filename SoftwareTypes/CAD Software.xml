@@ -1,0 +1,319 @@
+<SoftwareType>
+	<Name>CAD Software</Name>
+	<Description>Computer Aided Design</Description>
+	<Unlock>1970</Unlock>
+	<Random>0.6</Random>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Category>System</Category>
+	<Categories>
+		<Category Name="Computer">
+			<Description></Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.3</Iterative>
+			<NameGenerator>CAD Software</NameGenerator>
+		</Category>
+	</Categories>
+	<NameGenerator>CAD Software</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>2D Drafting</Name>
+			<Description>Simple drafting software</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Auto-Generated BOM</Name>
+			<Description>Software can auto-generate a Bill of Material for the user</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">2D Drafting</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Automatic Interference Checking</Name>
+			<Description>Software will automatically check for errors and interferences</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">2D Drafting</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Automatic IC Layout</Name>
+			<Description>Integrated Circuits can be assigned automatic layouts</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">2D Drafting</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature From="2D Drafting">
+			<Name>Computer Aided Design</Name>
+			<Unlock>1985</Unlock>
+			<Description>2D/3D Modelling and Design</Description>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>PDF File Export</Name>
+			<Unlock>2000</Unlock>
+			<Description>Export drawings into PDF format for easy sharing</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">Computer Aided Design</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>3D Model Import</Name>
+			<Unlock>2004</Unlock>
+			<Description>Easily import 3D models</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">PDF File Export</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>3D Printing</Name>
+			<Unlock>2015</Unlock>
+			<Description>Users can print their designs through their uberexpensive 3D-printers</Description>
+			<DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="CAD Software">PDF File Export</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Image Render</Name>
+			<Unlock>2010</Unlock>
+			<Description>User can generate an image directly from a 3D model</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="CAD Software">Computer Aided Design</Dependency>
+			<Dependency Software="3D Editor">Rendering</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Large Designs</Name>
+			<Unlock>1998</Unlock>
+			<Description>Designs can consist of over 100,000 individually simulated parts</Description>
+			<DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">Computer Aided Design</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Piping and Tubing</Name>
+			<Unlock>2000</Unlock>
+			<Description>Pneumatic and hydraulic designs</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="CAD Software">Computer Aided Design</Dependency>
+			<Category>3D</Category>
+		</Feature>
+		<Feature>
+			<Name>Simulation and Visualization</Name>
+			<Unlock>2000</Unlock>
+			<Description>3D Modelling and Design</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Category>Algorithm</Category>
+			<Dependency Software="3D Editor">Animation</Dependency>
+			<Dependency Software="CAD Software">Computer Aided Design</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Fluids</Name>
+			<Unlock>2010</Unlock>
+			<Description>Advanced simulation of fluids like water and oil</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">Simulation and Visualization</Dependency>
+			<Dependency Software="3D Editor">Animation</Dependency>
+			<Category>3D</Category>
+		</Feature>
+		<Feature>
+			<Name>Advanced Lighting Effects</Name>
+			<Unlock>2007</Unlock>
+			<Description>Sun simulation, shadows etc.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="CAD Software">Simulation and Visualization</Dependency>
+			<Dependency Software="3D Editor">Animation</Dependency>
+			<Category>3D</Category>
+		</Feature>
+		<Feature>
+			<Name>Particle Effects</Name>
+			<Unlock>2007</Unlock>
+			<Description>Dust, smoke, fire etc.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="CAD Software">Simulation and Visualization</Dependency>
+			<Dependency Software="3D Editor">Animation</Dependency>
+			<Category>3D</Category>
+		</Feature>
+		<Feature>
+			<Name>File Tabs</Name>
+			<Unlock>2003</Unlock>
+			<Description>Multitasking. May or may not only work for female users</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Collaboration</Name>
+			<Unlock>2005</Unlock>
+			<Description>People can collaborate on projects over the internet</Description>
+			<DevTime>1</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.02</Server>
+			<Category>Network</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Printing</Name>
+			<Unlock>1975</Unlock>
+			<Description>Users can now print their drawings on paper</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Touch</Name>
+			<Unlock>2008</Unlock>
+			<Description>Mouse and keyboards are obsolete anyways</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Touch</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Tutorial 1970</Name>
+			<Unlock>1970</Unlock>
+			<Description>Teach the users with a simple tutorial and guide</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">2D Drafting</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature From="Tutorial 1970">
+			<Name>Tutorial 1985</Name>
+			<Unlock>1985</Unlock>
+			<Description>Updated tutorial for the added functions</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature From="Tutorial 1985">
+			<Name>Tutorial 2000</Name>
+			<Unlock>2000</Unlock>
+			<Description>Updated tutorial for the added functions</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Save Function</Name>
+			<Unlock>1970</Unlock>
+			<Description>Now you just gotta hope that hardrive doesn't crash</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Auto-Save Function</Name>
+			<Unlock>2001</Unlock>
+			<Description>Real science shows this drastically reduces the amount of frustrated engineers, or something like that</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="CAD Software">Save Function</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Cloud Saving</Name>
+			<Unlock>2012</Unlock>
+			<Description>Now you just gotta hope that cloud doesn't desync</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.02</Server>
+			<Dependency Software="CAD Software">Save Function</Dependency>
+			<Category>Network</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

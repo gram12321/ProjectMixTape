@@ -10,33 +10,94 @@
 	<OSSpecific>TRUE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>
-	<Server>1</Server>
+	<Server>0.0001</Server>
 	<NameGenerator>webbrowser</NameGenerator>
 	<Features>
-		<Feature Forced="True">
-			<Name>Base</Name>
-			<Description>The base of your webbrowser</Description>
-			<DevTime>10</DevTime>
-			<Innovation>7</Innovation>
-			<Usability>5</Usability>
-			<Stability>5</Stability>
-			<CodeArt>0.4</CodeArt>
+		<Feature Forced="TRUE">
+			<Name>Support Coding</Name>
+			<Category>Algorithm</Category>
+			<Description>Developers can write a basic site</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
 		</Feature>
-		<Feature From="Base">
-			<Name>Modern User Interface</Name>
-			<Description>It has to be more than a web console</Description>
+		<Feature>
+			<Name>Support Design Coding</Name>
+			<Category>Algorithm</Category>
+			<Description>Developers can write a more beautiful website.</Description>
 			<DevTime>2</DevTime>
-			<Unlock>1995</Unlock>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support Coding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Support Interactivity</Name>
+			<Category>Algorithm</Category>
+			<Description>Developers can make more interactive sites</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support Coding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Support Databases</Name>
+			<Category>Network</Category>
+			<Description>Developers can make online databases.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Server Hosting">1 GB</Dependency>
+			<Dependency Software="Web Browser">Support Coding</Dependency>
+		</Feature>
+		<Feature>
+			<Name>User Interface</Name>
+			<Description>Pretty much just a web console</Description>
+			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.1</CodeArt>
 			<Dependency Software="Operating System">Networking</Dependency>
-			<Dependency Software="Operating System">GUI</Dependency>
 			<Category>2D</Category>
+		</Feature>
+		<Feature From="User Interface">
+			<Name>Graphical User Interface</Name>
+			<Description>Oooo, pictures and stuff!</Description>
+			<DevTime>4</DevTime>
+			<Unlock>2000</Unlock>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="2D Editor">GUI</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature From="Graphical User Interface">
+			<Name>Modern User Interface</Name>
+			<Description>A very interactive and graphically pleasing interface</Description>
+			<DevTime>5</DevTime>
+			<Unlock>2008</Unlock>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>2D</Category>
+			<Dependency Software="Operating System">Integral Graphics API</Dependency>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Dependency Software="2D Editor">Image effects</Dependency>
 		</Feature>
 		<Feature Vital="True">
 			<Name>Settings</Name>
+			<Category>System</Category>
 			<Description>Gives users an opportunity to choose simple settings</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
@@ -46,6 +107,7 @@
 		</Feature>
 		<Feature>
 			<Name>Advanced settings</Name>
+			<Category>System</Category>
 			<Description>Gives users a more advanced settings with more options</Description>
 			<DevTime>8</DevTime>
 			<Innovation>6</Innovation>
@@ -56,6 +118,7 @@
 		</Feature>
 		<Feature>
 			<Name>Extensions</Name>
+			<Category>System</Category>
 			<Description>Allowing your users to create extensions to your webbrowser</Description>
 			<DevTime>8</DevTime>
 			<Innovation>5</Innovation>
@@ -65,6 +128,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>History</Name>
+			<Category>System</Category>
 			<Description>Letting your players to view their previous actions</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
@@ -74,6 +138,7 @@
 		</Feature>
 		<Feature>
 			<Name>Incognito</Name>
+			<Category>System</Category>
 			<Description>Do i really need to explain? ;)</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
@@ -83,6 +148,7 @@
 		</Feature>
 		<Feature>
 			<Name>Logo</Name>
+			<Category>2D</Category>
 			<Description>Allows users to create an logo to their webbrowser</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
@@ -93,6 +159,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Multiple tabs</Name>
+			<Category>System</Category>
 			<Description>Allows users to have multiple tabs open at once</Description>
 			<DevTime>3</DevTime>
 			<Innovation>5</Innovation>
@@ -114,6 +181,7 @@
 		</Feature>
 		<Feature Research="Web Content Player">
 			<Name>4K Content Support</Name>
+			<Category>System</Category>
 			<Unlock>2014</Unlock>
 			<Description>4x the pixels, 4x the love</Description>
 			<DevTime>2</DevTime>
@@ -133,7 +201,7 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<Dependency Software="Security Software">Encryption</Dependency>
-			<Category>Security</Category>
+			<Category>Algorithm</Category>
 		</Feature>
 		<Feature From="Encryption">
 			<Name>AES Encryption</Name>
@@ -146,7 +214,18 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Web Browser">Encryption</Dependency>
 			<Dependency Software="Security Software">AES Encryption</Dependency>
-			<Category>Security</Category>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Element Inspect</Name>
+			<Category>System</Category>
+			<Description>Customers can troll or find bugs with this tool</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support Coding</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>

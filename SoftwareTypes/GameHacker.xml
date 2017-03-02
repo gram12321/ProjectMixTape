@@ -13,35 +13,38 @@
 	<Features>
 		<Feature Forced="True">
 			 <Name>Money Hack</Name>
+			 <Category>System</Category>
  			<Description>Hacks the money of any game, but be careful not to get caught using it, the game might not like that.</Description>
  			<DevTime>4</DevTime>
 			 <Innovation>3</Innovation>
 			 <Usability>4</Usability>
  			<Stability>2</Stability>
 			 <CodeArt>1</CodeArt>
-			 <Server>4</Server>
+			 <Server>0.0004</Server>
 			 <Dependencies Software="Operating System">Terminal</Dependencies>
 		 </Feature>
 		<Feature>
 			 <Name>Stats Hack</Name>
+			 <Category>System</Category>
 			 <Description>Hacks not only the money, but the stats as well, just again, dont get caught.</Description>
 			 <DevTime>3</DevTime>
 			 <Innovation>3</Innovation>
  			<Usability>2</Usability>
  			<Stability>1</Stability>
  			<CodeArt>1</CodeArt>
-			 <Server>5</Server>
+			 <Server>0.0005</Server>
  			<Dependencies Software="Game Hacker">Money Hack</Dependencies>
 		 </Feature>
-		<Feature Forced="True">
+		<Feature>
  			<Name>Surveys</Name>
+			<Category>System</Category>
 			 <Description>Make surveys so the people cant get the actual hack, but you get money every time they click on a link to finish the survey. LOTS OF MONEY FOR YOU!</Description>
 			 <DevTime>5</DevTime>
  			<Innovation>2</Innovation>
 			 <Usability>4</Usability>
  			<Stability>5</Stability>
 			 <CodeArt>0</CodeArt>
-			 <Server>12</Server>
+			 <Server>0.0007</Server>
  			<Dependencies Software="Operating System">Terminal</Dependencies>
 		 </Feature>
 	 </Features>

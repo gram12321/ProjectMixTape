@@ -14,6 +14,7 @@
 	<Features>
 		<Feature>
 			<Name>Printer Support</Name>
+			<Category>System</Category>
 			<Description>By utilizing a server, your company can create a repository of printer drivers with companion software so users can quickly install and operate their printer.</Description>
 			<Unlocks>2010</Unlocks>
 			<DevTime>4</DevTime>
@@ -26,6 +27,7 @@
 		</Feature>
 		<Feature>
 			<Name>PDF Reader</Name>
+			<Category>System</Category>
 			<Description>A basic PDF viewer.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -36,6 +38,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
          <Name>Device Manager</Name>
+		 <Category>System</Category>
          <Description>Analyzes current hardware and reports to the user.</Description>
          <DevTime>4</DevTime>
          <Innovation>0</Innovation>
@@ -45,6 +48,7 @@
       </Feature>
       <Feature>
          <Name>Instant Messenger</Name>
+		 <Category>Network</Category>
          <Description>A simple way to communicate with others through the internet.</Description>
          <DevTime>3</DevTime>
          <Innovation>1</Innovation>
@@ -56,6 +60,7 @@
       </Feature>
       <Feature>
          <Name>File System</Name>
+		 <Category>System</Category>
          <Description>A file directory for the user to both view and edit system/personal files.</Description>
          <DevTime>5</DevTime>
          <Innovation>1</Innovation>
@@ -65,6 +70,7 @@
       </Feature>
       <Feature>
          <Name>Compression Manager</Name>
+		 <Category>System</Category>
          <Description>Open, edit, and create compressed files in various formats.</Description>
          <Unlocks>2008</Unlocks>
          <DevTime>3</DevTime>
@@ -72,9 +78,11 @@
          <Usability>1</Usability>
          <Stability>1</Stability>
          <CodeArt>1</CodeArt>
+		 <Dependency Software="File Compression">60% Compression</Dependency>
       </Feature>
       <Feature>
          <Name>Remote Desktop Connector</Name>
+		 <Category>Network</Category>
          <Description>Allows user to access and operate a computer elsewhere through local or internet connection.</Description>
          <Unlocks>2012</Unlocks>
          <DevTime>6</DevTime>
@@ -83,28 +91,6 @@
          <Stability>1</Stability>
          <CodeArt>1</CodeArt>
          <Dependency Software="Operating System">Networking</Dependency>
-      </Feature>
-      <Feature>
-         <Name>System Defrag and Cleanup</Name>
-         <Description>A set of programs that defragment and clean the system storage to increase speed.</Description>
-         <Unlocks>2009</Unlocks>
-         <DevTime>5</DevTime>
-         <Innovation>3</Innovation>
-         <Usability>3</Usability>
-         <Stability>1</Stability>
-         <CodeArt>1</CodeArt>
-      </Feature>
-      <Feature>
-         <Name>Media Player</Name>
-         <Description>Plays media like audio and video files. Native support for operating system file extensions is a must.</Description>
-         <Unlocks>2007</Unlocks>
-         <DevTime>5</DevTime>
-         <Innovation>4</Innovation>
-         <Usability>3</Usability>
-         <Stability>2</Stability>
-         <CodeArt>1</CodeArt>
-         <Dependency Software="Operating System">GUI</Dependency>
-         <Dependency Software="Operating System">HD audio</Dependency>
       </Feature>
    </Features>
 </SoftwareType>

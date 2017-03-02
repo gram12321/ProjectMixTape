@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>File Compression</Specialization>
+	<PerYear>0.085</PerYear>
+	<Min>1</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="File Compression">1</Type>
+		<Type Software="WebCMS">1</Type>
+	</Types>
+</CompanyType>

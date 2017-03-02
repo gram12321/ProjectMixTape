@@ -1,7 +1,7 @@
 <SoftwareType>
 <Name>Finance</Name>
 	<Category>Business</Category>
-	<Description>A Finance software is mostly used for businesses to manage their finances</Description>
+	<Description>Finance software is mostly used for businesses to manage their finances</Description>
 	<Random>0.3</Random>
 	<Unlock>1974</Unlock>
 	<OSSpecific>True</OSSpecific>
@@ -20,6 +20,7 @@
 		<Features>
 		<Feature Forced="TRUE">
 			<Name>File management</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -29,6 +30,7 @@
 		</Feature>
 		<Feature Forced="TRUE" Vital="True">
 			<Name>Financial Report</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>5</Innovation>
@@ -38,6 +40,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Budgeting</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -47,6 +50,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Billing and Invoice</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -56,6 +60,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Account Receivable and Payable</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>2</DevTime>
 			<Innovation>4</Innovation>
@@ -65,6 +70,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Payroll</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -75,6 +81,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Inventory</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>6</Innovation>
@@ -85,6 +92,7 @@
 		</Feature>
 		<Feature>
 			<Name>Themes</Name>
+			<Category>System</Category>
 			<Category>2D</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
@@ -96,6 +104,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Simple UI</Name>
+			<Category>System</Category>
 			<Category>2D</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
@@ -107,6 +116,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Advanced UI</Name>
+			<Category>System</Category>
 			<Category>2D</Category>
 			<Description></Description>
 			<DevTime>6</DevTime>
@@ -119,6 +129,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Bank integration</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>5</Innovation>
@@ -129,6 +140,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Payments Security</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
@@ -140,6 +152,7 @@
 		</Feature>
 		<Feature>
 			<Name>Multi-currency</Name>
+			<Category>System</Category>
 			<Description></Description>
 			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>
@@ -150,6 +163,7 @@
 		</Feature>
 		<Feature>
 			<Name>Online Backup</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>5</Innovation>
@@ -161,6 +175,7 @@
 		</Feature>
 		<Feature>
 			<Name>Online syncronization</Name>
+			<Category>Network</Category>
 			<Description></Description>
 			<DevTime>5</DevTime>
 			<Innovation>6</Innovation>

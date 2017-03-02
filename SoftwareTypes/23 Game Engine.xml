@@ -13,6 +13,7 @@
     <Features>
         <Feature Forced="True">
             <Name>Text core</Name>
+			<Category>System</Category>
             <Description>Text games were actually better than what came after them for some time, but it took centuries for people to notice and by then everyone had become a book called "?". More seriously: text is the core of any game.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -24,6 +25,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Single Playscreen</Name>
+			<Category>System</Category>
 			<Description>Yup. Literally just one screen. That's the entire game. Probably also monochrome.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -107,6 +109,7 @@
 		</Feature>
 		<Feature>
 			<Name>Single-channel audio</Name>
+			<Category>Audio</Category>
 			<Description>Just Crackle.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -117,6 +120,7 @@
 		</Feature>
 		<Feature From="Single-channel audio">
 			<Name>Dual-channel audio</Name>
+			<Category>Audio</Category>
 			<Description>No, not Crackle and Pop. Hopefully.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -128,6 +132,7 @@
 		</Feature>
 		<Feature From="Dual-channel audio">
 			<Name>8-bit audio</Name>
+			<Category>Audio</Category>
 			<Description>Eventually, simply awe.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -139,6 +144,7 @@
 		</Feature>
 		<Feature From="8-bit audio">
 			<Name>HD audio</Name>
+			<Category>Audio</Category>
 			<Description>Many bits in your awww.</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -150,6 +156,7 @@
 		</Feature>
 			<Feature Forced="True">
 			<Name>Sequential Events</Name>
+			<Category>System</Category>
 			<Description>A. B. C. D. Not always as boring as it sounds here.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -160,6 +167,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Event Scripting</Name>
+			<Category>System</Category>
 			<Description>This allows things to happen because of stuff, instead of things to happen just in sequences. Essentially this allows for more dynamic level designs - at simplest, like doors that open when the user wants them to, or when more complex, like a wall that catches fire because someone threw a Molotov cocktail.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -171,6 +179,7 @@
 		</Feature>
 			<Feature From="Event Scripting" Vital="True">
 			<Name>Branching Event Trees</Name>
+			<Category>System</Category>
 			<Description>Allowing all kinds of branching events and their integration into both game logic and UI - including dialogues. Shakespeare but possibly with monkeys.</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
@@ -183,6 +192,7 @@
 		</Feature>
 		<Feature>
 			<Name>Simple Physics</Name>
+			<Category>System</Category>
 			<Description>What! Why apple go fally!</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -193,6 +203,7 @@
 		</Feature>
 			<Feature>
 			<Name>Advanced Physics</Name>
+			<Category>System</Category>
 			<Description>e=mc^2</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -306,6 +317,7 @@
 		</Feature>
 		<Feature Research="Visual editor">
 			<Name>Visual scripting</Name>
+			<Category>System</Category>
 			<Unlock>1991</Unlock>
 			<Description>It's like programming, but you use the mouse more</Description>
 			<DevTime>3</DevTime>

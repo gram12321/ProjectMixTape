@@ -1,8 +1,8 @@
 <CompanyType>
 	<Specialization>Email Client</Specialization>
-	<PerYear>0.2</PerYear>
+	<PerYear>0.1</PerYear>
 	<Min>1</Min>
-	<Max>4</Max>
+	<Max>2</Max>
 	<Types>
 		<Type Software="Email Client">1</Type>
 	</Types>

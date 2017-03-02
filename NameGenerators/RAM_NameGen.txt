@@ -1,4 +1,16 @@
 -start(base)
--base(base2,end,stop)
--base2(end,stop)
+Rold
+Dolb
+Mem
+Fast
+Puld
+-base(end)
+ iX
+ i_X
+ _D
+ _X
+ D_i
+ iHX
+ GX
+ iF
 -end(stop)

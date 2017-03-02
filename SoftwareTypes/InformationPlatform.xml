@@ -14,15 +14,17 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Information services</Name>
+			<Category>Network</Category>
 			<Description>Provides information through internet</Description>
 			<DevTime>16</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>4</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>5</Server>
+			<Server>0.0005</Server>
 		</Feature>
 		<Feature>
+		<Category>Network</Category>
 			<Name>Querying</Name>
 			<Description>Makes it a lot easier to find information</Description>
 			<DevTime>8</DevTime>
@@ -32,6 +34,7 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
+		<Category>Network</Category>
 			<Name>Search agents</Name>
 			<Category>Network</Category>
 			<Description>Automatic information growth</Description>
@@ -40,7 +43,7 @@
 			<Usability>4</Usability>
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.5</Server>
+			<Server>0.005</Server>
 		</Feature>
 	</Features>
 </SoftwareType>

@@ -1,0 +1,21 @@
+-start(base)
+-base(stop)
+File Zip
+File Hound
+Zipper Compression
+Compression House
+Home File
+Max Ratio
+Light Compression
+Universal Compression
+Best Compress
+Golden Zip
+ZipRatio
+FileFixer
+FileRepair
+FileArchiver
+ArchiverZip
+EliteFile
+winFile
+winRatio
+-end(stop)

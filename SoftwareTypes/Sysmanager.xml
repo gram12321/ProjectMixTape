@@ -47,9 +47,32 @@
 		</Feature>
 		<Feature>
 			<Name>File logging</Name>
+			<Category>System</Category>
 			<Description>Users can read events from the past</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Process termination</Name>
+			<Category>System</Category>
+			<Description>Allows the software to end user chosen processes</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="System Management Tool">Charts</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Administrative authorization</Name>
+			<Category>System</Category>
+			<Description>Grants the ability for programs to require authorization to end it</Description>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>

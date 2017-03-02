@@ -53,6 +53,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 	<Features>
 		<Feature Vital="True">
 			<Name>Commands Line</Name>
+			<Category>System</Category>
 			<Description>Basic Work</Description>
 			<DevTime>3</DevTime>
 			<Innovation>7</Innovation>
@@ -62,6 +63,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Text input system</Name>
+			<Category>System</Category>
 			<Description>Allow the user to interact with the operating system with a keyboard or keypad</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -71,6 +73,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Pointer input system</Name>
+			<Category>System</Category>
 			<Description>Allow the user to interact with the operating system via pointer human interface device, such as a mouse or trackpad</Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -83,6 +86,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Vital="True">
 			<Name>Neurofeedback input system</Name>
+			<Category>System</Category>
 			<Description>Allow the user to directly interact with a holo-UI via a neural interface device</Description>
 			<DevTime>6</DevTime>
 			<Innovation>2</Innovation>
@@ -97,6 +101,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Terminal</Name>
+			<Category>System</Category>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
 			<DevTime>6</DevTime>
 			<Innovation>0</Innovation>
@@ -106,7 +111,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Dot Rendering</Name>
-		    <Category>Graphics</Category>
+		    <Category>2D</Category>
             <Description>Woo, dots.</Description>
             <DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -193,7 +198,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Name>Integral Holographic API</Name>
 			<Description>Real 3D. Not that stupid fake stuff on a screen like in the dark ages</Description>
 			<Category>Holography</Category>
-			<Description></Description>
 			<DevTime>9</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
@@ -206,6 +210,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Plug'n'Play</Name>
+			<Category>System</Category>
 			<Description>Allow the user to interact with the operating system in any number of ways</Description>
 			<DevTime>5</DevTime>
 			<Innovation>0</Innovation>
@@ -219,6 +224,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature>
 			<Name>Touch</Name>
+			<Category>System</Category>
 			<Description>You can never have enough greasy finger prints on a surface</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
@@ -233,7 +239,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Block Multithreading</Name>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
 			<Description>Multithreading allows the Operating System to run mulitple threads at the same time by continually switching between them intelligently, speeding up applications and confusing developers to no end.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -246,6 +252,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature From="Block Multithreading" Vital="True">
 			<Name>Simultaneous Multithreading</Name>
+			<Category>Algorithm</Category>
 			<Description>Often given catchier names, SMT is more effective than its predecessors, barrel multithreading and interleaved multithreading</Description>
 			<DevTime>5</DevTime>
 			<Innovation>3</Innovation>
@@ -315,6 +322,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>PC speaker</Name>
+			<Category>Audio</Category>
 			<Description>For all your beeping needs</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -331,6 +339,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Audio Driver">8-bit support</Dependency>
 			<SoftwareCategory Category="Computer">1984</SoftwareCategory>
 			<SoftwareCategory Category="Console">1984</SoftwareCategory>
 			<SoftwareCategory Category="Phone">1984</SoftwareCategory>
@@ -344,12 +353,14 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Audio Driver">HD support</Dependency>
 			<SoftwareCategory Category="Computer">1988</SoftwareCategory>
 			<SoftwareCategory Category="Console">1988</SoftwareCategory>
 			<SoftwareCategory Category="Phone">1988</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Auto-update</Name>
+			<Category>Network</Category>
 			<Unlock>1995</Unlock>
 			<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't.</Description>
 			<DevTime>3</DevTime>
@@ -357,7 +368,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.5</Server>
+			<Server>0.05</Server>
 			<Dependency Software="Operating System">Networking</Dependency>
 		</Feature>
 		<Feature Research="Networking" Vital="TRUE">
@@ -399,7 +410,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature From="3G">
 			<Name>4G</Name>
-			<Description>faster Internet for mobile phones.</Description>
+			<Description>Faster internet for mobile phones.</Description>
 			<Category>Network</Category>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -446,7 +457,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		<!-- Watch and Car -->
 		<Feature Forced="TRUE">
 			<Name>Simple Digital Clock</Name>
-			<Category>Any</Category>
+			<Category>System</Category>
 			<Description>Check the time because you're late.</Description>
 			<CodeArt>0.95</CodeArt>
 			<DevTime>18</DevTime>
@@ -469,7 +480,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature>
 			<Name>3rd Party Watchfaces</Name>
-			<Category>Any</Category>
+			<Category>System</Category>
 			<Description>Have any watchface your heart desires</Description>
 			<CodeArt>0.95</CodeArt>
 			<DevTime>9</DevTime>
@@ -492,7 +503,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature>
 			<Name>Driving Assistance</Name>
-			<Unlock>2013</Unlock>
 			<Category>System</Category>
 			<Description>It will compensate for your laziness</Description>
 			<CodeArt>1</CodeArt>
@@ -505,7 +515,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature>
 			<Name>AutoPilot</Name>
-			<Unlock>2015</Unlock>
 			<Category>System</Category>
 			<Description>Car will be controlled fully by software</Description>
 			<CodeArt>1</CodeArt>
@@ -518,19 +527,18 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Research="AutoPilot">
 			<Name>Autonomous Driving</Name>
-			<Unlock>2017</Unlock>
 			<Category>System</Category>
-			<Description>It will drive itself... places...</Description>
+			<Description>It will drive itself... Places...</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>1.5</DevTime>
 			<Innovation>12</Innovation>
 			<Usability>12</Usability>
 			<Stability>12</Stability>
-			<SoftwareCategory Category="Car">2017</SoftwareCategory>
+			<SoftwareCategory Category="Car">2020</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Parking Assistance</Name>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
 			<Description>Software will compensate for your horrible parking skills</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.6</DevTime>
@@ -542,8 +550,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature>
 			<Name>Autonomous Parking</Name>
-			<Unlock>2015</Unlock>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
 			<Description>It will park itself without your help</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.9</DevTime>
@@ -591,8 +598,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Research="Dimensional UI">
 			<Name>Touch Control</Name>
-			<Unlock>2011</Unlock>
-			<Category>Any</Category>
+			<Category>System</Category>
 			<Description>Operate the OS with a touch</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.1</DevTime>
@@ -604,8 +610,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Research="Dimensional UI">
 			<Name>Voice Control</Name>
-			<Unlock>2013</Unlock>
-			<Category>Any</Category>
+			<Category>System</Category>
 			<Description>Operate the OS with voice commands</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.3</DevTime>
@@ -617,8 +622,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Research="Dimensional UI">
 			<Name>Gesture Control</Name>
-			<Unlock>2017</Unlock>
-			<Category>Any</Category>
+			<Category>System</Category>
 			<Description>Operate the OS with movements</Description>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.3</DevTime>
@@ -643,7 +647,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Name>Online Navigation System</Name>
 			<Category>Network</Category>
 			<Description>Get updates from the web</Description>
-			<Server>0.05</Server>
+			<Server>0.0005</Server>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.3</DevTime>
 			<Innovation>6</Innovation>
@@ -654,7 +658,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature>
 			<Name>3rd Party Navigation Apps</Name>
-			<Unlock>2013</Unlock>
 			<Category>System</Category>
 			<Description>Use that navigation service you really love</Description>
 			<CodeArt>1</CodeArt>
@@ -680,7 +683,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Name>Online Entertainment System</Name>
 			<Category>2D</Category>
 			<Description>Stream your content from the web</Description>
-			<Server>0.005</Server>
+			<Server>0.0005</Server>
 			<CodeArt>1</CodeArt>
 			<DevTime>0.3</DevTime>
 			<Innovation>6</Innovation>
@@ -691,7 +694,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature>
 			<Name>3rd Party Entertainment Apps</Name>
-			<Unlock>2013</Unlock>
 			<Category>2D</Category>
 			<Description>Grab content from any service</Description>
 			<CodeArt>1</CodeArt>
@@ -704,6 +706,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Connectivity</Name>
+			<Category>System</Category>
 			<Description>Connect to devices that you have</Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>

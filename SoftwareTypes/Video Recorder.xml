@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="True">
 			<Name>Basic Recording</Name>
+			<Category>System</Category>
 			<Description>Just the standard recording, nothing much.</Description>
 			<Innovation>0.5</Innovation>
 			<Usability>0.5</Usability>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature Vital="True" From="Basic Recording">
 			<Name>Improved Recording</Name>
+			<Category>System</Category>
 			<Description>Nothing new, except its faster.</Description>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
@@ -33,6 +35,7 @@
 		</Feature>
 		<Feature>
 			<Name>Button Shortcuts</Name>
+			<Category>System</Category>
 			<Description>F9 to Record</Description>
 			<Innovation>1.5</Innovation>
 			<Usability>2</Usability>
@@ -43,6 +46,7 @@
 		</Feature>
 		<Feature From="Button Shortcuts">
 			<Name>Keybinding</Name>
+			<Category>System</Category>
 			<Description>Press ESC to change your Recording button shortcut.</Description>
 			<Innovation>1.9</Innovation>
 			<Usability>2.5</Usability>
@@ -53,6 +57,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Game Optimization</Name>
+			<Category>System</Category>
 			<Description>Now you can play games even more smoothy!</Description>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>

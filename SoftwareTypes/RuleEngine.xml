@@ -14,6 +14,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Knowledge base</Name>
+			<Category>System</Category>
 			<Description>Manages rules for execution</Description>
 			<DevTime>12</DevTime>
 			<Innovation>5</Innovation>
@@ -45,6 +46,7 @@
 		<Feature>
 			<Name>Fast processing</Name>
 			<Description>Makes the engine a lot faster</Description>
+			<Unlock>2008</Unlock>
 			<Category>System</Category>
 			<DevTime>6</DevTime>
 			<Innovation>4</Innovation>

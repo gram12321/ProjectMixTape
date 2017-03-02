@@ -1,5 +1,5 @@
 <SoftwareType>
-	<Name>Audio Card Driver</Name>
+	<Name>Audio Driver</Name>
 	<Description>Provides a mediator between the Operating System and the computer's audio card.</Description>
 	<Category>Computing</Category>
 	<Random>0.25</Random>
@@ -9,11 +9,12 @@
 	<OSSpecific>TRUE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>
-	<Unlock>1985</Unlock>
+	<Unlock>1980</Unlock>
 	<NameGenerator>audiodrivergen</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Hardware Interaction</Name>
+			<Category>System</Category>
 			<Description>Enables basic interaction between OS and Driver.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -23,6 +24,7 @@
 		</Feature>
 		<Feature>
 			<Name>Surround Sound Support</Name>
+			<Category>Audio</Category>
 			<Description>For the 7 people who actually have Surround Sound...</Description>
 			<Unlock>2005</Unlock>
 			<DevTime>2</DevTime>
@@ -44,6 +46,7 @@
       </Feature>
       <Feature>
 			<Name>Companion Software</Name>
+			<Category>System</Category>
 			<Description>Allows user to update and optimize drivers through a GUI. Requires server.</Description>
 			<DevTime>3</DevTime>
 			<Unlock>2010</Unlock>
@@ -53,7 +56,7 @@
 			<CodeArt>0.3</CodeArt>
 			<Server>0.00007</Server>
 			<Dependency Software="Operating System">GUI</Dependency>
-			<Dependency Software="Audio Card Driver">Optimization</Dependency>
+			<Dependency Software="Audio Driver">Optimization</Dependency>
       </Feature>
 	  <Feature Forced="TRUE">
 			<Name>Sounds</Name>
@@ -64,21 +67,21 @@
 			<Usability>3</Usability>
 			<Stability>5</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Operating System">PC speaker</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>8-bit support</Name>
 			<Description>Handles 8-bit sounds</Description>
+			<Unlock>1984</Unlock>
 			<Category>Audio</Category>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>5</Usability>
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Operating System">8-bit audio</Dependency>
 		</Feature>
-		<Feature Vital="TRUE">
+		<Feature Vital="TRUE" Research="8-bit support">
 			<Name>HD support</Name>
+			<Unlock>1988</Unlock>
 			<Description>Handles HD audio</Description>
 			<Category>Audio</Category>
 			<DevTime>4</DevTime>
@@ -86,7 +89,6 @@
 			<Usability>5</Usability>
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Operating System">HD audio</Dependency>
 		</Feature>
    </Features>
 </SoftwareType>

@@ -1,6 +1,6 @@
 <SoftwareType>
 	<Name>VOIP Software</Name>
-	<Description>Every gamer uses a teamspeak</Description>
+	<Description>Every gamer uses one</Description>
 	<Random>0.1</Random>
 	<Popularity>0.7</Popularity>
 	<OSSpecific>TRUE</OSSpecific>
@@ -13,7 +13,8 @@
 	<NameGenerator>ts_names</NameGenerator>
 	<Features>
 		<Feature>
-			<Name>Basic Teamspeak</Name>
+			<Name>Basic User Interface</Name>
+			<Category>2D</Category>
 			<Description>This is a basic VOIP Program, looks like a DOS interface.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
@@ -27,9 +28,9 @@
 			<Dependency Software="Operating System">Block Multithreading</Dependency>
 			<Dependency Software="Operating System">Multitasking</Dependency>
 		</Feature>
-		<Feature From="Basic Teamspeak">
-			<Unlock>2005</Unlock>
-			<Name>Better Teamspeak</Name>
+		<Feature From="Basic User Interface">
+			<Name>Better User Interface</Name>
+			<Category>2D</Category>
 			<Description>This is a better VOIP Program, a better Console and dedicated Server.</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3.8</Innovation>
@@ -37,6 +38,7 @@
 			<Server>0.0007</Server>
 			<Stability>0.5</Stability>
 			<CodeArt>0.7</CodeArt>
+			<Unlock>2005</Unlock>
 			<Dependency Software="Audio Tool">Audio playback</Dependency>
 			<Dependency Software="Audio Tool">Recording</Dependency>
 			<Dependency Software="Operating System">Networking</Dependency>
@@ -45,6 +47,7 @@
 		</Feature>
 		<Feature>
 			<Name>64bit Teamspeak</Name>
+			<Category>System</Category>
 			<Description>More RAM for the VOIP Program.</Description>
 			<DevTime>5</DevTime>
 			<Innovation>3.9</Innovation>
@@ -62,6 +65,7 @@
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>GUI</Name>
+			<Category>3D</Category>
 			<Description>A Graphical Interface makes the Software always better.</Description>
 			<DevTime>5</DevTime>
 			<Innovation>4.3</Innovation>
@@ -73,10 +77,11 @@
 		</Feature>
 		<Feature>
 			<Name>Voice Translater</Name>
-			<Description>A Translater for all Languages. Translates automatically in your Language! Needs NASA Server to operate!</Description>
+			<Category>Algorithm</Category>
+			<Description>A translater for all languages. Translates automatically into your language!</Description>
 			<DevTime>5</DevTime>
 			<Innovation>4.3</Innovation>
-			<Server>0.01</Server>
+			<Server>0.001</Server>
 			<Usability>6</Usability>
 			<Stability>2</Stability>
 			<Unlock>2017</Unlock>
@@ -92,6 +97,7 @@
 		</Feature>
 		<Feature>
 			<Name>Direct Connect</Name>
+			<Category>Network</Category>
 			<Description>Connects you directly to another User. No need for Server.</Description>
 			<DevTime>5</DevTime>
 			<Innovation>4.5</Innovation>
@@ -110,6 +116,7 @@
 		</Feature>
 		<Feature>
 			<Name>Join via IP</Name>
+			<Category>Network</Category>
 			<Description>Now you only have to know the IP of the Server to connect.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>-1</Innovation>
@@ -126,6 +133,115 @@
 			<Dependency Software="Operating System">Block Multithreading</Dependency>
 			<Dependency Software="Operating System">GUI</Dependency>
 			<Dependency Software="VOIP Software">GUI</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Basic Messaging Client</Name>
+			<Server>0.00025</Server>
+			<Description>Send, receive and reply</Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Instant Messaging</Name>
+			<Server>0.005</Server>
+			<Description>PING... It's sent</Description>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Emoticons</Name>
+			<Server>0.0001</Server>
+			<Unlock>2005</Unlock>
+			<Description>Add some emotions to your chats</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>6</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="VOIP Software">Instant Messaging</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>Pictures and Videos</Name>
+			<Category>System</Category>
+			<Server>0.0001</Server>
+			<Unlock>2009</Unlock>
+			<Description>Send cat pictures and videos</Description>
+			<DevTime>2</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="VOIP Software">Instant Messaging</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Attachments</Name>
+			<Category>Network</Category>
+			<Server>0.0003</Server>
+			<Unlock>2011</Unlock>
+			<Description>Start sharing them .zips</Description>
+			<DevTime>2</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="VOIP Software">Instant Messaging</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Video Chat</Name>
+			<Server>0.0005</Server>
+			<Unlock>2008</Unlock>
+			<Description>See the faces of your friends</Description>
+			<DevTime>6</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>9</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>Network</Category>
+		</Feature>
+		<Feature>
+			<Name>Conference Calls</Name>
+			<Unlock>2010</Unlock>
+			<Description>Have your meetings digitally</Description>
+			<DevTime>4</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>Network</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Encryption</Name>
+			<Unlock>2010</Unlock>
+			<Description>Secure your online connection</Description>
+			<DevTime>2</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>9</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Security Software">Encryption</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>AES Encryption</Name>
+			<Unlock>2015</Unlock>
+			<Description>Edward Snowden Approves!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>12</Usability>
+			<Stability>9</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="VOIP Software">Encryption</Dependency>
+			<Dependency Software="Security Software">AES Encryption</Dependency>
+			<Category>Algorithm</Category>
 		</Feature>
 	</Features>
 </SoftwareType>
