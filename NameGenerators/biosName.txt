@@ -1,0 +1,13 @@
+-start(base)
+-base(base2)
+The
+ROM
+Chip
+Flash-
+Crystal
+Blue
+-base2(end,stop)
+BIOS
+bios
+Bios
+-end(stop)

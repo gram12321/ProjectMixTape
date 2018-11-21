@@ -1,0 +1,16 @@
+-start(base)
+-base(base2)
+Anti 
+Detect 
+Don't 
+No 
+De 
+Fair
+-base2(end,stop)
+hack
+cheat
+train
+bot
+script
+synch
+-end(stop)

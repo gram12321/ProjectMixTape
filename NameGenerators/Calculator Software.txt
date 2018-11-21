@@ -1,4 +1,4 @@
--start(base)
+-start(base,base2)
 -base(stop)
 File Zip
 Calculator ++
@@ -18,4 +18,34 @@ Calc +
 Calculator Plus
 Calculator.net
 PC Calculator
+-base2(base3)
+Cal 
+Calc-
+CosC-
+cTech-
+eNum 
+euIer-
+Qlator-
+SinC-
+TanC-
+Vekto 
+-base3(end)
+alpha
+beta
+gamma
+Ti
+Nc
+K
+O
+I
+D
+Dx
+Tx
+cx
+fx
+log
+i
+root
+doc
+Y
 -end(stop)

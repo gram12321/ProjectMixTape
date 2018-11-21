@@ -1,0 +1,21 @@
+-start(base)
+-base(base2)
+CPU
+GPU
+System
+Ezy
+Easy
+Turbo
+Xtreme
+Extreme
+-base2(end,stop)
+Overclocker
+OC
+Control Center
+Tuner
+Tune
+Tuning
+Control Panel
+Monitor
+Utility
+-end(stop)

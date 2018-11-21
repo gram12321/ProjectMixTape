@@ -1,0 +1,16 @@
+-start(base)
+-base(base2)
+Potum 
+Medic 
+Remedium 
+Medicinam 
+Cure 
+Disease 
+Morbus 
+-base2(end,stop)
+dolor
+nunc
+statim
+sanitatum
+sanibat
+-end(stop)

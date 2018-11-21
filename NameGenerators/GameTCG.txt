@@ -1,0 +1,23 @@
+-start(base)
+-base(base2)
+Duel 
+Dark 
+Light 
+Magic 
+Socery 
+Wizard 
+Lord of 
+Spell 
+Vampire 
+Warrior 
+Ancient 
+Doom 
+Battle 
+-base2(end,stop)
+Cards
+Decks
+Myth
+Power
+Wars
+Raider
+-end(stop)
