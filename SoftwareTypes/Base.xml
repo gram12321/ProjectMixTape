@@ -1,0 +1,35 @@
+	<Features>
+		<Feature>
+			<Name>QA</Name>
+			<Category>System</Category>
+			<Description>Use Quality Assurance to release a more stable product or fix the bugs as your customers irritably stumble into them.</Description>
+			<DevTime>3.2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Manuals</Name>
+			<Category>System</Category>
+			<Description>Includes explanations about all features of the programm, also how to install, unistall etc.</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Automatic updates</Name>
+			<Category>Network</Category>
+			<Unlock>1998</Unlock>
+			<Description>Automaticly updates the programm, needs a server with enought capacity.</Description>
+			<DevTime>3.5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>6</Usability>
+			<Stability>7</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0003</Server>
+			<Dependency Software="Server Software">NFS / FTP</Dependency>
+		</Feature>
+	</Features>

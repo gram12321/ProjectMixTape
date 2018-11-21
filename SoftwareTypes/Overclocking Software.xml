@@ -1,0 +1,214 @@
+<SoftwareType>
+	<Name>Overclocking Software</Name>
+	<Description>Could I have another Ghz please</Description>
+	<Unlock>2007</Unlock>
+	<Random>0.7</Random>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Category>System</Category>
+	<Categories>
+		<Category Name="Overclocking Software">
+			<Description>This is a placeholder</Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.5</Iterative>
+			<NameGenerator>Overclocking Software</NameGenerator>
+		</Category>
+	</Categories>
+	<NameGenerator>Overclocking Software</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>CPU Overclocking</Name>
+			<Description>Overclock the processor</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>CPU Monitoring</Name>
+			<Unlock>2008</Unlock>
+			<Description>Adds simple monitoring graphs for temperature, usage, frequency and more</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Overclocking Software">CPU Overclocking</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>CPU Fan Control</Name>
+			<Unlock>2009</Unlock>
+			<Description>Allows the user to control the fan speed curve of the CPU cooler</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Overclocking Software">CPU Overclocking</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>GPU Overclocking</Name>
+			<Description>Overclock the Graphics Card</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>GPU Monitoring</Name>
+			<Unlock>2008</Unlock>
+			<Description>Adds simple monitoring graphs for temperature, usage, frequency and more</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Overclocking Software">GPU Overclocking</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>GPU Fan Control</Name>
+			<Unlock>2010</Unlock>
+			<Description>Allows the user to control the fan speed curve of the GPU cooler</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Overclocking Software">GPU Overclocking</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>RAM Overclocking</Name>
+			<Description>Overclock the Memory</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>In-Game FPS Counter</Name>
+			<Unlock>2012</Unlock>
+			<Description>Adds a FPS counter overlay in games</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature From="In-Game FPS Counter">
+			<Name>In-Game System Monitoring Overlay</Name>
+			<Unlock>2013</Unlock>
+			<Description>Not only does this show fps, it also show temps, fan speeds and usage of the components</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Mobile App</Name>
+			<Unlock>2014</Unlock>
+			<Description>Users can monitor their GPU and CPU on their smartphone</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Overclocking Software">GPU Monitoring</Dependency>
+			<Dependency Software="Overclocking Software">CPU Monitoring</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>32-bit System Stress Test</Name>
+			<Description>Users can stress test their newly overclocked 32-bit system</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>64-bit System Stress Test</Name>
+			<Description>Users can stress test their newly overclocked 64-bit system</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Driver Checker</Name>
+			<Unlock>2010</Unlock>
+			<Description>The software will automatically check for new drivers</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Game OC Profiles</Name>
+			<Unlock>2012</Unlock>
+			<Description>Users can now make custom overclock profiles for specific games</Description>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>GPU Lighting Control</Name>
+			<Unlock>2016</Unlock>
+			<Description>Users will now be able to control the lighting on their beefy RGB graphics card</Description>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Alerts & Warnings</Name>
+			<Unlock>2011</Unlock>
+			<Description>If CPU or GPU temperature go to high, a small annoying window will appear and warn the user</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Overclocking Software">GPU Monitoring</Dependency>
+			<Dependency Software="Overclocking Software">CPU Monitoring</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Harddrive Monitoring</Name>
+			<Unlock>2011</Unlock>
+			<Description>Harddrive speeds, space and much more can now be monitored</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>System</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

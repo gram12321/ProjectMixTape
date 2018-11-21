@@ -85,6 +85,7 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<Server>0.001</Server>
+			<Dependency Software="Server Software">NFS / FTP</Dependency>
 			<Dependency Software="Office Software">Text Editor</Dependency>
 			<Dependency Software="Database">Search</Dependency>
 			<Dependency Software="Operating System">Networking</Dependency>
@@ -99,6 +100,18 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature  Vital="TRUE">
+			<Name>AdBlock</Name>
+			<Unlock>1995</Unlock>
+			<Category>Network</Category>
+			<Description>Blocks Pop-Ups, so you wont click on an harmful link.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Advertisment Editor">Pop-Up</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>

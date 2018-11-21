@@ -160,7 +160,7 @@
 		<Feature From="100GB Storage">
 			<Name>1TB Storage</Name>
 			<Category>Network</Category>
-			<Description> Do I even want to know what you with this much of storage?</Description>
+			<Description>Do I even want to know what you with this much storage?</Description>
 			<Server>0.25</Server>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
@@ -168,6 +168,18 @@
 			<CodeArt>1</CodeArt>
 			<Unlock>2010</Unlock>
 			<DevTime>5</DevTime>
+		</Feature>
+		<Feature From="1TB Storage" Vital="True">
+			<Name>1PB Storage</Name>
+			<Category>Network</Category>
+			<Description>Too much... Why...</Description>
+			<Innovation>7</Innovation>
+			<Usability>3</Usability>
+			<Stability>8</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>12</DevTime>
+			<Unlock>2020</Unlock>
+			<Server>0.5</Server>
 		</Feature>
 		<Feature>
 			<Name>Sharing</Name>

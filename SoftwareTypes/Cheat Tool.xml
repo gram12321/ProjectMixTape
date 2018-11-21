@@ -1,0 +1,107 @@
+<SoftwareType>
+	<Name>Cheat Tool</Name>
+	<Category>Cheat Tool</Category>
+	<Description></Description>
+	<Random>0.63</Random>
+	<OSSpecific>TRUE</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+    <OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Unlock>1983</Unlock>
+	<Categories>
+		<Category Name="Cheat">
+			<Description></Description>
+			<Popularity>0.063</Popularity>
+			<Retention>0.6</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>cheatName</NameGenerator>
+		</Category>
+	</Categories>
+	<Features>
+			
+		<Feature Forced="True">
+			<Name>Activator</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Dependency Software="Programming Language">Syntax</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Macros</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>0.5</DevTime>
+			<Unlock>1983</Unlock>
+			<Dependency Software="Cheat Tool">Activator</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Aimbot</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1983</Unlock>
+			<Dependency Software="Cheat Tool">Activator</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Wallhack</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1984</Unlock>
+			<Dependency Software="Cheat Tool">Activator</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Speedhack</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1984</Unlock>
+			<Dependency Software="Cheat Tool">Activator</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Scripts</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>1985</Unlock>
+			<Dependency Software="Cheat Tool">Activator</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Trainer</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4</DevTime>
+			<Unlock>1986</Unlock>
+			<Dependency Software="Cheat Tool">Activator</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

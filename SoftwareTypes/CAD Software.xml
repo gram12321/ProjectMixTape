@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>CAD Software</Name>
 	<Description>Computer Aided Design</Description>
-	<Unlock>1970</Unlock>
+	<Unlock>1980</Unlock>
 	<Random>0.6</Random>
 	<OSSpecific>True</OSSpecific>
 	<OSLimit>Computer</OSLimit>

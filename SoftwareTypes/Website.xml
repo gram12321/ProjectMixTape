@@ -9,7 +9,7 @@
 	<InHouse>TRUE</InHouse>
 	<Unlock>1991</Unlock>
 	<Categories>
-		<Category Name="Default">
+		<Category Name="Default"> <!-- Starts at 82 -->
 			<Description>A simple website for any need!</Description>
 			<Unlock>1991</Unlock>
 			<Popularity>0.5</Popularity>
@@ -18,17 +18,7 @@
 			<Iterative>0.75</Iterative>
 			<NameGenerator>website</NameGenerator>
 		</Category>
-		<Category Name="Forums">
-			<Description>A great feature for your website!</Description>
-			<Unlock>1991</Unlock>
-			<Popularity>0.5</Popularity>
-			<Retention>0.5</Retention>
-			<TimeScale>0.5</TimeScale>
-			<Iterative>0.75</Iterative>
-			<Category>Web</Category>
-			<NameGenerator>forums</NameGenerator>
-		</Category>
-		<Category Name="Streaming Site">
+		<Category Name="Streaming Site"> <!-- Starts at 155 -->
 			<Description>Create a site which people can do livestreams, watch livestreams, and stream!</Description>
 			<Unlock>2007</Unlock>
 			<Popularity>0.5</Popularity>
@@ -38,7 +28,17 @@
 			<Category>Web</Category>
 			<NameGenerator>streamingsite</NameGenerator>
 		</Category>
-		<Category Name="Search Engine">
+		<Category Name="Forum"> <!-- Starts at 241 -->
+			<Description>A great feature for your website!</Description>
+			<Unlock>1991</Unlock>
+			<Popularity>0.5</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.75</Iterative>
+			<Category>Web</Category>
+			<NameGenerator>forums</NameGenerator>
+		</Category>
+		<Category Name="Search Engine"> <!-- Starts at 327 -->
 			<Description>Create a search engine making people able to search on different webbrowsers!</Description>
 			<Unlock>1991</Unlock>
 			<Popularity>1</Popularity>
@@ -47,7 +47,7 @@
 			<Iterative>0.75</Iterative>
 			<NameGenerator>webbrowser</NameGenerator>
 		</Category>
-		<Category Name="Social Media">
+		<Category Name="Social Network"> <!-- Starts at 414 -->
 			<Description>Create a social media website!</Description>
 			<Unlock>2005</Unlock>
 			<Popularity>1</Popularity>
@@ -56,7 +56,7 @@
 			<Iterative>0.75</Iterative>
 			<NameGenerator>socialmedia</NameGenerator>
 		</Category>
-		<Category Name="Online Games">
+		<Category Name="Online Games"> <!-- Starts at 695 -->
 			<Description>Create a website where people can play free online games!</Description>
 			<Unlock>2000</Unlock>
 			<Popularity>1</Popularity>
@@ -65,7 +65,7 @@
 			<Iterative>0.75</Iterative>
 			<NameGenerator>gamesite</NameGenerator>
 		</Category>
-		<Category Name="News">
+		<Category Name="News"> <!-- Starts at 777 -->
 			<Description>Create a website to display news!</Description>
 			<Unlock>2000</Unlock>
 			<Popularity>1</Popularity>
@@ -73,6 +73,36 @@
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.75</Iterative>
 			<NameGenerator>NewsWebsite</NameGenerator>
+		</Category>
+		<Category Name="Filehoster">
+			<Description>File hosting is a service that allows customers to store files over the Internet on a central data store of the file hosting provider. It allows access to the files from any location where Internet is available.</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>filehostName</NameGenerator>
+			<Unlock>1998</Unlock>
+			<Server>0.005</Server>
+		</Category>
+		<Category Name="Imageboard">
+			<Description>An image board is a bulletin board system (BBS) on the Internet, which is used mainly to exchange pictures and discuss about them.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.9</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>imgbrdName</NameGenerator>
+			<Unlock>1998</Unlock>
+			<Server>0.0025</Server>
+		</Category>
+		<Category Name="Webshop">
+			<Description>Earn money with the distribution of goods.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.9</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>webshopName</NameGenerator>
+			<Unlock>1990</Unlock>
+			<Server>0.002</Server>
 		</Category>
 	</Categories>
 	<Server>0.005</Server>
@@ -247,7 +277,7 @@
 		<Usability>5</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<SoftwareCategory Category="Forum">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
@@ -259,10 +289,23 @@
 		<Usability>5</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<SoftwareCategory Category="Forum">0</SoftwareCategory>
 		<SoftwareCategory Category="News">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
+	<Feature Vital="True">
+		<Name>Formatting</Name>
+		<Category>Network</Category>
+		<Description></Description>
+		<Innovation>6</Innovation>
+		<Usability>8</Usability>
+		<Stability>3</Stability>
+		<CodeArt>0.8</CodeArt>
+		<DevTime>5</DevTime>
+		<Server>0.001</Server>
+		<Dependency Software="Website">Topics</Dependency>
+		<SoftwareCategory Category="Forum">1994</SoftwareCategory>
+    </Feature>
 	<Feature>
 		<Name>Logo</Name>
 		<Category>2D</Category>
@@ -272,7 +315,7 @@
 		<Usability>5</Usability>
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
-		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<SoftwareCategory Category="Forum">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
@@ -284,7 +327,7 @@
 		<Usability>5</Usability>
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
-		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<SoftwareCategory Category="Forum">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
@@ -296,7 +339,7 @@
 		<Usability>5</Usability>
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
-		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<SoftwareCategory Category="Forum">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
 	<Feature>
@@ -308,21 +351,48 @@
 		<Usability>5</Usability>
 		<Stability>5</Stability>
 		<CodeArt>0</CodeArt>
-		<SoftwareCategory Category="Forums">0</SoftwareCategory>
+		<SoftwareCategory Category="Forum">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 	</Feature>
-	<Feature>
-		<Name>Captcha Code</Name>
+	<Feature Vital="True">
+		<Name>Search function</Name>
 		<Category>System</Category>
-		<Description>Prevents a lot of spammers</Description>
-		<DevTime>2</DevTime>
-		<Innovation>5</Innovation>
-		<Usability>5</Usability>
+		<Description></Description>
+		<Innovation>1</Innovation>
+		<Usability>2</Usability>
 		<Stability>5</Stability>
-		<CodeArt>0</CodeArt>
-		<SoftwareCategory Category="Forums">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-	</Feature>
+		<CodeArt>0.5</CodeArt>
+		<DevTime>1.5</DevTime>
+		<Server>0.0001</Server>
+		<Dependency Software="Website">Topics</Dependency>
+		<SoftwareCategory Category="Forum">1994</SoftwareCategory>
+    </Feature>
+    <Feature Vital="True">
+		<Name>File attachment</Name>
+		<Category>System</Category>
+		<Description></Description>
+		<Innovation>6</Innovation>
+		<Usability>8</Usability>
+		<Stability>2</Stability>
+		<CodeArt>0.8</CodeArt>
+		<DevTime>6</DevTime>
+		<Server>0.003</Server>
+		<Dependency Software="Website">Topics</Dependency>
+		<Dependency Software="Server Software">NFS / FTP</Dependency>
+		<SoftwareCategory Category="Forum">1999</SoftwareCategory>
+    </Feature>
+    <Feature Research="Topics" Vital="True">
+		<Name>Captchas</Name>
+		<Category>System</Category>
+		<Description></Description>
+		<Innovation>6</Innovation>
+		<Usability>1</Usability>
+		<Stability>10</Stability>
+		<CodeArt>1</CodeArt>
+		<DevTime>3.5</DevTime>
+		<Server>0.0001</Server>
+		<SoftwareCategory Category="Forum">2008</SoftwareCategory>
+    </Feature>
 	<!-- FORUMS END -->
 	<!-- SEARCH ENGINE START -->
 	<Feature>
@@ -420,118 +490,392 @@
 		<Usability>6</Usability>
 		<Stability>7</Stability>
 		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Server>0.0001</Server>
+		<SoftwareCategory Category="Social Network">0</SoftwareCategory>
+		<SoftwareCategory Category="Imageboard">0</SoftwareCategory>
+		<SoftwareCategory Category="Filehoster">0</SoftwareCategory>
+		<SoftwareCategory Category="Webshop">0</SoftwareCategory>
+		<SoftwareCategory Category="Forum">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 		<Dependency Software="Website">Design Tools</Dependency>
 	</Feature>
-	<Feature>
-		<Name>Friends</Name>
-		<Category>Network</Category>
-		<Description>Allows users to add friends!</Description>
-		<DevTime>1</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Private Chat</Name>
-		<Category>Network</Category>
-		<Description>Chat with your friends!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Friends</Dependency>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Group Chat</Name>
-		<Category>Network</Category>
-		<Description>Chat with a bunch of people at the same time!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Friends</Dependency>
-		<Dependency Software="Website">Private Chat</Dependency>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Group Call</Name>
-		<Category>Network</Category>
-		<Description>Call in a group!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Friends</Dependency>
-		<Dependency Software="Website">Group Chat</Dependency>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Profile</Name>
-		<Category>System</Category>
-		<Description>Have your own personal profile!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Profile Picture</Name>
-		<Category>2D</Category>
-		<Description>Add profile picture to your profile!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Profile</Dependency>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Profile Details</Name>
-		<Category>System</Category>
-		<Description>Add details to your profile!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Profile</Dependency>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-	</Feature>
+	<Feature Vital="True">
+      <Name>Profile</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>4</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Layout</Dependency>
+      <Dependency Software="Server Software">RADIUS</Dependency>
+      <SoftwareCategory Category="Social Network">0</SoftwareCategory>
+      <SoftwareCategory Category="Imageboard">0</SoftwareCategory>
+      <SoftwareCategory Category="Filehoster">0</SoftwareCategory>
+      <SoftwareCategory Category="Webshop">0</SoftwareCategory>
+      <SoftwareCategory Category="Forum">0</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Gaming Apps</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>5</Innovation>
+      <Usability>8</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>8</DevTime>
+      <Server>0.003</Server>
+      <Dependency Software="Website">Layout</Dependency>
+      <Dependency Software="Server Software">Gameserver</Dependency>
+      <Dependency Software="Game Engine">Internet Multiplayer</Dependency>
+      <SoftwareCategory Category="Social Network">2006</SoftwareCategory>
+    </Feature>
+
+    <Feature>
+      <Name>Mailservice</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>2</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>2</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <Dependency Software="Server Software">SMTP / POP3</Dependency>
+      <SoftwareCategory Category="Social Network">2003</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Profile details</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>7</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.8</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <SoftwareCategory Category="Social Network">1992</SoftwareCategory>
+      <SoftwareCategory Category="Imageboard">1992</SoftwareCategory>
+      <SoftwareCategory Category="Filehoster">1992</SoftwareCategory>
+	  <SoftwareCategory Category="Webshop">1992</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1992</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Likes</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>4</Innovation>
+      <Usability>7</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.8</CodeArt>
+      <DevTime>2</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Profile details</Dependency>
+      <SoftwareCategory Category="Social Network">1994</SoftwareCategory>
+      <SoftwareCategory Category="Imageboard">1994</SoftwareCategory>
+      <SoftwareCategory Category="Filehoster">1994</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1994</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Profile picture</Name>
+      <Category>2D</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>8</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Server>0.0006</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <Dependency Software="2D Editor">Image rendering</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Social Network">1998</SoftwareCategory>
+      <SoftwareCategory Category="Imageboard">1998</SoftwareCategory>
+      <SoftwareCategory Category="Webshop">1998</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1998</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Profile cover</Name>
+      <Category>2D</Category>
+      <Description></Description>
+      <Innovation>4</Innovation>
+      <Usability>6</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>2</DevTime>
+      <Server>0.0004</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <Dependency Software="2D Editor">Image rendering</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Social Network">1998</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1998</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Albums</Name>
+      <Category>2D</Category>
+      <Description></Description>
+      <Innovation>5</Innovation>
+      <Usability>4</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>3.5</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <Dependency Software="2D Editor">Image rendering</Dependency>
+      <Dependency Software="Server Software">DMS</Dependency>
+      <SoftwareCategory Category="Social Network">2000</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Fanpages</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>6</Innovation>
+      <Usability>6</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>2</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">Albums</Dependency>
+      <SoftwareCategory Category="Social Network">2002</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Interests</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>3</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.8</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Server>0.0001</Server>
+      <Dependency Software="Website">Likes</Dependency>
+      <Dependency Software="Website">Fanpages</Dependency>
+      <SoftwareCategory Category="Social Network">2002</SoftwareCategory>
+    </Feature>
+
+    <Feature>
+      <Name>Notifications</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.8</CodeArt>
+      <DevTime>0.5</DevTime>
+      <Server>0.0001</Server>
+      <Dependency Software="Website">Likes</Dependency>
+      <Dependency Software="Website">Fanpages</Dependency>
+      <SoftwareCategory Category="Social Network">2004</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Video uploads</Name>
+      <Category>2D</Category>
+      <Description></Description>
+      <Innovation>7</Innovation>
+      <Usability>2</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>6</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Albums</Dependency>
+      <SoftwareCategory Category="Social Network">2004</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Friends</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>4</Innovation>
+      <Usability>10</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>4</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <SoftwareCategory Category="Social Network">1993</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1993</SoftwareCategory>
+    </Feature>
+
+
+    <Feature Vital="True">
+      <Name>Private chat</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>10</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>2</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Friends</Dependency>
+      <Dependency Software="Server Software">IRC</Dependency>
+      <SoftwareCategory Category="Social Network">1999</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1999</SoftwareCategory>
+    </Feature>
+
+
+    <Feature Vital="True">
+      <Name>Mark friends</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>5</Innovation>
+      <Usability>2</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Server>0.0002</Server>
+      <Dependency Software="Website">Friends</Dependency>
+      <SoftwareCategory Category="Social Network">2001</SoftwareCategory>
+    </Feature>
+
+    <Feature>
+      <Name>Streaming</Name>
+      <Category>2D</Category>
+      <Description></Description>
+      <Innovation>5</Innovation>
+      <Usability>4</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>6</DevTime>
+      <Server>0.0015</Server>
+      <Dependency Software="Website">Video chat</Dependency>
+      <Dependency Software="Streaming Software">480p / 2.000kbs</Dependency>
+      <SoftwareCategory Category="Social Network">2014</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Comments</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>7</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Server>0.0002</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <SoftwareCategory Category="Social Network">1993</SoftwareCategory>
+      <SoftwareCategory Category="Imageboard">1993</SoftwareCategory>
+      <SoftwareCategory Category="Filehoster">1993</SoftwareCategory>
+      <SoftwareCategory Category="Webshop">1993</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Video chat</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>6</Innovation>
+      <Usability>3</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>5.5</DevTime>
+      <Server>0.0008</Server>
+      <Dependency Software="Website">Private chat</Dependency>
+      <Dependency Software="Website">Video uploads</Dependency>
+      <Dependency Software="Server Software">Streaming Server</Dependency>
+      <SoftwareCategory Category="Social Network">2010</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Group chat</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>5</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>2.5</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Private chat</Dependency>
+      <SoftwareCategory Category="Social Network">2001</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Call function</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>6</Innovation>
+      <Usability>4</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>5</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Private chat</Dependency>
+      <Dependency Software="Server Software">Streaming Server</Dependency>
+      <SoftwareCategory Category="Social Network">2008</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Travel map</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>6</Innovation>
+      <Usability>4</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.8</CodeArt>
+      <DevTime>6</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">Mark friends</Dependency>
+      <Dependency Software="Server Software">Mapserver</Dependency>
+      <SoftwareCategory Category="Social Network">2012</SoftwareCategory>
+    </Feature>
+
+    <Feature>
+      <Name>Events</Name>
+      <Category>Network</Category>
+      <Description>Shows events like festivals that are upcoming.</Description>
+      <Innovation>2</Innovation>
+      <Usability>2</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.8</CodeArt>
+      <DevTime>1</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Notifications</Dependency>
+      <SoftwareCategory Category="Social Network">2004</SoftwareCategory>
+    </Feature>
+
+    <Feature>
+      <Name>Neighbourhood</Name>
+      <Category>Network</Category>
+      <Description>Shows you what is happening in your neighbourhood / city, based on your IP / Geo-Datas.</Description>
+      <Innovation>6</Innovation>
+      <Usability>1</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.8</CodeArt>
+      <DevTime>4.5</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">Notifications</Dependency>
+      <Dependency Software="Server Software">Mapserver</Dependency>
+      <SoftwareCategory Category="Social Network">2011</SoftwareCategory>
+    </Feature>
+
+    <Feature>
+      <Name>News</Name>
+      <Category>Network</Category>
+      <Description>Shows the worldnews in a specific news-feed.</Description>
+      <Innovation>1</Innovation>
+      <Usability>5</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>2.5</DevTime>
+      <Server>0.0001</Server>
+      <Dependency Software="Website">Notifications</Dependency>
+      <Dependency Software="Server Software">NNTP</Dependency>
+      <SoftwareCategory Category="Social Network">2004</SoftwareCategory>
+    </Feature>
 	<Feature Forced="TRUE">
 		<Name>Name</Name>
 		<Category>System</Category>
@@ -541,8 +885,9 @@
 		<Usability>6</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Profile Details</Dependency>
+		<Server>0.0001</Server>
+		<SoftwareCategory Category="Social Network">0</SoftwareCategory>
+		<Dependency Software="Website">Profile details</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Birthday</Name>
@@ -553,8 +898,9 @@
 		<Usability>6</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Profile Details</Dependency>
+		<Server>0.0001</Server>
+		<SoftwareCategory Category="Social Network">0</SoftwareCategory>
+		<Dependency Software="Website">Profile details</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Age</Name>
@@ -565,8 +911,9 @@
 		<Usability>6</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Profile Details</Dependency>
+		<Server>0.0001</Server>
+		<SoftwareCategory Category="Social Network">0</SoftwareCategory>
+		<Dependency Software="Website">Profile details</Dependency>
 	</Feature>
 	<Feature>
 		<Name>Profile Status</Name>
@@ -577,114 +924,9 @@
 		<Usability>6</Usability>
 		<Stability>4</Stability>
 		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
+		<Server>0.0001</Server>
+		<SoftwareCategory Category="Social Network">0</SoftwareCategory>
 		<Dependency Software="Website">Profile</Dependency>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Likes</Name>
-		<Category>Network</Category>
-		<Description>This let's users like stuff!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Comments</Name>
-		<Category>Network</Category>
-		<Description>Comment stuff!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Albums</Name>
-		<Category>System</Category>
-		<Description>Keep your pictures or videos categorized!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>6</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Advertisements</Name>
-		<Category>Network</Category>
-		<Description>Allow advertisements to be added on your site!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>8</Innovation>
-		<Usability>8</Usability>
-		<Stability>8</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Notifications</Name>
-		<Category>Network</Category>
-		<Description>This will give people notifications!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>7</Innovation>
-		<Usability>5</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<SoftwareCategory Category="News">2001</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Video Upload</Name>
-		<Category>Network</Category>
-		<Description>Allows people to upload videos!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>7</Innovation>
-		<Usability>5</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
-		<Dependency Software="Website">Base and Layout</Dependency>
-		<Dependency Software="Website">Better Coding</Dependency>
-		<Dependency Software="Website">Design Tools</Dependency>
-		<Dependency Software="Website">Interactivity</Dependency>
-	</Feature>
-	<Feature>
-		<Name>Fan Pages</Name>
-		<Category>System</Category>
-		<Description>Allows people to create fanpages and get famous!</Description>
-		<DevTime>2</DevTime>
-		<Innovation>7</Innovation>
-		<Usability>5</Usability>
-		<Stability>4</Stability>
-		<CodeArt>1</CodeArt>
-		<SoftwareCategory Category="Social Media">0</SoftwareCategory>
 		<Dependency Software="Website">Base and Layout</Dependency>
 		<Dependency Software="Website">Better Coding</Dependency>
 		<Dependency Software="Website">Design Tools</Dependency>
@@ -773,6 +1015,546 @@
 			<Dependency Software="Website">Accounts</Dependency>
 		</Feature>
 		<!-- GAME SITE END -->
+		<!-- IMAGEBOARD START -->
+		<Feature Vital="True" Forced="TRUE">
+      <Name>Anonymous upload</Name>
+      <Category>Network</Category>
+      <Description>Allows uploading stuff without having an account.</Description>
+      <Innovation>1</Innovation>
+      <Usability>10</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>4</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Layout</Dependency>
+      <Dependency Software="2D Editor">Image rendering</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Imageboard">1998</SoftwareCategory>
+      <SoftwareCategory Category="Filehoster">1998</SoftwareCategory>
+    </Feature>
+
+    <Feature From="Anonymous upload" Vital="True">
+      <Name>User upload</Name>
+      <Category>Network</Category>
+      <Description>Allows uploading stuff for people who're registered.</Description>
+      <Innovation>3</Innovation>
+      <Usability>7</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>6.5</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <Dependency Software="2D Editor">Image rendering</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Imageboard">1998</SoftwareCategory>
+      <SoftwareCategory Category="Filehoster">1998</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Tags</Name>
+      <Category>System</Category>
+      <Description>User can set tags for finding uploads through the search function.</Description>
+      <Innovation>5</Innovation>
+      <Usability>5</Usability>
+      <Stability>7</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>6</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">User upload</Dependency>
+      <SoftwareCategory Category="Imageboard">1999</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Repost identifier</Name>
+      <Category>2D</Category>
+      <Description>Don't let your imageboard flood by tons of reposts. Let the system block uploading pictures that are already on the server.</Description>
+      <Innovation>7</Innovation>
+      <Usability>1</Usability>
+      <Stability>7</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>8</DevTime>
+      <Dependency Software="Website">User upload</Dependency>
+      <SoftwareCategory Category="Imageboard">2005</SoftwareCategory>
+      <Dependency Software="2D Editor">Pixel manipulation</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Image editing</Name>
+      <Category>2D</Category>
+      <Description>Allows you to edit your images a bit or create memes of them.</Description>
+      <Innovation>3</Innovation>
+      <Usability>3</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>3</DevTime>
+      <Dependency Software="Website">User upload</Dependency>
+      <SoftwareCategory Category="Imageboard">2000</SoftwareCategory>
+      <Dependency Software="2D Editor">Pixel manipulation</Dependency>
+      <Dependency Software="2D Editor">Image effects</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>GIF's</Name>
+      <Category>2D</Category>
+      <Description>The era of static images is over!</Description>
+      <Innovation>6</Innovation>
+      <Usability>4</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Dependency Software="Website">User upload</Dependency>
+      <SoftwareCategory Category="Imageboard">2003</SoftwareCategory>
+      <Dependency Software="2D Editor">Pixel manipulation</Dependency>
+      <Dependency Software="Server Software">DMS</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>webM's</Name>
+      <Category>2D</Category>
+      <Description>The modern and much more qualitative alternative to GIF's.</Description>
+      <Innovation>10</Innovation>
+      <Usability>10</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>3.5</DevTime>
+      <Dependency Software="Website">GIF's</Dependency>
+      <SoftwareCategory Category="Imageboard">2008</SoftwareCategory>
+      <Dependency Software="2D Editor">Video editing</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Subtitle editor</Name>
+      <Category>2D</Category>
+      <Description>Allows to create subtitels for videos.</Description>
+      <Innovation>3</Innovation>
+      <Usability>3</Usability>
+      <Stability>1</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Dependency Software="Website">webM's</Dependency>
+      <SoftwareCategory Category="Imageboard">2010</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>IRC</Name>
+      <Category>Network</Category>
+      <Description>Allows to chat with other users.</Description>
+      <Innovation>5</Innovation>
+      <Usability>5</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>4</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Layout</Dependency>
+      <Dependency Software="Server Software">IRC</Dependency>
+      <SoftwareCategory Category="Imageboard">1999</SoftwareCategory>
+      <SoftwareCategory Category="Forum">2002</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Favorites</Name>
+      <Category>System</Category>
+      <Description>You can mark uploads as favorites.</Description>
+      <Innovation>2</Innovation>
+      <Usability>7</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>2</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Likes</Dependency>
+      <SoftwareCategory Category="Imageboard">1995</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Contributor stats</Name>
+      <Category>System</Category>
+      <Description>Shows how many uploads, comments, favorites etc. the user has set.</Description>
+      <Innovation>6</Innovation>
+      <Usability>6</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>4</DevTime>
+      <Server>0.0002</Server>
+      <Dependency Software="Website">Profile details</Dependency>
+      <SoftwareCategory Category="Imageboard">1996</SoftwareCategory>
+      <SoftwareCategory Category="Webshop">1996</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1996</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>User ranking</Name>
+      <Category>System</Category>
+      <Description>A ranked system, where the user see how active he is in contrast to other users.</Description>
+      <Innovation>2</Innovation>
+      <Usability>2</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1</DevTime>
+      <Dependency Software="Website">Contributor stats</Dependency>
+      <SoftwareCategory Category="Imageboard">1997</SoftwareCategory>
+      <SoftwareCategory Category="Forum">1997</SoftwareCategory>
+    </Feature>
+		<!-- IMAGEBOARD END -->
+		<!-- FILEHOSTING START -->
+		<Feature Vital="True">
+      <Name>Delete link</Name>
+      <Category>Network</Category>
+      <Description>A link for deleting your uploaded stuff.</Description>
+      <Innovation>2</Innovation>
+      <Usability>2</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>1</DevTime>
+      <Server>0.0002</Server>
+      <Dependency Software="Website">Anonymous upload</Dependency>
+      <SoftwareCategory Category="Filehoster">1998</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>End-user encoding</Name>
+      <Category>System</Category>
+      <Description>The files be en- and decrypted on the users system, not on the server. So noone can check what you have uploaded.</Description>
+      <Innovation>5</Innovation>
+      <Usability>5</Usability>
+      <Stability>7</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>4</DevTime>
+      <Dependency Software="Website">User upload</Dependency>
+      <SoftwareCategory Category="Filehoster">2002</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>1 GB Cloud</Name>
+      <Category>Network</Category>
+      <Description>All you files are stored in here. Also allows synchronisation with other OS.</Description>
+      <Innovation>3</Innovation>
+      <Usability>8</Usability>
+      <Stability>6</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>2.5</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">User upload</Dependency>
+      <Dependency Software="Cloud Software">1GB Storage</Dependency>
+      <SoftwareCategory Category="Filehoster">2003</SoftwareCategory>
+    </Feature>
+
+    <Feature>
+      <Name>Premium features</Name>
+      <Category>System</Category>
+      <Description>For a bit of money you get a chunk of extra features.</Description>
+      <Innovation>2</Innovation>
+      <Usability>8</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>1.25</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">User upload</Dependency>
+      <SoftwareCategory Category="Filehoster">2003</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Faster Up- / Downloadrate</Name>
+      <Category>Network</Category>
+      <Description>Maximum traffic with premium features!</Description>
+      <Innovation>4</Innovation>
+      <Usability>8</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>2.5</DevTime>
+      <Server>0.0035</Server>
+      <Dependency Software="Website">Premium features</Dependency>
+      <SoftwareCategory Category="Filehoster">2003</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>16 GB Cloud</Name>
+      <Category>Network</Category>
+      <Description>All you files are stored in here. Also allows synchronisation with other OS.</Description>
+      <Innovation>4</Innovation>
+      <Usability>6</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>3</DevTime>
+      <Server>0.002</Server>
+      <Dependency Software="Cloud Software">16GB Storage</Dependency>
+      <Dependency Software="Website">Premium features</Dependency>
+      <Dependency Software="Website">1 GB Cloud</Dependency>
+      <SoftwareCategory Category="Filehoster">2005</SoftwareCategory>
+    </Feature>
+
+    <Feature From="16 GB Cloud" Vital="True">
+      <Name>32 GB Cloud</Name>
+      <Category>Network</Category>
+      <Description>All you files are stored in here. Also allows synchronisation with other OS.</Description>
+      <Innovation>6</Innovation>
+      <Usability>8</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>3.5</DevTime>
+      <Server>0.004</Server>
+      <Dependency Software="Cloud Software">32GB Storage</Dependency>
+      <Dependency Software="Website">Premium features</Dependency>
+      <Dependency Software="Website">1 GB Cloud</Dependency>
+      <SoftwareCategory Category="Filehoster">2008</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Browser App</Name>
+      <Category>Network</Category>
+      <Description>Shortened loading times.</Description>
+      <Innovation>6</Innovation>
+      <Usability>10</Usability>
+      <Stability>6</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>7.5</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Layout</Dependency>
+      <SoftwareCategory Category="Filehoster">2006</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Virus protection</Name>
+      <Category>Network</Category>
+      <Description>Scans up- and downloaded files.</Description>
+      <Innovation>2</Innovation>
+      <Usability>3</Usability>
+      <Stability>8</Stability>
+      <DevTime>6</DevTime>
+      <CodeArt>1</CodeArt>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Browser App</Dependency>
+      <Dependency Software="Server Software">Virus Protection</Dependency>
+      <SoftwareCategory Category="Filehoster">1998</SoftwareCategory>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Video player</Name>
+      <Category>2D</Category>
+      <Description>Plays / streams videos directly in the browser, without downloading.</Description>
+      <Innovation>8</Innovation>
+      <Usability>10</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>4.5</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Browser App</Dependency>
+      <Dependency Software="Server Software">Streaming Server</Dependency>
+      <SoftwareCategory Category="Filehoster">2005</SoftwareCategory>
+    </Feature>
+		<!-- FILEHOSTING END -->
+		<!-- WEBSHOP START -->
+		<Feature Forced="TRUE" Vital="True">
+      <Name>Cart</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>6</Usability>
+      <Stability>6</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>2</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">Profile</Dependency>
+      <SoftwareCategory Category="Webshop">0</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Reviews</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>4</Usability>
+      <Stability>5</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>1.5</DevTime>
+      <Server>0.0002</Server>
+      <Dependency Software="Website">Comments</Dependency>
+      <Dependency Software="Website">Cart</Dependency>
+      <SoftwareCategory Category="Webshop">1993</SoftwareCategory>
+    </Feature>
+    
+    <Feature Forced="True" Vital="True">
+      <Name>Catalog</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>6</Usability>
+      <Stability>10</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>0.5</DevTime>
+      <Server>0.0005</Server>
+      <Dependency Software="Website">Cart</Dependency>
+      <SoftwareCategory Category="Webshop">0</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>User auctions</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>4</Innovation>
+      <Usability>8</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>4.5</DevTime>
+      <Server>0.0003</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Webshop">1999</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Books</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>6</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>6.5</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">0</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Movies / TV</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>7</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>7.5</DevTime>
+      <Server>0.0015</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">2004</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Computergames</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>6</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>7</DevTime>
+      <Server>0.0015</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">1993</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Electronics / Computers</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>7</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>7.5</DevTime>
+      <Server>0.002</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">1995</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Home / Garden</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>6</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>7.5</DevTime>
+      <Server>0.0015</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">1995</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Beauty / Health</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>4</Innovation>
+      <Usability>7</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>8</DevTime>
+      <Server>0.002</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">2002</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Toys / Children</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>8</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>7.5</DevTime>
+      <Server>0.0025</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">1998</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Apparel / Shoes</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>4</Innovation>
+      <Usability>8</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>8</DevTime>
+      <Server>0.0025</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">2002</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Sports / Outdoors</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>7</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>7</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">2006</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Car / Motorbike</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>5</Innovation>
+      <Usability>8</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>8.5</DevTime>
+      <Server>0.0015</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">2010</SoftwareCategory>
+    </Feature>
+    
+    <Feature Vital="True">
+      <Name>Industry / Science</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>5</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0</CodeArt>
+      <DevTime>7.5</DevTime>
+      <Server>0.001</Server>
+      <Dependency Software="Website">Catalog</Dependency>
+      <SoftwareCategory Category="Webshop">2010</SoftwareCategory>
+    </Feature>
+		<!-- WEBSHOP END -->
 		<!-- NEWS SITE START -->
 		<Feature Vital="True">
 			<Name>News Videos</Name>
@@ -807,5 +1589,26 @@
 			<CodeArt>0.9</CodeArt>
 			<SoftwareCategory Category="News">2000</SoftwareCategory>
 		</Feature>
+		
+		<!-- Ad -->
+		
+		<Feature Vital="True">
+      <Name>Advertisments</Name>
+      <Category>Network</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>4</Usability>
+      <Stability>2</Stability>
+      <CodeArt>0.5</CodeArt>
+      <DevTime>3</DevTime>
+      <Server>0.0002</Server>
+      <Dependency Software="Advertisment Editor">Adserver Terminal</Dependency>
+      <Dependency Software="Website">Layout</Dependency>
+      <SoftwareCategory Category="Social Network">0</SoftwareCategory>
+      <SoftwareCategory Category="Imageboard">0</SoftwareCategory>
+      <SoftwareCategory Category="Filehoster">0</SoftwareCategory>
+      <SoftwareCategory Category="Webshop">0</SoftwareCategory>
+    </Feature>
+	
 	</Features>
 </SoftwareType>

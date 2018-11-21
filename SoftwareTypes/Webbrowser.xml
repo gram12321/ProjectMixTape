@@ -21,7 +21,9 @@
 			<Innovation>0</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
+			<CodeArt>1</CodeArt>
+			<Server>0.0003</Server>
+			<Dependency Software="Server Software">DNS</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Support Design Coding</Name>
@@ -31,7 +33,7 @@
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Web Browser">Support Coding</Dependency>
 		</Feature>
 		<Feature>
@@ -42,7 +44,7 @@
 			<Innovation>0.5</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
+			<CodeArt>0.7</CodeArt>
 			<Dependency Software="Web Browser">Support Coding</Dependency>
 		</Feature>
 		<Feature>
@@ -53,7 +55,7 @@
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>2</Stability>
-			<CodeArt>0</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Server Hosting">1 GB</Dependency>
 			<Dependency Software="Web Browser">Support Coding</Dependency>
 		</Feature>
@@ -64,7 +66,7 @@
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.1</CodeArt>
+			<CodeArt>0.7</CodeArt>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<Category>2D</Category>
 		</Feature>
@@ -76,7 +78,7 @@
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>3</Stability>
-			<CodeArt>0.7</CodeArt>
+			<CodeArt>0.3</CodeArt>
 			<Dependency Software="Operating System">GUI</Dependency>
 			<Dependency Software="2D Editor">GUI</Dependency>
 			<Category>2D</Category>
@@ -89,7 +91,7 @@
 			<Innovation>4</Innovation>
 			<Usability>3</Usability>
 			<Stability>2</Stability>
-			<CodeArt>1</CodeArt>
+			<CodeArt>0.1</CodeArt>
 			<Category>2D</Category>
 			<Dependency Software="Operating System">Integral Graphics API</Dependency>
 			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
@@ -189,6 +191,74 @@
 			<Usability>9</Usability>
 			<Stability>6</Stability>
 			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Safer Searching</Name>
+			<Category>Network</Category>
+			<Description>Enables safer surfing</Description>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>6</DevTime>
+			<Unlock>1994</Unlock>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Web Player</Name>
+			<Category>Network</Category>
+			<Description>Allows to play films, music, streams and browsergames.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>6</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Operating System">Preemptive Multitasking</Dependency>
+			<Unlock>2004</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Stream integration</Name>
+			<Category>Network</Category>
+			<Unlock>2015</Unlock>
+			<Description>Allows to see what you see on your screen just through the browser, no special software needed!</Description>
+			<DevTime>12</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>8</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Web Browser">Web Player</Dependency>
+			<Dependency Software="Streaming Software">360p / 1.000kbs</Dependency>
+			<Dependency Software="Operating System">Preemptive Multitasking</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>AdBlock</Name>
+			<Category>Network</Category>
+			<Description>Disables all the annoying things you don't want to see on websites.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>7</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Antivirus">AdBlock</Dependency>
+			<Unlock>2006</Unlock>
+		</Feature>
+		
+		<Feature>
+			<Name>Advertising</Name>
+			<Category>Network</Category>
+			<Description>The browser will just show ad's that could interest you.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>0.0001</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Operating System">Preemptive Multitasking</Dependency>
+			<Dependency Software="Server Software">NFS / FTP</Dependency>
+			<Dependency Software="Advertisment Editor">Adserver Terminal</Dependency>
+			<Unlock>2007</Unlock>
 		</Feature>
 		<Feature>
 			<Name>Encryption</Name>

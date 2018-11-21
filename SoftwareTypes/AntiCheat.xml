@@ -1,0 +1,128 @@
+<SoftwareType>
+	<Name>AntiCheat</Name>
+	<Category>AntiCheat</Category>
+	<Description></Description>
+	<Random>0.63</Random>
+	<OSSpecific>TRUE</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+    <OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Unlock>1985</Unlock>
+	<Categories>
+		<Category Name="AntiCheat">
+			<Description></Description>
+			<Popularity>0.166</Popularity>
+			<Retention>0.85</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>antichName</NameGenerator>
+		</Category>
+	</Categories>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Client side</Name>
+      <Category>System</Category>
+			<Description>This software is on the users computer, and it may be manipulated.</Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Server side</Name>
+			<Category>Network</Category>
+			<Description>A much safer way, but the software is on a server and needs a lot of capacity.</Description>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4</DevTime>
+			<Server>0.001</Server>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Server Software">NFS / FTP</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Detector</Name>
+      <Category>System</Category>
+			<Description>The head. Will find cheaters and hackers.</Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>0.2</DevTime>
+		</Feature>
+		<Feature>
+			<Name>Macros</Name>
+      <Category>System</Category>
+			<Description>Detects automaticly and incredible fast keychains.</Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>0.5</DevTime>
+			<Unlock>1985</Unlock>
+			<Dependency Software="AntiCheat">Detector</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Aimbot</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1985</Unlock>
+			<Dependency Software="AntiCheat">Detector</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Wallhack</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1986</Unlock>
+			<Dependency Software="AntiCheat">Detector</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Speedhack</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Unlock>1986</Unlock>
+			<Dependency Software="AntiCheat">Detector</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Scripts</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>1987</Unlock>
+			<Dependency Software="AntiCheat">Detector</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Trainer</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4</DevTime>
+			<Unlock>1988</Unlock>
+			<Dependency Software="AntiCheat">Detector</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

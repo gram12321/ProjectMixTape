@@ -1,77 +1,115 @@
 <SoftwareType>
 	<Name>Modding Tool</Name>
-	<Description>Mod programs, games, and more!</Description>
-	<Random>0.2</Random>
-	<Popularity>0.3</Popularity>
-	<Retention>0.5</Retention>
-	<Iterative>0.4</Iterative>
-	<OSSpecific>True</OSSpecific>
-	<OneClient>False</OneClient>
-	<InHouse>False</InHouse>
-	<Unlock>1990</Unlock>
 	<Category>Modding Tool</Category>
-	<NameGenerator>MTool</NameGenerator>
+	<Description></Description>
+	<Random>0.6</Random>
+	<OSSpecific>TRUE</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+    <OneClient>FALSE</OneClient>
+	<InHouse>True</InHouse>
+	<Unlock>1985</Unlock>
+	<Categories>
+		<Category Name="Modding Tool">
+			<Description></Description>
+			<Popularity>0.33</Popularity>
+			<Retention>0.85</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>modName</NameGenerator>
+		</Category>		
+	</Categories>
 	<Features>
-		<Feature Forced="True">
-			<Name>Game Modding</Name>
-			<Category>System</Category>
-			<Description>Mod games!</Description>
-			<Innovation>1.5</Innovation>
-			<Stability>0</Stability>
-			<Usability>1</Usability>
-			<CodeArt>0.5</CodeArt>
-			<DevTime>1</DevTime>
-			<Unlock>1990</Unlock>
-			<Dependency Software="Game">Mod support</Dependency>
-		</Feature>
-		<Feature>
-			<Name>Sound Modding</Name>
-			<Category>Audio</Category>
-			<Description>Bing, Boing, Bang, SOUNDS!</Description>
+		<Feature Forced="TRUE">
+			<Name>Program port</Name>
+      <Category>System</Category>
+			<Description>Needs to be connected with the game to import and export files.</Description>
 			<Innovation>1</Innovation>
-			<Stability>0</Stability>
-			<Usability>2.5</Usability>
-			<CodeArt>0</CodeArt>
-			<DevTime>1</DevTime>
-			<Unlock>1990</Unlock>
-			<Dependency Software="Modding Tool">Game Modding</Dependency>
-			<Dependency Software="Music Library">Free Music</Dependency>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>1985</Unlock>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Scripting</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3</DevTime>
+			<Unlock>1985</Unlock>
+			<Dependency Software="Programming Language">Syntax</Dependency>
 		</Feature>
 		<Feature>
-			<Name>Map Editing</Name>
-			<Category>3D</Category>
-			<Description>Remove this barrier, add that building..</Description>
-			<Innovation>0</Innovation>
+			<Name>Custom Events</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
 			<Stability>1</Stability>
-			<Usability>1</Usability>
-			<CodeArt>0</CodeArt>
-			<DevTime>2</DevTime>
+			<CodeArt>1</CodeArt>
+			<DevTime>1.5</DevTime>
+			<Unlock>1985</Unlock>
+			<Dependency Software="Modding Tool">Program port</Dependency>
+			<Dependency Software="Modding Tool">Scripting</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Object Editor</Name>
+			<Category>3D</Category>
+			<Description>Create new objects and models for the game you want.</Description>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<DevTime>5</DevTime>
 			<Unlock>1990</Unlock>
-			<Dependency Software="Modding Tool">Game Modding</Dependency>
+			<Dependency Software="Modding Tool">Program port</Dependency>
+			<Dependency Software="3D Editor">Rendering</Dependency>
+			<Dependency Software="3D Editor">Animation</Dependency>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Map Editor</Name>
+			<Category>3D</Category>
+			<Description></Description>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<DevTime>7</DevTime>
+			<Unlock>1991</Unlock>
+			<Dependency Software="Modding Tool">Program port</Dependency>
+			<Dependency Software="3D Editor">Rendering</Dependency>
+			<Dependency Software="3D Editor">Animation</Dependency>
 		</Feature>
 		<Feature>
-			<Name>Custom Maps</Name>
-			<Category>3D</Category>
-			<Description>CREATE maps, how does that sound?</Description>
-			<Innovation>1</Innovation>
-			<Stability>0</Stability>
-			<Usability>1.5</Usability>
-			<CodeArt>0</CodeArt>
-			<DevTime>2</DevTime>
-			<Unlock>1991</Unlock>
-			<Dependency Software="Modding Tool">Game Modding</Dependency>
+			<Name>Sound Editor</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<DevTime>2.3</DevTime>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Audio Tool">Sound library</Dependency>
+			<Dependency Software="Audio Tool">Instrument library</Dependency>
+			<Dependency Software="Modding Tool">Program port</Dependency>
 		</Feature>
 		<Feature>
-			<Name>Custom Weapons</Name>
-			<Category>3D</Category>
-			<Description>CREATE WEAPONS, even BETTER!</Description>
-			<Innovation>1</Innovation>
-			<Stability>0</Stability>
-			<Usability>1</Usability>
-			<CodeArt>0</CodeArt>
-			<DevTime>1</DevTime>
-			<Unlock>1991</Unlock>
-			<Dependency Software="Modding Tool">Game Modding</Dependency>
+			<Name>Custom Interface</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<DevTime>6</DevTime>
+			<Unlock>1992</Unlock>
+			<Dependency Software="Modding Tool">Program port</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Dependency Software="Modding Tool">Scripting</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Custom Gamemodes</Name>
@@ -83,19 +121,8 @@
 			<CodeArt>1</CodeArt>
 			<DevTime>3</DevTime>
 			<Unlock>1992</Unlock>
-			<Dependency Software="Modding Tool">Game Modding</Dependency>
-		</Feature>
-		<Feature Vital="True">
-			<Name>Custom Menus</Name>
-			<Category>2D</Category>
-			<Description>Options, Play, Exit</Description>
-			<Innovation>1.5</Innovation>
-			<Stability>1</Stability>
-			<Usability>2</Usability>
-			<CodeArt>0.5</CodeArt>
-			<DevTime>2</DevTime>
-			<Unlock>1993</Unlock>
-			<Dependency Software="Modding Tool">Game Modding</Dependency>
+			<Dependency Software="Modding Tool">Program port</Dependency>
+			<Dependency Software="Modding Tool">Scripting</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>

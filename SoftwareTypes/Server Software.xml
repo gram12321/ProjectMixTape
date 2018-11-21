@@ -1,0 +1,266 @@
+<SoftwareType>
+	<Name>Server Software</Name>
+	<Category>Server Software</Category>
+	<Description></Description>
+	<Random>0.2</Random>
+	<OSSpecific>TRUE</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+    <OneClient>FALSE</OneClient>
+	<InHouse>True</InHouse>
+
+  
+	<Categories>
+		<Category Name="Server">
+			<Description></Description>
+			<Popularity>0.9</Popularity>
+			<Retention>0.85</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>serverName</NameGenerator>
+    	<Unlock>1985</Unlock>
+		</Category>
+	</Categories>
+  
+	<Features>
+    
+		<Feature Forced="TRUE">
+			<Name>Remote Access</Name>
+			<Category>System</Category>
+			<Description>Terminal</Description>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>6</DevTime>
+			<Unlock>0</Unlock>
+		</Feature>
+    
+		<Feature>
+			<Name>Networking</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2</DevTime>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<SoftwareCategory Category="Server">0</SoftwareCategory>
+		</Feature>
+    
+		<Feature Viral="TRUE">
+			<Name>Virus Protection</Name>
+			<Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>8</Stability>
+			<Unlock>1994</Unlock>
+			<DevTime>6</DevTime>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Antivirus">Firewall</Dependency>
+		</Feature>
+    
+		<Feature>
+			<Name>Safe Networking</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>8</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4</DevTime>
+			<Dependency Software="Server Software">Networking</Dependency>
+			<SoftwareCategory Category="Server">1990</SoftwareCategory>
+		</Feature>
+    
+		<Feature>
+			<Name>DNS</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4.5</DevTime>
+			<Dependency Software="Server Software">Remote Access</Dependency>
+			<Dependency Software="Server Software">Networking</Dependency>
+			<SoftwareCategory Category="Server">1987</SoftwareCategory>
+		</Feature>
+    
+    <Feature Vital="True">
+			<Name>CLI / DBI</Name>
+			<Category>System</Category>
+			<Description>Database</Description>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>.8</CodeArt>
+			<DevTime>5</DevTime>
+			<Dependency Software="Server Software">DNS</Dependency>
+      <SoftwareCategory Category="Server">1988</SoftwareCategory>
+		</Feature>
+    
+    <Feature Vital="True">
+			<Name>RADIUS</Name>
+			<Category>Network</Category>
+			<Description>Authentication</Description>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>3.5</DevTime>
+			<Dependency Software="Server Software">CLI / DBI</Dependency>
+      <SoftwareCategory Category="Server">1990</SoftwareCategory>
+		</Feature>
+    
+    <Feature Vital="True">
+			<Name>DHCP</Name>
+			<Category>Network</Category>
+			<Description>Connects computer</Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>4</DevTime>
+			<Dependency Software="Server Software">RADIUS</Dependency>
+      <SoftwareCategory Category="Server">1991</SoftwareCategory>
+		</Feature>
+    
+    <Feature>
+			<Name>LPDP</Name>
+			<Category>Network</Category>
+			<Description>Printer</Description>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>1.5</DevTime>
+			<Dependency Software="Server Software">DHCP</Dependency>
+      <SoftwareCategory Category="Server">1991</SoftwareCategory>
+		</Feature>
+      
+    <Feature>
+			<Name>Proxy</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>2.5</DevTime>
+			<Dependency Software="Server Software">DHCP</Dependency>
+      <SoftwareCategory Category="Server">1995</SoftwareCategory>
+		</Feature>
+    
+    <Feature Vital="True">
+			<Name>NFS / FTP</Name>
+			<Category>System</Category>
+			<Description>Dataexchange</Description>
+			<Innovation>8</Innovation>
+			<Usability>8</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>9.5</DevTime>
+			<Dependency Software="Server Software">CLI / DBI</Dependency>
+      <SoftwareCategory Category="Server">1998</SoftwareCategory>
+		</Feature>
+    
+     <Feature Vital="True">
+			<Name>DMS</Name>
+			<Category>Network</Category>
+			<Description>Digital Media Server</Description>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>.8</CodeArt>
+			<DevTime>4</DevTime>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Server">2000</SoftwareCategory>
+		</Feature>
+    
+    <Feature>
+			<Name>NNTP</Name>
+			<Category>Network</Category>
+			<Description>News</Description>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>.8</CodeArt>
+			<DevTime>1.5</DevTime>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Server">1998</SoftwareCategory>
+		</Feature>
+      
+    <Feature Vital="True">
+			<Name>IRC</Name>
+			<Category>Network</Category>
+			<Description>Chat</Description>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>4</Stability>
+			<CodeArt>.8</CodeArt>
+			<DevTime>2</DevTime>
+			<Dependency Software="Server Software">DHCP</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Server">1999</SoftwareCategory>
+		</Feature>
+    
+    <Feature>
+			<Name>SMTP / POP3</Name>
+			<Category>Network</Category>
+			<Description>Mailserver</Description>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>4</Stability>
+			<CodeArt>.8</CodeArt>
+			<DevTime>2</DevTime>
+			<Dependency Software="Server Software">DHCP</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Server">2001</SoftwareCategory>
+		</Feature>
+      
+    <Feature Vital="True">
+			<Name>Gameserver</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<Innovation>6</Innovation>
+			<Usability>8</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>8</DevTime>
+			<Dependency Software="Server Software">DHCP</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Server">2004</SoftwareCategory>
+		</Feature>
+    
+    <Feature>
+			<Name>Streaming Server</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>8</DevTime>
+			<Dependency Software="Server Software">DHCP</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Server">2005</SoftwareCategory>
+		</Feature>
+    
+    <Feature>
+			<Name>Mapserver</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<Innovation>9</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<DevTime>8</DevTime>
+			<Dependency Software="Server Software">DHCP</Dependency>
+      <Dependency Software="Server Software">NFS / FTP</Dependency>
+      <SoftwareCategory Category="Server">2007</SoftwareCategory>
+		</Feature>
+
+	</Features>
+</SoftwareType>

@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>Calculator Software</Name><!-- made by kenneth. copying of code is not allowed. -->
 	<Description>A calculator that might calculate</Description>
-	<Unlock>1970</Unlock>
+	<Unlock>1981</Unlock>
 	<Random>0.7</Random>
 	<OSSpecific>True</OSSpecific>
 	<OSLimit>Computer</OSLimit>
@@ -126,17 +126,39 @@
 			<Dependency Software="Calculator Software">Simple Calculator</Dependency>
 		</Feature>
 		<Feature>
+			<Name>Hyperbolic</Name>
+			<Description>Sinh Cosh Tanh</Description>
+			<Category>Math</Category>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1982</Unlock>
+			<Dependency Software="Calculator Software">Scientific Mode</Dependency>
+		</Feature>
+		<Feature>
 			<Name>RPN Mode</Name>
 			<Description>Reverse Polish Notation. Getting pretty frickin advanced now</Description>
 			<Unlock>1998</Unlock>
-			<Description>Sin Cos Tan</Description>
 			<DevTime>2</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.9</CodeArt>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
 			<Dependency Software="Calculator Software">Scientific Mode</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Library</Name>
+			<Category>System</Category>
+			<Description>A library which contains all tools and functions so that the user can easily find things.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>6</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Unlock>1985</Unlock>
 		</Feature>
 		<Feature>
 			<Name>Converter Pack One</Name>
@@ -147,7 +169,8 @@
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
+			<Dependency Software="Calculator Software">Library</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Converter Pack Two</Name>
@@ -158,7 +181,7 @@
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Category>System</Category>
+			<Category>Algorithm</Category>
 			<Dependency Software="Calculator Software">Converter Pack One</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
@@ -171,6 +194,203 @@
 			<Stability>7</Stability>
 			<CodeArt>1</CodeArt>
 			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Alphanumeric</Name>
+			<Category>System</Category>
+			<Description>Allows you to calculate with numbers, letters, and characters.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1982</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Functions and programs</Name>
+			<Description>Allows the user to create own funtions and programs.</Description>
+			<Category>System</Category>
+			<DevTime>9</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>6</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Unlock>1990</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Graph visualization</Name>
+			<Description>Allows to show and draw graphs of functions.</Description>
+			<Category>2D</Category>
+			<DevTime>6</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>8</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Calculator Software">Octal mode</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Geometric visualization</Name>
+			<Description>Allows to show and draw geometric forms.</Description>
+			<Category>2D</Category>
+			<DevTime>6.2</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Unlock>1991</Unlock>
+			<Dependency Software="Calculator Software">Octal mode</Dependency>
+			<Dependency Software="Calculator Software">Scientific Mode</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Interactive calculus</Name>
+			<Description>Allows to show and draw geometric forms.</Description>
+			<Category>2D</Category>
+			<DevTime>7</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>6</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Unlock>1993</Unlock>
+			<Dependency Software="Calculator Software">Geometric visualization</Dependency>
+		</Feature>
+		<Feature>
+			<Name>List tools</Name>
+			<Category>System</Category>
+			<Description>Allows you to find min or max of lists, sort lists or count values.</Description>
+			<DevTime>3.5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>2</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1986</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Probability</Name>
+			<Description>Is necessary to work with factorials and permutations.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>1.4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1981</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Random tools</Name>
+			<Category>Algorithm</Category>
+			<Description>Tool for creating random values.</Description>
+			<DevTime>0.8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1982</Unlock>
+			<Dependency Software="Calculator Software">Probability</Dependency>
+		</Feature>
+		<Feature From="List tools">
+			<Name>Statistics</Name>
+			<Category>Algorithm</Category>
+			<Description>Allows you to work with distributions, intervals and randomized tests.</Description>
+			<DevTime>5.4</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Unlock>1982</Unlock>
+			<Dependency Software="Calculator Software">Random tools</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Boolean operators</Name>
+			<Category>System</Category>
+			<Description>Allows you to work with boolean operators like equal, greater etc.</Description>
+			<DevTime>0.6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1972</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Vector</Name>
+			<Description>Allows to work with vectors.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>2.1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1984</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Matrix</Name>
+			<Description>Allows to create matrices, to work and calculate with them.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>3.2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1985</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Algebra</Name>
+			<Description>Allows you to solve numerical and linear systems of equations.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>8</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1984</Unlock>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Polynominal tools</Name>
+			<Description>Tools like find roots of polynomial and complex roots of polynomial.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>6</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1986</Unlock>
+			<Dependency Software="Calculator Software">Algebra</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Calculus</Name>
+			<Description>Allows to work with integrals.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>7</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1986</Unlock>
+			<Dependency Software="Calculator Software">Algebra</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Convert numbers</Name>
+			<Category>System</Category>
+			<Description>Convert decimal to fraction and reverse.</Description>
+			<DevTime>1.2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1978</Unlock>
+		</Feature>
+		<Feature>
+			<Name>Fraction tools</Name>
+			<Category>System</Category>
+			<Description>Tools like proper fraction and get numerator.</Description>
+			<DevTime>2.5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1981</Unlock>
 		</Feature>
 	</Features>
 </SoftwareType>

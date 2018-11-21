@@ -1,0 +1,136 @@
+<SoftwareType>
+	<Name>Bios</Name>
+	<Category>Bios</Category>
+	<Description></Description>
+	<Random>0.05</Random>
+	<OSSpecific>FALSE</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+  <OneClient>FALSE</OneClient>
+	<InHouse>True</InHouse>
+	<Categories>
+		<Category Name="Bios">
+			<Description></Description>
+			<Popularity>1.25</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1.0</TimeScale>
+			<Iterative>0.7</Iterative>
+			<Unlock>0</Unlock>
+		</Category>		
+	</Categories>
+  <NameGenerator>biosName</NameGenerator>
+  
+	<Features>
+    <Feature Forced="TRUE">
+      <Name>Terminal</Name>
+      <Category>System</Category>
+      <Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+      <DevTime>6</DevTime>
+      <Innovation>0</Innovation>
+      <Usability>2</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>0</Unlock>
+    </Feature>
+
+    <Feature Vital="True">
+			<Name>Standard CMOS Features</Name>
+      <Category>System</Category>
+			<Description></Description>
+      <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+      <Unlock>1970</Unlock>
+			<Dependency Software="Bios">Terminal</Dependency>
+		</Feature>
+
+    <Feature Vital="True">
+      <Name>Advanced BIOS Features</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <DevTime>10</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>2</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>1981</Unlock>
+      <Dependency Software="Bios">Terminal</Dependency>
+    </Feature>
+
+    <Feature Research="Terminal">
+      <Name>Advanced Chipset Features</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <DevTime>12</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>2</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>1983</Unlock>
+    </Feature>
+
+    <Feature Research="Terminal">
+      <Name>Integrated Peripherials</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <DevTime>6</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>1</Usability>
+      <Stability>5</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>1983</Unlock>
+    </Feature>
+
+    <Feature Research="Terminal">
+      <Name>Power Mangement Setup</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <DevTime>10</DevTime>
+      <Innovation>6</Innovation>
+      <Usability>3</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>1986</Unlock>
+    </Feature>
+
+    <Feature>
+      <Name>PnP/PCI Configurations</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <DevTime>6</DevTime>
+      <Innovation>3</Innovation>
+      <Usability>2</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>1981</Unlock>
+      <Dependency Software="Bios">Terminal</Dependency>
+    </Feature>
+
+    <Feature>
+      <Name>PC Health Status</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <DevTime>6</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>4</Usability>
+      <Stability>8</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>1985</Unlock>
+      <Dependency Software="Bios">Terminal</Dependency>
+    </Feature>
+
+    <Feature Research="Terminal">
+      <Name>Frequency/Voltage Control</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <DevTime>8</DevTime>
+      <Innovation>5</Innovation>
+      <Usability>3</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <Unlock>1985</Unlock>
+    </Feature>
+		
+	</Features>
+</SoftwareType>

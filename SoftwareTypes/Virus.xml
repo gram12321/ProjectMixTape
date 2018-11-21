@@ -1,70 +1,222 @@
 <SoftwareType>
 	<Name>Virus</Name>
-	<Description>Infect those kids that think they can get software for free.</Description>
-	<Random>0.1</Random>
-	<Popularity>0.4</Popularity>
-	<OSSpecific>True</OSSpecific>
-	<OneClient>False</OneClient>
-	<InHouse>False</InHouse>
-	<Retention>0.5</Retention>
-	<Iterative>0.3</Iterative>
-	<Unlock>2002</Unlock>
 	<Category>Virus</Category>
-	<NameGenerator>Virus</NameGenerator>
+	<Description></Description>
+	<Random>0.66</Random>
+  <OSSpecific>True</OSSpecific>
+  <OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Categories>
+    
+		<Category Name="Companion">
+			<Description></Description>
+			<Popularity>0.66</Popularity>
+			<Retention>0.33</Retention>
+			<TimeScale>0.66</TimeScale>
+			<Iterative>0.66</Iterative>
+			<NameGenerator>virusName</NameGenerator>
+      <Unlock>1988</Unlock>
+		</Category>
+
+    <Category Name="Override">
+      <Description></Description>
+      <Popularity>0.33</Popularity>
+      <Retention>0.13</Retention>
+      <TimeScale>0.33</TimeScale>
+      <Iterative>0.66</Iterative>
+      <NameGenerator>virusName</NameGenerator>
+      <Unlock>1987</Unlock>
+    </Category>
+
+    <Category Name="Prepender">
+      <Description></Description>
+      <Popularity>0.5</Popularity>
+      <Retention>0.23</Retention>
+      <TimeScale>0.47</TimeScale>
+      <Iterative>0.66</Iterative>
+      <NameGenerator>virusName</NameGenerator>
+      <Unlock>1988</Unlock>
+    </Category>
+
+    <Category Name="Appender">
+      <Description></Description>
+      <Popularity>0.4</Popularity>
+      <Retention>0.33</Retention>
+      <TimeScale>0.47</TimeScale>
+      <Iterative>0.66</Iterative>
+      <NameGenerator>virusName</NameGenerator>
+      <Unlock>1988</Unlock>
+    </Category>
+
+    <Category Name="Entry Point Obscuring">
+      <Description></Description>
+      <Popularity>0.83</Popularity>
+      <Retention>0.39</Retention>
+      <TimeScale>0.83</TimeScale>
+      <Iterative>0.66</Iterative>
+      <NameGenerator>virusName</NameGenerator>
+      <Unlock>1990</Unlock>
+    </Category>
+
+  </Categories>
 	<Features>
+    
 		<Feature Forced="TRUE">
-			<Name>Adware</Name>
-			<Category>Network</Category>
-			<Description>Annoying ads, and you get the profit!</Description>
-			<Innovation>0</Innovation>
-			<Usability>2</Usability>
-			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
-			<DevTime>1</DevTime>
-		</Feature>
-		<Feature Vital="True">
-			<Name>Spyware</Name>
-			<Category>Network</Category>
-			<Description>Now you know their identity, their passwords, and more!</Description>
+			<Name>Distributor</Name>
+      <Category>Network</Category>
+			<Description>Distributes viruses</Description>
 			<Innovation>1</Innovation>
-			<Usability>2</Usability>
-			<Stability>1</Stability>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
 			<CodeArt>1</CodeArt>
-			<DevTime>2</DevTime>
-			<Unlock>2003</Unlock>
+			<DevTime>5</DevTime>
+			<Unlock>0</Unlock>
+      <Dependency Software="Operating System">Networking</Dependency>
 		</Feature>
+    
 		<Feature Vital="True">
-			<Name>Website infection</Name>
-			<Category>Network</Category>
-			<Description>Infect websites by visiting them, so other people will get invected too.</Description>
-			<Innovation>1.5</Innovation>
-			<Usability>2.1</Usability>
-			<Stability>1.5</Stability>
-			<CodeArt>1</CodeArt>
-			<DevTime>2</DevTime>
-			<Unlock>2003</Unlock>
-		</Feature>
-		<Feature From="Website infection" Vital="True">
-			<Name>E-Mail infection</Name>
-			<Category>Network</Category>
-			<Description>Infect other people by sending them E-Mails.</Description>
-			<Innovation>1</Innovation>
+			<Name>Boot</Name>
+      <Category>System</Category>
+			<Description></Description>
+			<Innovation>2</Innovation>
 			<Usability>2</Usability>
-			<Stability>1</Stability>
+			<Stability>5</Stability>
 			<CodeArt>1</CodeArt>
-			<DevTime>3</DevTime>
-			<Unlock>2004</Unlock>
+			<DevTime>6</DevTime>
+			<Unlock>0</Unlock>
+      <Dependency Software="Virus">Distributor</Dependency>
 		</Feature>
-		<Feature Vital="True">
-			<Name>Antivirus Bypass</Name>
-			<Category>System</Category>
-			<Description>Now these antivirusses wont find your virus anymore.</Description>
-			<Innovation>1.5</Innovation>
-			<Usability>1.5</Usability>
-			<Stability>3</Stability>
-			<CodeArt>1</CodeArt>
-			<DevTime>4</DevTime>
-			<Unlock>2003</Unlock>
-		</Feature>
+
+    <Feature Vital="True">
+      <Name>File / Link</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>3</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>4</DevTime>
+      <Unlock>1989</Unlock>
+      <Dependency Software="Virus">Distributor</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Macro</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>3</Usability>
+      <Stability>3</Stability>
+      <CodeArt>.8</CodeArt>
+      <DevTime>2.5</DevTime>
+      <Unlock>1988</Unlock>
+      <Dependency Software="Virus">Distributor</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Script</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>4</Innovation>
+      <Usability>4</Usability>
+      <Stability>4</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>5</DevTime>
+      <Unlock>1990</Unlock>
+      <Dependency Software="Virus">Distributor</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>RAM</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>2</Innovation>
+      <Usability>2</Usability>
+      <Stability>6</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>8</DevTime>
+      <Unlock>1994</Unlock>
+      <Dependency Software="Virus">Distributor</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Stealth</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>5</Innovation>
+      <Usability>5</Usability>
+      <Stability>6</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>10</DevTime>
+      <Unlock>1992</Unlock>
+      <Dependency Software="Virus">Distributor</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Encrypt</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>3</Innovation>
+      <Usability>3</Usability>
+      <Stability>5</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>4</DevTime>
+      <Unlock>1994</Unlock>
+      <Dependency Software="Virus">Stealth</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Polymorph</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>6</Innovation>
+      <Usability>2</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>7</DevTime>
+      <Unlock>1997</Unlock>
+      <Dependency Software="Virus">Stealth</Dependency>
+    </Feature>
+
+    <Feature Vital="True" From="Polymorph">
+      <Name>Metamorph</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>5</Innovation>
+      <Usability>3</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>7</DevTime>
+      <Unlock>1997</Unlock>
+      <Dependency Software="Virus">Stealth</Dependency>
+    </Feature>
+
+    <Feature Vital="True">
+      <Name>Retro</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>6</Innovation>
+      <Usability>6</Usability>
+      <Stability>6</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>12</DevTime>
+      <Unlock>1998</Unlock>
+      <Dependency Software="Virus">Stealth</Dependency>
+    </Feature>
+
+    <Feature>
+      <Name>Hardware killer</Name>
+      <Category>System</Category>
+      <Description></Description>
+      <Innovation>1</Innovation>
+      <Usability>1</Usability>
+      <Stability>2</Stability>
+      <CodeArt>1</CodeArt>
+      <DevTime>3</DevTime>
+      <Unlock>2002</Unlock>
+      <Dependency Software="Virus">Boot</Dependency>
+      <Dependency Software="Virus">File / Link</Dependency>
+    </Feature>
+    
 	</Features>
 </SoftwareType>

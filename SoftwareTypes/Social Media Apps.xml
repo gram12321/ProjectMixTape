@@ -1,0 +1,448 @@
+<SoftwareType>
+	<Name>Social Media Apps</Name>
+	<Description>Messaging and Sharing apps for the phone</Description>
+	<Unlock>2006</Unlock>
+	<Random>0.5</Random>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Phone</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Category>Any</Category>
+	<Categories>
+		<Category Name="Sharing">
+			<Description>InstaFace</Description>
+			<Popularity>0.5</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.1</Iterative>
+			<NameGenerator>Social Media Apps</NameGenerator>
+		</Category>
+		<Category Name="Messaging">
+			<Description>WhatsUp?</Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.1</Iterative>
+			<NameGenerator>Social Media Apps</NameGenerator>
+		</Category>
+	</Categories>
+	<NameGenerator>Social Media Apps</NameGenerator>
+	<Features>
+
+
+
+		<Feature Forced="TRUE">
+			<Name>Short Text Messages</Name>
+			<SoftwareCategory Category="Messaging">2006</SoftwareCategory>
+			<Description>Someone stupidly limited this to only 100 characters</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.01</Server>
+			<Category>Any</Category>
+		</Feature>
+		<Feature From="Short Text Messages">
+			<Name>Long Text Messages</Name>
+			<SoftwareCategory Category="Messaging">2008</SoftwareCategory>
+			<Description>Long love "letters" made possible!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.015</Server>
+			<Category>Any</Category>
+		</Feature>
+		<Feature>
+			<Name>Image & GIF Support</Name>
+			<SoftwareCategory Category="Messaging">2011</SoftwareCategory>
+			<Description>PLACEHOLDER</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Server>0.015</Server>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>Voice Calls</Name>
+			<SoftwareCategory Category="Messaging">2006</SoftwareCategory>
+			<Description>Voice Calls, over the internet</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>Any</Category>
+		</Feature>
+		<Feature>
+			<Name>Video Calls</Name>
+			<SoftwareCategory Category="Messaging">2007</SoftwareCategory>
+			<Description>360p30fps on a low bitrate makes for an interesting experience</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Category>Any</Category>
+		</Feature>
+		<Feature>
+			<Name>Video Quality Upgrade '09</Name>
+			<SoftwareCategory Category="Messaging">2009</SoftwareCategory>
+			<Description>720p30fps and a much needed higher bitrate</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Social Media Apps">Video Calls</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="Video Quality Upgrade '09" Vital="TRUE">
+			<Name>Video Quality Upgrade '12</Name>
+			<SoftwareCategory Category="Messaging">2012</SoftwareCategory>
+			<Description>1080p30fps and higher bitrate</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="Video Quality Upgrade '12">
+			<Name>Video Quality Upgrade '15</Name>
+			<SoftwareCategory Category="Messaging">2015</SoftwareCategory>
+			<Description>Masterful 1440p @60fps</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature From="Video Quality Upgrade '15">
+			<Name>Video Quality Upgrade '19</Name>
+			<SoftwareCategory Category="Messaging">2019</SoftwareCategory>
+			<Description>Insane 4k video and "crisply" (is that a word?) clear 144fps! (No I dont think any phone will ever make use of this)</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Group Messaging</Name>
+			<SoftwareCategory Category="Messaging">2008</SoftwareCategory>
+			<Description>PLACEHOLDER</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Short Text Messages</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Face/React Emojis</Name>
+			<SoftwareCategory Category="Messaging">2011</SoftwareCategory>
+			<Description>Angry? Sad? Happy? Show it with emojis!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>The Grand Emoji Pack</Name>
+			<SoftwareCategory Category="Messaging">2014</SoftwareCategory>
+			<Description>Hand Gestures? Check. Food? Check. Flags? Check. This pack comes with a million emojis!!!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependency Software="Social Media Apps">Face/React Emojis</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>Group Voice/Video Calls</Name>
+			<SoftwareCategory Category="Messaging">2012</SoftwareCategory>
+			<Description>For up to 5 people</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Voice Calls</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>More Participants</Name>
+			<SoftwareCategory Category="Messaging">2018</SoftwareCategory>
+			<Description>Insane new tech allows up to 50 people to join in on the same call</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Group Voice/Video Calls</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+
+
+
+		<Feature Forced="TRUE">
+			<Name>Profile</Name>
+			<SoftwareCategory Category="Sharing">2006</SoftwareCategory>
+			<Description>PLACEHOLDER</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.01</Server>
+			<Category>Any</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Profile Picture</Name>
+			<SoftwareCategory Category="Sharing">2006</SoftwareCategory>
+			<Description>Remember to show your nice side!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Server>0.03</Server>
+			<Dependency Software="Social Media Apps">Profile</Dependency>
+			<Category>Any</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Friends</Name>
+			<SoftwareCategory Category="Sharing">2006</SoftwareCategory>
+			<Description>Fake</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.01</Server>
+			<Dependency Software="Social Media Apps">Profile</Dependency>
+			<Category>Any</Category>
+		</Feature>
+		<Feature>
+			<Name>Anti-Troll Efforts</Name>
+			<SoftwareCategory Category="Sharing">2010</SoftwareCategory>
+			<Description>Make efforts to endorse good behaviour</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Profile</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Blocking</Name>
+			<SoftwareCategory Category="Sharing">2010</SoftwareCategory>
+			<Description>Build a wall against the bad trolls!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Anti-Troll Efforts</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>User Reporting</Name>
+			<SoftwareCategory Category="Sharing">2012</SoftwareCategory>
+			<Description>Get rid of spam bots and rule-breaking people</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Anti-Troll Efforts</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Privacy Efforts</Name>
+			<SoftwareCategory Category="Sharing">2015</SoftwareCategory>
+			<Description>Make efforts to calm peoples worry of you collecting their data</Description>
+			<DevTime>1</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Profile</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Extensive Privacy Settings</Name>
+			<SoftwareCategory Category="Sharing">2018</SoftwareCategory>
+			<Description>Advanced settings allow users to adjust what they want others to see</Description>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>1</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Privacy Efforts</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+
+
+
+		<Feature Forced="TRUE">
+			<Name>Status Updates</Name>
+			<SoftwareCategory Category="Sharing">2006</SoftwareCategory>
+			<Description>Let everyone know what you're doing, as if someone was interested</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.01</Server>
+			<Category>System</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Commenting</Name>
+			<SoftwareCategory Category="Sharing">2007</SoftwareCategory>
+			<Description>Agree? Disagree? Comment what you think!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.005</Server>
+			<Dependency Software="Social Media Apps">Status Updates</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>#Hashtag</Name>
+			<SoftwareCategory Category="Sharing">2010</SoftwareCategory>
+			<Description>Users can use hastags to contribute to trending subjects. #PCMR</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Commenting</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Tags</Name>
+			<SoftwareCategory Category="Sharing">2010</SoftwareCategory>
+			<Description>Users can tag other users in status updates and comments</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">#Hashtag</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Like Button</Name>
+			<SoftwareCategory Category="Sharing">2008</SoftwareCategory>
+			<Description>What is social media without a like button?</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Status Updates</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Places</Name>
+			<SoftwareCategory Category="Sharing">2011</SoftwareCategory>
+			<Description>Users can show everyone where they are, you know, to aid the stalkers</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Status Updates</Dependency>
+			<Category>Any</Category>
+		</Feature>
+		<Feature>
+			<Name>Events</Name>
+			<SoftwareCategory Category="Sharing">2012</SoftwareCategory>
+			<Description>Users can host events and meetings, others can join and show interest</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Places</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Image Sharing</Name>
+			<SoftwareCategory Category="Sharing">2006</SoftwareCategory>
+			<Description>Users can share pics of their delicious food and cute cats</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Server>0.04</Server>
+			<Dependency Software="Social Media Apps">Status Updates</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Image Tagging</Name>
+			<SoftwareCategory Category="Sharing">2012</SoftwareCategory>
+			<Description>People in images can be tagged</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Image Sharing</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+		<Feature>
+			<Name>Emoji React</Name>
+			<SoftwareCategory Category="Sharing">2015</SoftwareCategory>
+			<Description>Angry emoji memes here we gooo!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependency Software="Social Media Apps">Like Button</Dependency>
+			<Category>2D</Category>
+		</Feature>
+		<Feature>
+			<Name>Dislike Button</Name>
+			<SoftwareCategory Category="Sharing">2020</SoftwareCategory>
+			<Description>You will never find this in reality</Description>
+			<DevTime>1</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Social Media Apps">Emoji React</Dependency>
+			<Category>System</Category>
+		</Feature>
+		<Feature>
+			<Name>Push Notifications</Name>
+			<SoftwareCategory Category="Sharing">2010</SoftwareCategory>
+			<Description>Hunt down people until they accept all the god damn friend requests</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.001</Server>
+			<Dependency Software="Social Media Apps">Status Updates</Dependency>
+			<Category>Algorithm</Category>
+		</Feature>
+	</Features>
+</SoftwareType>

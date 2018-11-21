@@ -154,5 +154,112 @@
 			<CodeArt>0</CodeArt>
 			<Dependency Software="Database">Databases</Dependency>
 		</Feature>
+		<!-- anyfin -->
+		<Feature> <!-- Maybe take out -->
+			<Name>Portable version</Name>
+			<Category>System</Category>
+			<Unlock>1987</Unlock>
+			<Description>The program is able to be used without repeatedly reinstalling it</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Tablet support</Name>
+			<Category>System</Category>
+			<Unlock>1989</Unlock>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="Operating System">Touch</Dependency>
+		</Feature>
+		<Feature Research="Tablet support" Vital="TRUE">
+			<Name>Advanced tablet settings</Name>
+			<Category>System</Category>
+			<Unlock>1990</Unlock>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Sprite animator</Name>
+			<Category>2D</Category>
+			<Unlock>1986</Unlock>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Font Creator</Name>
+			<Category>2D</Category>
+			<Description>Tool for creating your own fonts</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Font stylizer</Name>
+			<Category>2D</Category>
+			<Description>Tool for animating and stylizing fonts</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="2D Editor">Font Creator</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Intelligent repairtools</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="2D Editor">Image effects</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>HQ Imagerenderer</Name>
+			<Category>2D</Category>
+			<Unlock>1988</Unlock>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="2D Editor">Intelligent repairtools</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Ultra Imagerenderer</Name>
+			<Category>2D</Category>
+			<Unlock>1995</Unlock>
+			<Description></Description>
+			<DevTime>7</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>6</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="2D Editor">HQ Imagerenderer</Dependency>
+			<Dependency Software="Operating System">64-bit</Dependency>
+			<Dependency Software="Operating System">Block Multithreading</Dependency>
+		</Feature>
 	</Features>
 </SoftwareType>

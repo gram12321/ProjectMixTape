@@ -96,6 +96,30 @@
 			<Unlock>1993</Unlock>
 			<NameGenerator>GameBuilding</NameGenerator>
 		</Category>
+		<Category Name="Puzzle">
+			<Description>Solve things, use your brain</Description>
+			<Popularity>0.3</Popularity>
+			<Retention>0.35</Retention>
+			<TimeScale>0.55</TimeScale>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>GamePuzzle</NameGenerator>
+		</Category>
+  		<Category Name="CCG / TCG">
+			<Description>A collectible card game (CCG), also called a trading card game (TCG), is a kind of card game that consists of specially designed sets of playing cards.</Description>
+			<Popularity>0.35</Popularity>
+			<Retention>0.65</Retention>
+			<TimeScale>0.85</TimeScale>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>GameTCG</NameGenerator>
+		</Category>
+  		<Category Name="Nakige / Otome">
+			<Description>An otome game is a story based video game that is targeted towards the female market. Generally one of the goals is to develop a romantic relationship between the female player character and one of several male characters.</Description>
+			<Popularity>0.25</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.45</TimeScale>
+			<Iterative>0.85</Iterative>
+			<NameGenerator>GameNovel</NameGenerator>
+		</Category>
 	</Categories>
     <Features>
         <Feature Forced="True">
@@ -535,6 +559,7 @@
 			<SoftwareCategory Category="RPG">0</SoftwareCategory>
 			<SoftwareCategory Category="FPS">0</SoftwareCategory>
 			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
 			<Dependency Software="Game">Worldbuilding</Dependency>
 			<Dependency Software="Database">Databases</Dependency>
 		</Feature>
@@ -821,6 +846,19 @@
 			<SoftwareCategory Category="TPS">0</SoftwareCategory>
 			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 			<SoftwareCategory Category="Action Adventure">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Stream integration</Name>
+			<Category>Network</Category>
+			<Unlock>2008</Unlock>
+			<Description>Just press a button and you will be connected with your stream.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Streaming Software">Game capture</Dependency>
 		</Feature>
     </Features>
 </SoftwareType>

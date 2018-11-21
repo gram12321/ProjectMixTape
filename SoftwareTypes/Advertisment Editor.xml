@@ -1,0 +1,236 @@
+<SoftwareType>
+	<Name>Advertisment Editor</Name>
+	<Category>Advertising Editor</Category>
+	<Description>Program that allows you to create online Advertisments.</Description>
+	<Random>0.5</Random>
+	<Popularity>0.3</Popularity>
+	<Retention>0.3</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>0.3</Iterative>
+	<NameGenerator>adName</NameGenerator>
+	<Unlock>1989</Unlock>
+	<Features>
+	
+
+		<Feature Vital="TRUE">
+			<Name>Adserver Terminal</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<DevTime>14</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>12</Usability>
+			<Stability>12</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		
+		<Feature Vital="TRUE">
+			<Name>Targeting</Name>
+      <Category>Algorithm</Category>
+			<Description>Advertising adapted to the Webpage where the ads are placed on.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Advertisment Editor">Adserver Terminal</Dependency>
+			<Unlock>1990</Unlock>
+		</Feature>
+		
+		<Feature Vital="TRUE" Research="Targeting">
+			<Name>Retargeting</Name>
+			<Category>Network</Category>
+			<Description>Advertising adapted to the interest of the user, based on Cookies.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>10</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1994</Unlock>
+		</Feature>
+		
+		<Feature Vital="TRUE" Research="Targeting">
+			<Name>Geotargeting</Name>
+			<Category>Network</Category>
+			<Description>Advertising adapted to the environment, based on Geodatas like IP-Adress or GPS.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>11</Innovation>
+			<Usability>9</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2006</Unlock>
+		</Feature>
+		
+		<Feature>
+			<Name>Verbal placement</Name>
+			<Category>2D</Category>
+			<Description>Advertising adapted to the textbased content on the Webpage.</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Advertisment Editor">Adserver Terminal</Dependency>
+		</Feature>
+	
+		<Feature Forced="True">
+			<Name>Static</Name>
+			<Category>2D</Category>
+			<Description>A static banner.</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>8</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		
+		<Feature From="Static">
+			<Name>Animated</Name>
+			<Category>2D</Category>
+			<Description>A banner with animations.</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="2D Editor">Image effects</Dependency>
+			<Unlock>1991</Unlock>
+		</Feature>
+		
+		<Feature Vital="TRUE" From="Animated">
+			<Name>Interactivity</Name>
+			<Category>2D</Category>
+			<Description>The user can interact with this kind of banners.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>10</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="2D Editor">Image effects</Dependency>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Dependency Software="Programming Language">Syntax</Dependency>
+			<Unlock>1998</Unlock>
+		</Feature>
+		
+		<Feature Vital="TRUE">
+			<Name>Pop-Up</Name>
+			<Category>2D</Category>
+			<Description>A pop-up ad is displayed in a new web browser window that opens above a Webpage visitor's initial browser window.</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Advertisment Editor">Interactivity</Dependency>
+			<Unlock>2002</Unlock>
+		</Feature>
+		
+		<Feature Vital="TRUE">
+			<Name>Pop-Under</Name>
+			<Category>2D</Category>
+			<Description>A pop-under ad opens a new browser window under a Webpage visitor's initial browser window.</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>2</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Advertisment Editor">Interactivity</Dependency>
+			<Unlock>2002</Unlock>
+		</Feature>
+		
+		<Feature Vital="TRUE">
+			<Name>Layer</Name>
+			<Category>2D</Category>
+			<Description>A newer type of pop-ups are called layer ads, which collapse with the help of JavaScript the actual content, to force the user's attention. However, no new browser window opens, and popup blockers will not proc.</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>1</Usability>
+			<Stability>6</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Advertisment Editor">Interactivity</Dependency>
+			<Unlock>1999</Unlock>
+		</Feature>
+		
+		<Feature>
+			<Name>Interstials</Name>
+      <Category>Algorithm</Category>
+			<Description>An interstitial ad displays before a user can access requested content, sometimes while the user is waiting for the content to load.</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>0</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Advertisment Editor">Layer</Dependency>
+			<Unlock>2000</Unlock>
+		</Feature>
+		
+		<Feature>
+			<Name>Prestitials</Name>
+      <Category>Algorithm</Category>
+			<Description>An interstitial ad displays before a user can access requested content, the user have to wait until a time runs out or have to press a button to close the ad.</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>0</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Advertisment Editor">Layer</Dependency>
+			<Unlock>2000</Unlock>
+		</Feature>
+		
+		<Feature Vital="TRUE">
+			<Name>Clips</Name>
+			<Category>2D</Category>
+			<Description>A clip shows a short video which can skip the user after a few seconds.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>8</Usability>
+			<Stability>8</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Advertisment Editor">Interactivity</Dependency>
+			<Dependency Software="2D Editor">Video codec</Dependency>
+			<Unlock>2003</Unlock>
+		</Feature>
+		
+		<Feature>
+			<Name>Skyscraper</Name>
+			<Category>2D</Category>
+			<Description>Banners that are particularly high and are therefore wear them left or right on the edge of the site. These are then also still be seen partially at least when scrolling the site. Some marketers also offer formats that "co-migrate" to the side and remain permanently in view of the user.</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>8</Usability>
+			<Stability>8</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		
+		<Feature>
+			<Name>Rectangle</Name>
+			<Category>2D</Category>
+			<Description>Is comparable to island print ads. Rectangles are positioned directly in the editorial environment of the web. Thus, a strong awareness of the advertising message with the user and good response rates for advertisers is achieved. The Rectangle is well suited for branding campaigns. Another advantage is the specific, rectangular format that offers plenty of room for creativity.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>6</Usability>
+			<Stability>8</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		
+		<Feature>
+			<Name>Content</Name>
+			<Category>2D</Category>
+			<Description>Content Ad is advertising in the editorial section of a Webpage that blurs as well as possible with the actual content of the site. The result is that one or the other visitors only later realizes that he has read advertising rather content of the Webpage.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>8</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+			<Unlock>1989</Unlock>
+		</Feature>
+		
+		
+	</Features>
+</SoftwareType>
