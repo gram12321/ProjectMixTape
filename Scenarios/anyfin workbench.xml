@@ -1,0 +1,15 @@
+<Scenario>
+	<Name>anyfin workbench</Name>
+	<Money>
+		<Amount>1000000000</Amount>
+	</Money>
+	<Goals></Goals>
+	<Years>
+	<Year>2030</Year>
+	<Year>2050</Year>
+	</Years>
+	<Events></Events>
+	<Simulation>TRUE</Simulation>
+  <Trees>FALSE</Trees>
+  <ForceEnvironment>0</ForceEnvironment>
+</Scenario>

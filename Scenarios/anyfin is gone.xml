@@ -1,0 +1,20 @@
+<Scenario>
+	<Name>anyfin is gone</Name>
+	<Money>
+		<Amount>2500</Amount>
+		<Amount>1000000000</Amount>
+	</Money>
+	<Goals></Goals>
+	<Years>
+		<Year>1980</Year>
+    <Year>1990</Year>
+		<Year>2000</Year>
+		<Year>2010</Year>
+    <Year>2020</Year>
+    <Year>2030</Year>
+	</Years>
+	<Events></Events>
+  <Simulation>FALSE</Simulation>
+  <Trees>FALSE</Trees>
+	<ForceEnvironment>0</ForceEnvironment>
+</Scenario>
