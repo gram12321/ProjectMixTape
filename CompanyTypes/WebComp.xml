@@ -1,0 +1,13 @@
+<CompanyType>
+	<Specialization>Web Softwares</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>5</Max>
+	<Types>
+		<Type Software="Website">0.5</Type>
+		<Type Software="Web Browser">1</Type>
+		<Type Software="AntiCheat">1</Type>
+		<Type Software="Antivirus">1</Type>
+		<Type Software="Streaming Software">1</Type>
+	</Types>
+</CompanyType>

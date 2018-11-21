@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Virus Softwares</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>2</Max>
+	<Types>
+		<Type Software="Virus">0.5</Type>
+	</Types>
+</CompanyType>

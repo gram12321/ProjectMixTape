@@ -1,0 +1,11 @@
+<CompanyType>
+	<Specialization>Streaming and Recording Softwares</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="2D Editor">1</Type>
+		<Type Software="Recording Tool">1</Type>
+		<Type Software="Streaming Software">1</Type>
+	</Types>
+</CompanyType>

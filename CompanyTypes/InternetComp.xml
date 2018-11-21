@@ -1,0 +1,12 @@
+<CompanyType>
+	<Specialization>Internet Softwares</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="Website">1</Type>
+		<Type Software="Web Browser">1</Type>
+		<Type Software="Advertisment Editor">1</Type>
+		<Type Software="Server Software">1</Type>
+	</Types>
+</CompanyType>

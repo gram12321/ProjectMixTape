@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Social Media Apps</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>0</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Social Media Apps">1</Type>
+	</Types>
+</CompanyType>

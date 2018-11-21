@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Server and Cloud Softwares</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Server Software">1</Type>
+		<Type Software="Cloud Software">0.5</Type>
+	</Types>
+</CompanyType>
