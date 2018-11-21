@@ -109,6 +109,48 @@
 				<Relation Name = "Goofy">1</Relation>
 			</Relationships>
 		</Personality>
+		<Personality>
+			<Name>Anyfin</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>0</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+				<Relation Name = "Nofin">2</Relation>
+				<Relation Name = "Optimistic">1.75</Relation>
+				<Relation Name = "Flirt">1.5</Relation>
+				<Relation Name = "Naive">1.5</Relation>
+				<Relation Name = "Stubborn">1.25</Relation>
+				<Relation Name = "Introvert">1.25</Relation>
+				<Relation Name = "Extrovert">1</Relation>
+				<Relation Name = "Pessimistic">1</Relation>
+				<Relation Name = "Goofy">0.5</Relation>
+				<Relation Name = "Short-tempered">0.5</Relation>
+				<Relation Name = "Cocky">0.25</Relation>
+				<Relation Name = "Snob">0.25</Relation>
+				<Relation Name = "Mean">0.25</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Nofin</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>0</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+				<Relation Name = "Anyfin">2</Relation>
+				<Relation Name = "Optimistic">1.75</Relation>
+				<Relation Name = "Flirt">1.5</Relation>
+				<Relation Name = "Naive">1.5</Relation>
+				<Relation Name = "Stubborn">1.25</Relation>
+				<Relation Name = "Introvert">1.25</Relation>
+				<Relation Name = "Extrovert">1</Relation>
+				<Relation Name = "Pessimistic">1</Relation>
+				<Relation Name = "Goofy">0.5</Relation>
+				<Relation Name = "Short-tempered">0.5</Relation>
+				<Relation Name = "Cocky">0.25</Relation>
+				<Relation Name = "Snob">0.25</Relation>
+				<Relation Name = "Mean">0.25</Relation>
+			</Relationships>
+		</Personality>
 	</Personalities>
 	<Incompatibilities>
 		<Incompatible>
