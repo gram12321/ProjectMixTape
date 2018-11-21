@@ -1,0 +1,19 @@
+-start(base)
+-base(base2, end, stop)
+Insta
+Face
+Book
+Chat
+Message
+You
+We
+You
+-base2(end,stop)
+ Send
+Send
+Social
+ App
+App
+Link
+Linked
+-end(stop)

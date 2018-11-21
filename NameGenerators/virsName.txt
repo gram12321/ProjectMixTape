@@ -1,0 +1,17 @@
+-start(base)
+-base(base2)
+Viris 
+Vires 
+Virus 
+Mors 
+Mortem 
+India 
+-base2(end,stop)
+vivere
+venum
+dolor
+medici
+deleret
+pugna
+bello
+-end(stop)

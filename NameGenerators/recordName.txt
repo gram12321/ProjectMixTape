@@ -1,0 +1,16 @@
+-start(base)
+-base(base2)
+Rec
+Record
+Take
+Tape
+Hold
+On
+Film 
+-base2(end,stop)
+me
+.tv
+stage
+Cast
+#
+-end(stop)
